@@ -22,21 +22,21 @@ const DivOrtholook = () => {
             </p>
           </Col>
         </Row>
-        <Row>
+        <Row className="rowPacientes">
           <Col className="pacientes">
             <img src="/images/slideAparelhos1.png" alt="Paciente 1" />
             <br />
-            <h5>coloque no mesmo dia</h5>
+            <h5>Coloque no mesmo dia</h5>
           </Col>
           <Col className="pacientes">
             <img src="/images/slideAparelhos2.png" alt="Paciente 1" />
             <br />
-            <h5>atendimento descontraído</h5>
+            <h5>Atendimento descontraído</h5>
           </Col>
           <Col className="pacientes">
             <img src="/images/slideAparelhos3.png" alt="Paciente 1" />
             <br />
-            <h5>não precisa quebrar o cofrinho</h5>
+            <h5>Não precisa quebrar o cofrinho</h5>
           </Col>
         </Row>
       </Container>

@@ -25,24 +25,24 @@ const DivOrtholook = () => {
           </Col>
           <AgendeLateral />
         </Row>
-        <Row>
+        <Row className="rowPacientes">
           <Col className="pacientes">
             <img src="/images/paciente1.png" alt="Paciente 1" />
             <br />
-            <h5>cabe no bolso</h5>
+            <h5>Cabe no bolso</h5>
           </Col>
           <Col className="pacientes">
             <img src="/images/paciente2.png" alt="Paciente 2" />
             <h5>
               <br />
-              dentistas especializados em <br />
+              Dentistas especializados em <br />
               harmonização orofacial
             </h5>
           </Col>
           <Col className="pacientes">
             <img src="/images/paciente3.png" alt="Paciente 3" />
             <br />
-            <h5>faça no mesmo dia</h5>
+            <h5>Faça no mesmo dia</h5>
           </Col>
         </Row>
       </Container>

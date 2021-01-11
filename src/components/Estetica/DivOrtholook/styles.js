@@ -87,5 +87,13 @@ export const Contentor = styled.div`
     .linhaSinuosaTratamentos {
       min-height: 50px;
     }
+    .rowPacientes {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .pacientes {
+      padding: 16px 0;
+    }
   }
 `

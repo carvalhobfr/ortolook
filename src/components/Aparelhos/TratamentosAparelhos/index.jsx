@@ -14,52 +14,52 @@ import { Contentor } from './styles'
 
 const items = [
   {
-    src: '/images/tratamento11AP.png',
+    src: '/images/tratamentos11AP.png',
     id: 1,
     altText: 'Slide 1'
   },
   {
-    src: '/images/tratamento21AP.png',
+    src: '/images/tratamentos21AP.png',
     id: 2,
     altText: 'Slide 2'
   },
   {
-    src: '/images/tratamento31AP.png',
+    src: '/images/tratamentos31AP.png',
     id: 3,
     altText: 'Slide 3'
   },
   {
-    src: '/images/tratamento41AP.png',
+    src: '/images/tratamentos41AP.png',
     id: 4,
     altText: 'Slide 4'
   },
   {
-    src: '/images/tratamento42AP.png',
+    src: '/images/tratamentos42AP.png',
     id: 5,
     altText: 'Slide 4'
   },
   {
-    src: '/images/tratamento43AP.png',
+    src: '/images/tratamentos43AP.png',
     id: 6,
     altText: 'Slide 4'
   },
   {
-    src: '/images/tratamento44AP.png',
+    src: '/images/tratamentos44AP.png',
     id: 7,
     altText: 'Slide 4'
   },
   {
-    src: '/images/tratamento45AP.png',
+    src: '/images/tratamentos45AP.png',
     id: 8,
     altText: 'Slide 4'
   },
   {
-    src: '/images/tratamento51AP.png',
+    src: '/images/tratamentos51AP.png',
     id: 9,
     altText: 'Slide 5'
   },
   {
-    src: '/images/tratamento61AP.png',
+    src: '/images/tratamentos61AP.png',
     id: 10,
     altText: 'Slide 6'
   }
@@ -107,7 +107,7 @@ const Tratamentos = () => {
             src="images/tratamentosAparelho.png"
             alt="Tratamentos"
           />
-          <Col className="saibaNossosPrecos">
+          <Col className="saibaNossosPrecos someMobile">
             {/* <a href="">
               <img
                 src="/images/saibaNossosPrecos.png"

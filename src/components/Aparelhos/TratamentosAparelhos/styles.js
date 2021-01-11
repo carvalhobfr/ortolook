@@ -51,6 +51,9 @@ export const Contentor = styled.div`
   .carousel-item img {
     max-width: 100%;
   }
+  .carousel-item {
+    text-align: center;
+  }
 
   @media (min-width: 1000px) {
     .colTratamentos {

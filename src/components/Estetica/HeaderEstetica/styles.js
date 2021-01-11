@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Contentor = styled.div`
   width: 100%;
   padding: 0px;
-  margin-top: 60px;
+  margin-top: 10px;
 
   @font-face {
     font-family: 'Gotham';
@@ -110,7 +110,7 @@ export const Contentor = styled.div`
   @media (max-width: 800px) {
     .coluna3 {
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
   }
 
@@ -123,6 +123,11 @@ export const Contentor = styled.div`
     }
     .ortholookContainer {
       padding: 16px !important;
+    }
+    .rowMain,
+    .coluna1 {
+      display: flex;
+      flex-direction: column-reverse;
     }
   }
   @media (min-width: 900px) {

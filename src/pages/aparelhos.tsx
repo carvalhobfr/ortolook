@@ -9,6 +9,7 @@ import HeaderAparelhos from '../components/Aparelhos/HeaderAparelhos'
 import DivOrtholookAparelhos from '../components/Aparelhos/DivOrtholookAparelhos'
 import Tratamentos from '../components/Aparelhos/TratamentosAparelhos'
 import Depoimentos from '../components/Aparelhos/DepoimentosAparelhos'
+import UnidadesAparelhos from '../components/Aparelhos/UnidadesAparelhos'
 import Footer from '../components/Footer'
 
 const Aparelhos: React.FC = () => {
@@ -26,6 +27,7 @@ const Aparelhos: React.FC = () => {
       <DivOrtholookAparelhos />
       <Tratamentos />
       <Depoimentos />
+      <UnidadesAparelhos />
       <Footer />
     </Container>
   )

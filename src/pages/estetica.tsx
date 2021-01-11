@@ -9,6 +9,7 @@ import HeaderEstetica from '../components/Estetica/HeaderEstetica'
 import DivOrtholook from '../components/Estetica/DivOrtholook'
 import Tratamentos from '../components/Estetica/Tratamentos'
 import Depoimentos from '../components/Estetica/DepoimentosEstetica'
+import UnidadesEstetica from '../components/Estetica/UnidadesEstetica'
 import Footer from '../components/Footer'
 
 const Estetica: React.FC = () => {
@@ -25,6 +26,7 @@ const Estetica: React.FC = () => {
       <DivOrtholook />
       <Tratamentos />
       <Depoimentos />
+      <UnidadesEstetica />
       <Footer />
     </Container>
   )

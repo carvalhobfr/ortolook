@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Contentor = styled.div`
-  max-width: 1920px;
   width: 100%;
   padding: 0px;
   margin-top: 10px;
@@ -34,7 +33,7 @@ export const Contentor = styled.div`
   .rowMain {
     display: flex;
     flex-direction: row;
-    min-width: 99vw;
+    justify-content: center;
   }
 
   .col {
@@ -54,21 +53,18 @@ export const Contentor = styled.div`
     align-items: start;
     flex-direction: column !important;
     max-height: 120px;
-    cursor: pointer;
-    z-index: 1;
+    margin-bottom: 16px;
   }
   .coluna3 {
     text-align: end;
     h2 {
-      font-family: 'Gotham';
       font-style: normal;
-      font-weight: bold;
-      font-size: 64px;
-      line-height: 61px;
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 46px;
       text-align: right;
       letter-spacing: -0.05em;
       text-transform: uppercase;
-
       color: #802b67;
     }
   }
@@ -79,6 +75,14 @@ export const Contentor = styled.div`
     flex-wrap: no-wrap;
   }
 
+  .coluna3 {
+    max-width: 350px;
+    min-width: 300px;
+  }
+
+  .imagemEstetica {
+    min-width: 350px;
+  }
   .redesSociais {
     justify-content: center;
     align-content: center;
@@ -91,42 +95,95 @@ export const Contentor = styled.div`
     }
   }
 
-  .fotoHeader {
-    margin-top: -60px;
-    /* max-height: 710px; */
-    max-width: 500px;
-    margin-left: 10%;
-  }
-  .fotoHeader2 {
-    max-height: 673px;
-    max-width: 552px;
-    align-self: flex-end;
-    z-index: 2;
+  .coluna1,
+  .coluna3 {
+    display: grid;
+    padding: 16px;
   }
 
-  button,
-  a,
-  .link {
-    cursor: pointer !important;
+  .coluna1 button {
+    text-align: start;
+  }
+  .coluna3 button {
+    text-align: end;
+    color: #fff;
   }
 
-  @media (max-width: 1100px) {
-    strong {
-      font-size: 48px !important;
-      line-height: 52px !important;
+  .coluna1 button,
+  .coluna3 button {
+    text-align: center;
+  }
+
+  @media (min-width: 900px) {
+    .coluna3 {
+      display: grid;
+      background-image: url(images/bgUnidadesAP.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+    h4 {
+      font-size: 32px;
+      padding: 32px;
+    }
+    .coluna3 button p {
+      color: #fff;
     }
   }
-  @media (max-width: 700px) {
-    strong {
-      font-size: 28px !important;
-      line-height: 28px !important;
+
+  @media (max-width: 900px) {
+    .someMobile {
+      display: none;
     }
-    .ortholookContainer h1 {
-      font-size: 32px !important;
-      line-height: 36px !important;
+    .openMobile {
+      display: flex;
     }
-    .fotoHeader {
-      max-height: 500px;
+    .ortholookContainer {
+      padding: 16px !important;
+    }
+    .coluna3 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    h4 {
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 900px) {
+    .openMobile {
+      display: none !important;
+    }
+  }
+
+  .linhaSinuosaTratamentos {
+    min-width: 100%;
+    min-height: 70px;
+    padding: 0;
+    background: url('/images/unidadesAPTitle.png') no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    margin-bottom: 16px;
+    margin-top: 64px;
+  }
+
+  h4 {
+    font-weight: 900;
+  }
+
+  @media (max-width: 900px) {
+    .someMobile {
+      display: none;
+    }
+    .openMobile {
+      display: flex;
+    }
+    .ortholookContainer {
+      padding: 16px !important;
+    }
+    .linhaSinuosaTratamentos {
+      min-height: 50px;
     }
   }
 `
