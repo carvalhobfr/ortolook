@@ -60,4 +60,21 @@ export const Contentor = styled.div`
       min-height: 50px;
     }
   }
+
+  @media (max-width: 900px) {
+    .someMobile {
+      display: none;
+    }
+    .openMobile {
+      display: flex;
+    }
+    .ortholookContainer {
+      padding: 16px !important;
+    }
+  }
+  @media (min-width: 900px) {
+    .openMobile {
+      display: none !important;
+    }
+  }
 `
