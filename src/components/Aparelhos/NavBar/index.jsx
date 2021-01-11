@@ -25,11 +25,11 @@ const NavOrtho = props => {
     <Contentor>
       <Navbar color="white" light expand="md">
         <div>
-          <NavbarBrand href="/estetica">
-            <img src="/images/iconOrtholook3.svg" alt="Ortholook" />
-          </NavbarBrand>
           <NavbarBrand href="/aparelhos">
-            <img src="/images/iconOrtholook4.svg" alt="Ortholook" />
+            <img src="/images/iconOrtholook3.png" alt="Ortholook" />
+          </NavbarBrand>
+          <NavbarBrand href="/estetica">
+            <img src="/images/iconOrtholook4.png" alt="Ortholook" />
           </NavbarBrand>
         </div>
         <NavbarToggler onClick={toggle} />

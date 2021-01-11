@@ -10,6 +10,13 @@ export const Contentor = styled.div`
     min-width: 100%;
     margin-right: 0px !important;
   }
+  .ortholookContainer2 {
+    /* max-width: 300px; */
+    margin-top: 50px;
+    padding: 32px;
+    margin-right: 0px !important;
+    /* width: 50%; */
+  }
   .saibaNossosPrecos {
     display: flex;
     align-items: flex-end;
@@ -18,8 +25,6 @@ export const Contentor = styled.div`
     padding: 0;
   }
   .linhaSinuosaDepoimento {
-    /* min-width: 100%; */
-    min-height: 100px;
     margin: 0;
     padding: 0;
     background-size: contain;

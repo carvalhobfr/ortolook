@@ -69,7 +69,7 @@ const Depoimentos = props => {
         <img
           className="linhaSinuosaDepoimento"
           src="/images/sorrisosQueFalam.png"
-          alt=""
+          alt="Sorrisos que falam"
         />
       </Container>
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>

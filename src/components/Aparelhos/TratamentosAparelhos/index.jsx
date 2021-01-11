@@ -108,13 +108,13 @@ const Tratamentos = () => {
             alt="Tratamentos"
           />
           <Col className="saibaNossosPrecos">
-            <a href="">
+            {/* <a href="">
               <img
                 src="/images/saibaNossosPrecos.png"
                 alt="Saiba Nossos Preços"
               />
-            </a>
-            <a href="">
+            </a> */}
+            <a href="https://wa.me/5521972878038">
               <img src="/images/agendeAquiSmall.png" alt="Agende Aqui" />
             </a>
           </Col>

@@ -17,4 +17,9 @@ export const Container = styled.div`
   button:focus {
     outline: 0 !important;
   }
+  @media (max-width: 1100px) {
+    .someMobile {
+      display: none;
+    }
+  }
 `

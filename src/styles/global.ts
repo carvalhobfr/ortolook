@@ -51,13 +51,14 @@ disabled{
 
 button {
     border: none !important;
-    outline: 0;
-    cursor: pointer;
-    overflow: visible;
-    color: inherit;
-    background: transparent;
+    outline: 0 !important;
+    cursor: pointer !important;
+    overflow: visible !important;
+    color: inherit !important;
+    background: transparent !important;
   }
 
   button:focus {
-  outline: 0 !important;}
+  outline: 0 !important;
+  }
 `

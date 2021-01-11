@@ -18,11 +18,10 @@ const HeaderAparelhos = props => {
               alt="Aparelhos Agende"
             />
           </Col>
-          {/* <AgendeLateral /> */}
           <Col className="coluna3">
             <h2>
               <strong>
-                é fÁcil <br />
+                é fácil <br />
                 é prático
                 <br /> é transformador
                 <br />
@@ -31,7 +30,7 @@ const HeaderAparelhos = props => {
             <br />
             <br />
             <img
-              className="fotoHeader2"
+              className="fotoHeader2 someMobile"
               src="/images/ortoHeadLogo.png"
               alt="Falta de Brilho"
             />
@@ -41,13 +40,17 @@ const HeaderAparelhos = props => {
         <br />
         <Row className="rowRedeSociais">
           <Col xs="2" className="redesSociais">
-            <img
-              className="instagram"
-              src="/images/instagram.png"
-              alt="Instagram"
-            />
+            <a href="https://www.instagram.com/ortolook/">
+              <img
+                className="instagram"
+                src="/images/instagram.png"
+                alt="Instagram"
+              />
+            </a>
             <br />
-            <img src="/images/facebook.png" alt="Facebook" />
+            <a href="https://www.facebook.com/Ortolook/">
+              <img src="/images/facebook.png" alt="Facebook" />
+            </a>
           </Col>
         </Row>
       </Container>
