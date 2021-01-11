@@ -116,7 +116,7 @@ export const Contentor = styled.div`
       line-height: 52px !important;
     }
   }
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     strong {
       font-size: 28px !important;
       line-height: 28px !important;
@@ -127,6 +127,14 @@ export const Contentor = styled.div`
     }
     .fotoHeader {
       max-height: 500px;
+    }
+
+    .redesSociais {
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      align-content: flex-start;
+      margin-left: 16px;
     }
   }
 `

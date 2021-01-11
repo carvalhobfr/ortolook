@@ -116,12 +116,23 @@ export const Contentor = styled.div`
     text-align: center;
   }
 
+  h4 {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    color: #802b67;
+    font-weight: 900;
+  }
+
   @media (min-width: 900px) {
     .coluna3 {
       display: grid;
     }
     .coluna1 h4 {
-      font-size: 32px;
+      font-size: 36px;
+      line-height: 44px;
       padding: 32px;
     }
   }
@@ -159,10 +170,6 @@ export const Contentor = styled.div`
     margin-left: -32px;
     margin-bottom: 16px;
     margin-top: 16px;
-  }
-
-  h4 {
-    font-weight: 900;
   }
 
   @media (max-width: 900px) {

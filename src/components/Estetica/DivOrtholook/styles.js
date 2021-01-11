@@ -16,18 +16,9 @@ export const Contentor = styled.div`
     flex-direction: column;
     margin-top: 50px;
     padding: 0;
-    margin-right: -32px;
+    margin-right: -16px;
   }
-  .linhaSinuosa {
-    min-width: 100%;
-    min-height: 100px;
-    margin: 0;
-    padding: 0;
-    background: url('/images/sinuosaBG2.png') no-repeat;
-    background-size: contain;
-    background-position-x: right;
-    margin-right: -32px;
-  }
+
   h1 {
     font-weight: 900;
     font-size: 90px;
@@ -74,6 +65,18 @@ export const Contentor = styled.div`
       color: #802b67;
     }
   }
+
+  .linhaSinuosa {
+    min-width: 100%;
+    min-height: 100px;
+    margin: 0;
+    padding: 0;
+    background: url('/images/sinuosaBG2.png') no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    margin-right: -16px !important;
+  }
+
   @media (max-width: 900px) {
     .someMobile {
       display: none;
@@ -94,6 +97,9 @@ export const Contentor = styled.div`
     }
     .pacientes {
       padding: 16px 0;
+    }
+    .row {
+      margin: 16px 0;
     }
   }
 `

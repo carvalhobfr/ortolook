@@ -29,7 +29,7 @@ export const Contentor = styled.div`
   }
 
   .imgTratamento {
-    width: 100%;
+    width: 90%;
     margin-left: -16px;
   }
   .rowBtnTratamentos > .col {
@@ -40,9 +40,17 @@ export const Contentor = styled.div`
     max-width: 100%;
   }
 
+  .imgTratamento {
+    width: 90%;
+    margin-left: -16px;
+  }
+
   @media (max-width: 900px) {
     .pacientes h5 {
       font-size: 14px !important;
+    }
+    .imgTratamento {
+      width: 100%;
     }
   }
 

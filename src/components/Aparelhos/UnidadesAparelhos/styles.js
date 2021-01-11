@@ -114,6 +114,16 @@ export const Contentor = styled.div`
     text-align: center;
   }
 
+  h4 {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    color: #802b67;
+    font-weight: 900;
+  }
+
   @media (min-width: 900px) {
     .coluna3 {
       display: grid;
@@ -123,11 +133,15 @@ export const Contentor = styled.div`
       background-position: center;
     }
     h4 {
-      font-size: 32px;
+      font-size: 36px;
+      line-height: 54px;
       padding: 32px;
     }
     .coluna3 button p {
       color: #fff;
+    }
+    .linhaSinuosaTratamentos {
+      margin-bottom: 30px;
     }
   }
 

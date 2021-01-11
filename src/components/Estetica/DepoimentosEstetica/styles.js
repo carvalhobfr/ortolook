@@ -60,7 +60,7 @@ export const Contentor = styled.div`
     }
     .linhaSinuosaDepoimento {
       min-height: 50px;
-      margin-right: -32px;
+      margin-right: -16px;
     }
   }
 `

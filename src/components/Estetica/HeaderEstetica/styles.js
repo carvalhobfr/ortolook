@@ -90,9 +90,10 @@ export const Contentor = styled.div`
   }
 
   .coluna1,
-  .coluna3 {
+  .coluna3,
+  .coluna3 .someMobile {
     display: grid;
-    margin-top: 16px;
+    /* margin-top: 16px; */
   }
 
   .coluna1 button {
@@ -116,7 +117,7 @@ export const Contentor = styled.div`
 
   @media (max-width: 900px) {
     .someMobile {
-      display: none;
+      display: none !important;
     }
     .openMobile {
       display: flex;
@@ -133,6 +134,12 @@ export const Contentor = styled.div`
   @media (min-width: 900px) {
     .openMobile {
       display: none !important;
+    }
+    .someMobile {
+      display: grid !important;
+    }
+    .coluna3 .someMobile {
+      margin-top: -64px;
     }
   }
 `
