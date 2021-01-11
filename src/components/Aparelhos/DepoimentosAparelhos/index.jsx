@@ -13,15 +13,15 @@ import {
 import { Contentor } from './styles'
 const items = [
   {
-    src: 'images/depoimento1.png',
+    src: 'images/depoimento1AP.png',
     altText: 'Slide 1'
   },
   {
-    src: 'images/depoimento1.png',
+    src: 'images/depoimento2AP.png',
     altText: 'Slide 2'
   },
   {
-    src: 'images/depoimento1.png',
+    src: 'images/depoimento3AP.png',
     altText: 'Slide 3'
   }
 ]
@@ -65,10 +65,12 @@ const Depoimentos = props => {
 
   return (
     <Contentor>
-      <Container className="ortholookContainer">
-        <Row className="linhaSinuosaDepoimento">
-          <br></br>
-        </Row>
+      <Container className="ortholookContainer2">
+        <img
+          className="linhaSinuosaDepoimento"
+          src="/images/sorrisosQueFalam.png"
+          alt=""
+        />
       </Container>
       <Carousel activeIndex={activeIndex} next={next} previous={previous}>
         <CarouselIndicators

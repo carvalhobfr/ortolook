@@ -36,7 +36,7 @@ const DivOrtholook = () => {
             <h5>
               <br />
               dentistas especializados em <br />
-              harmonização orofacial{' '}
+              harmonização orofacial
             </h5>
           </Col>
           <Col className="pacientes">

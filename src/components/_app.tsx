@@ -10,7 +10,6 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
     <ThemeProvider theme={theme}>
       <Component {...pageProps} />
       <GlobalStyle />
-      {/* <h1>Olá App</h1> */}
     </ThemeProvider>
   )
 }

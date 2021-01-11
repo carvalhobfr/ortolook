@@ -6,8 +6,8 @@ export const Contentor = styled.div`
   }
   .ortholookContainer {
     margin-top: 50px;
-    padding: 0;
-    min-width: 90%;
+    padding: 32px;
+    min-width: 100%;
     margin-right: 0px !important;
   }
   .saibaNossosPrecos {
@@ -18,13 +18,12 @@ export const Contentor = styled.div`
     padding: 0;
   }
   .linhaSinuosaDepoimento {
-    min-width: 100%;
+    /* min-width: 100%; */
     min-height: 100px;
     margin: 0;
     padding: 0;
-    background: url('/images/depoimentosBG.png') no-repeat;
     background-size: contain;
-    background-position-x: right;
+    text-align: end;
   }
   .carousel-item {
     text-align: center;

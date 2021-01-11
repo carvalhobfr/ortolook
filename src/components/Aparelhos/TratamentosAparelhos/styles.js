@@ -8,21 +8,23 @@ export const Contentor = styled.div`
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    margin-top: 50px;
     padding: 0;
   }
   .ortholookContainer {
     margin-top: 50px;
-    padding: 0;
-    min-width: 90%;
+    padding: 32px;
+    min-width: 100%;
     margin-left: 0px !important;
     h1 {
-      font-weight: bold;
+      font-family: Bemio Italic;
+      font-style: italic;
+      font-weight: normal;
       font-size: 80px;
       line-height: 98px;
       text-align: right;
       letter-spacing: -0.05em;
       text-transform: uppercase;
+
       color: #802b67;
     }
   }
@@ -34,5 +36,43 @@ export const Contentor = styled.div`
     background: url('/images/tratamentosBG.png') no-repeat;
     background-size: contain;
     background-position-x: left;
+  }
+
+  .tratamentoAparelho {
+    max-height: 70px;
+  }
+
+  .custom-tag,
+  .carousel.slide {
+    min-width: 100%;
+  }
+
+  .carousel-item img {
+    max-width: 100%;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .colTratamentos {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: space-evenly;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .rowTratamentos {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: space-evenly;
+    }
+    .colTratamentos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .saibaNossosPrecos {
+      margin-top: 30px;
+    }
   }
 `

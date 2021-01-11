@@ -6,8 +6,8 @@ export const Contentor = styled.div`
   }
   .ortholookContainer {
     margin-top: 50px;
-    padding: 0;
-    min-width: 90%;
+    padding: 32px;
+    min-width: 100%;
     margin-right: 0px !important;
     h1 {
       /* font-family: Bemio Italic; */

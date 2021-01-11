@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "release": "standard-version"
+    "release": "standard-version",
+    "export": "npm run build && next export"
   },
   "dependencies": {
     "@layerframers/scaffolding-nextjs": "^1.1.6",
