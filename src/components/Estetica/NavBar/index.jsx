@@ -39,7 +39,7 @@ const NavOrtho = props => {
               <NavLink href="/">inicio</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/aparelhos">estética</NavLink>
+              <NavLink href="/aparelhos">aparelhos</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#ortholook">a ortolook</NavLink>
@@ -65,9 +65,7 @@ const NavOrtho = props => {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink disabled href="#unidades">
-                unidades
-              </NavLink>
+              <NavLink href="#unidades">unidades</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

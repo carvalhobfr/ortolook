@@ -13,8 +13,6 @@ const Footer = () => {
           </Col>
           <Col>
             <img src="images/ortolookC.png" alt="Coop Ortolook" />
-          </Col>
-          <Col>
             <p> todos os direitos reservados </p>
           </Col>
           <Col>
@@ -23,10 +21,10 @@ const Footer = () => {
               38010 EPAO: 5138
             </p>
           </Col>
-          <Col>
+          <Row>
             <img src="images/facebookFooter.png" alt="Facebook" />
             <img src="images/instaFooter.png" alt="Instagram" />
-          </Col>
+          </Row>
         </Row>
       </Container>
     </Contentor>

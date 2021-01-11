@@ -26,7 +26,9 @@ export const Contentor = styled.div`
   }
   .col {
     display: flex;
-    align-self: center;
+    align-content: center;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 `
