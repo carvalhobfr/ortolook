@@ -51,7 +51,7 @@ export const Contentor = styled.div`
     max-width: 100%;
   }
 
-  @media only screen and (min-width: 1000px) {
+  @media (min-width: 1000px) {
     .colTratamentos {
       display: flex;
       flex-direction: column;
@@ -59,7 +59,7 @@ export const Contentor = styled.div`
       justify-content: space-evenly;
     }
   }
-  @media only screen and (max-width: 900px) {
+  @media (max-width: 900px) {
     .rowTratamentos {
       display: flex;
       flex-direction: column;

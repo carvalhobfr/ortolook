@@ -4,7 +4,7 @@ import { withRouter } from 'next/router'
 
 import { Container } from '../styles/pages/Home'
 import { GetServerSideProps } from 'next'
-import NavOrtho from '../components/NavBar'
+import NavOrtho from '../components/Estetica/NavBar'
 import HeaderEstetica from '../components/Estetica/HeaderEstetica'
 import DivOrtholook from '../components/Estetica/DivOrtholook'
 import Tratamentos from '../components/Estetica/Tratamentos'

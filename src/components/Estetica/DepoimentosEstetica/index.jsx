@@ -30,6 +30,25 @@ const items = [
   }
 ]
 
+const itemsMobile = [
+  {
+    src: 'images/depoimento1.png',
+    altText: 'Slide 1'
+  },
+  {
+    src: 'images/depoimento2.png',
+    altText: 'Slide 2'
+  },
+  {
+    src: 'images/depoimento1.png',
+    altText: 'Slide 3'
+  },
+  {
+    src: 'images/depoimento2.png',
+    altText: 'Slide 4'
+  }
+]
+
 const Depoimentos = props => {
   const [activeIndex, setActiveIndex] = useState(0)
   const [animating, setAnimating] = useState(false)

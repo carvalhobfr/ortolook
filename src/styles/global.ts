@@ -51,9 +51,11 @@ disabled{
 
 button {
     border: none;
-    background-color: inherit;
     outline: 0;
     cursor: pointer;
+    overflow: visible;
+    color: inherit;
+    background: transparent;
   }
 
   button:focus {
