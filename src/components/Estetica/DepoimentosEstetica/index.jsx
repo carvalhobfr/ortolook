@@ -73,6 +73,7 @@ const Depoimentos = props => {
   const slides = items.map(item => {
     return (
       <CarouselItem
+        className="carrosselPC"
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.altText}

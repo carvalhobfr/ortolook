@@ -50,7 +50,7 @@ disabled{
 }
 
 button {
-    border: none;
+    border: none !important;
     outline: 0;
     cursor: pointer;
     overflow: visible;
