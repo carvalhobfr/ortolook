@@ -26,7 +26,7 @@ const items = [
   },
   {
     src: 'images/depoimento2.png',
-    altText: 'Slide 4'
+    altText: 'Slide 4 1'
   }
 ]
 
