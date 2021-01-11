@@ -34,6 +34,7 @@ export const Contentor = styled.div`
   .rowMain {
     display: flex;
     flex-direction: row;
+    min-width: 99vw;
   }
 
   .col {
@@ -92,7 +93,7 @@ export const Contentor = styled.div`
 
   .fotoHeader {
     margin-top: -60px;
-    max-height: 710px;
+    /* max-height: 710px; */
     max-width: 500px;
     margin-left: 10%;
   }
@@ -117,8 +118,15 @@ export const Contentor = styled.div`
   }
   @media (max-width: 700px) {
     strong {
+      font-size: 28px !important;
+      line-height: 28px !important;
+    }
+    .ortholookContainer h1 {
       font-size: 32px !important;
       line-height: 36px !important;
+    }
+    .fotoHeader {
+      max-height: 500px;
     }
   }
 `

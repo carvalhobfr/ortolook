@@ -1,6 +1,8 @@
+/* eslint-disable prettier/prettier */
 import styled from 'styled-components'
 
 export const Container = styled.div`
+max-width:2000px;
   testeDiv {
     margin-top: 40px;
   }
@@ -24,6 +26,9 @@ export const Container = styled.div`
     .openMobile {
       display: flex;
     }
+    .ortholookContainer {
+      padding: 16px !important;
+    }
   }
   @media (min-width: 900px) {
     .openMobile {
@@ -31,9 +36,13 @@ export const Container = styled.div`
     }
   }
 
-  .redesSociais{
+  .redesSociais {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  img{
+    max-width: 100%;
   }
 `

@@ -44,7 +44,23 @@ export const Contentor = styled.div`
     transform: rotate(180deg);
   }
 
-  .carrosselPC {
-    display: none;
+  .carrosselPC img {
+    max-width: 80%;
+  }
+
+  @media (max-width: 900px) {
+    .someMobile {
+      display: none;
+    }
+    .openMobile {
+      display: flex;
+    }
+    .ortholookContainer {
+      padding: 16px !important;
+    }
+    .linhaSinuosaDepoimento {
+      min-height: 50px;
+      margin-right: -32px;
+    }
   }
 `

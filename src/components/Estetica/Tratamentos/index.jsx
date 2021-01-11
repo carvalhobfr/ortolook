@@ -31,7 +31,11 @@ const Tratamentos = () => {
           </Col>
         </Row>
         <Row>
-          <img src={imgUrl} alt="Tratamento SkinBooster" />
+          <img
+            src={imgUrl}
+            className="imgTratamento"
+            alt="Tratamento SkinBooster"
+          />
         </Row>
       </Container>
       <AgendeLateral />

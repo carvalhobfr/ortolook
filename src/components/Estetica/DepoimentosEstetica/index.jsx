@@ -32,19 +32,19 @@ const items = [
 
 const itemsMobile = [
   {
-    src: 'images/depoimento1.png',
+    src: 'images/depoimento11ES.png',
     altText: 'Slide 1'
   },
   {
-    src: 'images/depoimento2.png',
+    src: 'images/depoimento12ES.png',
     altText: 'Slide 2'
   },
   {
-    src: 'images/depoimento1.png',
+    src: 'images/depoimento11ES.png',
     altText: 'Slide 3'
   },
   {
-    src: 'images/depoimento2.png',
+    src: 'images/depoimento12ES.png',
     altText: 'Slide 4'
   }
 ]
@@ -86,6 +86,22 @@ const Depoimentos = props => {
       </CarouselItem>
     )
   })
+  const slidesMobile = itemsMobile.map(item => {
+    return (
+      <CarouselItem
+        className="carrosselPC"
+        onExiting={() => setAnimating(true)}
+        onExited={() => setAnimating(false)}
+        key={item.altText}
+      >
+        <img src={item.src} alt={item.altText} />
+        <CarouselCaption
+          captionText={item.caption}
+          captionHeader={item.caption}
+        />
+      </CarouselItem>
+    )
+  })
 
   return (
     <Contentor>
@@ -94,13 +110,41 @@ const Depoimentos = props => {
           <br></br>
         </Row>
       </Container>
-      <Carousel activeIndex={activeIndex} next={next} previous={previous}>
+      <Carousel
+        className="someMobile"
+        activeIndex={activeIndex}
+        next={next}
+        previous={previous}
+      >
         <CarouselIndicators
           items={items}
           activeIndex={activeIndex}
           onClickHandler={goToIndex}
         />
         {slides}
+        <CarouselControl
+          direction="prev"
+          directionText="Previous"
+          onClickHandler={previous}
+        />
+        <CarouselControl
+          direction="next"
+          directionText="Next"
+          onClickHandler={next}
+        />
+      </Carousel>
+      <Carousel
+        className="openMobile"
+        activeIndex={activeIndex}
+        next={next}
+        previous={previous}
+      >
+        <CarouselIndicators
+          items={items}
+          activeIndex={activeIndex}
+          onClickHandler={goToIndex}
+        />
+        {slidesMobile}
         <CarouselControl
           direction="prev"
           directionText="Previous"

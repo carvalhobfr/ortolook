@@ -51,7 +51,7 @@ const HeaderEstetica = () => {
                 <br />
               </strong>
             </h2>
-            <button onClick={() => setImgUrl('images/rugas.png')}>
+            <button onClick={() => setImgUrl('images/rugas1.png')}>
               <p>RUGAS</p>
             </button>
             <button onClick={() => setImgUrl('images/olheira1.png')}>
@@ -74,7 +74,7 @@ const HeaderEstetica = () => {
         <br />
         <br />
         <Row className="rowRedeSociais">
-          <Col xs="2" className="redesSociais">
+          <Col xs="2" className="redesSociais someMobile">
             <img
               className="instagram"
               src="/images/instagram.png"

@@ -40,6 +40,7 @@ export const Contentor = styled.div`
 
   .tratamentoAparelho {
     max-height: 70px;
+    max-width: 100%;
   }
 
   .custom-tag,
@@ -74,5 +75,9 @@ export const Contentor = styled.div`
     .saibaNossosPrecos {
       margin-top: 30px;
     }
+  }
+
+  .agendeAqui {
+    margin-right: -32px;
   }
 `

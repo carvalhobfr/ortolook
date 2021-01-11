@@ -16,6 +16,7 @@ export const Contentor = styled.div`
     padding: 32px;
     margin-right: 0px !important;
     /* width: 50%; */
+    text-align: end;
   }
   .saibaNossosPrecos {
     display: flex;
@@ -29,6 +30,7 @@ export const Contentor = styled.div`
     padding: 0;
     background-size: contain;
     text-align: end;
+    max-width: 100%;
   }
   .carousel-item {
     text-align: center;
@@ -46,5 +48,10 @@ export const Contentor = styled.div`
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
+  }
+
+  .openMobile img {
+    max-width: 80%;
+    max-height: 350px;
   }
 `

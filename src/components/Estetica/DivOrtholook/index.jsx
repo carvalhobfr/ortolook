@@ -14,7 +14,7 @@ const DivOrtholook = () => {
           <br></br>
         </Row>
         <Row>
-          <Col xs="6">
+          <Col xs="7">
             <p>
               Nós somos uma rede de clínicas
               <br /> localizadas no estado do Rio de Janeiro <br /> com

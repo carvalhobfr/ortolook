@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Contentor = styled.div`
-  max-width: 1920px;
   width: 100%;
   padding: 0px;
   margin-top: 60px;
@@ -53,6 +52,7 @@ export const Contentor = styled.div`
     align-items: start;
     flex-direction: column !important;
     max-height: 120px;
+    margin-bottom: 16px;
   }
   .coluna3 {
     text-align: end;
@@ -92,6 +92,7 @@ export const Contentor = styled.div`
   .coluna1,
   .coluna3 {
     display: grid;
+    margin-top: 16px;
   }
 
   .coluna1 button {
@@ -99,5 +100,34 @@ export const Contentor = styled.div`
   }
   .coluna3 button {
     text-align: end;
+  }
+
+  .coluna1 button,
+  .coluna3 button {
+    text-align: center;
+  }
+
+  @media (max-width: 800px) {
+    .coluna3 {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .someMobile {
+      display: none;
+    }
+    .openMobile {
+      display: flex;
+    }
+    .ortholookContainer {
+      padding: 16px !important;
+    }
+  }
+  @media (min-width: 900px) {
+    .openMobile {
+      display: none !important;
+    }
   }
 `

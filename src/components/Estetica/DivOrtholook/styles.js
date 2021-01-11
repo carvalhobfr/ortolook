@@ -16,6 +16,7 @@ export const Contentor = styled.div`
     flex-direction: column;
     margin-top: 50px;
     padding: 0;
+    margin-right: -32px;
   }
   .linhaSinuosa {
     min-width: 100%;
@@ -25,6 +26,7 @@ export const Contentor = styled.div`
     background: url('/images/sinuosaBG2.png') no-repeat;
     background-size: contain;
     background-position-x: right;
+    margin-right: -32px;
   }
   h1 {
     font-weight: 900;
@@ -56,5 +58,34 @@ export const Contentor = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  @media (max-width: 900px) {
+    h5 {
+      font-size: 16px !important;
+      line-height: 16px;
+    }
+    p {
+      font-family: 'Gotham';
+      text-align: start;
+      font-weight: 800;
+      font-size: 14px;
+      line-height: 16px;
+      color: #802b67;
+    }
+  }
+  @media (max-width: 900px) {
+    .someMobile {
+      display: none;
+    }
+    .openMobile {
+      display: flex;
+    }
+    .ortholookContainer {
+      padding: 16px !important;
+    }
+    .linhaSinuosaTratamentos {
+      min-height: 50px;
+    }
   }
 `

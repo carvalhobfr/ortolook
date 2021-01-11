@@ -5,7 +5,6 @@ export const Contentor = styled.div`
     margin: 32px 0;
   }
   .ortholookContainer {
-    margin-top: 50px;
     padding: 32px;
     min-width: 100%;
     margin-right: 0px !important;
@@ -67,5 +66,17 @@ export const Contentor = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  @media (max-width: 700px) {
+    strong {
+      font-size: 32px !important;
+      line-height: 36px !important;
+    }
+    .ortholookContainer h1 {
+      font-size: 32px !important;
+      line-height: 36px !important;
+      text-align: end;
+    }
   }
 `
