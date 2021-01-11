@@ -17,9 +17,23 @@ export const Container = styled.div`
   button:focus {
     outline: 0 !important;
   }
-  @media (max-width: 1100px) {
+  @media (max-width: 900px) {
     .someMobile {
       display: none;
     }
+    .openMobile {
+      display: flex;
+    }
+  }
+  @media (min-width: 900px) {
+    .openMobile {
+      display: none !important;
+    }
+  }
+
+  .redesSociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 `

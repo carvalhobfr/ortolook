@@ -12,7 +12,7 @@ const DivOrtholook = () => {
           <h1>A ORTOLOOK</h1>
         </Row>
         <Row>
-          <Col xs="6">
+          <Col>
             <p>
               Nós somos uma rede de clínicas
               <br /> localizadas no estado do Rio de Janeiro <br /> com
@@ -24,16 +24,19 @@ const DivOrtholook = () => {
         </Row>
         <Row>
           <Col className="pacientes">
-            <img src="/images/slideAparelhos1.png" alt="Paciente 1" />~
-            <h5>cabe no bolso</h5>
+            <img src="/images/slideAparelhos1.png" alt="Paciente 1" />
+            <br />
+            <h5>coloque no mesmo dia</h5>
           </Col>
           <Col className="pacientes">
-            <img src="/images/slideAparelhos2.png" alt="Paciente 1" />~
-            <h5>cabe no bolso</h5>
+            <img src="/images/slideAparelhos2.png" alt="Paciente 1" />
+            <br />
+            <h5>atendimento descontraído</h5>
           </Col>
           <Col className="pacientes">
-            <img src="/images/slideAparelhos3.png" alt="Paciente 1" />~
-            <h5>cabe no bolso</h5>
+            <img src="/images/slideAparelhos3.png" alt="Paciente 1" />
+            <br />
+            <h5>não precisa quebrar o cofrinho</h5>
           </Col>
         </Row>
       </Container>

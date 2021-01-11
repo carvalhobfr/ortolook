@@ -35,10 +35,19 @@ const HeaderAparelhos = props => {
               alt="Falta de Brilho"
             />
           </Col>
+          <Col xs="3" className="redesSociais openMobile ">
+            <a href="https://www.instagram.com/ortolook/">
+              <img src="/images/instagram.png" alt="Instagram" />
+            </a>
+            <br />
+            <a href="https://www.facebook.com/Ortolook/">
+              <img src="/images/facebook.png" alt="Facebook" />
+            </a>
+          </Col>
         </Row>
         <br />
         <br />
-        <Row className="rowRedeSociais">
+        <Row className="rowRedeSociais someMobile">
           <Col xs="2" className="redesSociais">
             <a href="https://www.instagram.com/ortolook/">
               <img

@@ -108,4 +108,17 @@ export const Contentor = styled.div`
   .link {
     cursor: pointer !important;
   }
+
+  @media (max-width: 1100px) {
+    strong {
+      font-size: 48px !important;
+      line-height: 52px !important;
+    }
+  }
+  @media (max-width: 700px) {
+    strong {
+      font-size: 32px !important;
+      line-height: 36px !important;
+    }
+  }
 `
