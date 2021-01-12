@@ -167,6 +167,9 @@ export const Contentor = styled.div`
       text-align: center;
     }
     .rowRedeSociais {
+      .col {
+        min-height: 50% !important;
+      }
       .text-right {
         text-align: center;
       }
