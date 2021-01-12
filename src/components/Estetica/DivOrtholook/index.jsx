@@ -9,7 +9,7 @@ import AgendeLateral from '../AgendaLateral'
 const DivOrtholook = () => {
   return (
     <Contentor>
-      <Container className="ortholookContainer">
+      <Container className="ortolookContainer">
         <Row className="linhaSinuosa">
           <br></br>
         </Row>

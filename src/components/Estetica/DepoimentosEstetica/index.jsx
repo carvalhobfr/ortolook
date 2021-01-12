@@ -105,7 +105,7 @@ const Depoimentos = props => {
 
   return (
     <Contentor>
-      <Container className="ortholookContainer">
+      <Container className="ortolookContainer">
         <Row className="linhaSinuosaDepoimento">
           <br></br>
         </Row>

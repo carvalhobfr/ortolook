@@ -4,7 +4,7 @@ export const Contentor = styled.div`
   .row {
     margin: 32px 0;
   }
-  .ortholookContainer {
+  .ortolookContainer {
     padding: 32px;
     min-width: 100%;
     margin-right: 0px !important;
@@ -73,7 +73,7 @@ export const Contentor = styled.div`
       font-size: 32px !important;
       line-height: 36px !important;
     }
-    .ortholookContainer h1 {
+    .ortolookContainer h1 {
       font-size: 32px !important;
       line-height: 36px !important;
       text-align: end;
@@ -87,7 +87,7 @@ export const Contentor = styled.div`
     .openMobile {
       display: flex;
     }
-    .ortholookContainer {
+    .ortolookContainer {
       padding: 16px !important;
     }
     .linhaSinuosaTratamentos {

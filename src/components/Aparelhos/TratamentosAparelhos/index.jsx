@@ -100,7 +100,7 @@ const Tratamentos = () => {
 
   return (
     <Contentor>
-      <Container className="ortholookContainer">
+      <Container className="ortolookContainer">
         <Row>
           <img
             className="tratamentoAparelho"
@@ -119,7 +119,11 @@ const Tratamentos = () => {
             </a>
           </Col>
         </Row>
-        <Row className="rowTratamentos">
+        <Row
+          id="alinhador"
+          name="alinhador"
+          className="rowTratamentos someMobile"
+        >
           <Col className="colTratamentos">
             <button onClick={() => setActiveIndex(0)}>
               <img src="/images/tratamento1AP.png" alt="Tratamento 1" />
@@ -156,6 +160,18 @@ const Tratamentos = () => {
             </Carousel>
           </Col>
         </Row>
+        <Col className="openMobile imgColunaTratamento">
+          <img src="/images/tratamentos11AP.png" alt="slide1" />
+          <img src="/images/tratamentos21AP.png" alt="slide1" />
+          <img src="/images/tratamentos31AP.png" alt="slide1" />
+          <img id="alinhador" src="/images/tratamentos41AP.png" alt="slide1" />
+          <img src="/images/tratamentos42AP.png" alt="slide1" />
+          <img src="/images/tratamentos43AP.png" alt="slide1" />
+          <img src="/images/tratamentos44AP.png" alt="slide1" />
+          <img src="/images/tratamentos45AP.png" alt="slide1" />
+          <img src="/images/tratamentos51AP.png" alt="slide1" />
+          <img src="/images/tratamentos61AP.png" alt="slide1" />
+        </Col>
       </Container>
     </Contentor>
   )

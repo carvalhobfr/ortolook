@@ -121,7 +121,7 @@ export const Contentor = styled.div`
       font-size: 28px !important;
       line-height: 28px !important;
     }
-    .ortholookContainer h1 {
+    .ortolookContainer h1 {
       font-size: 32px !important;
       line-height: 36px !important;
     }

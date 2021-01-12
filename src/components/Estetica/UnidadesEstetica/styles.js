@@ -144,7 +144,7 @@ export const Contentor = styled.div`
     .openMobile {
       display: flex;
     }
-    .ortholookContainer {
+    .ortolookContainer {
       padding: 16px !important;
     }
     .coluna3 {
@@ -179,7 +179,7 @@ export const Contentor = styled.div`
     .openMobile {
       display: flex;
     }
-    .ortholookContainer {
+    .ortolookContainer {
       padding: 16px !important;
     }
     .linhaSinuosaTratamentos {

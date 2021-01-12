@@ -102,7 +102,7 @@ const Depoimentos = props => {
 
   return (
     <Contentor>
-      <Container className="ortholookContainer2">
+      <Container className="ortolookContainer2">
         <img
           className="linhaSinuosaDepoimento"
           src="/images/sorrisosQueFalam.png"

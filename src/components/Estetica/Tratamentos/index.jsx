@@ -12,7 +12,7 @@ const Tratamentos = () => {
   )
   return (
     <Contentor>
-      <Container className="ortholookContainer">
+      <Container className="ortolookContainer">
         <Row className="linhaSinuosaTratamentos">
           <br></br>
         </Row>

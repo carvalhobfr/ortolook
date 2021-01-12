@@ -26,7 +26,7 @@ max-width:2000px;
     .openMobile {
       display: flex;
     }
-    .ortholookContainer {
+    .ortolookContainer {
       padding: 16px !important;
     }
   }

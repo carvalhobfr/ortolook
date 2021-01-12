@@ -4,7 +4,7 @@ export const Contentor = styled.div`
   .row {
     margin: 32px 0;
   }
-  .ortholookContainer {
+  .ortolookContainer {
     margin-top: 50px;
     padding: 0;
     min-width: 90%;
@@ -84,7 +84,7 @@ export const Contentor = styled.div`
     .openMobile {
       display: flex;
     }
-    .ortholookContainer {
+    .ortolookContainer {
       padding: 16px !important;
     }
     .linhaSinuosaTratamentos {

@@ -10,7 +10,7 @@ export const Contentor = styled.div`
     flex-direction: column;
     padding: 0;
   }
-  .ortholookContainer {
+  .ortolookContainer {
     margin-top: 50px;
     padding: 32px;
     min-width: 100%;
@@ -82,5 +82,37 @@ export const Contentor = styled.div`
 
   .agendeAqui {
     margin-right: -32px;
+  }
+
+  .openMobile {
+    display: none !important;
+  }
+
+  @media (max-width: 900px) {
+    .someMobile {
+      display: none !important;
+    }
+    .openMobile {
+      display: flex !important;
+    }
+    .imgColunaTratamento {
+      flex-direction: column;
+      align-items: center;
+      img {
+        padding: 16px 0;
+      }
+    }
+    .ortolookContainer {
+      padding: 16px !important;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .openMobile {
+      display: none;
+    }
+    .someMobile {
+      display: flex !important;
+    }
   }
 `

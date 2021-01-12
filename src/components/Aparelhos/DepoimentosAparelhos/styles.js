@@ -4,13 +4,13 @@ export const Contentor = styled.div`
   .row {
     margin: 32px 0;
   }
-  .ortholookContainer {
+  .ortolookContainer {
     margin-top: 50px;
     padding: 32px;
     min-width: 100%;
     margin-right: 0px !important;
   }
-  .ortholookContainer2 {
+  .ortolookContainer2 {
     /* max-width: 300px; */
     margin-top: 50px;
     padding: 32px;
