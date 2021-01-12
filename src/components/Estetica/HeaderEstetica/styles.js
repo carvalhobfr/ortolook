@@ -169,6 +169,7 @@ export const Contentor = styled.div`
     .rowRedeSociais {
       .col {
         min-height: 50% !important;
+        padding: 16px;
       }
       .text-right {
         text-align: center;
