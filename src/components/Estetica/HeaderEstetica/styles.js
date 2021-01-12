@@ -186,4 +186,8 @@ export const Contentor = styled.div`
   .coluna3 button {
     text-align: end;
   }
+
+  .coluna3 .col {
+    min-height: 200px;
+  }
 `

@@ -13,6 +13,7 @@ const HeaderEstetica = () => {
         <Row className="rowMain">
           <Col className="coluna1">
             <Col className="agendeAqui">
+              <br />
               <Link href="https://wa.me/5521972878038">
                 <img src="/images/agendeAqui.png" alt="Agende aqui" />
               </Link>
