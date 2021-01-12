@@ -65,7 +65,10 @@ export const Contentor = styled.div`
     flex-direction: column !important;
     max-height: 150px;
     margin-bottom: 16px;
-    margin-top: 160px;
+    img {
+      padding: 20px 0;
+      width: 50% !important;
+    }
   }
   .coluna3 {
     text-align: end;
