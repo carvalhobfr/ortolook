@@ -23,7 +23,9 @@ export default createGlobalStyle`
 
 html{
   display:flex;
+  scroll-behavior: smooth;
 }
+
   body {
     max-width: 2000px;
     font-family: 'Gotham';

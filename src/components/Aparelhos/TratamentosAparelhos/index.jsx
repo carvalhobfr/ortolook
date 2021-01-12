@@ -6,9 +6,7 @@ import {
   Col,
   Carousel,
   CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
-  CarouselCaption
+  CarouselControl
 } from 'reactstrap'
 import { Contentor } from './styles'
 
@@ -64,9 +62,37 @@ const items = [
     altText: 'Slide 6'
   }
 ]
+const itemsMobile = [
+  {
+    src: '/images/tratamentos41AP.png',
+    id: 11,
+    altText: 'Slide 4'
+  },
+  {
+    src: '/images/tratamentos42AP.png',
+    id: 12,
+    altText: 'Slide 41'
+  },
+  {
+    src: '/images/tratamentos43AP.png',
+    id: 13,
+    altText: 'Slide 42'
+  },
+  {
+    src: '/images/tratamentos45AP.png',
+    id: 14,
+    altText: 'Slide 43'
+  },
+  {
+    src: '/images/tratamentos44AP.png',
+    id: 15,
+    altText: 'Slide 44'
+  }
+]
 
 const Tratamentos = () => {
   const [activeIndex, setActiveIndex] = useState(0)
+  const [activeIndexMobile, setActiveIndexMobile] = useState(0)
   const [animating, setAnimating] = useState(false)
 
   const next = () => {
@@ -74,11 +100,24 @@ const Tratamentos = () => {
     const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1
     setActiveIndex(nextIndex)
   }
-
   const previous = () => {
     if (animating) return
     const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1
     setActiveIndex(nextIndex)
+  }
+
+  const nextMobile = () => {
+    if (animating) return
+    const nextIndexMobile =
+      activeIndexMobile === itemsMobile.length - 1 ? 0 : activeIndexMobile + 1
+    setActiveIndexMobile(nextIndexMobile)
+  }
+
+  const previousMobile = () => {
+    if (animating) return
+    const nextIndexMobile =
+      activeIndex === 0 ? itemsMobile.length - 1 : activeIndexMobile - 1
+    setActiveIndexMobile(nextIndexMobile)
   }
 
   const goToIndex = newIndex => {
@@ -87,6 +126,18 @@ const Tratamentos = () => {
   }
 
   const slides = items.map(item => {
+    return (
+      <CarouselItem
+        onExiting={() => setAnimating(true)}
+        onExited={() => setAnimating(false)}
+        key={item.src}
+      >
+        <img src={item.src} alt={item.altText} />
+      </CarouselItem>
+    )
+  })
+
+  const slidesMobile = itemsMobile.map(item => {
     return (
       <CarouselItem
         onExiting={() => setAnimating(true)}
@@ -108,22 +159,12 @@ const Tratamentos = () => {
             alt="Tratamentos"
           />
           <Col className="saibaNossosPrecos someMobile">
-            {/* <a href="">
-              <img
-                src="/images/saibaNossosPrecos.png"
-                alt="Saiba Nossos Preços"
-              />
-            </a> */}
             <a href="https://wa.me/5521972878038" className="agendeAqui">
               <img src="/images/agendeAquiSmall.png" alt="Agende Aqui" />
             </a>
           </Col>
         </Row>
-        <Row
-          id="alinhador"
-          name="alinhador"
-          className="rowTratamentos someMobile"
-        >
+        <Row className="rowTratamentos someMobile">
           <Col className="colTratamentos">
             <button onClick={() => setActiveIndex(0)}>
               <img src="/images/tratamento1AP.png" alt="Tratamento 1" />
@@ -162,15 +203,31 @@ const Tratamentos = () => {
         </Row>
         <Col className="openMobile imgColunaTratamento">
           <img src="/images/tratamentos11AP.png" alt="slide1" />
-          <img src="/images/tratamentos21AP.png" alt="slide1" />
-          <img src="/images/tratamentos31AP.png" alt="slide1" />
-          <img id="alinhador" src="/images/tratamentos41AP.png" alt="slide1" />
-          <img src="/images/tratamentos42AP.png" alt="slide1" />
-          <img src="/images/tratamentos43AP.png" alt="slide1" />
-          <img src="/images/tratamentos44AP.png" alt="slide1" />
-          <img src="/images/tratamentos45AP.png" alt="slide1" />
-          <img src="/images/tratamentos51AP.png" alt="slide1" />
-          <img src="/images/tratamentos61AP.png" alt="slide1" />
+          <img id="autoligado" src="/images/tratamentos21AP.png" alt="slide2" />
+          <img id="estetico" src="/images/tratamentos31AP.png" alt="slide3" />
+          <Carousel
+            activeIndex={activeIndexMobile}
+            next={nextMobile}
+            previous={previousMobile}
+          >
+            {slidesMobile}
+            <CarouselControl
+              direction="prev"
+              directionText="Previous"
+              onClickHandler={previousMobile}
+            />
+            <CarouselControl
+              direction="next"
+              directionText="Next"
+              onClickHandler={nextMobile}
+            />
+          </Carousel>
+          <img src="/images/tratamentos51AP.png" alt="slide9" />
+          <img
+            id="clareamento"
+            src="/images/tratamentos61AP.png"
+            alt="slide10"
+          />
         </Col>
       </Container>
     </Contentor>

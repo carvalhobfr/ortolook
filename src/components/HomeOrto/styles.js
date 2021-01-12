@@ -27,9 +27,10 @@ export const Contentor = styled.div`
   }
 
   .col,
-  a {
+  .link {
     height: 100%;
     width: 50%;
+    cursor: pointer;
   }
 
   @media (max-width: 600px) {
