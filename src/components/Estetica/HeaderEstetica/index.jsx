@@ -47,7 +47,7 @@ const HeaderEstetica = () => {
             <h2>
               <strong>
                 {' '}
-                vamos dar um <br /> upgrade?
+                <img src="/images/upgrade.png" alt="Vamos dar um Upgrade" />
                 <br />
               </strong>
             </h2>

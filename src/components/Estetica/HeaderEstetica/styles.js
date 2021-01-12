@@ -68,6 +68,7 @@ export const Contentor = styled.div`
     img {
       padding: 20px 0;
       width: 50% !important;
+      margin-right: 8px;
     }
   }
   .coluna3 {
