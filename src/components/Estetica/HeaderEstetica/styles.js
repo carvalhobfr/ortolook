@@ -191,6 +191,12 @@ export const Contentor = styled.div`
     .coluna3 img {
       padding: 32px 32px 0 0;
     }
+    .redesSociais {
+      max-width: 20%;
+    }
+    .colunaLogo {
+      min-width: 80%;
+    }
   }
 
   .coluna3 div {
