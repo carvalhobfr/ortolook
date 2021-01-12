@@ -47,8 +47,6 @@ const HeaderEstetica = () => {
             <div>
               <img src="/images/upgrade.png" alt="Vamos dar um Upgrade" />
             </div>
-
-            <br />
             <div className="someMobile">
               <button onClick={() => setImgUrl('images/rugas1.png')}>
                 <p>RUGAS</p>

@@ -123,13 +123,6 @@ export const Contentor = styled.div`
     /* margin-top: 16px; */
   }
 
-  .coluna1 button {
-    text-align: start;
-  }
-  .coluna3 button {
-    text-align: end;
-  }
-
   .coluna1 button,
   .coluna3 button {
     text-align: center;
@@ -185,5 +178,12 @@ export const Contentor = styled.div`
     .coluna3 img {
       padding: 32px 32px 0 0;
     }
+  }
+
+  .coluna1 button {
+    text-align: start;
+  }
+  .coluna3 button {
+    text-align: end;
   }
 `
