@@ -11,8 +11,15 @@ export const Contentor = styled.div`
     margin-right: 0px !important;
   }
   .saibaNossosPrecos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin-top: 50px;
     padding: 0;
@@ -46,8 +53,15 @@ export const Contentor = styled.div`
     color: #802b67;
   }
   .pacientes {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 
@@ -82,6 +96,8 @@ export const Contentor = styled.div`
       display: none;
     }
     .openMobile {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
     }
     .ortolookContainer {
@@ -91,8 +107,14 @@ export const Contentor = styled.div`
       min-height: 50px;
     }
     .rowPacientes {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
     }
     .pacientes {

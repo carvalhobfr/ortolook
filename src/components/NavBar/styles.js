@@ -9,7 +9,11 @@ export const Contentor = styled.div`
   }
   .navbar-nav {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0 1em;
     position: -webkit-sticky; /* Safari */

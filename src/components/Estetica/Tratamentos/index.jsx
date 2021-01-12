@@ -16,6 +16,9 @@ const Tratamentos = () => {
         <Row className="linhaSinuosaTratamentos">
           <br></br>
         </Row>
+        <div id="skinbooster"></div>
+        <div id="toxinabotulinica"></div>
+        <div id="preenchimento"></div>
         <Row className="rowBtnTratamentos someMobile">
           <Col>
             <button onClick={() => setImgUrl('images/tratamento2.png')}>
@@ -67,6 +70,7 @@ const Tratamentos = () => {
           />
         </Row>
       </Container>
+
       <AgendeLateral />
     </Contentor>
   )

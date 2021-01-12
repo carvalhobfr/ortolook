@@ -38,6 +38,9 @@ export const Contentor = styled.div`
       background-image: url(images/homeMobile.png) !important;
     }
     .row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
     }
     .col {

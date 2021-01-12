@@ -31,8 +31,15 @@ export const Contentor = styled.div`
     }
   }
   .rowMain {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
 
@@ -49,8 +56,15 @@ export const Contentor = styled.div`
   }
   .agendeAqui {
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: start;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
     flex-direction: column !important;
     max-height: 120px;
     margin-bottom: 16px;
@@ -70,8 +84,14 @@ export const Contentor = styled.div`
   }
   .coluna1,
   .coluna3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-wrap: no-wrap;
     flex-wrap: no-wrap;
   }
 
@@ -87,8 +107,12 @@ export const Contentor = styled.div`
     min-width: 350px;
   }
   .redesSociais {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-line-pack: center;
     align-content: center;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     .instagram {
       margin-left: 6px;
@@ -100,6 +124,7 @@ export const Contentor = styled.div`
 
   .coluna1,
   .coluna3 {
+    display: -ms-grid;
     display: grid;
     padding: 16px;
   }
@@ -128,6 +153,7 @@ export const Contentor = styled.div`
 
   @media (min-width: 900px) {
     .coluna3 {
+      display: -ms-grid;
       display: grid;
     }
     .coluna1 h4 {
@@ -142,15 +168,25 @@ export const Contentor = styled.div`
       display: none;
     }
     .openMobile {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
     }
     .ortolookContainer {
       padding: 16px !important;
     }
     .coluna3 {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
       flex-direction: row;
+      -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
     }
   }
@@ -177,6 +213,8 @@ export const Contentor = styled.div`
       display: none;
     }
     .openMobile {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
     }
     .ortolookContainer {

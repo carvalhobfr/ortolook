@@ -18,10 +18,13 @@ export default createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
 
 html{
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
   scroll-behavior: smooth;
 }
