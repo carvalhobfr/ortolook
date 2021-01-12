@@ -165,6 +165,9 @@ export const Contentor = styled.div`
       -ms-flex-direction: column-reverse;
       flex-direction: column-reverse;
     }
+    .col {
+      min-height: 300px;
+    }
   }
   @media (min-width: 900px) {
     .openMobile {
