@@ -130,13 +130,6 @@ export const Contentor = styled.div`
 
   @media (max-width: 900px) {
     .coluna3 {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
       min-height: 120px;
     }
   }
@@ -187,7 +180,7 @@ export const Contentor = styled.div`
     text-align: end;
   }
 
-  .coluna3 .col {
+  .coluna3 div {
     min-height: 200px;
   }
 `
