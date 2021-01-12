@@ -131,7 +131,7 @@ export const Contentor = styled.div`
     text-align: center;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     .coluna3 {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -140,6 +140,7 @@ export const Contentor = styled.div`
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column;
+      min-height: 120px;
     }
   }
 
@@ -164,9 +165,6 @@ export const Contentor = styled.div`
       -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
       flex-direction: column-reverse;
-    }
-    .col {
-      min-height: 300px;
     }
   }
   @media (min-width: 900px) {
