@@ -161,7 +161,7 @@ export const Contentor = styled.div`
       flex-direction: column-reverse;
     }
     .coluna1 {
-      min-height: 550px;
+      min-height: 500px;
     }
     .coluna1 button {
       text-align: center;
