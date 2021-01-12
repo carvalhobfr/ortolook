@@ -107,9 +107,6 @@ export const Contentor = styled.div`
     align-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    .instagram {
-      margin-left: 6px;
-    }
     img {
       max-width: 100%;
     }
@@ -168,6 +165,11 @@ export const Contentor = styled.div`
     }
     .coluna3 button {
       text-align: center;
+    }
+    .rowRedeSociais {
+      .text-right {
+        text-align: center;
+      }
     }
   }
 
