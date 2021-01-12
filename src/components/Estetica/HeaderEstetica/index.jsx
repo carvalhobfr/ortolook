@@ -44,13 +44,11 @@ const HeaderEstetica = () => {
             />
           </Col>
           <Col className="coluna3">
-            <h2>
-              <strong>
-                {' '}
-                <img src="/images/upgrade.png" alt="Vamos dar um Upgrade" />
-                <br />
-              </strong>
-            </h2>
+            <div>
+              <img src="/images/upgrade.png" alt="Vamos dar um Upgrade" />
+            </div>
+
+            <br />
             <div className="someMobile">
               <button onClick={() => setImgUrl('images/rugas1.png')}>
                 <p>RUGAS</p>

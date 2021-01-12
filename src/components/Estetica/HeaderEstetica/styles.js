@@ -68,7 +68,6 @@ export const Contentor = styled.div`
     img {
       padding: 20px 0;
       width: 50% !important;
-      margin-right: 8px;
     }
   }
   .coluna3 {
@@ -82,6 +81,9 @@ export const Contentor = styled.div`
       letter-spacing: -0.05em;
       text-transform: uppercase;
       color: #802b67;
+    }
+    img {
+      margin-bottom: 64px;
     }
   }
   .coluna1,
