@@ -63,8 +63,9 @@ export const Contentor = styled.div`
     -webkit-box-direction: normal !important;
     -ms-flex-direction: column !important;
     flex-direction: column !important;
-    max-height: 120px;
+    max-height: 150px;
     margin-bottom: 16px;
+    margin-top: 16px;
   }
   .coluna3 {
     text-align: end;
