@@ -63,6 +63,7 @@ export const Contentor = styled.div`
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    min-height: 415px;
   }
 
   @media (max-width: 900px) {
