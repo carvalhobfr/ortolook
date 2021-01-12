@@ -134,6 +134,13 @@ export const Contentor = styled.div`
     }
   }
 
+  .coluna1 button {
+    text-align: start;
+  }
+  .coluna3 button {
+    text-align: end;
+  }
+
   @media (max-width: 900px) {
     .someMobile {
       display: none !important;
@@ -156,7 +163,14 @@ export const Contentor = styled.div`
       -ms-flex-direction: column-reverse;
       flex-direction: column-reverse;
     }
+    .coluna1 button {
+      text-align: center;
+    }
+    .coluna3 button {
+      text-align: center;
+    }
   }
+
   @media (min-width: 900px) {
     .openMobile {
       display: none !important;
@@ -171,13 +185,6 @@ export const Contentor = styled.div`
     .coluna3 img {
       padding: 32px 32px 0 0;
     }
-  }
-
-  .coluna1 button {
-    text-align: start;
-  }
-  .coluna3 button {
-    text-align: end;
   }
 
   .coluna3 div {
