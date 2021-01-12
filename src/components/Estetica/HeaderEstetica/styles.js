@@ -82,9 +82,6 @@ export const Contentor = styled.div`
       text-transform: uppercase;
       color: #802b67;
     }
-    img {
-      margin-bottom: 64px;
-    }
   }
   .coluna1,
   .coluna3 {
@@ -184,6 +181,9 @@ export const Contentor = styled.div`
     }
     .coluna3 .someMobile {
       margin-top: -64px;
+    }
+    .coluna3 img {
+      padding: 32px 32px 0 0;
     }
   }
 `
