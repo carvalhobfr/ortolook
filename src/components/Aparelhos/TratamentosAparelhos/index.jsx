@@ -153,11 +153,7 @@ const Tratamentos = () => {
     <Contentor>
       <Container className="ortolookContainer">
         <Row>
-          <img
-            className="tratamentoAparelho"
-            src="images/tratamentosAparelho.png"
-            alt="Tratamentos"
-          />
+          <h1>TRATAMENTOS</h1>
           <Col className="saibaNossosPrecos someMobile">
             <a href="https://wa.me/5521972878038" className="agendeAqui">
               <img src="/images/agendeAquiSmall.png" alt="Agende Aqui" />

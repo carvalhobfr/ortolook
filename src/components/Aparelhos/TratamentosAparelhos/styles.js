@@ -16,9 +16,7 @@ export const Contentor = styled.div`
     min-width: 100%;
     margin-left: 0px !important;
     h1 {
-      font-family: Bemio Italic;
-      font-style: italic;
-      font-weight: normal;
+      font-weight: 900 !important;
       font-size: 80px;
       line-height: 98px;
       text-align: right;
@@ -113,6 +111,59 @@ export const Contentor = styled.div`
     }
     .someMobile {
       display: flex !important;
+    }
+  }
+
+  .ortolookContainer h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: right;
+    -webkit-letter-spacing: -0.05em;
+    -moz-letter-spacing: -0.05em;
+    -ms-letter-spacing: -0.05em;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 900px) {
+    strong {
+      font-size: 32px !important;
+      line-height: 36px !important;
+    }
+    .ortolookContainer h1 {
+      font-size: 32px !important;
+      line-height: 36px !important;
+      text-align: end;
+    }
+    .someMobile {
+      display: none;
+    }
+    .openMobile {
+      display: flex;
+    }
+    .ortolookContainer {
+      padding: 16px !important;
+    }
+    .linhaSinuosaTratamentos {
+      min-height: 50px;
+    }
+    .rowPacientes {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .pacientes {
+      padding: 16px 0;
+    }
+    p {
+      font-family: 'Gotham';
+      text-align: start;
+      font-weight: 800;
+      font-size: 14px;
+      line-height: 16px;
+      color: #802b67;
     }
   }
 `

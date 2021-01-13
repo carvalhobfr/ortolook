@@ -82,7 +82,7 @@ const HeaderEstetica = () => {
             <br />
             <img src="/images/facebook.png" alt="Facebook" />
           </Col>
-          <Col className="text-right">
+          <Col className="text-right colunaLogo">
             <img src="/images/ortolookLogoHead.png" alt="Ortolook" />
           </Col>
         </Row>

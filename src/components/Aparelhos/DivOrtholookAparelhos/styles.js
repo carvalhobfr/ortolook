@@ -69,7 +69,7 @@ export const Contentor = styled.div`
     min-height: 415px;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 900px) {
     strong {
       font-size: 32px !important;
       line-height: 36px !important;
@@ -79,9 +79,6 @@ export const Contentor = styled.div`
       line-height: 36px !important;
       text-align: end;
     }
-  }
-
-  @media (max-width: 900px) {
     .someMobile {
       display: none;
     }
@@ -101,6 +98,14 @@ export const Contentor = styled.div`
     }
     .pacientes {
       padding: 16px 0;
+    }
+    p {
+      font-family: 'Gotham';
+      text-align: start;
+      font-weight: 800;
+      font-size: 14px;
+      line-height: 16px;
+      color: #802b67;
     }
   }
 `
