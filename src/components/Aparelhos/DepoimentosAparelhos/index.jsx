@@ -103,11 +103,7 @@ const Depoimentos = props => {
   return (
     <Contentor>
       <Container className="ortolookContainer2">
-        <img
-          className="linhaSinuosaDepoimento"
-          src="/images/sorrisosQueFalam.png"
-          alt="Sorrisos que falam"
-        />
+        <h1>Sorrisos que Falam</h1>
       </Container>
       <Carousel
         className="someMobile"

@@ -16,7 +16,8 @@ export const Contentor = styled.div`
     padding: 32px;
     margin-right: 0px !important;
     /* width: 50%; */
-    text-align: end;
+    text-align: start;
+    padding-left: 0;
   }
   .saibaNossosPrecos {
     display: flex;
@@ -53,5 +54,60 @@ export const Contentor = styled.div`
   .openMobile img {
     max-width: 80%;
     max-height: 350px;
+  }
+
+  .ortolookContainer2 h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: right;
+    -webkit-letter-spacing: -0.05em;
+    -moz-letter-spacing: -0.05em;
+    -ms-letter-spacing: -0.05em;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+
+    color: #802b67;
+  }
+
+  @media (max-width: 900px) {
+    strong {
+      font-size: 32px !important;
+      line-height: 36px !important;
+    }
+    h1 {
+      font-size: 32px !important;
+      line-height: 36px !important;
+      text-align: end;
+    }
+    .someMobile {
+      display: none;
+    }
+    .openMobile {
+      display: flex;
+    }
+    .ortolookContainer {
+      padding: 16px !important;
+    }
+    .linhaSinuosaTratamentos {
+      min-height: 50px;
+    }
+    .rowPacientes {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .pacientes {
+      padding: 16px 0;
+    }
+    p {
+      font-family: 'Gotham';
+      text-align: start;
+      font-weight: 800;
+      font-size: 14px;
+      line-height: 16px;
+      color: #802b67;
+    }
   }
 `
