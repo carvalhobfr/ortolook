@@ -5,21 +5,6 @@ export const Contentor = styled.div`
   padding: 0px;
   margin-top: 10px;
 
-  @font-face {
-    font-family: 'Gotham';
-    src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot');
-    src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot?#iefix')
-        format('embedded-opentype'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff2')
-        format('woff2'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff')
-        format('woff'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.ttf')
-        format('truetype'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.svg#Gotham')
-        format('svg');
-  }
-  font-family: 'Gotham';
   .container {
     min-width: 100%;
     width: 100%;
@@ -122,6 +107,7 @@ export const Contentor = styled.div`
     line-height: 23px;
     color: #802b67;
     font-weight: 900;
+    margin: 32px 0;
   }
 
   @media (min-width: 900px) {
@@ -198,6 +184,34 @@ export const Contentor = styled.div`
     }
     .linhaSinuosaTratamentos {
       min-height: 50px;
+    }
+  }
+
+  .ortolookContainer2 h1 {
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: right;
+    -webkit-letter-spacing: -0.05em;
+    -moz-letter-spacing: -0.05em;
+    -ms-letter-spacing: -0.05em;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+
+    color: #802b67;
+  }
+
+  @media (max-width: 900px) {
+    strong {
+      font-size: 32px !important;
+      line-height: 36px !important;
+    }
+    h1 {
+      font-size: 32px !important;
+      line-height: 36px !important;
+      text-align: start !important;
     }
   }
 `

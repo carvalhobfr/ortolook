@@ -11,9 +11,9 @@ const UnidadesAparelho = () => {
     <Contentor>
       <Container>
         <Row className="rowMain">
-          <Row className="linhaSinuosaTratamentos">
-            <br></br>
-          </Row>
+          <Container className="ortolookContainer2">
+            <h1>UNIDADES</h1>
+          </Container>
 
           <Col className="coluna1">
             <h4>
