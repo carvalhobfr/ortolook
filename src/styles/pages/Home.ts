@@ -61,4 +61,5 @@ max-width:2000px;
   img{
     max-width: 100%;
   }
+
 `

@@ -89,6 +89,7 @@ export const Contentor = styled.div`
     background: url('/images/sinuosaBG2.png') no-repeat;
     background-size: contain;
     background-position-x: right;
+    margin-top: 64px;
     margin-right: -16px !important;
   }
 

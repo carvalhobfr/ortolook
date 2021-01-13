@@ -101,6 +101,11 @@ export const Contentor = styled.div`
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    background: #e9cebf;
+    border-radius: 460px;
+    button p {
+      text-transform: uppercase;
+    }
   }
 
   .imagemEstetica {
@@ -148,7 +153,7 @@ export const Contentor = styled.div`
     font-size: 24px;
     line-height: 23px;
     color: #802b67;
-    font-weight: 900;
+    font-weight: 600;
   }
 
   @media (min-width: 900px) {
@@ -204,8 +209,8 @@ export const Contentor = styled.div`
     background-size: contain;
     background-position-x: left;
     margin-left: -32px;
-    margin-bottom: 16px;
-    margin-top: 16px;
+    margin-bottom: 32px;
+    margin-top: 108px;
   }
 
   @media (max-width: 900px) {
