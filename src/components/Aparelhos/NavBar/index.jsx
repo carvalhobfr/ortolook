@@ -39,7 +39,7 @@ const NavOrtho = props => {
               <NavLink href="/">inicio</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/aparelhos">aparelhos</NavLink>
+              <NavLink href="/estetica">estética</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#ortholook">a ortolook</NavLink>

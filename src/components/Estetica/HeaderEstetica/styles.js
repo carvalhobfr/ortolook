@@ -99,18 +99,6 @@ export const Contentor = styled.div`
   .imagemEstetica {
     min-width: 350px;
   }
-  .redesSociais {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    img {
-      max-width: 100%;
-    }
-  }
 
   .coluna1,
   .coluna3,
@@ -173,6 +161,7 @@ export const Contentor = styled.div`
       .col {
         min-height: 50% !important;
         padding: 16px;
+        align-self: center;
       }
       .text-right {
         text-align: center;
@@ -204,5 +193,21 @@ export const Contentor = styled.div`
 
   .coluna3 div {
     min-height: 200px;
+  }
+
+  .redesSociais {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    img {
+      max-width: 100%;
+      padding: 0 8px;
+    }
+    display: flex !important;
+    flex-direction: row;
   }
 `

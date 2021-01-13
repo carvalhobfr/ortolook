@@ -16,6 +16,10 @@ export const Contentor = styled.div`
     position: sticky;
     top: 0;
   }
+
+  img {
+    max-height: 32px;
+  }
   .nav-link,
   .dropdown-item {
     font-style: normal;
