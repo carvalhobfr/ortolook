@@ -19,7 +19,7 @@ export const Contentor = styled.div`
   .nav-link,
   .dropdown-item {
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 18px;
     line-height: 17px;
     color: #802b67 !important;

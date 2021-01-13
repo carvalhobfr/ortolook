@@ -26,7 +26,7 @@ export const Contentor = styled.div`
     p {
       padding: 0 1em;
       font-style: normal;
-      font-weight: 600;
+      font-weight: 500;
       font-size: 18px;
       line-height: 17px;
       color: #802b67;
@@ -106,7 +106,7 @@ export const Contentor = styled.div`
     font-size: 24px;
     line-height: 23px;
     color: #802b67;
-    font-weight: 900;
+    font-weight: 500;
     margin: 16px 0;
   }
 
@@ -169,7 +169,7 @@ export const Contentor = styled.div`
   }
 
   h4 {
-    font-weight: 900;
+    font-weight: 500;
   }
 
   @media (max-width: 900px) {
@@ -188,7 +188,7 @@ export const Contentor = styled.div`
   }
 
   .ortolookContainer2 h1 {
-    margin-top: 32px;
+    margin: 64px 0 32px;
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
