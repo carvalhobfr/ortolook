@@ -107,7 +107,7 @@ export const Contentor = styled.div`
     line-height: 23px;
     color: #802b67;
     font-weight: 900;
-    margin: 32px 0;
+    margin: 16px 0;
   }
 
   @media (min-width: 900px) {

@@ -83,25 +83,25 @@ export const Contentor = styled.div`
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    .instagram {
-      margin-left: 6px;
-    }
+    flex-direction: row;
     img {
       max-width: 100%;
+      padding: 0 8px;
     }
   }
 
   .fotoHeader {
     margin-top: -60px;
     /* max-height: 710px; */
-    max-width: 500px;
+    max-width: 400px;
     margin-left: 10%;
   }
   .fotoHeader2 {
     max-height: 673px;
-    max-width: 552px;
+    max-width: 400px;
     align-self: flex-end;
     z-index: 2;
+    margin-top: 32px;
   }
 
   button,

@@ -14,7 +14,6 @@ const UnidadesAparelho = () => {
           <Container className="ortolookContainer2">
             <h1>UNIDADES</h1>
           </Container>
-
           <Col className="coluna1">
             <h4>
               As clínicas Ortolook Estética estão localizadas no estado do Rio
