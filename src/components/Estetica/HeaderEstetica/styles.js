@@ -49,12 +49,14 @@ export const Contentor = styled.div`
   .col {
     padding: 0;
     p {
+      font-family: 'Gotham';
       padding: 0 1em;
       font-style: normal;
       font-weight: 900;
-      font-size: 12px;
+      font-size: 14px;
       line-height: 14px;
       color: #802b67;
+      padding: 16px 32px 0;
     }
   }
   .agendeAqui {
@@ -121,6 +123,9 @@ export const Contentor = styled.div`
     justify-content: space-between;
     /* margin-top: 16px; */
     max-width: 350px;
+  }
+  .coluna1 {
+    justify-content: space-around;
   }
   .coluna3 {
     align-items: flex-end;
@@ -198,7 +203,7 @@ export const Contentor = styled.div`
       display: flex !important;
     }
     .coluna3 img {
-      padding: 32px 32px 0 0;
+      padding: 64px 32px 0 0;
       text-align: center;
     }
     .redesSociais {
