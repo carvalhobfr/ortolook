@@ -51,9 +51,9 @@ export const Contentor = styled.div`
     p {
       padding: 0 1em;
       font-style: normal;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 17px;
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 16px;
       color: #802b67;
     }
   }
