@@ -74,7 +74,8 @@ export const Contentor = styled.div`
       justify-content: center;
     }
     .saibaNossosPrecos {
-      margin-top: 30px;
+      margin-top: 50px;
+      width: 80%;
     }
   }
 

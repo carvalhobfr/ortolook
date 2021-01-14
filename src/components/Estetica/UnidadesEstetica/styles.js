@@ -194,6 +194,7 @@ export const Contentor = styled.div`
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
+      padding-top: 50px;
     }
   }
   @media (min-width: 900px) {
