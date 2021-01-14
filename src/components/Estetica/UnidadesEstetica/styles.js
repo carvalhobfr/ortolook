@@ -150,7 +150,7 @@ export const Contentor = styled.div`
     font-family: Gotham;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 16px;
     color: #802b67;
     font-weight: 600;
