@@ -197,10 +197,36 @@ const Tratamentos = () => {
             </Carousel>
           </Col>
         </Row>
+        {/* mobile */}
+        <Col className="colTratamentos openMobile">
+          <a href="#tratamento1">
+            <img src="/images/tratamento1AP.png" alt="Tratamento 1" />
+          </a>
+          <a href="#tratamento2">
+            <img src="/images/tratamento2AP.png" alt="Tratamento 2" />
+          </a>
+          <a href="#autoligado">
+            <img src="/images/tratamento3AP.png" alt="Tratamento 3" />
+          </a>
+          <a href="#estetico">
+            <img src="/images/tratamento4AP.png" alt="Tratamento 4" />
+          </a>
+          <a href="#tratamento5">
+            <img src="/images/tratamento5AP.png" alt="Tratamento 5" />
+          </a>
+          <a href="#clareamento">
+            <img src="/images/tratamento6AP.png" alt="Tratamento 6" />
+          </a>
+        </Col>
         <Col className="openMobile imgColunaTratamento">
-          <img src="/images/tratamentos11AP.png" alt="slide1" />
+          <img
+            id="tratamento1"
+            src="/images/tratamentos11AP.png"
+            alt="slide1"
+          />
           <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
             <img
+              id="tratamento2"
               src="/images/agendeAquiMobTratamento.png"
               alt="Agende Aqui"
               className="openMobile"
@@ -214,12 +240,13 @@ const Tratamentos = () => {
               className="openMobile"
             />
           </a>
-          <img id="estetico" src="/images/tratamentos31AP.png" alt="slide3" />
+          <img src="/images/tratamentos31AP.png" alt="slide3" />
           <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
             <img
               src="/images/agendeAquiMobTratamento3.png"
               alt="Agende Aqui"
               className="openMobile"
+              id="estetico"
             />
           </a>
           <Carousel
@@ -246,7 +273,11 @@ const Tratamentos = () => {
               className="openMobile"
             />
           </a>
-          <img src="/images/tratamentos51AP.png" alt="slide9" />
+          <img
+            id="tratamento5"
+            src="/images/tratamentos51AP.png"
+            alt="slide9"
+          />
           <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
             <img
               src="/images/agendeAquiMobTratamento5.png"
