@@ -108,4 +108,58 @@ export const Contentor = styled.div`
       color: #802b67;
     }
   }
+
+  @media (max-width: 900px) {
+    h5 {
+      font-size: 13px !important;
+      line-height: 13px;
+    }
+    p {
+      font-family: 'Gotham';
+      text-align: start;
+      font-weight: 800;
+      font-size: 14px;
+      line-height: 16px;
+      color: #802b67;
+    }
+  }
+  @media (max-width: 900px) {
+    .someMobile {
+      display: none;
+    }
+    .saibaNossosPrecos img {
+      margin-right: -32px;
+    }
+    .openMobile {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .ortolookContainer {
+      padding: 16px !important;
+    }
+    .linhaSinuosaTratamentos {
+      min-height: 50px;
+    }
+    .rowPacientes {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .pacientes {
+      padding: 16px;
+      /* width: 200px; */
+      min-width: 155px;
+      max-width: 157px;
+      min-height: unset;
+    }
+    .row {
+      margin: 16px 0;
+    }
+  }
 `
