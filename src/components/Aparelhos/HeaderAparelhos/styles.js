@@ -21,6 +21,7 @@ export const Contentor = styled.div`
         format('svg');
   }
   font-family: 'Gotham';
+
   .container {
     min-width: 100%;
     width: 100%;
@@ -34,7 +35,7 @@ export const Contentor = styled.div`
   .rowMain {
     display: flex;
     flex-direction: row;
-    min-width: 99vw;
+    min-width: 97vw;
   }
 
   .col {
