@@ -74,8 +74,8 @@ export const Contentor = styled.div`
     h2 {
       font-style: normal;
       font-weight: 900;
-      font-size: 24px;
-      line-height: 32px;
+      font-size: 48px;
+      line-height: 46px;
       text-align: right;
       letter-spacing: -0.05em;
       text-transform: uppercase;
@@ -150,8 +150,8 @@ export const Contentor = styled.div`
     font-family: Gotham;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 23px;
+    font-size: 12px;
+    line-height: 16px;
     color: #802b67;
     font-weight: 600;
   }
