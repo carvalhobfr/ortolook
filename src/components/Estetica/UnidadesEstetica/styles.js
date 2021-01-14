@@ -102,7 +102,7 @@ export const Contentor = styled.div`
     background-size: contain;
     background-position: center;
     background: #e9cebf;
-    border-radius: 460px;
+    border-radius: 0px 120.5px 120.5px 0px;
     button p {
       text-transform: uppercase;
     }
