@@ -75,6 +75,7 @@ export const Contentor = styled.div`
       padding: 20px 0;
       width: 50% !important;
     }
+    margin-left: -16px;
   }
   .coluna3 {
     text-align: end;

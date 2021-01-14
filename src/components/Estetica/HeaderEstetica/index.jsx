@@ -85,6 +85,15 @@ const HeaderEstetica = () => {
           </Col>
         </Row>
       </Container>
+      <Col className="agendeAqui openMobile">
+        <br />
+        <Link href="https://wa.me/5521972878038">
+          <img src="/images/agendeAqui.png" alt="Agende aqui" />
+        </Link>
+        {/* <Link href="/">
+                <img src="/images/saibaPrecos.png" alt="Saiba Precos" />
+              </Link> */}
+      </Col>
     </Contentor>
   )
 }
