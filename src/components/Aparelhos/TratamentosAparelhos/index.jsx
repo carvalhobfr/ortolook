@@ -199,8 +199,29 @@ const Tratamentos = () => {
         </Row>
         <Col className="openMobile imgColunaTratamento">
           <img src="/images/tratamentos11AP.png" alt="slide1" />
+          <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+            <img
+              src="/images/agendeAquiMobTratamento.png"
+              alt="Agende Aqui"
+              className="openMobile"
+            />
+          </a>
           <img id="autoligado" src="/images/tratamentos21AP.png" alt="slide2" />
+          <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+            <img
+              src="/images/agendeAquiMobTratamento2.png"
+              alt="Agende Aqui"
+              className="openMobile"
+            />
+          </a>
           <img id="estetico" src="/images/tratamentos31AP.png" alt="slide3" />
+          <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+            <img
+              src="/images/agendeAquiMobTratamento3.png"
+              alt="Agende Aqui"
+              className="openMobile"
+            />
+          </a>
           <Carousel
             activeIndex={activeIndexMobile}
             next={nextMobile}
@@ -218,12 +239,33 @@ const Tratamentos = () => {
               onClickHandler={nextMobile}
             />
           </Carousel>
+          <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+            <img
+              src="/images/agendeAquiMobTratamento4.png"
+              alt="Agende Aqui"
+              className="openMobile"
+            />
+          </a>
           <img src="/images/tratamentos51AP.png" alt="slide9" />
+          <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+            <img
+              src="/images/agendeAquiMobTratamento5.png"
+              alt="Agende Aqui"
+              className="openMobile"
+            />
+          </a>
           <img
             id="clareamento"
             src="/images/tratamentos61AP.png"
             alt="slide10"
           />
+          <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+            <img
+              src="/images/agendeAquiMobTratamento6.png"
+              alt="Agende Aqui"
+              className="openMobile"
+            />
+          </a>
         </Col>
       </Container>
     </Contentor>
