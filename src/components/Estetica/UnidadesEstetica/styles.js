@@ -19,6 +19,7 @@ export const Contentor = styled.div`
       url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.svg#Gotham')
         format('svg');
   }
+
   font-family: 'Gotham';
   .container {
     min-width: 100%;

@@ -10,7 +10,9 @@ const HeaderAparelhos = props => {
         <Row className="rowMain">
           <Col className="coluna3">
             <button className="agendeAqui">
-              <img src="/images/agendeAparelhos.png" alt="Aparelhos Agende" />
+              <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+                <img src="/images/agendeAparelhos.png" alt="Aparelhos Agende" />
+              </a>
             </button>
             <img
               className="fotoHeader"

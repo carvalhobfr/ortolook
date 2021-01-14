@@ -110,6 +110,10 @@ export const Contentor = styled.div`
     cursor: pointer !important;
   }
 
+  .coluna3 button {
+    margin-left: -16px;
+  }
+
   @media (max-width: 1100px) {
     strong {
       font-size: 48px !important;
