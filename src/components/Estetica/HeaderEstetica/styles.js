@@ -4,6 +4,7 @@ export const Contentor = styled.div`
   width: 100%;
   padding: 0px;
   margin-top: 10px;
+  min-height: 100vh;
 
   @font-face {
     font-family: 'Gotham';
@@ -22,8 +23,12 @@ export const Contentor = styled.div`
   font-family: 'Gotham';
   .container {
     min-width: 100%;
+    min-height: 90vh;
     width: 100%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .agendePop {
     h2 {
@@ -38,6 +43,7 @@ export const Contentor = styled.div`
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
+    min-height: 70vh;
   }
 
   .col {
@@ -97,26 +103,35 @@ export const Contentor = styled.div`
   }
 
   .imagemEstetica {
-    min-width: 350px;
+    min-width: 300px;
   }
 
+  .imgCentral {
+    text-align: center;
+  }
   .coluna1,
   .coluna3,
   .coluna3 .someMobile {
-    display: -ms-grid;
-    display: grid;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    align-content: center;
+    justify-content: space-between;
     /* margin-top: 16px; */
+    max-width: 350px;
+  }
+  .coluna3 {
+    align-items: flex-end;
+  }
+  .coluna3 .someMobile {
+    height: 100%;
+    padding-top: 32px;
   }
 
   .coluna1 button,
   .coluna3 button {
     text-align: center;
-  }
-
-  @media (max-width: 900px) {
-    .coluna3 {
-      min-height: 120px;
-    }
   }
 
   .coluna1 button {
@@ -127,6 +142,9 @@ export const Contentor = styled.div`
   }
 
   @media (max-width: 900px) {
+    .coluna3 {
+      min-height: 120px;
+    }
     .someMobile {
       display: none !important;
     }
@@ -147,6 +165,7 @@ export const Contentor = styled.div`
       -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
       flex-direction: column-reverse;
+      align-items: center;
     }
     .rowMain {
       min-height: 550px;
@@ -174,26 +193,25 @@ export const Contentor = styled.div`
       display: none !important;
     }
     .someMobile {
-      display: -ms-grid !important;
-      display: grid !important;
-    }
-    .coluna3 .someMobile {
-      margin-top: -64px;
+      display: -ms-flex !important;
+      display: flex !important;
     }
     .coluna3 img {
       padding: 32px 32px 0 0;
+      text-align: center;
     }
     .redesSociais {
       max-width: 20%;
+      justify-content: flex-start !important;
     }
     .colunaLogo {
       min-width: 80%;
     }
   }
 
-  .coluna3 div {
+  /* .coluna3 div {
     min-height: 200px;
-  }
+  } */
 
   .redesSociais {
     -webkit-box-pack: center;
@@ -204,10 +222,14 @@ export const Contentor = styled.div`
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     img {
-      max-width: 100%;
+      max-width: 50%;
       padding: 0 8px;
     }
     display: flex !important;
     flex-direction: row;
+  }
+
+  .coluna3 img {
+    max-width: 350px;
   }
 `

@@ -12,7 +12,7 @@ const HeaderEstetica = () => {
       <Container>
         <Row className="rowMain">
           <Col className="coluna1">
-            <Col className="agendeAqui">
+            <Col className="agendeAqui someMobile">
               <br />
               <Link href="https://wa.me/5521972878038">
                 <img src="/images/agendeAqui.png" alt="Agende aqui" />
@@ -37,7 +37,7 @@ const HeaderEstetica = () => {
               <p>LÁBIOS FINOS </p>
             </button>
           </Col>
-          <Col>
+          <Col className="imgCentral">
             <img
               src={imgUrl}
               alt="Tratamento Específico"
@@ -45,9 +45,7 @@ const HeaderEstetica = () => {
             />
           </Col>
           <Col className="coluna3">
-            <div>
-              <img src="/images/upgrade.png" alt="Vamos dar um Upgrade" />
-            </div>
+            <img src="/images/upgrade.png" alt="Vamos dar um Upgrade" />
             <div className="someMobile">
               <button onClick={() => setImgUrl('images/rugas1.png')}>
                 <p>RUGAS</p>

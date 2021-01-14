@@ -2,17 +2,9 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
 
 max-width:2000px;
-  testeDiv {
-    margin-top: 40px;
-  }
+margin: 0 1em;
 
   button {
     border: none !important;
