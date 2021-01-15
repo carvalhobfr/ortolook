@@ -70,15 +70,10 @@ export const Contentor = styled.div`
       display: -ms-flexbox;
       display: flex;
     }
-    .ortolookContainer {
-      padding: 16px !important;
-    }
     .linhaSinuosaTratamentos {
       min-height: 50px;
     }
-  }
 
-  @media (max-width: 900px) {
     .someMobile {
       display: none;
     }
@@ -88,7 +83,18 @@ export const Contentor = styled.div`
       display: flex;
     }
     .ortolookContainer {
-      padding: 16px !important;
+      padding: 0px !important;
+    }
+    .button {
+      width: 250px;
+    }
+    .rowBtnTratamentos .col {
+      min-width: 114px;
+      max-width: 114px;
+      padding: 0;
+    }
+    .rowBtnTratamentos {
+      justify-content: center;
     }
   }
   @media (min-width: 900px) {
