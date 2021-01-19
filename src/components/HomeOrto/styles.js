@@ -72,6 +72,10 @@ export const Contentor = styled.div`
     flex-direction: row;
   }
 
+  .link, .linkAparelhos{
+    cursor: pointer;
+  }
+
   .linkAparelhos {
     height: 50%;
     width: 50%;
