@@ -8,13 +8,22 @@ const Homeorto = () => {
   return (
     <Contentor>
       <Container>
-        <Row>
-          <Link href="/aparelhos">
-            <Col></Col>
-          </Link>
-          <Link href="/estetica">
-            <Col></Col>
-          </Link>
+        <Row className="homeOrto">
+          <Col className="logoCol ">
+            <img
+              src="images/logoOrtolookHome.png"
+              className="someMobile"
+              alt="OrtoLogo"
+            />
+          </Col>
+          <Col className="logoCol2 ">
+            <Link href="/aparelhos">
+              <div className="linkAparelhos"></div>
+            </Link>
+            <Link href="/estetica">
+              <div className="linkAparelhos"></div>
+            </Link>
+          </Col>
         </Row>
       </Container>
     </Contentor>
