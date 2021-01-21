@@ -4,40 +4,84 @@ export const Contentor = styled.div`
   /* margin-top: 30px; */
   border-top: 1px solid lightgray;
   padding: 16px 0 8px;
-  .container {
-    max-width: 1800px;
-  }
-  img {
-    /* max-width: 177px; */
-    max-height: 32px;
-  }
-  p {
-    font-style: normal;
-    font-weight: 600 !important;
-    font-size: 12px;
-    line-height: 11px;
-    text-align: center;
-    letter-spacing: -0.05em;
-    color: #802b67;
-    margin: 0 auto;
-  }
-  strong {
-    font-weight: 900 !important;
-  }
-  .col {
-    display: -webkit-box;
-    display: -ms-flexbox;
+  .rowFooter {
     display: flex;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .col2Footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .rowFooter .col:first-child img {
+    max-height: 14px;
+    min-height: 14px;
+    padding: 2px 8px;
+  }
+  .col2Footer .row {
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .rowFooter .col:nth-child(2) a img:nth-child(2),
+  .rowFooter .col:nth-child(2) a img:nth-child(3) {
+    max-height: 20px;
+    min-height: 14px;
+    padding: 2px 6px;
+    align-items: center;
+  }
+  .rowFooter .col:nth-child(2) img:nth-child(1) {
+    max-height: 14px;
+    min-height: 14px;
+    padding: 2px 8px;
+    align-items: center;
+  }
+
+  @media (max-width: 700px) {
+    .rowFooter {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .col3Footer {
+    display: none;
+  }
+
+  a {
+    display: flex;
+  }
+  a img {
+    padding: 0 2px !important;
+  }
+
+  @media (max-width: 868px) {
+    .rowFooter {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .col2Footer,
+    .colFooter .row {
+      padding: 4px;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 500px) {
+    border-top: none;
+    .col2Footer,
+    .colFooter {
+      display: none !important;
+    }
+    .col3Footer {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: flex-end;
+      a img {
+        max-height: 32px;
+        padding: 6px 2px;
+      }
+    }
   }
 `

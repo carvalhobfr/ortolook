@@ -4,7 +4,6 @@ import { Switch, Route } from 'react-router-dom'
 import Estetica from '../pages/estetica'
 import Aparelhos from '../pages/aparelhos'
 import Home from '../pages'
-// import User from '../pages/UserPage'
 
 const Routes = () => {
   return (

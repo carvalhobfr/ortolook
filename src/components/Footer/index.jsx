@@ -6,27 +6,36 @@ import { Contentor } from './styles'
 const Footer = () => {
   return (
     <Contentor>
-      <Container>
-        <Row>
-          <Col>
-            <img src="images/ortolookLogoHead.png" alt="Logo Ortolook" />
-          </Col>
-          <Col>
-            <img src="images/ortolookC.png" alt="Coop Ortolook" />
-            <p> todos os direitos reservados </p>
-          </Col>
-          <Col>
-            <p>
-              <strong>Responsável Técnico:</strong> Dr. Rodrigo de Souza CRO-RJ:
-              38010 EPAO: 5138
-            </p>
-          </Col>
+      <Row className="rowFooter">
+        <Col className="colFooter">
           <Row>
-            <img src="images/facebookFooter.png" alt="Facebook" />
-            <img src="images/instaFooter.png" alt="Instagram" />
+            <img src="images/ortoFooter1.png" alt="Logo Ortolook" />
+            <img src="images/ortoFooter2.png" alt="Logo Ortolook" />
+            <img src="images/ortoFooter3.png" alt="Logo Ortolook" />
           </Row>
-        </Row>
-      </Container>
+        </Col>
+        <Col className="col2Footer">
+          <Row>
+            <img src="images/ortoFooter4.png" alt="Logo Ortolook" />
+            <a href="https://www.instagram.com/ortolook/">
+              <img src="images/ortoFooter5.png" alt="Logo Ortolook" />
+            </a>
+            <a href="https://www.facebook.com/Ortolook/">
+              <img src="images/ortoFooter6.png" alt="Logo Ortolook" />
+            </a>
+          </Row>
+        </Col>
+        <Col className="col3Footer">
+          <Row>
+            <a href="https://www.instagram.com/ortolook/">
+              <img src="images/ortoFooter5.png" alt="Logo Ortolook" />
+            </a>
+            <a href="https://www.facebook.com/Ortolook/">
+              <img src="images/ortoFooter6.png" alt="Logo Ortolook" />
+            </a>
+          </Row>
+        </Col>
+      </Row>
     </Contentor>
   )
 }

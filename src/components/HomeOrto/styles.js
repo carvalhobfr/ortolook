@@ -72,7 +72,8 @@ export const Contentor = styled.div`
     flex-direction: row;
   }
 
-  .link, .linkAparelhos{
+  .link,
+  .linkAparelhos {
     cursor: pointer;
   }
 
@@ -118,7 +119,6 @@ export const Contentor = styled.div`
       min-height: 40%;
       height: 40%;
       width: 50%;
-}
     }
   }
   @media (min-width: 1150px) {
@@ -134,5 +134,16 @@ export const Contentor = styled.div`
   }
   .logoCol {
     max-width: 60%;
+  }
+
+  @media (max-width: 868px) {
+    .container {
+      max-height: 90vh;
+    }
+  }
+  @media (max-width: 500px) {
+    .container {
+      height: 90vh !important;
+    }
   }
 `

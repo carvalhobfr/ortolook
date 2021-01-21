@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import SEO from '@/components/SEO'
 import { withRouter } from 'next/router'
 
@@ -10,25 +10,38 @@ import DivOrtholook from '../components/Estetica/DivOrtholook'
 import Tratamentos from '../components/Estetica/Tratamentos'
 import Depoimentos from '../components/Estetica/DepoimentosEstetica'
 import UnidadesEstetica from '../components/Estetica/UnidadesEstetica'
+import LoadingScreen from '../components/LoadingScreen'
 import Footer from '../components/Footer'
 
 const Estetica: React.FC = () => {
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 2000)
+  }, [])
+
   return (
-    <Container>
-      <SEO
-        title="Estética"
-        showTitleSuffix
-        showIndexPage
-        description="Ortolook"
-      ></SEO>
-      <NavOrtho />
-      <HeaderEstetica />
-      <DivOrtholook />
-      <Tratamentos />
-      <Depoimentos />
-      <UnidadesEstetica />
-      <Footer />
-    </Container>
+    <>
+      {loading === false ? (
+        <Container>
+          <SEO
+            title="Estética"
+            showTitleSuffix
+            showIndexPage
+            description="Ortolook"
+          ></SEO>
+          <NavOrtho />
+          <HeaderEstetica />
+          <DivOrtholook />
+          <Tratamentos />
+          <Depoimentos />
+          <UnidadesEstetica />
+          <Footer />
+        </Container>
+      ) : (
+        <LoadingScreen />
+      )}
+    </>
   )
 }
 
