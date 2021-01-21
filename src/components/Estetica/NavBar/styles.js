@@ -16,8 +16,6 @@ export const Contentor = styled.div`
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
     top: 0;
   }
 

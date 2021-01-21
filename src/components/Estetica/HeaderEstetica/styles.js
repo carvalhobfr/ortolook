@@ -110,6 +110,7 @@ export const Contentor = styled.div`
 
   .imgCentral {
     text-align: center;
+    margin: 5em auto auto;
   }
   .coluna1,
   .coluna3,
