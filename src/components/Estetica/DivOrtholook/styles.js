@@ -5,9 +5,9 @@ export const Contentor = styled.div`
     margin: 32px 0;
   }
   .ortolookContainer {
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 0;
-    min-width: 90%;
+    min-width: 100%;
     margin-right: 0px !important;
   }
   .saibaNossosPrecos {
@@ -91,6 +91,10 @@ export const Contentor = styled.div`
     background-position-x: right;
     margin-top: 64px;
     margin-right: -16px !important;
+  }
+
+  .ortolookContainer {
+    padding: 32px 0 32px 32px !important;
   }
 
   @media (max-width: 900px) {
