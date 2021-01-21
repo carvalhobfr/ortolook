@@ -75,7 +75,6 @@ export const Contentor = styled.div`
     margin-bottom: 16px;
     img {
       padding: 20px 0;
-      width: 50% !important;
     }
     margin-left: -16px;
   }
