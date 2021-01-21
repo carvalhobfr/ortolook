@@ -223,11 +223,14 @@ export const Contentor = styled.div`
     -ms-flex-pack: center;
     justify-content: center;
     -ms-flex-line-pack: center;
-    align-content: center;
+    align-content: flex-end;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin-left: 2em;
+    flex-direction: column;
     img {
-      max-width: 50%;
+      max-width: 25%;
+      min-width: 50px;
       padding: 0 8px;
     }
     display: flex !important;
@@ -236,5 +239,17 @@ export const Contentor = styled.div`
 
   .coluna3 img {
     max-width: 350px;
+  }
+
+  .colunaLogo img {
+    max-width: 30%;
+    min-width: 150px;
+  }
+
+  @media (max-width: 700px) {
+    .redesSociais {
+      margin-left: 1em;
+      flex-direction: row;
+    }
   }
 `

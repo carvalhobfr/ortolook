@@ -15,7 +15,7 @@ export const Contentor = styled.div`
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 0 1em;
+    padding: 0;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
