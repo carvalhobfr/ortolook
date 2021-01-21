@@ -15,7 +15,7 @@ const HeaderEstetica = () => {
             <Col className="agendeAqui someMobile">
               <br />
               <Link href="https://wa.me/5521972878038">
-                <img src="/images/agendeAqui.png" alt="Agende aqui" />
+                <img src="/images/agendeAqui2.png" alt="Agende aqui" />
               </Link>
               {/* <Link href="/">
                 <img src="/images/saibaPrecos.png" alt="Saiba Precos" />
