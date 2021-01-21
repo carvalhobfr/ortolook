@@ -149,7 +149,7 @@ export const Contentor = styled.div`
 
   @media (max-width: 900px) {
     .imgCentral {
-      margin: 2em auto auto;
+      margin: 0 auto auto !important;
     }
     .coluna3 {
       min-height: 120px;
