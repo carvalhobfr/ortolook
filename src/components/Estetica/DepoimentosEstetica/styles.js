@@ -26,7 +26,7 @@ export const Contentor = styled.div`
   }
   .linhaSinuosaDepoimento {
     min-width: 100%;
-    min-height: 100px;
+    min-height: 80px;
     margin: 0;
     padding: 0;
     background: url('/images/depoimentosBG.png') no-repeat;
@@ -70,6 +70,16 @@ export const Contentor = styled.div`
     .linhaSinuosaDepoimento {
       min-height: 50px;
       margin-right: -16px;
+    }
+  }
+
+  .ortolookContainer {
+    padding: 32px 0px 32px 32px !important;
+  }
+
+  @media (max-width: 900px) {
+    .ortolookContainer {
+      padding: 16px !important;
     }
   }
 `

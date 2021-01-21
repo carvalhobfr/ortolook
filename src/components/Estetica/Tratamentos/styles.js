@@ -1,6 +1,12 @@
 import styled from 'styled-components'
 
 export const Contentor = styled.div`
+  .ortolookContainer {
+    margin-top: 30px;
+    padding: 0;
+    min-width: 100%;
+    margin-left: 0px !important;
+  }
   .row {
     margin: 32px 0;
   }
@@ -18,15 +24,15 @@ export const Contentor = styled.div`
     margin-top: 50px;
     padding: 0;
   }
-  .ortolookContainer {
+  /* .ortolookContainer {
     margin-top: 50px;
     padding: 0;
     min-width: 90%;
     margin-left: 0px !important;
-  }
+  } */
   .linhaSinuosaTratamentos {
     min-width: 100%;
-    min-height: 100px;
+    min-height: 80px;
     margin: 0;
     padding: 0;
     background: url('/images/tratamentosBG.png') no-repeat;
@@ -82,9 +88,9 @@ export const Contentor = styled.div`
       display: -ms-flexbox;
       display: flex;
     }
-    .ortolookContainer {
+    /* .ortolookContainer {
       padding: 0px !important;
-    }
+    } */
     .button {
       width: 250px;
     }
@@ -100,6 +106,16 @@ export const Contentor = styled.div`
   @media (min-width: 900px) {
     .openMobile {
       display: none !important;
+    }
+  }
+
+  .ortolookContainer {
+    padding: 32px 32px 32px 0px !important;
+  }
+
+  @media (max-width: 900px) {
+    .ortolookContainer {
+      padding: 16px !important;
     }
   }
 `

@@ -4,7 +4,6 @@ import styled from 'styled-components'
 export const Container = styled.div`
 
 max-width:2000px;
-margin: 0 1em;
 
   button {
     border: none !important;
