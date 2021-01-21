@@ -35,6 +35,7 @@ const NavOrtho = props => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
+            <NavItem></NavItem>
             <NavItem>
               <NavLink href="/">inicio</NavLink>
             </NavItem>

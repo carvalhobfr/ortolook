@@ -40,4 +40,8 @@ export const Contentor = styled.div`
     text-align: center;
     margin-left: -60px;
   }
+
+  .navbar {
+    padding: 0.5rem 2rem;
+  }
 `
