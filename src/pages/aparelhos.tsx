@@ -11,7 +11,7 @@ import Tratamentos from '../components/Aparelhos/TratamentosAparelhos'
 import Depoimentos from '../components/Aparelhos/DepoimentosAparelhos'
 import UnidadesAparelhos from '../components/Aparelhos/UnidadesAparelhos'
 import LoadingScreen from '../components/LoadingScreen'
-import Footer from '../components/Footer'
+import FooterAparelhos from '../components/Aparelhos/FooterAparelhos'
 
 const Aparelhos: React.FC = () => {
   const [loading, setLoading] = useState(true)
@@ -29,14 +29,13 @@ const Aparelhos: React.FC = () => {
             showIndexPage
             description="Ortolook"
           ></SEO>
-          {/* <Homeorto /> */}
           <NavOrtho />
           <HeaderAparelhos />
           <DivOrtholookAparelhos />
           <Tratamentos />
           <Depoimentos />
           <UnidadesAparelhos />
-          <Footer />
+          <FooterAparelhos />
         </Container>
       ) : (
         <LoadingScreen />
