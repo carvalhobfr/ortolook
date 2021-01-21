@@ -83,10 +83,10 @@ export const Contentor = styled.div`
 
   .linhaSinuosa {
     min-width: 100%;
-    min-height: 100px;
+    min-height: 80px;
     margin: 0;
     padding: 0;
-    background: url('/images/sinuosaBG2.png') no-repeat;
+    background: url('/images/sinuosaBG3.png') no-repeat;
     background-size: contain;
     background-position-x: right;
     margin-top: 64px;
