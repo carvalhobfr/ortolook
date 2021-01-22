@@ -256,5 +256,36 @@ export const Contentor = styled.div`
     .ortolookContainer {
       padding: 16px !important;
     }
+    .rowMain {
+      display: flex;
+      flex-direction: column;
+    }
+    .container {
+      justify-content: flex-end;
+      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
+    }
+    .rowMain {
+      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
+    }
+    .imagemEstetica {
+      min-width: 350px;
+      max-width: 300px;
+      width: 100%;
+    }
+    .coluna1 {
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding-right: 0px;
+      h4 {
+        align-self: baseline;
+      }
+    }
+    /* .coluna1 {
+      padding-right: 0px;
+    } */
   }
 `

@@ -96,6 +96,9 @@ export const Contentor = styled.div`
   }
 
   @media (max-width: 900px) {
+    .pacientes.col img {
+      max-width: 150px;
+    }
     .someMobile {
       display: none;
     }
@@ -108,7 +111,7 @@ export const Contentor = styled.div`
       display: flex;
     }
     .ortolookContainer {
-      padding: 16px !important;
+      padding: 16px 0 16px 16px !important;
     }
     .linhaSinuosaTratamentos {
       min-height: 50px;
