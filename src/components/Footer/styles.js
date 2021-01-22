@@ -4,6 +4,8 @@ export const Contentor = styled.div`
   /* margin-top: 30px; */
   border-top: 1px solid lightgray;
   padding: 16px 0 8px;
+  width: 94vw;
+  margin: auto;
   .rowFooter {
     display: flex;
     justify-content: space-between;

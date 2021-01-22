@@ -17,19 +17,15 @@ const Index: React.FC = () => {
 
   return (
     <>
-      {loading === false ? (
-        <Container>
-          <SEO
-            title="Home"
-            showTitleSuffix
-            showIndexPage
-            description="Home Ortolook"
-          ></SEO>
-          <Homeorto />
-        </Container>
-      ) : (
-        <LoadingScreen />
-      )}
+      <Container>
+        <SEO
+          title="Home"
+          showTitleSuffix
+          showIndexPage
+          description="Home Ortolook"
+        ></SEO>
+        <Homeorto />
+      </Container>
     </>
   )
 }
