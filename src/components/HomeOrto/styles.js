@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const Contentor = styled.div`
-  border-bottom: 1px solid lightgray;
   body {
     margin: auto;
   }
@@ -18,6 +17,7 @@ export const Contentor = styled.div`
     justify-items: center;
     justify-content: center;
     align-content: center;
+    border-bottom: 1px solid lightgray;
   }
   .contentor {
     width: 99vw;
