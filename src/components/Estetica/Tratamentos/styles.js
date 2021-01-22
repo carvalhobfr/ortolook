@@ -21,7 +21,6 @@ export const Contentor = styled.div`
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-top: 50px;
     padding: 0;
   }
   /* .ortolookContainer {
@@ -42,20 +41,16 @@ export const Contentor = styled.div`
   }
 
   .imgTratamento {
-    width: 90%;
+    width: 70%;
     margin-left: -16px;
   }
   .rowBtnTratamentos > .col {
-    text-align: end;
+    text-align: start;
+    max-width: 250px;
   }
 
   .img {
-    max-width: 100%;
-  }
-
-  .imgTratamento {
-    width: 90%;
-    margin-left: -16px;
+    max-width: 70%;
   }
 
   @media (max-width: 900px) {

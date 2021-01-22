@@ -23,7 +23,6 @@ export const Contentor = styled.div`
     flex-direction: column;
     margin-top: 50px;
     padding: 0;
-    margin-right: -16px;
   }
 
   h1 {
@@ -90,7 +89,6 @@ export const Contentor = styled.div`
     background-size: contain;
     background-position-x: right;
     margin-top: 64px;
-    margin-right: -16px !important;
   }
 
   .ortolookContainer {
