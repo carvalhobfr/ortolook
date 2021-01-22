@@ -39,8 +39,8 @@ export const Contentor = styled.div`
     text-align: center;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 18px;
     letter-spacing: -0.05em;
     color: #802b67;
   }
@@ -48,8 +48,8 @@ export const Contentor = styled.div`
     font-family: 'Gotham';
     text-align: start;
     font-weight: 800;
-    font-size: 36px;
-    line-height: 34px;
+    font-size: 32px;
+    line-height: 32px;
     color: #802b67;
   }
   .pacientes {
@@ -135,5 +135,8 @@ export const Contentor = styled.div`
     .row {
       margin: 16px 0;
     }
+  }
+  .pacientes img {
+    max-width: 250px;
   }
 `
