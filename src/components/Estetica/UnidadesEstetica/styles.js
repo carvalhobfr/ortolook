@@ -5,26 +5,11 @@ export const Contentor = styled.div`
   padding: 0px;
   margin-top: 10px;
 
-  @font-face {
-    font-family: 'Gotham';
-    src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot');
-    src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot?#iefix')
-        format('embedded-opentype'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff2')
-        format('woff2'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff')
-        format('woff'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.ttf')
-        format('truetype'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.svg#Gotham')
-        format('svg');
-  }
-
-  font-family: 'Gotham';
   .container {
     min-width: 100%;
     width: 100%;
     margin: 0;
+    display: flex;
   }
   .agendePop {
     h2 {
@@ -97,8 +82,8 @@ export const Contentor = styled.div`
   }
 
   .coluna3 {
-    max-width: 350px;
-    min-width: 300px;
+    max-width: 250px;
+    min-width: 200px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -111,6 +96,8 @@ export const Contentor = styled.div`
 
   .imagemEstetica {
     min-width: 350px;
+    max-width: 900px;
+    width: 100%;
   }
   .redesSociais {
     -webkit-box-pack: center;
@@ -155,6 +142,7 @@ export const Contentor = styled.div`
     line-height: 16px;
     color: #802b67;
     font-weight: 600;
+    margin-bottom: 32px;
   }
 
   @media (min-width: 900px) {
@@ -163,8 +151,8 @@ export const Contentor = styled.div`
       display: grid;
     }
     .coluna1 h4 {
-      font-size: 36px;
-      line-height: 44px;
+      font-size: 24px;
+      line-height: 32px;
       padding: 32px;
     }
   }
@@ -198,6 +186,16 @@ export const Contentor = styled.div`
     }
   }
   @media (min-width: 900px) {
+    .coluna1 {
+      max-width: 1400px;
+      width: 100%;
+    }
+    .rowMain {
+      width: 100%;
+    }
+    .coluna3 {
+      padding-top: 120px;
+    }
     .openMobile {
       display: none !important;
     }
@@ -207,7 +205,7 @@ export const Contentor = styled.div`
     min-width: 100%;
     min-height: 100px;
     padding: 0;
-    background: url('/images/unidadesTitleES.png') no-repeat;
+    background: url('/images/unidadesTitleES2.png') no-repeat;
     background-size: contain;
     background-position-x: left;
     margin-left: -32px;
@@ -229,6 +227,34 @@ export const Contentor = styled.div`
     }
     .linhaSinuosaTratamentos {
       min-height: 50px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .someMobile {
+      display: none;
+    }
+    .openMobile {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .ortolookContainer {
+      padding: 16px !important;
+    }
+    .linhaSinuosaDepoimento {
+      min-height: 50px;
+      margin-right: -16px;
+    }
+  }
+
+  .ortolookContainer {
+    padding: 32px 0px 32px 32px !important;
+  }
+
+  @media (max-width: 900px) {
+    .ortolookContainer {
+      padding: 16px !important;
     }
   }
 `

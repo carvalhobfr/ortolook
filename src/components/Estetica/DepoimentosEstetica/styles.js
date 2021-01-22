@@ -52,7 +52,7 @@ export const Contentor = styled.div`
   }
 
   .carrosselPC img {
-    max-width: 80%;
+    max-width: 75%;
   }
 
   @media (max-width: 900px) {

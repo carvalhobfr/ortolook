@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'reactstrap'
 import { Contentor } from './styles'
 
 const UnidadesEstetica = () => {
-  const [imgUrl, setImgUrl] = useState('/images/unidadeES(1).png')
+  const [imgUrl, setImgUrl] = useState('/images/unidadeESR(1).png')
 
   return (
     <Contentor>
@@ -27,25 +27,25 @@ const UnidadesEstetica = () => {
             />
           </Col>
           <Col className="coluna3">
-            <button onClick={() => setImgUrl('images/unidadeES(3).png')}>
+            <button onClick={() => setImgUrl('images/unidadeESR(2).png')}>
               <p>Botafogo</p>
             </button>
-            <button onClick={() => setImgUrl('images/unidadeES(4).png')}>
+            <button onClick={() => setImgUrl('images/unidadeESR(6).png')}>
               <p>Caxias II</p>
             </button>
-            <button onClick={() => setImgUrl('images/unidadeES(7).png')}>
+            <button onClick={() => setImgUrl('images/unidadeESR(5).png')}>
               <p>Leblon</p>
             </button>
-            <button onClick={() => setImgUrl('images/unidadeES(5).png')}>
+            <button onClick={() => setImgUrl('images/unidadeESR(7).png')}>
               <p>Madureira</p>
             </button>
-            <button onClick={() => setImgUrl('images/unidadeES(8).png')}>
+            <button onClick={() => setImgUrl('images/unidadeESR(4).png')}>
               <p>Niterói</p>
             </button>
-            <button onClick={() => setImgUrl('images/unidadeES(6).png')}>
+            <button onClick={() => setImgUrl('images/unidadeESR(8).png')}>
               <p>Nova Iguaçu</p>
             </button>
-            <button onClick={() => setImgUrl('images/unidadeES(2).png')}>
+            <button onClick={() => setImgUrl('images/unidadeESR(3).png')}>
               <p>São Gonçalo</p>
             </button>
           </Col>
