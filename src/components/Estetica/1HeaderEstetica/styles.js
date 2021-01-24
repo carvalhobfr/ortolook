@@ -35,10 +35,10 @@ export const Contentor = styled.div`
   .col {
     padding: 0;
     p {
-      font-family: 'Gotham';
+      font-family: 'GothamBook';
       padding: 0 1em;
       font-style: normal;
-      font-weight: 900;
+      font-weight: 300;
       font-size: 12px;
       line-height: 14px;
       color: #802b67;
