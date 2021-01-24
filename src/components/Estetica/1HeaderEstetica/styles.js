@@ -252,4 +252,12 @@ export const Contentor = styled.div`
     flex-direction: column;
     align-content: end;
   }
+
+  @media not all and (min-resolution: 0.001dpcm) {
+    @media (max-width: 1200px) {
+      .coluna1 button {
+        min-height: 30px;
+      }
+    }
+  }
 `
