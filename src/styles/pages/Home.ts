@@ -70,13 +70,13 @@ max-width:2000px;
   }
 
   .saibaNossosPrecos img{
-    max-width: 250px;
+    width: 250px;
   }
 
 
   @media (max-width: 900px) {
-    .saibaNossosPrecos img{
-    max-width: 150px;
+    .agendeAqui  img ,.saibaNossosPrecos img{
+    width: 200px !important;
   }
   }
 
