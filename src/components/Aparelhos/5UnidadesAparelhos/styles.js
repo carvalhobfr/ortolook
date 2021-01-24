@@ -266,4 +266,9 @@ export const Contentor = styled.div`
       }
     }
   }
+  @media not all and (min-resolution: 0.001dpcm) {
+    @media (max-width: 1200px) {
+      min-height: 800px;
+    }
+  }
 `
