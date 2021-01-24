@@ -60,7 +60,7 @@ const UnidadesEstetica = () => {
               <p>São Gonçalo</p>
             </button>
           </Col>
-          <Col className="coluna3 openMobile">
+          <Col className="coluna4 openMobile">
             <button onClick={() => setImgUrlMob('images/unidadeESRMob(4).png')}>
               <p>Botafogo</p>
             </button>

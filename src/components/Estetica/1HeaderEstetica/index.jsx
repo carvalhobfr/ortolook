@@ -69,7 +69,6 @@ const HeaderEstetica = () => {
           </Col>
         </Row>
         <br />
-        <br />
         <Row className="rowRedeSociais">
           <Col className="redesSociais someMobile">
             <img
@@ -77,7 +76,6 @@ const HeaderEstetica = () => {
               src="/images/instagram.png"
               alt="Instagram"
             />
-            <br />
             <img src="/images/facebook.png" alt="Facebook" />
           </Col>
           <Col className="text-right colunaLogo">

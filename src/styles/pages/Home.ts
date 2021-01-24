@@ -2,6 +2,22 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+  @font-face {
+    font-family: 'Gotham';
+    src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot');
+    src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot?#iefix')
+        format('embedded-opentype'),
+      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff2')
+        format('woff2'),
+      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff')
+        format('woff'),
+      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.ttf')
+        format('truetype'),
+      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.svg#Gotham')
+        format('svg');
+  }
+
+  font-family: 'Gotham', sans-serif;
 
 max-width:2000px;
 

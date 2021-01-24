@@ -55,7 +55,8 @@ export const Contentor = styled.div`
     max-height: 120px;
     margin-bottom: 16px;
   }
-  .coluna3 {
+  .coluna3,
+  .coluna4 {
     text-align: end;
     h2 {
       font-style: normal;
@@ -69,7 +70,8 @@ export const Contentor = styled.div`
     }
   }
   .coluna1,
-  .coluna3 {
+  .coluna3,
+  .coluna4 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

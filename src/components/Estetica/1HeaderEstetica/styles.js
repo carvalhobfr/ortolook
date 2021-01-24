@@ -6,24 +6,10 @@ export const Contentor = styled.div`
   margin-top: 10px;
   min-height: 100vh;
 
-  @font-face {
-    font-family: 'Gotham';
-    src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot');
-    src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot?#iefix')
-        format('embedded-opentype'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff2')
-        format('woff2'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff')
-        format('woff'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.ttf')
-        format('truetype'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.svg#Gotham')
-        format('svg');
-  }
-  font-family: 'Gotham';
   .container {
     min-width: 100%;
     min-height: 90vh;
+    max-height: 900px;
     width: 100%;
     margin: 0;
     display: flex;
@@ -123,6 +109,7 @@ export const Contentor = styled.div`
     justify-content: space-between;
     /* margin-top: 16px; */
     max-width: 350px;
+    max-height: 550px;
   }
   .coluna1 {
     justify-content: space-around;
@@ -234,8 +221,8 @@ export const Contentor = styled.div`
     flex-direction: column;
     img {
       max-width: 25%;
-      min-width: 50px;
-      padding: 0 8px;
+      width: 50px;
+      padding: 5px 4px;
     }
     display: flex !important;
     flex-direction: row;
@@ -255,5 +242,14 @@ export const Contentor = styled.div`
       margin-left: 1em;
       flex-direction: row;
     }
+  }
+  @media (max-width: 1200px) {
+    .imgCentral {
+      margin: auto;
+    }
+  }
+  .rowRedeSociais .col {
+    flex-direction: column;
+    align-content: end;
   }
 `

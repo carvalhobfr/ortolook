@@ -6,22 +6,6 @@ export const Contentor = styled.div`
   padding: 0px;
   margin-top: 10px;
 
-  @font-face {
-    font-family: 'Gotham';
-    src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot');
-    src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot?#iefix')
-        format('embedded-opentype'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff2')
-        format('woff2'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff')
-        format('woff'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.ttf')
-        format('truetype'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.svg#Gotham')
-        format('svg');
-  }
-  font-family: 'Gotham';
-
   .container {
     min-width: 100%;
     width: 100%;
