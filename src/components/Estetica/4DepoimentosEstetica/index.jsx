@@ -6,12 +6,12 @@ import {
   CarouselIndicators,
   CarouselCaption,
   Container,
-  Row,
-  Col
+  Row
 } from 'reactstrap'
 import AgendeLateral from '../AgendaLateral'
 
 import { Contentor } from './styles'
+
 const items = [
   {
     src: 'images/depoimento1.png',
@@ -34,25 +34,27 @@ const items = [
 const itemsMobile = [
   {
     src: 'images/depoimento11ES.png',
-    altText: 'Slide 1'
+    altText: 'Slide 11'
   },
   {
     src: 'images/depoimento12ES.png',
-    altText: 'Slide 2'
+    altText: 'Slide 21'
   },
   {
     src: 'images/depoimento11ES.png',
-    altText: 'Slide 3'
+    altText: 'Slide 31'
   },
   {
     src: 'images/depoimento12ES.png',
-    altText: 'Slide 4'
+    altText: 'Slide 41'
   }
 ]
 
 const Depoimentos = props => {
   const [activeIndex, setActiveIndex] = useState(0)
+  const [activeIndexMobile, setActiveIndexMobile] = useState(5)
   const [animating, setAnimating] = useState(false)
+  const [animatingMobile, setAnimatingMobile] = useState(false)
 
   const next = () => {
     if (animating) return
@@ -71,6 +73,25 @@ const Depoimentos = props => {
     setActiveIndex(newIndex)
   }
 
+  const nextMobile = () => {
+    if (animatingMobile) return
+    const newIndexMobile =
+      activeIndexMobile === itemsMobile.length - 1 ? 0 : activeIndexMobile + 1
+    setActiveIndexMobile(newIndexMobile)
+  }
+
+  const previousMobile = () => {
+    if (animatingMobile) return
+    const newIndexMobile =
+      activeIndexMobile === 0 ? itemsMobile.length - 1 : activeIndexMobile - 1
+    setActiveIndexMobile(newIndexMobile)
+  }
+
+  const goToIndexMobile = newIndexMobile => {
+    if (animatingMobile) return
+    setActiveIndexMobile(newIndexMobile)
+  }
+
   const slides = items.map(item => {
     return (
       <CarouselItem
@@ -87,22 +108,21 @@ const Depoimentos = props => {
       </CarouselItem>
     )
   })
-  const slidesMobile = itemsMobile.map(item => {
+
+  const slidesMobile = itemsMobile.map(item2 => {
     return (
-      <>
-        <CarouselItem
-          className="carrosselPC"
-          onExiting={() => setAnimating(true)}
-          onExited={() => setAnimating(false)}
-          key={item.altText}
-        >
-          <img src={item.src} alt={item.altText} />
-          <CarouselCaption
-            captionText={item.caption}
-            captionHeader={item.caption}
-          />
-        </CarouselItem>
-      </>
+      <CarouselItem
+        className="carrosselPC"
+        onExiting={() => setAnimating(true)}
+        onExited={() => setAnimating(false)}
+        key={item2.altText}
+      >
+        <img src={item2.src} alt={item2.altText} />
+        <CarouselCaption
+          captionText={item2.caption}
+          captionHeader={item2.caption}
+        />
+      </CarouselItem>
     )
   })
 
@@ -112,7 +132,6 @@ const Depoimentos = props => {
         <Row className="linhaSinuosaDepoimento">
           <br></br>
         </Row>
-        <AgendeLateral />
       </Container>
       <Carousel
         className="someMobile"
@@ -160,6 +179,30 @@ const Depoimentos = props => {
           onClickHandler={next}
         />
       </Carousel>
+      {/* <Carousel
+        className="openMobile"
+        activeIndex={activeIndexMobile}
+        next={nextMobile}
+        previous={previousMobile}
+      >
+        <CarouselIndicators
+          items={itemsMobile}
+          activeIndex={activeIndexMobile}
+          onClickHandler={goToIndexMobile}
+        />
+        {slidesMobile}
+        <CarouselControl
+          direction="prev"
+          directionText="Previous"
+          onClickHandler={previousMobile}
+        />
+        <CarouselControl
+          direction="next"
+          directionText="Next"
+          onClickHandler={nextMobile}
+        />
+      </Carousel> */}
+      <AgendeLateral />
     </Contentor>
   )
 }

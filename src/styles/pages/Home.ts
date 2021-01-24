@@ -69,4 +69,15 @@ max-width:2000px;
     max-width: 100%;
   }
 
+  .saibaNossosPrecos img{
+    max-width: 250px;
+  }
+
+
+  @media (max-width: 900px) {
+    .saibaNossosPrecos img{
+    max-width: 150px;
+  }
+  }
+
 `

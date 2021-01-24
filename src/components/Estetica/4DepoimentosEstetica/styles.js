@@ -62,7 +62,7 @@ export const Contentor = styled.div`
     .openMobile {
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex;
+      display: flex !important;
     }
     .ortolookContainer {
       padding: 16px !important;

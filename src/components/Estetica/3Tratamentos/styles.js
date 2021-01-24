@@ -22,6 +22,9 @@ export const Contentor = styled.div`
     -ms-flex-direction: column;
     flex-direction: column;
     padding: 0;
+    img {
+      max-width: 150px;
+    }
   }
   /* .ortolookContainer {
     margin-top: 50px;
@@ -110,7 +113,10 @@ export const Contentor = styled.div`
 
   @media (max-width: 900px) {
     .ortolookContainer {
-      padding: 16px !important;
+      padding: 16px 0 !important;
+    }
+    .linhaSinuosaTratamentos.row {
+      margin-right: 16px;
     }
   }
 `

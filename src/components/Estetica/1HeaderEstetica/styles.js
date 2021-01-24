@@ -60,9 +60,9 @@ export const Contentor = styled.div`
     max-height: 150px;
     margin-bottom: 16px;
     img {
-      padding: 20px 0;
+      max-width: 150px;
     }
-    margin-left: -16px;
+    margin-left: 0px;
   }
   .coluna3 {
     text-align: end;

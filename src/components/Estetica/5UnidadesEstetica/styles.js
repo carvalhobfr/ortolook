@@ -204,7 +204,8 @@ export const Contentor = styled.div`
   }
 
   .linhaSinuosaTratamentos {
-    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
     min-height: 80px;
     padding: 0;
     background: url('/images/unidadesTitleES3.png') no-repeat;
@@ -289,5 +290,14 @@ export const Contentor = styled.div`
     /* .coluna1 {
       padding-right: 0px;
     } */
+  }
+
+  .buttonNossasUnidades {
+    margin-bottom: 30px;
+    /* background-image: url('images/nossasUnidadesButton.png'); */
+    background-position: center;
+    background-size: cover;
+    /* width: 300px;
+    height: 100px; */
   }
 `
