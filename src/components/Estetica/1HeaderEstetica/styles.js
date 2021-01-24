@@ -255,7 +255,7 @@ export const Contentor = styled.div`
 
   @media not all and (min-resolution: 0.001dpcm) {
     @media (max-width: 1200px) {
-      .coluna1 button {
+      button {
         min-height: 30px;
       }
     }
