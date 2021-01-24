@@ -221,7 +221,7 @@ export const Contentor = styled.div`
     flex-direction: column;
     img {
       max-width: 25%;
-      width: 50px;
+      width: 35px;
       padding: 5px 4px;
     }
     display: flex !important;
