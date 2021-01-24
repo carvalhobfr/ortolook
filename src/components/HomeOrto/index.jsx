@@ -12,6 +12,7 @@ const Homeorto = () => {
         <Row className="homeOrto">
           <Col className="logoCol ">
             <img
+              loading="lazy"
               src="images/logoOrtolookHome.png"
               className="someMobile"
               alt="OrtoLogo"

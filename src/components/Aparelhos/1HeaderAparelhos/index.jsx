@@ -11,10 +11,15 @@ const HeaderAparelhos = props => {
           <Col className="coluna3">
             <button className="agendeAqui">
               <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
-                <img src="/images/agendeAparelhos.png" alt="Aparelhos Agende" />
+                <img
+                  loading="lazy"
+                  src="/images/agendeAparelhos.png"
+                  alt="Aparelhos Agende"
+                />
               </a>
             </button>
             <img
+              loading="lazy"
               className="fotoHeader"
               src="/images/fotoAparelhoHeader.png"
               alt="Aparelhos Agende"
@@ -30,6 +35,7 @@ const HeaderAparelhos = props => {
               </strong>
             </h2>
             <img
+              loading="lazy"
               className="fotoHeader2 someMobile"
               src="/images/ortoHeadLogo.png"
               alt="Falta de Brilho"
@@ -38,24 +44,25 @@ const HeaderAparelhos = props => {
         </Row>
         <Row className="redesSociais openMobile ">
           <a href="https://www.instagram.com/ortolook/">
-            <img src="/images/instagram.png" alt="Instagram" />
+            <img loading="lazy" src="/images/instagram.png" alt="Instagram" />
           </a>
           <br />
           <a href="https://www.facebook.com/Ortolook/">
-            <img src="/images/facebook2.png" alt="Facebook" />
+            <img loading="lazy" src="/images/facebook2.png" alt="Facebook" />
           </a>
         </Row>
         <Row className="rowRedeSociais someMobile">
           <Col xs="2" className="redesSociais">
             <a href="https://www.instagram.com/ortolook/">
               <img
+                loading="lazy"
                 className="instagram"
                 src="/images/instagram.png"
                 alt="Instagram"
               />
             </a>
             <a href="https://www.facebook.com/Ortolook/">
-              <img src="/images/facebook2.png" alt="Facebook" />
+              <img loading="lazy" src="/images/facebook2.png" alt="Facebook" />
             </a>
           </Col>
         </Row>

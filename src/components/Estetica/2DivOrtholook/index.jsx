@@ -27,12 +27,12 @@ const DivOrtholook = () => {
         </Row>
         <Row className="rowPacientes">
           <Col className="pacientes">
-            <img src="/images/paciente1.png" alt="Paciente 1" />
+            <img loading="lazy" src="/images/paciente1.png" alt="Paciente 1" />
             <br />
             <h5>Cabe no bolso</h5>
           </Col>
           <Col className="pacientes">
-            <img src="/images/paciente2.png" alt="Paciente 2" />
+            <img loading="lazy" src="/images/paciente2.png" alt="Paciente 2" />
             <h5>
               <br />
               Dentistas especializados em <br />
@@ -40,7 +40,7 @@ const DivOrtholook = () => {
             </h5>
           </Col>
           <Col className="pacientes">
-            <img src="/images/paciente3.png" alt="Paciente 3" />
+            <img loading="lazy" src="/images/paciente3.png" alt="Paciente 3" />
             <br />
             <h5>Faça no mesmo dia</h5>
           </Col>

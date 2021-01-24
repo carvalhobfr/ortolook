@@ -15,10 +15,14 @@ const HeaderEstetica = () => {
             <Col className="agendeAqui someMobile">
               <br />
               <Link href="https://wa.me/5521972878038">
-                <img src="/images/agendeAqui2.png" alt="Agende aqui" />
+                <img
+                  loading="lazy"
+                  src="/images/agendeAqui2.png"
+                  alt="Agende aqui"
+                />
               </Link>
               {/* <Link href="/">
-                <img src="/images/saibaPrecos.png" alt="Saiba Precos" />
+                 <img loading="lazy" src="/images/saibaPrecos.png" alt="Saiba Precos" />
               </Link> */}
             </Col>
             <button onClick={() => setImgUrl('images/faltaBrilho.png')}>
@@ -39,13 +43,18 @@ const HeaderEstetica = () => {
           </Col>
           <Col className="imgCentral">
             <img
+              loading="lazy"
               src={imgUrl}
               alt="Tratamento Específico"
               className="imagemEstetica"
             />
           </Col>
           <Col className="coluna3">
-            <img src="/images/upgrade.png" alt="Vamos dar um Upgrade" />
+            <img
+              loading="lazy"
+              src="/images/upgrade.png"
+              alt="Vamos dar um Upgrade"
+            />
             <div className="someMobile">
               <button onClick={() => setImgUrl('images/rugas1.png')}>
                 <p>RUGAS</p>
@@ -72,24 +81,29 @@ const HeaderEstetica = () => {
         <Row className="rowRedeSociais">
           <Col className="redesSociais someMobile">
             <img
+              loading="lazy"
               className="instagram"
               src="/images/instagram.png"
               alt="Instagram"
             />
-            <img src="/images/facebook.png" alt="Facebook" />
+            <img loading="lazy" src="/images/facebook.png" alt="Facebook" />
           </Col>
           <Col className="text-right colunaLogo">
-            <img src="/images/ortolookLogoHead.png" alt="Ortolook" />
+            <img
+              loading="lazy"
+              src="/images/ortolookLogoHead.png"
+              alt="Ortolook"
+            />
           </Col>
         </Row>
       </Container>
       <Col className="agendeAqui openMobile">
         <br />
         <Link href="https://wa.me/5521972878038">
-          <img src="/images/agendeAqui.png" alt="Agende aqui" />
+          <img loading="lazy" src="/images/agendeAqui.png" alt="Agende aqui" />
         </Link>
         {/* <Link href="/">
-                <img src="/images/saibaPrecos.png" alt="Saiba Precos" />
+                 <img loading="lazy" src="/images/saibaPrecos.png" alt="Saiba Precos" />
               </Link> */}
       </Col>
     </Contentor>

@@ -132,7 +132,7 @@ const Tratamentos = () => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
+        <img loading="lazy" src={item.src} alt={item.altText} />
       </CarouselItem>
     )
   })
@@ -144,7 +144,7 @@ const Tratamentos = () => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
+        <img loading="lazy" src={item.src} alt={item.altText} />
       </CarouselItem>
     )
   })
@@ -156,29 +156,57 @@ const Tratamentos = () => {
           <h1 className="bemioItalic">TRATAMENTOS</h1>
           <Col className="saibaNossosPrecos someMobile">
             <a href="https://wa.me/5521972878038" className="agendeAqui">
-              <img src="/images/agendeAquiSmall.png" alt="Agende Aqui" />
+              <img
+                loading="lazy"
+                src="/images/agendeAquiSmall.png"
+                alt="Agende Aqui"
+              />
             </a>
           </Col>
         </Row>
         <Row className="rowTratamentos someMobile">
           <Col className="colTratamentos">
             <button onClick={() => setActiveIndex(0)}>
-              <img src="/images/tratamento1AP.png" alt="Tratamento 1" />
+              <img
+                loading="lazy"
+                src="/images/tratamento1AP.png"
+                alt="Tratamento 1"
+              />
             </button>
             <button onClick={() => setActiveIndex(1)}>
-              <img src="/images/tratamento2AP.png" alt="Tratamento 2" />
+              <img
+                loading="lazy"
+                src="/images/tratamento2AP.png"
+                alt="Tratamento 2"
+              />
             </button>
             <button onClick={() => setActiveIndex(2)}>
-              <img src="/images/tratamento3AP.png" alt="Tratamento 3" />
+              <img
+                loading="lazy"
+                src="/images/tratamento3AP.png"
+                alt="Tratamento 3"
+              />
             </button>
             <button onClick={() => setActiveIndex(3)}>
-              <img src="/images/tratamento4AP.png" alt="Tratamento 4" />
+              <img
+                loading="lazy"
+                src="/images/tratamento4AP.png"
+                alt="Tratamento 4"
+              />
             </button>
             <button onClick={() => setActiveIndex(8)}>
-              <img src="/images/tratamento5AP.png" alt="Tratamento 5" />
+              <img
+                loading="lazy"
+                src="/images/tratamento5AP.png"
+                alt="Tratamento 5"
+              />
             </button>
             <button onClick={() => setActiveIndex(9)}>
-              <img src="/images/tratamento6AP.png" alt="Tratamento 6" />
+              <img
+                loading="lazy"
+                src="/images/tratamento6AP.png"
+                alt="Tratamento 6"
+              />
             </button>
           </Col>
           <Col>
@@ -200,49 +228,82 @@ const Tratamentos = () => {
         {/* mobile */}
         <Col className="colTratamentos openMobile">
           <a href="#tratamento1">
-            <img src="/images/tratamento1AP.png" alt="Tratamento 1" />
+            <img
+              loading="lazy"
+              src="/images/tratamento1AP.png"
+              alt="Tratamento 1"
+            />
           </a>
           <a href="#tratamento2">
-            <img src="/images/tratamento2AP.png" alt="Tratamento 2" />
+            <img
+              loading="lazy"
+              src="/images/tratamento2AP.png"
+              alt="Tratamento 2"
+            />
           </a>
           <a href="#autoligado">
-            <img src="/images/tratamento3AP.png" alt="Tratamento 3" />
+            <img
+              loading="lazy"
+              src="/images/tratamento3AP.png"
+              alt="Tratamento 3"
+            />
           </a>
           <a href="#estetico">
-            <img src="/images/tratamento4AP.png" alt="Tratamento 4" />
+            <img
+              loading="lazy"
+              src="/images/tratamento4AP.png"
+              alt="Tratamento 4"
+            />
           </a>
           <a href="#tratamento5">
-            <img src="/images/tratamento5AP.png" alt="Tratamento 5" />
+            <img
+              loading="lazy"
+              src="/images/tratamento5AP.png"
+              alt="Tratamento 5"
+            />
           </a>
           <a href="#clareamento">
-            <img src="/images/tratamento6AP.png" alt="Tratamento 6" />
+            <img
+              loading="lazy"
+              src="/images/tratamento6AP.png"
+              alt="Tratamento 6"
+            />
           </a>
         </Col>
         <Col className="openMobile imgColunaTratamento">
           <img
+            loading="lazy"
             id="tratamento1"
             src="/images/tratamentos11AP.png"
             alt="slide1"
           />
           <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
             <img
+              loading="lazy"
               id="tratamento2"
               src="/images/agendeAquiMobTratamento.png"
               alt="Agende Aqui"
               className="openMobile"
             />
           </a>
-          <img id="autoligado" src="/images/tratamentos21AP.png" alt="slide2" />
+          <img
+            loading="lazy"
+            id="autoligado"
+            src="/images/tratamentos21AP.png"
+            alt="slide2"
+          />
           <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
             <img
+              loading="lazy"
               src="/images/agendeAquiMobTratamento2.png"
               alt="Agende Aqui"
               className="openMobile"
             />
           </a>
-          <img src="/images/tratamentos31AP.png" alt="slide3" />
+          <img loading="lazy" src="/images/tratamentos31AP.png" alt="slide3" />
           <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
             <img
+              loading="lazy"
               src="/images/agendeAquiMobTratamento3.png"
               alt="Agende Aqui"
               className="openMobile"
@@ -268,30 +329,35 @@ const Tratamentos = () => {
           </Carousel>
           <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
             <img
+              loading="lazy"
               src="/images/agendeAquiMobTratamento4.png"
               alt="Agende Aqui"
               className="openMobile"
             />
           </a>
           <img
+            loading="lazy"
             id="tratamento5"
             src="/images/tratamentos51AP.png"
             alt="slide9"
           />
           <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
             <img
+              loading="lazy"
               src="/images/agendeAquiMobTratamento5.png"
               alt="Agende Aqui"
               className="openMobile"
             />
           </a>
           <img
+            loading="lazy"
             id="clareamento"
             src="/images/tratamentos61AP.png"
             alt="slide10"
           />
           <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
             <img
+              loading="lazy"
               src="/images/agendeAquiMobTratamento6.png"
               alt="Agende Aqui"
               className="openMobile"

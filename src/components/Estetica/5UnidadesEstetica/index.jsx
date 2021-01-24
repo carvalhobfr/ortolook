@@ -12,6 +12,7 @@ const UnidadesEstetica = () => {
         onClick={() =>
           setImgUrlMob(
             <img
+              loading="lazy"
               src="images/unidadeESRMob(4).png"
               alt="Tratamento Específico"
               className="imagemEstetica"
@@ -25,6 +26,7 @@ const UnidadesEstetica = () => {
         onClick={() =>
           setImgUrlMob(
             <img
+              loading="lazy"
               src="images/unidadeESRMob(5).png"
               alt="Tratamento Específico"
               className="imagemEstetica"
@@ -38,6 +40,7 @@ const UnidadesEstetica = () => {
         onClick={() =>
           setImgUrlMob(
             <img
+              loading="lazy"
               src="images/unidadeESRMob(2).png"
               alt="Tratamento Específico"
               className="imagemEstetica"
@@ -51,6 +54,7 @@ const UnidadesEstetica = () => {
         onClick={() =>
           setImgUrlMob(
             <img
+              loading="lazy"
               src="images/unidadeESRMob(8).png"
               alt="Tratamento Específico"
               className="imagemEstetica"
@@ -64,6 +68,7 @@ const UnidadesEstetica = () => {
         onClick={() =>
           setImgUrlMob(
             <img
+              loading="lazy"
               src="images/unidadeESRMob(3).png"
               alt="Tratamento Específico"
               className="imagemEstetica"
@@ -77,6 +82,7 @@ const UnidadesEstetica = () => {
         onClick={() =>
           setImgUrlMob(
             <img
+              loading="lazy"
               src="images/unidadeESRMob(6).png"
               alt="Tratamento Específico"
               className="imagemEstetica"
@@ -90,6 +96,7 @@ const UnidadesEstetica = () => {
         onClick={() =>
           setImgUrlMob(
             <img
+              loading="lazy"
               src="images/unidadeESRMob(7).png"
               alt="Tratamento Específico"
               className="imagemEstetica"
@@ -116,6 +123,7 @@ const UnidadesEstetica = () => {
               <br /> Escolha a mais próxima de você!
             </h4>
             <img
+              loading="lazy"
               src={imgUrl}
               alt="Tratamento Específico"
               className="imagemEstetica"
@@ -137,6 +145,7 @@ const UnidadesEstetica = () => {
                       onClick={() =>
                         setImgUrlMob(
                           <img
+                            loading="lazy"
                             src="images/unidadeESRMob(4).png"
                             alt="Tratamento Específico"
                             className="imagemEstetica"
@@ -150,6 +159,7 @@ const UnidadesEstetica = () => {
                       onClick={() =>
                         setImgUrlMob(
                           <img
+                            loading="lazy"
                             src="images/unidadeESRMob(5).png"
                             alt="Tratamento Específico"
                             className="imagemEstetica"
@@ -163,6 +173,7 @@ const UnidadesEstetica = () => {
                       onClick={() =>
                         setImgUrlMob(
                           <img
+                            loading="lazy"
                             src="images/unidadeESRMob(2).png"
                             alt="Tratamento Específico"
                             className="imagemEstetica"
@@ -176,6 +187,7 @@ const UnidadesEstetica = () => {
                       onClick={() =>
                         setImgUrlMob(
                           <img
+                            loading="lazy"
                             src="images/unidadeESRMob(8).png"
                             alt="Tratamento Específico"
                             className="imagemEstetica"
@@ -189,6 +201,7 @@ const UnidadesEstetica = () => {
                       onClick={() =>
                         setImgUrlMob(
                           <img
+                            loading="lazy"
                             src="images/unidadeESRMob(3).png"
                             alt="Tratamento Específico"
                             className="imagemEstetica"
@@ -202,6 +215,7 @@ const UnidadesEstetica = () => {
                       onClick={() =>
                         setImgUrlMob(
                           <img
+                            loading="lazy"
                             src="images/unidadeESRMob(6).png"
                             alt="Tratamento Específico"
                             className="imagemEstetica"
@@ -215,6 +229,7 @@ const UnidadesEstetica = () => {
                       onClick={() =>
                         setImgUrlMob(
                           <img
+                            loading="lazy"
                             src="images/unidadeESRMob(7).png"
                             alt="Tratamento Específico"
                             className="imagemEstetica"
@@ -229,6 +244,7 @@ const UnidadesEstetica = () => {
               }
             >
               <img
+                loading="lazy"
                 src="images/nossasUnidadesButton.png"
                 alt="LALALALALAL"
                 className="openMobile buttonNossasUnidades"
@@ -236,7 +252,7 @@ const UnidadesEstetica = () => {
             </button>
 
             {imgUrlMob}
-            {/* <img
+            {/*  <img loading="lazy"
               src={imgUrlMob}
               alt="Tratamento Específico"
               className="imagemEstetica"

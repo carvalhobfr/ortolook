@@ -26,10 +26,18 @@ const NavOrtho = props => {
       <Navbar color="white" light expand="md" className="gothamBook">
         <div>
           <NavbarBrand href="/aparelhos">
-            <img src="/images/iconOrtholook3.png" alt="Ortholook" />
+            <img
+              loading="lazy"
+              src="/images/iconOrtholook3.png"
+              alt="Ortholook"
+            />
           </NavbarBrand>
           <NavbarBrand href="/estetica">
-            <img src="/images/iconOrtholook4.png" alt="Ortholook" />
+            <img
+              loading="lazy"
+              src="/images/iconOrtholook4.png"
+              alt="Ortholook"
+            />
           </NavbarBrand>
         </div>
         <NavbarToggler onClick={toggle} />

@@ -4,7 +4,7 @@ import { Contentor } from './styles'
 const Homeorto = () => {
   return (
     <Contentor>
-      <img src="/images/loadingOrto.gif" alt="loading" />
+      <img loading="lazy" src="/images/loadingOrto.gif" alt="loading" />
     </Contentor>
   )
 }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import SEO from '@/components/SEO'
 import { withRouter } from 'next/router'
+import dynamic from 'next/dynamic'
 
 import { Container } from '../styles/pages/Home'
 import { GetServerSideProps } from 'next'

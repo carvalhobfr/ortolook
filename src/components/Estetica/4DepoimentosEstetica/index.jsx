@@ -100,7 +100,7 @@ const Depoimentos = props => {
         onExited={() => setAnimating(false)}
         key={item.altText}
       >
-        <img src={item.src} alt={item.altText} />
+        <img loading="lazy" src={item.src} alt={item.altText} />
         <CarouselCaption
           captionText={item.caption}
           captionHeader={item.caption}
@@ -117,7 +117,7 @@ const Depoimentos = props => {
         onExited={() => setAnimating(false)}
         key={item2.altText}
       >
-        <img src={item2.src} alt={item2.altText} />
+        <img loading="lazy" src={item2.src} alt={item2.altText} />
         <CarouselCaption
           captionText={item2.caption}
           captionHeader={item2.caption}

@@ -24,32 +24,56 @@ const DivOrtholook = () => {
         </Row>
         <Row className="rowPacientes">
           <Col className="pacientes">
-            <img src="/images/slideAparelhos4.png" alt="Paciente 1" />
+            <img
+              loading="lazy"
+              src="/images/slideAparelhos4.png"
+              alt="Paciente 1"
+            />
             <br />
             <h5>mais de 50 profissionais</h5>
           </Col>
           <Col className="pacientes">
-            <img src="/images/slideAparelhos5.png" alt="Paciente 1" />
+            <img
+              loading="lazy"
+              src="/images/slideAparelhos5.png"
+              alt="Paciente 1"
+            />
             <br />
             <h5>mais de 10 unidades</h5>
           </Col>
           <Col className="pacientes">
-            <img src="/images/slideAparelhos6.png" alt="Paciente 1" />
+            <img
+              loading="lazy"
+              src="/images/slideAparelhos6.png"
+              alt="Paciente 1"
+            />
             <br />
             <h5>mais de 10,000 sorrisos</h5>
           </Col>
           <Col className="pacientes">
-            <img src="/images/slideAparelhos1.png" alt="Paciente 1" />
+            <img
+              loading="lazy"
+              src="/images/slideAparelhos1.png"
+              alt="Paciente 1"
+            />
             <br />
             <h5>Coloque no mesmo dia</h5>
           </Col>
           <Col className="pacientes">
-            <img src="/images/slideAparelhos2.png" alt="Paciente 1" />
+            <img
+              loading="lazy"
+              src="/images/slideAparelhos2.png"
+              alt="Paciente 1"
+            />
             <br />
             <h5>Atendimento descontraído</h5>
           </Col>
           <Col className="pacientes">
-            <img src="/images/slideAparelhos3.png" alt="Paciente 1" />
+            <img
+              loading="lazy"
+              src="/images/slideAparelhos3.png"
+              alt="Paciente 1"
+            />
             <br />
             <h5>Não precisa quebrar o cofrinho</h5>
           </Col>

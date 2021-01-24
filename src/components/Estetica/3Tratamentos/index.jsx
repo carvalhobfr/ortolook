@@ -23,17 +23,29 @@ const Tratamentos = () => {
         <Row className="rowBtnTratamentos someMobile">
           <Col>
             <button onClick={() => setImgUrl('images/tratamento2.png')}>
-              <img src="images/skinbooster.png" alt="Preenchimento" />
+              <img
+                loading="lazy"
+                src="images/skinbooster.png"
+                alt="Preenchimento"
+              />
             </button>
           </Col>
           <Col>
             <button onClick={() => setImgUrl('images/tratamento3.png')}>
-              <img src="images/botulinica.png" alt="Toxina Botulinica" />
+              <img
+                loading="lazy"
+                src="images/botulinica.png"
+                alt="Toxina Botulinica"
+              />
             </button>
           </Col>
           <Col>
             <button onClick={() => setImgUrl('images/tratamento4.png')}>
-              <img src="images/preenchimento.png" alt="Skin Booster" />
+              <img
+                loading="lazy"
+                src="images/preenchimento.png"
+                alt="Skin Booster"
+              />
             </button>
           </Col>
         </Row>
@@ -42,29 +54,43 @@ const Tratamentos = () => {
             <button
               onClick={() => setImgUrlMobile('images/preenchimentoMobile.png')}
             >
-              <img src="images/preenchimento.png" alt="Preenchimento" />
+              <img
+                loading="lazy"
+                src="images/preenchimento.png"
+                alt="Preenchimento"
+              />
             </button>
           </Col>
           <Col>
             <button onClick={() => setImgUrlMobile('images/botoxMobile.png')}>
-              <img src="images/botulinica.png" alt="Toxina Botulinica" />
+              <img
+                loading="lazy"
+                src="images/botulinica.png"
+                alt="Toxina Botulinica"
+              />
             </button>
           </Col>
           <Col>
             <button
               onClick={() => setImgUrlMobile('images/skinboosterMobile.png')}
             >
-              <img src="images/skinbooster.png" alt="Skin Booster" />
+              <img
+                loading="lazy"
+                src="images/skinbooster.png"
+                alt="Skin Booster"
+              />
             </button>
           </Col>
         </Row>
         <Row>
           <img
+            loading="lazy"
             src={imgUrl}
             className="imgTratamento someMobile "
             alt="Tratamento SkinBooster"
           />
           <img
+            loading="lazy"
             src={imgUrlMobile}
             className="imgTratamento openMobile"
             alt="Tratamento SkinBooster"

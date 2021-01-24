@@ -21,6 +21,7 @@ const UnidadesAparelho = () => {
               <br /> Escolha a mais próxima de você!
             </h4>
             <img
+              loading="lazy"
               src={imgUrl}
               alt="Tratamento Específico"
               className="imagemEstetica"
