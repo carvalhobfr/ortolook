@@ -264,4 +264,18 @@ export const Contentor = styled.div`
     -ms-flex-line-pack: end;
     align-content: end;
   }
+
+  @media not all and (min-resolution: 0.001dpcm) {
+    @media {
+      .coluna32 {
+        min-height: 150px;
+      }
+      .coluna3 {
+        min-height: 500px;
+      }
+      .rowMain {
+        min-height: 50vh;
+      }
+    }
+  }
 `
