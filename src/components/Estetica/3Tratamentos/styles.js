@@ -119,5 +119,9 @@ export const Contentor = styled.div`
     .linhaSinuosaTratamentos.row {
       margin-right: 16px;
     }
+    .rowBtnTratamentos .col button {
+      min-width: 100%;
+      padding: 0;
+    }
   }
 `
