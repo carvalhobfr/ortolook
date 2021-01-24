@@ -25,7 +25,7 @@ const HeaderAparelhos = props => {
               alt="Aparelhos Agende"
             />
           </Col>
-          <Col className="coluna3">
+          <Col className="coluna3 coluna32">
             <h2>
               <strong className="gothamBook">
                 é fácil <br />

@@ -191,7 +191,7 @@ export const Contentor = styled.div`
   }
 
   .ortolookContainer2 h1 {
-    margin: 64px 0 32px;
+    margin: 64px 0 16px;
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
@@ -249,11 +249,7 @@ export const Contentor = styled.div`
       min-width: 100%;
       max-width: 100%;
     }
-    .rowMain {
-      width: 100%;
-      min-width: 100%;
-      max-width: 100%;
-    }
+
     .imagemEstetica {
       min-width: 350px;
       max-width: 300px;

@@ -56,7 +56,7 @@ export const Contentor = styled.div`
   }
   p {
     text-align: start;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 24px;
     line-height: 34px;
     color: #802b67;
@@ -66,7 +66,8 @@ export const Contentor = styled.div`
     flex-direction: column;
     align-items: center;
     /* min-height: 415px; */
-    min-width: 300px;
+    min-width: 30%;
+    padding: 16px;
     img {
       /* min-height: 130px; */
       max-width: 250px;
@@ -105,7 +106,7 @@ export const Contentor = styled.div`
     }
     p {
       text-align: start;
-      font-weight: 500;
+      font-weight: 600;
       font-size: 14px;
       line-height: 16px;
       color: #802b67;
@@ -156,9 +157,10 @@ export const Contentor = styled.div`
     .pacientes {
       padding: 16px;
       /* width: 200px; */
-      min-width: 155px;
+      min-width: 30%;
       max-width: 157px;
       min-height: unset;
+
       img {
         max-width: 80%;
       }

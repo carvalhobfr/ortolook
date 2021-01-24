@@ -34,8 +34,8 @@ export const Contentor = styled.div`
     align-items: center;
   }
   .rowFooter .col:nth-child(2) img:nth-child(1) {
-    max-height: 14px;
-    min-height: 14px;
+    max-height: 30px;
+    min-height: 30px;
     padding: 2px 8px;
     align-items: center;
   }
@@ -71,10 +71,20 @@ export const Contentor = styled.div`
   }
   @media (max-width: 500px) {
     .col2Footer .row {
-      flex-direction: column;
+      flex-direction: row;
+      padding: 2px;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0 16px;
     }
     a img {
       padding-top: 3px !important;
+      min-width: 30px;
+      min-height: 30px;
     }
+  }
+  .croIMG {
+    min-height: 13px !important;
+    max-height: 14px !important;
   }
 `

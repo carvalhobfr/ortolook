@@ -29,6 +29,7 @@ const FooterAparelho = () => {
         <Col className="col2Footer">
           <Row>
             <img
+              className="croIMG"
               loading="lazy"
               src="images/ortoFooter4.png"
               alt="Logo Ortolook"

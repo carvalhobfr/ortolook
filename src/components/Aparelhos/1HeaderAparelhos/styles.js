@@ -4,7 +4,6 @@ export const Contentor = styled.div`
   max-width: 1920px;
   width: 100%;
   padding: 0px;
-  margin-top: 32px;
 
   .container {
     min-width: 100%;
@@ -145,6 +144,9 @@ export const Contentor = styled.div`
     .colunaLogo {
       min-width: 80%;
     }
+    .coluna32 {
+      padding-top: 64px;
+    }
   }
 
   /* .coluna3 div {
@@ -182,6 +184,20 @@ export const Contentor = styled.div`
     .redesSociais {
       margin-left: 1em;
       flex-direction: row;
+      justify-content: flex-end;
+    }
+    .rowMain {
+      flex-direction: column-reverse;
+    }
+    .coluna3 {
+      padding: 16px 0;
+      h2 {
+        font-size: 24px;
+        line-height: 32px;
+      }
+    }
+    .coluna3 img {
+      max-width: 270px;
     }
   }
   @media (max-width: 1200px) {
