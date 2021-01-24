@@ -17,7 +17,12 @@ export const Contentor = styled.div`
     }
   }
   .rowMain {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     min-width: 100%;
   }
@@ -36,8 +41,15 @@ export const Contentor = styled.div`
   }
   .agendeAqui {
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: start;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
     flex-direction: column !important;
     max-height: 120px;
     cursor: pointer;
@@ -59,15 +71,28 @@ export const Contentor = styled.div`
   }
   .coluna1,
   .coluna3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-wrap: no-wrap;
     flex-wrap: no-wrap;
   }
 
   .redesSociais {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-line-pack: center;
     align-content: center;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     img {
       max-width: 100%;
@@ -84,6 +109,7 @@ export const Contentor = styled.div`
   .fotoHeader2 {
     max-height: 673px;
     max-width: 400px;
+    -ms-flex-item-align: end;
     align-self: flex-end;
     z-index: 2;
     margin-top: 32px;
@@ -119,9 +145,17 @@ export const Contentor = styled.div`
     }
 
     .redesSociais {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
       flex-direction: row;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
       justify-content: end;
+      -ms-flex-line-pack: start;
       align-content: flex-start;
       margin-left: 16px;
     }
@@ -132,6 +166,8 @@ export const Contentor = styled.div`
     }
     .someMobile {
       display: -ms-flex !important;
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
       display: flex !important;
     }
     .coluna3 img {
@@ -140,6 +176,8 @@ export const Contentor = styled.div`
     }
     .redesSociais {
       max-width: 20%;
+      -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
       justify-content: flex-start !important;
     }
     .colunaLogo {
@@ -163,7 +201,11 @@ export const Contentor = styled.div`
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-left: 2em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-line-pack: baseline;
     align-content: baseline;
     img {
       width: 35px;
@@ -184,10 +226,18 @@ export const Contentor = styled.div`
   @media (max-width: 700px) {
     .redesSociais {
       margin-left: 1em;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
       flex-direction: row;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
       justify-content: flex-end;
     }
     .rowMain {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
       flex-direction: column-reverse;
     }
     .coluna3 {
@@ -207,7 +257,11 @@ export const Contentor = styled.div`
     }
   }
   .rowRedeSociais .col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-line-pack: end;
     align-content: end;
   }
 `
