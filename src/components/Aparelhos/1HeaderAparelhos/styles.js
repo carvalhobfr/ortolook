@@ -47,9 +47,9 @@ export const Contentor = styled.div`
     text-align: end;
     h2 {
       font-style: normal;
-      font-weight: 900;
+      font-weight: bold;
       font-size: 48px;
-      line-height: 52px;
+      line-height: 54px;
       text-align: right;
       letter-spacing: -0.05em;
       text-transform: uppercase;

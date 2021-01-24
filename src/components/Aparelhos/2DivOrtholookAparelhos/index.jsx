@@ -7,7 +7,7 @@ import { Contentor } from './styles'
 const DivOrtholook = () => {
   return (
     <Contentor>
-      <Container className="ortolookContainer">
+      <Container className="ortolookContainer gothamBook">
         <Row>
           <h1 className="bemioItalic">A ORTOLOOK</h1>
         </Row>
@@ -23,6 +23,21 @@ const DivOrtholook = () => {
           </Col>
         </Row>
         <Row className="rowPacientes">
+          <Col className="pacientes">
+            <img src="/images/slideAparelhos4.png" alt="Paciente 1" />
+            <br />
+            <h5>mais de 50 profissionais</h5>
+          </Col>
+          <Col className="pacientes">
+            <img src="/images/slideAparelhos5.png" alt="Paciente 1" />
+            <br />
+            <h5>mais de 10 unidades</h5>
+          </Col>
+          <Col className="pacientes">
+            <img src="/images/slideAparelhos6.png" alt="Paciente 1" />
+            <br />
+            <h5>mais de 10,000 sorrisos</h5>
+          </Col>
           <Col className="pacientes">
             <img src="/images/slideAparelhos1.png" alt="Paciente 1" />
             <br />
