@@ -44,7 +44,7 @@ export const Contentor = styled.div`
     text-align: end;
     h2 {
       font-style: normal;
-      font-weight: 900;
+      font-weight: 700;
       font-size: 48px;
       line-height: 46px;
       text-align: right;
@@ -100,7 +100,6 @@ export const Contentor = styled.div`
   }
 
   h4 {
-    font-family: Gotham;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;

@@ -10,11 +10,11 @@ const UnidadesAparelho = () => {
   return (
     <Contentor>
       <Container>
-        <Row className="rowMain">
-          <Container className="ortolookContainer2">
+        <Row className="rowMain ">
+          <Container className="ortolookContainer2 ">
             <h1 className="bemioItalic">UNIDADES</h1>
           </Container>
-          <Col className="coluna1">
+          <Col className="coluna1 gothamBook">
             <h4>
               As clínicas Ortolook Estética estão localizadas no estado do Rio
               de Janeiro!
@@ -26,7 +26,7 @@ const UnidadesAparelho = () => {
               className="imagemEstetica"
             />
           </Col>
-          <Col className="coluna3">
+          <Col className="coluna3 gothamBook">
             <button onClick={() => setImgUrl('images/unidadesAP(2).png')}>
               <p>Alcantâra</p>
             </button>

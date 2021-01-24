@@ -137,7 +137,6 @@ export const Contentor = styled.div`
   }
 
   h4 {
-    font-family: Gotham;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
