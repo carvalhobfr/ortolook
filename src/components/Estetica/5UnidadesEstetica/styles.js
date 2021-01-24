@@ -292,4 +292,8 @@ export const Contentor = styled.div`
     background-position: center;
     background-size: cover;
   }
+
+  .container:not(:root:root) {
+    min-height: 800px;
+  }
 `
