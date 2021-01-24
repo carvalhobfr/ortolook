@@ -23,7 +23,7 @@ const NavOrtho = props => {
 
   return (
     <Contentor>
-      <Navbar color="white" light expand="md">
+      <Navbar color="white" light expand="md" className="gothamBook">
         <div>
           <NavbarBrand href="/estetica">
             <img src="/images/iconOrtholook2.svg" alt="Ortholook" />

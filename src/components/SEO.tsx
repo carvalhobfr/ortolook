@@ -55,7 +55,17 @@ export default function SEO({
       <meta name="twitter:image:width" content="1200" />
       <meta name="twitter:image:height" content="620" />
       <link
+        href="//db.onlinewebfonts.com/c/bd317adf74e5e7e564eb61ce9926cc6d?family=Gotham"
+        rel="stylesheet"
+        type="text/css"
+      />
+      <link
         href="//db.onlinewebfonts.com/c/ed524d3938b150b70d120697d516e805?family=Bemio+Italic"
+        rel="stylesheet"
+        type="text/css"
+      />
+      <link
+        href="//db.onlinewebfonts.com/c/a9db6cd9116ff56da3875b35444f0c45?family=GothamBook"
         rel="stylesheet"
         type="text/css"
       />

@@ -48,17 +48,16 @@ export const Contentor = styled.div`
   h5 {
     text-align: center;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 24px;
     line-height: 23px;
     letter-spacing: -0.05em;
     color: #802b67;
   }
   p {
-    font-family: 'Gotham';
     text-align: start;
-    font-weight: 500;
-    font-size: 36px;
+    font-weight: 600;
+    font-size: 24px;
     line-height: 34px;
     color: #802b67;
   }

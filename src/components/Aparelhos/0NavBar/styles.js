@@ -26,7 +26,7 @@ export const Contentor = styled.div`
   .dropdown-item {
     font-family: inherit;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #802b67 !important;

@@ -43,11 +43,6 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <link rel="icon" href="images/iconOrtholook.svg" />
-          <link
-            href="//db.onlinewebfonts.com/c/edc378fa3251080c5b508b220462efca?family=Gotham"
-            rel="stylesheet"
-            type="text/css"
-          />
         </Head>
         <body>
           <Main />
