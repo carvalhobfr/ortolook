@@ -158,7 +158,7 @@ const Tratamentos = () => {
             <a href="https://wa.me/5521972878038" className="agendeAqui">
               <img
                 loading="lazy"
-                src="/images/agendeAquiSmall.png"
+                src="/images/agendeAquiAparelho.png"
                 alt="Agende Aqui"
               />
             </a>
