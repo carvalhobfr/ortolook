@@ -2,6 +2,7 @@ import React, { useState, Component } from 'react'
 
 import { Container, Row, Col } from 'reactstrap'
 import { Contentor } from './styles'
+import AgendeLateral from '../AgendaLateral'
 
 const UnidadesEstetica = () => {
   const [imgUrl, setImgUrl] = useState('images/unidadeESR(2).png')
@@ -13,6 +14,7 @@ const UnidadesEstetica = () => {
           <Row className="linhaSinuosaTratamentos">
             <br></br>
           </Row>
+          <AgendeLateral />
           <Col className="coluna1 someMobile">
             <h4>
               As clínicas Ortolook Estética estão localizadas no estado do Rio
@@ -25,6 +27,7 @@ const UnidadesEstetica = () => {
               className="imagemEstetica"
             />
           </Col>
+
           <Col className="coluna1 openMobile">
             <h4>
               As clínicas Ortolook Estética estão localizadas no estado do Rio

@@ -205,9 +205,9 @@ export const Contentor = styled.div`
 
   .linhaSinuosaTratamentos {
     min-width: 100%;
-    min-height: 100px;
+    min-height: 80px;
     padding: 0;
-    background: url('/images/unidadesTitleES2.png') no-repeat;
+    background: url('/images/unidadesTitleES3.png') no-repeat;
     background-size: contain;
     background-position-x: left;
     margin-left: -32px;

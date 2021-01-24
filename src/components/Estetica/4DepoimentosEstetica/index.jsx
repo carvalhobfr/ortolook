@@ -9,6 +9,7 @@ import {
   Row,
   Col
 } from 'reactstrap'
+import AgendeLateral from '../AgendaLateral'
 
 import { Contentor } from './styles'
 const items = [
@@ -88,18 +89,20 @@ const Depoimentos = props => {
   })
   const slidesMobile = itemsMobile.map(item => {
     return (
-      <CarouselItem
-        className="carrosselPC"
-        onExiting={() => setAnimating(true)}
-        onExited={() => setAnimating(false)}
-        key={item.altText}
-      >
-        <img src={item.src} alt={item.altText} />
-        <CarouselCaption
-          captionText={item.caption}
-          captionHeader={item.caption}
-        />
-      </CarouselItem>
+      <>
+        <CarouselItem
+          className="carrosselPC"
+          onExiting={() => setAnimating(true)}
+          onExited={() => setAnimating(false)}
+          key={item.altText}
+        >
+          <img src={item.src} alt={item.altText} />
+          <CarouselCaption
+            captionText={item.caption}
+            captionHeader={item.caption}
+          />
+        </CarouselItem>
+      </>
     )
   })
 
@@ -109,6 +112,7 @@ const Depoimentos = props => {
         <Row className="linhaSinuosaDepoimento">
           <br></br>
         </Row>
+        <AgendeLateral />
       </Container>
       <Carousel
         className="someMobile"

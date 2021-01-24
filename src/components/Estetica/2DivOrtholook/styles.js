@@ -9,6 +9,11 @@ export const Contentor = styled.div`
     padding: 0;
     min-width: 100%;
     margin-right: 0px !important;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-around;
   }
   .saibaNossosPrecos {
     display: -webkit-box;
@@ -137,5 +142,8 @@ export const Contentor = styled.div`
   }
   .pacientes img {
     max-width: 250px;
+  }
+  .rowPacientes {
+    width: 100%;
   }
 `
