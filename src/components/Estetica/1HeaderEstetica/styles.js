@@ -263,4 +263,29 @@ export const Contentor = styled.div`
       }
     }
   }
+  @media (max-width: 500px) {
+    .coluna3.col {
+      font-size: 14px;
+      max-height: 80px !important;
+      min-height: 80px !important;
+    }
+    .col p {
+      padding: 0;
+      margin: 0 !important;
+      line-height: 12px;
+    }
+    .imagemEstetica {
+      max-height: 250px;
+    }
+    .coluna3 img {
+      max-width: 250px;
+    }
+    .coluna1 {
+      max-height: 250px;
+    }
+    .rowMain {
+      min-height: 500px;
+      max-height: 500px;
+    }
+  }
 `

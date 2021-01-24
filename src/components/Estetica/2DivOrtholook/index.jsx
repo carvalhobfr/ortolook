@@ -25,7 +25,7 @@ const DivOrtholook = () => {
           </Col>
           <AgendeLateral className="someMobile" />
         </Row>
-        <Row className="rowPacientes">
+        <Row className="rowPacientes gothamBook">
           <Col className="pacientes">
             <img loading="lazy" src="/images/paciente1.png" alt="Paciente 1" />
             <br />

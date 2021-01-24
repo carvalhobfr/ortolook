@@ -75,9 +75,9 @@ export const Contentor = styled.div`
       line-height: 13px;
     }
     p {
-      font-family: 'Gotham';
+      font-family: 'GothamBook';
       text-align: start;
-      font-weight: 800;
+      font-weight: 600;
       font-size: 14px;
       line-height: 16px;
       color: #802b67;
