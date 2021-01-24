@@ -170,4 +170,11 @@ export const Contentor = styled.div`
       color: #802b67;
     }
   }
+  .colTratamentos img {
+    padding: 10px 0;
+  }
+  .openMobile.imgColunaTratamento.col img {
+    padding: 10px;
+    margin: 20px 0;
+  }
 `
