@@ -149,6 +149,7 @@ export const Contentor = styled.div`
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
+      margin: auto;
     }
     h4 {
       font-size: 16px;
@@ -258,6 +259,7 @@ export const Contentor = styled.div`
     .coluna1 {
       justify-content: flex-end;
       align-items: flex-end;
+      justify-content: center;
       padding-right: 0px;
       h4 {
         align-self: baseline;

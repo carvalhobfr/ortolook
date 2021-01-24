@@ -24,6 +24,42 @@ const HeaderAparelhos = props => {
               src="/images/fotoAparelhoHeader.png"
               alt="Aparelhos Agende"
             />
+            <Row className="redesSociais openMobile ">
+              <a href="https://www.instagram.com/ortolook/">
+                <img
+                  loading="lazy"
+                  src="/images/instagram.png"
+                  alt="Instagram"
+                />
+              </a>
+              <br />
+              <a href="https://www.facebook.com/Ortolook/">
+                <img
+                  loading="lazy"
+                  src="/images/facebook2.png"
+                  alt="Facebook"
+                />
+              </a>
+            </Row>
+            <Row className="rowRedeSociais someMobile">
+              <Col xs="2" className="redesSociais">
+                <a href="https://www.instagram.com/ortolook/">
+                  <img
+                    loading="lazy"
+                    className="instagram"
+                    src="/images/instagram.png"
+                    alt="Instagram"
+                  />
+                </a>
+                <a href="https://www.facebook.com/Ortolook/">
+                  <img
+                    loading="lazy"
+                    src="/images/facebook2.png"
+                    alt="Facebook"
+                  />
+                </a>
+              </Col>
+            </Row>
           </Col>
           <Col className="coluna3 coluna32">
             <h2>
@@ -40,30 +76,6 @@ const HeaderAparelhos = props => {
               src="/images/ortoHeadLogo.png"
               alt="Falta de Brilho"
             />
-          </Col>
-        </Row>
-        <Row className="redesSociais openMobile ">
-          <a href="https://www.instagram.com/ortolook/">
-            <img loading="lazy" src="/images/instagram.png" alt="Instagram" />
-          </a>
-          <br />
-          <a href="https://www.facebook.com/Ortolook/">
-            <img loading="lazy" src="/images/facebook2.png" alt="Facebook" />
-          </a>
-        </Row>
-        <Row className="rowRedeSociais someMobile">
-          <Col xs="2" className="redesSociais">
-            <a href="https://www.instagram.com/ortolook/">
-              <img
-                loading="lazy"
-                className="instagram"
-                src="/images/instagram.png"
-                alt="Instagram"
-              />
-            </a>
-            <a href="https://www.facebook.com/Ortolook/">
-              <img loading="lazy" src="/images/facebook2.png" alt="Facebook" />
-            </a>
           </Col>
         </Row>
       </Container>
