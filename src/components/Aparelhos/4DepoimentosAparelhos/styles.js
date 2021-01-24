@@ -38,12 +38,12 @@ export const Contentor = styled.div`
     margin-top: 32px;
   }
   .carousel-control-next-icon {
-    background-image: url(images/setaDir.png);
+    background-image: url(images/setaAparelho.png);
     height: 32px;
     width: 32px;
   }
   .carousel-control-prev-icon {
-    background-image: url(images/setaDir.png);
+    background-image: url(images/setaAparelho.png);
     height: 32px;
     width: 32px;
     -webkit-transform: rotate(180deg);
