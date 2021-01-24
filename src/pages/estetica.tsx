@@ -11,7 +11,7 @@ import Tratamentos from '../components/Estetica/3Tratamentos'
 import Depoimentos from '../components/Estetica/4DepoimentosEstetica'
 import UnidadesEstetica from '../components/Estetica/5UnidadesEstetica'
 import LoadingScreen from '../components/LoadingScreen'
-import Footer from '../components/Footer'
+import FooterEstetica from '../components/Estetica/6FooterEstetica'
 
 const Estetica: React.FC = () => {
   const [loading, setLoading] = useState(true)
@@ -36,7 +36,7 @@ const Estetica: React.FC = () => {
           <Tratamentos />
           <Depoimentos />
           <UnidadesEstetica />
-          <Footer />
+          <FooterEstetica />
         </Container>
       ) : (
         <LoadingScreen />
