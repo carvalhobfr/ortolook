@@ -267,11 +267,11 @@ export const Contentor = styled.div`
 
   @media not all and (min-resolution: 0.001dpcm) {
     @media (max-width: 1200px) {
-      .coluna32 {
-        min-height: 150px;
-      }
       .coluna3 {
         min-height: 500px;
+      }
+      .coluna32 {
+        min-height: 150px;
       }
       .rowMain {
         min-height: 50vh;
