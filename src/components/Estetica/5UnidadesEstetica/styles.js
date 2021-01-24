@@ -98,7 +98,7 @@ export const Contentor = styled.div`
 
   .imagemEstetica {
     min-width: 350px;
-    max-width: 900px;
+    max-width: 800px;
     width: 100%;
   }
   .redesSociais {
