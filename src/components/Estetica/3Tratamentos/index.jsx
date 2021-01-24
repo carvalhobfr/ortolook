@@ -19,7 +19,7 @@ const Tratamentos = () => {
         <div id="skinbooster"></div>
         <div id="toxinabotulinica"></div>
         <div id="preenchimento"></div>
-        <AgendeLateral />
+
         <Row className="rowBtnTratamentos someMobile">
           <Col>
             <button onClick={() => setImgUrl('images/tratamento2.png')}>
@@ -96,6 +96,7 @@ const Tratamentos = () => {
             alt="Tratamento SkinBooster"
           />
         </Row>
+        <AgendeLateral />
       </Container>
     </Contentor>
   )

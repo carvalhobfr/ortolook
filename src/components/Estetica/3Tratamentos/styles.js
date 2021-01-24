@@ -22,9 +22,9 @@ export const Contentor = styled.div`
     -ms-flex-direction: column;
     flex-direction: column;
     padding: 0;
-    img {
+    /* img {
       max-width: 150px;
-    }
+    } */
   }
   /* .ortolookContainer {
     margin-top: 50px;
@@ -46,6 +46,7 @@ export const Contentor = styled.div`
   .imgTratamento {
     width: 70%;
     margin-left: -16px;
+    max-height: 600px;
   }
   .rowBtnTratamentos > .col {
     text-align: start;

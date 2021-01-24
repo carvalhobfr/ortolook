@@ -30,6 +30,7 @@ const Footer = () => {
           <Row>
             <img
               loading="lazy"
+              className="croIMG"
               src="images/ortoFooter4.png"
               alt="Logo Ortolook"
             />

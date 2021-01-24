@@ -112,7 +112,7 @@ const UnidadesEstetica = () => {
   return (
     <Contentor>
       <Container>
-        <Row className="rowMain">
+        <Row className="rowMain gothamBook">
           <Row className="linhaSinuosaTratamentos">
             <br></br>
           </Row>
