@@ -103,7 +103,7 @@ const Depoimentos = props => {
   return (
     <Contentor>
       <Container className="ortolookContainer2">
-        <h1>Sorrisos que Falam</h1>
+        <h1 className="bemioItalic">Sorrisos que Falam</h1>
       </Container>
       <Carousel
         className="someMobile"

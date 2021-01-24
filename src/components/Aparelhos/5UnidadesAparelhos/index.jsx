@@ -12,7 +12,7 @@ const UnidadesAparelho = () => {
       <Container>
         <Row className="rowMain">
           <Container className="ortolookContainer2">
-            <h1>UNIDADES</h1>
+            <h1 className="bemioItalic">UNIDADES</h1>
           </Container>
           <Col className="coluna1">
             <h4>

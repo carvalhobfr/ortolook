@@ -42,7 +42,7 @@ const HeaderAparelhos = props => {
           </a>
           <br />
           <a href="https://www.facebook.com/Ortolook/">
-            <img src="/images/facebook.png" alt="Facebook" />
+            <img src="/images/facebook2.png" alt="Facebook" />
           </a>
         </Row>
         <Row className="rowRedeSociais someMobile">
@@ -54,9 +54,8 @@ const HeaderAparelhos = props => {
                 alt="Instagram"
               />
             </a>
-            <br />
             <a href="https://www.facebook.com/Ortolook/">
-              <img src="/images/facebook.png" alt="Facebook" />
+              <img src="/images/facebook2.png" alt="Facebook" />
             </a>
           </Col>
         </Row>

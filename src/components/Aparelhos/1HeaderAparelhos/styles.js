@@ -4,7 +4,7 @@ export const Contentor = styled.div`
   max-width: 1920px;
   width: 100%;
   padding: 0px;
-  margin-top: 10px;
+  margin-top: 32px;
 
   .container {
     min-width: 100%;
@@ -14,12 +14,13 @@ export const Contentor = styled.div`
   .agendePop {
     h2 {
       text-align: right;
+      margin-right: 16px;
     }
   }
   .rowMain {
     display: flex;
     flex-direction: row;
-    min-width: 97vw;
+    min-width: 100%;
   }
 
   .col {
@@ -45,15 +46,14 @@ export const Contentor = styled.div`
   .coluna3 {
     text-align: end;
     h2 {
-      font-family: 'Gotham';
       font-style: normal;
-      font-weight: bold;
-      font-size: 64px;
-      line-height: 61px;
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 52px;
       text-align: right;
       letter-spacing: -0.05em;
       text-transform: uppercase;
-
+      padding-right: 18px;
       color: #802b67;
     }
   }
@@ -101,8 +101,8 @@ export const Contentor = styled.div`
 
   @media (max-width: 1100px) {
     strong {
-      font-size: 48px !important;
-      line-height: 52px !important;
+      font-size: 36px !important;
+      line-height: 42px !important;
     }
   }
   @media (max-width: 900px) {
@@ -125,5 +125,72 @@ export const Contentor = styled.div`
       align-content: flex-start;
       margin-left: 16px;
     }
+  }
+  @media (min-width: 900px) {
+    .openMobile {
+      display: none !important;
+    }
+    .someMobile {
+      display: -ms-flex !important;
+      display: flex !important;
+    }
+    .coluna3 img {
+      padding: 32px 0;
+      text-align: center;
+    }
+    .redesSociais {
+      max-width: 20%;
+      justify-content: flex-start !important;
+    }
+    .colunaLogo {
+      min-width: 80%;
+    }
+  }
+
+  /* .coluna3 div {
+    min-height: 200px;
+  } */
+
+  .redesSociais {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: flex-end;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: 2em;
+    flex-direction: column;
+    align-content: baseline;
+    img {
+      width: 50px;
+      padding: 5px 4px;
+    }
+    flex-direction: column;
+  }
+
+  .coluna3 img {
+    max-width: 350px;
+  }
+
+  .colunaLogo img {
+    max-width: 30%;
+    min-width: 150px;
+  }
+
+  @media (max-width: 700px) {
+    .redesSociais {
+      margin-left: 1em;
+      flex-direction: row;
+    }
+  }
+  @media (max-width: 1200px) {
+    .imgCentral {
+      margin: auto;
+    }
+  }
+  .rowRedeSociais .col {
+    flex-direction: column;
+    align-content: end;
   }
 `

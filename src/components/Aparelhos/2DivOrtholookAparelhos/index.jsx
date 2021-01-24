@@ -9,7 +9,7 @@ const DivOrtholook = () => {
     <Contentor>
       <Container className="ortolookContainer">
         <Row>
-          <h1>A ORTOLOOK</h1>
+          <h1 className="bemioItalic">A ORTOLOOK</h1>
         </Row>
         <Row>
           <Col>

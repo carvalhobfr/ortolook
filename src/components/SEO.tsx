@@ -54,6 +54,11 @@ export default function SEO({
       <meta name="twitter:image:alt" content="Thumbnail" />
       <meta name="twitter:image:width" content="1200" />
       <meta name="twitter:image:height" content="620" />
+      <link
+        href="//db.onlinewebfonts.com/c/ed524d3938b150b70d120697d516e805?family=Bemio+Italic"
+        rel="stylesheet"
+        type="text/css"
+      />
     </Head>
   )
 }
