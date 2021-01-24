@@ -286,17 +286,10 @@ export const Contentor = styled.div`
         align-self: baseline;
       }
     }
-    /* .coluna1 {
-      padding-right: 0px;
-    } */
   }
-
   .buttonNossasUnidades {
     margin-bottom: 30px;
-    /* background-image: url('images/nossasUnidadesButton.png'); */
     background-position: center;
     background-size: cover;
-    /* width: 300px;
-    height: 100px; */
   }
 `

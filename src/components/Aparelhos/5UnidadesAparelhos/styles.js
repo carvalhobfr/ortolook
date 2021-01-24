@@ -19,6 +19,7 @@ export const Contentor = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: flex-end;
   }
 
   .col {
@@ -67,6 +68,8 @@ export const Contentor = styled.div`
 
   .imagemEstetica {
     min-width: 350px;
+    max-width: 800px;
+    justify-self: center;
   }
   .redesSociais {
     justify-content: center;
@@ -116,10 +119,11 @@ export const Contentor = styled.div`
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
+      min-height: 700px;
     }
     h4 {
-      font-size: 36px;
-      line-height: 54px;
+      font-size: 24px;
+      line-height: 32px;
       padding: 32px;
     }
     .coluna3 button p {
@@ -211,6 +215,57 @@ export const Contentor = styled.div`
       font-size: 32px !important;
       line-height: 36px !important;
       text-align: start !important;
+    }
+  }
+
+  h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #802b67;
+    font-weight: 500;
+    margin-bottom: 32px;
+  }
+
+  @media (min-width: 900px) {
+    .coluna1 h4 {
+      font-size: 24px;
+      line-height: 32px;
+      padding: 32px;
+    }
+  }
+  @media (max-width: 900px) {
+    .ortolookContainer {
+      padding: 16px !important;
+    }
+    .rowMain {
+      display: flex;
+      flex-direction: column;
+    }
+    .container {
+      justify-content: flex-end;
+      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
+    }
+    .rowMain {
+      width: 100%;
+      min-width: 100%;
+      max-width: 100%;
+    }
+    .imagemEstetica {
+      min-width: 350px;
+      max-width: 300px;
+      width: 100%;
+    }
+    .coluna1 {
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding-right: 0px;
+      h4 {
+        align-self: baseline;
+      }
     }
   }
 `
