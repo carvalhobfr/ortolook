@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Contentor = styled.div`
   .row {
-    margin: 32px 0;
+    margin: 64px 0;
   }
   .ortolookContainer {
     margin-top: 30px;
@@ -44,11 +44,10 @@ export const Contentor = styled.div`
     color: #802b67;
   }
   p {
-    font-family: 'Gotham';
     text-align: start;
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 32px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 28px;
     color: #802b67;
   }
   .pacientes {
@@ -62,7 +61,7 @@ export const Contentor = styled.div`
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    min-height: 415px;
+    min-height: 315px;
   }
 
   @media (max-width: 900px) {
@@ -88,7 +87,6 @@ export const Contentor = styled.div`
     background: url('/images/sinuosaBG3.png') no-repeat;
     background-size: contain;
     background-position-x: right;
-    margin-top: 64px;
   }
 
   .ortolookContainer {
