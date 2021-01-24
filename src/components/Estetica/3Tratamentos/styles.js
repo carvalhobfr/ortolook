@@ -105,7 +105,7 @@ export const Contentor = styled.div`
   }
 
   .ortolookContainer {
-    padding: 32px 32px 32px 0px !important;
+    padding: 32px 0px !important;
   }
 
   @media (max-width: 900px) {
