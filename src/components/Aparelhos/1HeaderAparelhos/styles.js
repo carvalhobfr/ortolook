@@ -165,7 +165,7 @@ export const Contentor = styled.div`
     flex-direction: column;
     align-content: baseline;
     img {
-      width: 50px;
+      width: 30px;
       padding: 5px 4px;
     }
     flex-direction: column;
