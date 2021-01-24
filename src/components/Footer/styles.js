@@ -2,8 +2,9 @@ import styled from 'styled-components'
 
 export const Contentor = styled.div`
   /* margin-top: 30px; */
+  border-top: 1px solid lightgray;
   padding: 16px 0 8px;
-  width: 94vw;
+  max-width: 95vw;
   margin: auto;
   .rowFooter {
     display: flex;
@@ -17,7 +18,7 @@ export const Contentor = styled.div`
 
   .rowFooter .col:first-child img {
     max-height: 14px;
-    min-height: 14px;
+    min-height: 12px;
     padding: 2px 8px;
   }
   .col2Footer .row {
@@ -33,8 +34,8 @@ export const Contentor = styled.div`
     align-items: center;
   }
   .rowFooter .col:nth-child(2) img:nth-child(1) {
-    max-height: 14px;
-    min-height: 14px;
+    max-height: 30px;
+    min-height: 30px;
     padding: 2px 8px;
     align-items: center;
   }
@@ -64,25 +65,26 @@ export const Contentor = styled.div`
     }
     .col2Footer,
     .colFooter .row {
-      padding: 4px;
+      padding: 10px;
       justify-content: center;
     }
   }
   @media (max-width: 500px) {
-    border-top: none;
-    .col2Footer,
-    .colFooter {
-      display: none !important;
-    }
-    .col3Footer {
-      display: flex;
+    .col2Footer .row {
       flex-direction: row;
-      align-items: flex-end;
-      justify-content: flex-end;
-      a img {
-        max-height: 32px;
-        padding: 6px 2px;
-      }
+      padding: 2px;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0 16px;
     }
+    a img {
+      padding-top: 3px !important;
+      min-width: 30px;
+      min-height: 30px;
+    }
+  }
+  .croIMG {
+    min-height: 13px !important;
+    max-height: 14px !important;
   }
 `
