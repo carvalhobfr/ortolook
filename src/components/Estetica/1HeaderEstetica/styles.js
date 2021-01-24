@@ -29,7 +29,7 @@ export const Contentor = styled.div`
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    min-height: 70vh;
+    min-height: 65svh;
   }
 
   .col {
@@ -109,7 +109,7 @@ export const Contentor = styled.div`
     justify-content: space-between;
     /* margin-top: 16px; */
     max-width: 350px;
-    max-height: 550px;
+    max-height: 500px;
   }
   .coluna1 {
     justify-content: space-around;
