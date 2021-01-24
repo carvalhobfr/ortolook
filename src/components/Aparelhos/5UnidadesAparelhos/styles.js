@@ -271,4 +271,7 @@ export const Contentor = styled.div`
       min-height: 800px;
     }
   }
+  button p {
+    text-transform: uppercase;
+  }
 `
