@@ -242,6 +242,7 @@ export const Contentor = styled.div`
     .redesSociais {
       margin-left: 1em;
       flex-direction: row;
+      align-items: end;
     }
   }
   @media (max-width: 1200px) {

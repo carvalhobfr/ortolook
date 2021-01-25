@@ -77,7 +77,7 @@ const HeaderEstetica = () => {
             </div>
           </Col>
         </Row>
-        <br />
+
         <Row className="rowRedeSociais">
           <Col className="redesSociais someMobile">
             <img
