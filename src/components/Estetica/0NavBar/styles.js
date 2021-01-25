@@ -17,6 +17,7 @@ export const Contentor = styled.div`
     justify-content: space-between;
     padding: 0;
     top: 0;
+    text-align: center;
   }
 
   img {
