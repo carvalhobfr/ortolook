@@ -297,6 +297,6 @@ export const Contentor = styled.div`
     min-height: 800px;
   }
   .coluna4{
-    justify-content: space-between;
+    justify-content: space-between !important;
   }
 `
