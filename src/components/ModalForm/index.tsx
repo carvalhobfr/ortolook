@@ -34,11 +34,11 @@ const ModalExample = props => {
         />
       </Button>
       <Modal isOpen={modal} toggle={toggle} className="modalOpen">
-        <ModalHeader toggle={toggle}>Modal title</ModalHeader>
+        <ModalHeader toggle={toggle}>Saiba nossos preços</ModalHeader>
         <ModalBody>
           <Form>
             <FormGroup>
-              <Label for="exampleName">Name</Label>
+              <Label for="exampleName">Nome</Label>
               <Input
                 type="text"
                 name="email"
@@ -47,7 +47,7 @@ const ModalExample = props => {
               />
             </FormGroup>
             <FormGroup>
-              <Label for="exampleEmail">Email</Label>
+              <Label for="exampleEmail">E-mail</Label>
               <Input
                 type="email"
                 name="email"
