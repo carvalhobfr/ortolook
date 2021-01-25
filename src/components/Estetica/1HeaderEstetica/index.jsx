@@ -22,10 +22,10 @@ const HeaderEstetica = () => {
                   alt="Agende aqui"
                 />
               </Link>
-              <ModalExample
+              {/* <ModalExample
                 srcImg="/images/agendeAqui2.png"
                 className="agendeAqui"
-              />
+              /> */}
             </Col>
             <button onClick={() => setImgUrl('images/faltaBrilho.png')}>
               <p>FALTA DE BRILHO</p>
