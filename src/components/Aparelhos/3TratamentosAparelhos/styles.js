@@ -53,14 +53,7 @@ export const Contentor = styled.div`
     text-align: center;
   }
 
-  @media (min-width: 1000px) {
-    .colTratamentos {
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      justify-content: space-evenly;
-    }
-  }
+ 
   @media (max-width: 900px) {
     .ortolookContainer {
       margin-top: 0px !important;
@@ -177,4 +170,21 @@ export const Contentor = styled.div`
     padding: 10px;
     margin: 20px 0;
   }
+
+  .carousel-item > img{
+      max-width: 320px;
+    }
+    .colTratamentos {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: space-evenly;
+      max-width: 300px;
+    }
+.rowTratamentos {
+  align-content: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
 `
