@@ -295,6 +295,9 @@ export const Contentor = styled.div`
 
   .container:not(:root:root) {
     min-height: 800px;
+    .coluna4{
+    justify-content: space-between !important;
+  }
   }
   .coluna4{
     justify-content: space-between !important;
