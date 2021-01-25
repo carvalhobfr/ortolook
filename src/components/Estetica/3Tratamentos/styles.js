@@ -126,7 +126,7 @@ export const Contentor = styled.div`
     }
   }
 
-  .rowBtnTratamentos .col button > img{
+  .rowBtnTratamentos> .col> button > img{
     height: 23px;
     padding: 2px;
   }
