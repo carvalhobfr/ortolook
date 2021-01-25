@@ -42,12 +42,12 @@ const items = [
     altText: 'Slide 4'
   },
   {
-    src: '/images/tratamentos44AP.png',
+    src: '/images/tratamentos45AP.png',
     id: 7,
     altText: 'Slide 4'
   },
   {
-    src: '/images/tratamentos45AP.png',
+    src: '/images/tratamentos44AP.png',
     id: 8,
     altText: 'Slide 4'
   },
@@ -209,7 +209,7 @@ const Tratamentos = () => {
               />
             </button>
           </Col>
-          <Col>
+          <Col className="colCarrossel">
             <Carousel activeIndex={activeIndex} next={next} previous={previous}>
               {slides}
               <CarouselControl

@@ -183,8 +183,21 @@ export const Contentor = styled.div`
     }
 .rowTratamentos {
   align-content: center;
-    justify-content: center;
-    max-width: 1000px;
+    justify-content: space-between;
+    max-width: 1400px;
     margin: auto;
+}
+.carousel-control-next-icon {
+    background-image: url(images/setaAparelho.png);
+}
+.carousel-control-next-icon , .carousel-control-prev-icon {
+    background-image: url(images/setaAparelho.png);
+}
+
+.carousel-control-prev-icon{
+transform: rotate(180deg) ;
+}
+.colCarrossel{
+  max-width: 600px;
 }
 `
