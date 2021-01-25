@@ -119,7 +119,7 @@ export const Contentor = styled.div`
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
-      min-height: 700px;
+      min-height: 750px;
     }
     h4 {
       font-size: 24px;
