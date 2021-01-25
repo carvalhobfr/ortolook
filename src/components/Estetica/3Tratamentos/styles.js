@@ -107,6 +107,9 @@ export const Contentor = styled.div`
     .openMobile {
       display: none !important;
     }
+    button, button>img{
+      height: 42px;
+    }
   }
 
   .ortolookContainer {
@@ -124,10 +127,10 @@ export const Contentor = styled.div`
       min-width: 100%;
       padding: 0;
     }
-  }
-
-  .rowBtnTratamentos> .col> button > img{
+    .rowBtnTratamentos> .col> button > img{
     height: 23px;
     padding: 2px;
   }
+  }
+
 `

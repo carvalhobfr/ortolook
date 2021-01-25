@@ -3,6 +3,9 @@ import styled from 'styled-components'
 export const Contentor = styled.div`
   width: 100%;
   background-color: #fff;
+  top: 0;
+    position: sticky;
+    z-index: 100;
   .navbar-collapse {
     /* display: flex; */
     /* justify-content: space-between; */
