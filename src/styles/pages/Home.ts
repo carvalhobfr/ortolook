@@ -2,10 +2,9 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-
-max-width: 1900px !important;
-margin: auto;
-padding: 0;
+  max-width: 1900px !important;
+  margin: auto;
+  padding: 0;
   @font-face {
     font-family: 'Gotham';
     src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot');
@@ -20,20 +19,46 @@ padding: 0;
       url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.svg#Gotham')
         format('svg');
   }
-  @font-face {font-family: "GothamBook"; src: url("//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.eot"); src: url("//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.woff") format("woff"), url("//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.svg#GothamBook") format("svg"); }
+  @font-face {
+    font-family: 'GothamBook';
+    src: url('//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.eot');
+    src: url('//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.eot?#iefix')
+        format('embedded-opentype'),
+      url('//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.woff2')
+        format('woff2'),
+      url('//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.woff')
+        format('woff'),
+      url('//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.ttf')
+        format('truetype'),
+      url('//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.svg#GothamBook')
+        format('svg');
+  }
 
-  @font-face {font-family: "Bemio Italic"; src: url("//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.eot"); src: url("//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.woff") format("woff"), url("//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.svg#Bemio Italic") format("svg"); }
+  @font-face {
+    font-family: 'Bemio Italic';
+    src: url('//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.eot');
+    src: url('//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.eot?#iefix')
+        format('embedded-opentype'),
+      url('//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.woff2')
+        format('woff2'),
+      url('//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.woff')
+        format('woff'),
+      url('//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.ttf')
+        format('truetype'),
+      url('//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.svg#Bemio Italic')
+        format('svg');
+  }
 
-font-family: 'Gotham', sans-serif !important;
+  font-family: 'Gotham', sans-serif !important;
 
-max-width:2000px;
+  max-width: 2000px;
 
-.bemioItalic{
-  font-family: "Bemio Italic", sans-serif !important;
-}
-.gothamBook{
-  font-family: "GothamBook", sans-serif !important;
-}
+  .bemioItalic {
+    font-family: 'Bemio Italic', sans-serif !important;
+  }
+  .gothamBook {
+    font-family: 'GothamBook', sans-serif !important;
+  }
 
   button {
     border: none !important;
@@ -72,27 +97,30 @@ max-width:2000px;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
-  img{
+  img {
     max-width: 100%;
   }
 
-  .saibaNossosPrecos img{
+  .saibaNossosPrecos img {
     width: 250px;
   }
 
-
   @media (max-width: 900px) {
-    .agendeAqui  img ,.saibaNossosPrecos img{
-    width: 200px !important;
-    cursor: pointer;
+    .agendeAqui img,
+    .saibaNossosPrecos img {
+      width: 200px !important;
+      cursor: pointer;
+    }
   }
+  .semMarginEsq {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
   }
-
 `
