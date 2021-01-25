@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Contentor = styled.div`
   width: 100%;
   padding: 0px;
-  margin-top: 10px;
+  margin-top: 32px;
 
   .container {
     min-width: 100%;
@@ -167,7 +167,7 @@ export const Contentor = styled.div`
     padding: 0;
     background: url('/images/unidadesAPTitle.png') no-repeat;
     background-size: contain;
-    background-position-x: right;
+    background-position-x: left;
     margin-bottom: 16px;
     margin-top: 64px;
   }
@@ -197,7 +197,7 @@ export const Contentor = styled.div`
     font-weight: 900;
     font-size: 80px;
     line-height: 98px;
-    text-align: right;
+    text-align: left;
     -webkit-letter-spacing: -0.05em;
     -moz-letter-spacing: -0.05em;
     -ms-letter-spacing: -0.05em;
