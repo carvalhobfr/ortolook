@@ -29,7 +29,8 @@ export const Contentor = styled.div`
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    min-height: 65svh;
+    min-height: 65vh;
+    max-height: 70vh;
   }
 
   .col {
@@ -96,7 +97,7 @@ export const Contentor = styled.div`
 
   .imgCentral {
     text-align: center;
-    margin: 5em auto auto;
+    margin: 1em auto auto;
   }
   .coluna1,
   .coluna3,

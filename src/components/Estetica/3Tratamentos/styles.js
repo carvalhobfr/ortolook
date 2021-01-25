@@ -62,7 +62,8 @@ export const Contentor = styled.div`
       font-size: 14px !important;
     }
     .imgTratamento {
-      width: 100%;
+    height: 422px;
+    width: 350px;
     }
   }
 
@@ -123,5 +124,10 @@ export const Contentor = styled.div`
       min-width: 100%;
       padding: 0;
     }
+  }
+
+  .rowBtnTratamentos .col button > img{
+    height: 23px;
+    padding: 2px;
   }
 `
