@@ -56,7 +56,7 @@ const ModalExample = props => {
               />
             </FormGroup>
 
-            <Button>Enviar</Button>
+            <Button type="submit">Enviar</Button>
           </Form>
         </ModalBody>
 
