@@ -4,6 +4,7 @@ export const Contentor = styled.div`
   max-width: 1920px;
   width: 100%;
   padding: 0px;
+  min-height: 100vh;
 
   .container {
     min-width: 100%;
