@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 
 import { Container, Row, Col } from 'reactstrap'
@@ -8,6 +8,14 @@ import ModalExample from '../../ModalForm'
 
 const HeaderEstetica = () => {
   const [imgUrl, setImgUrl] = useState('/images/faltaBrilho.png')
+
+  useEffect(() => {
+    const script = document.createElement('script')
+    script.src =
+      'https://d335luupugsy2.cloudfront.net/js/loader-scripts/45f2dd6c-bfa7-4b84-b302-e65c08c3049c-loader.js'
+    script.async = true
+    document.body.appendChild(script)
+  })
 
   return (
     <Contentor>

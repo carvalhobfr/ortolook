@@ -15,14 +15,6 @@ const ModalExample = props => {
 
   const toggle = () => setModal(!modal)
 
-  useEffect(() => {
-    const script = document.createElement('script')
-    script.src =
-      'https://d335luupugsy2.cloudfront.net/js/loader-scripts/45f2dd6c-bfa7-4b84-b302-e65c08c3049c-loader.js'
-    script.async = true
-    document.body.appendChild(script)
-  })
-
   return (
     <div>
       <Button className="semMarginEsq" onClick={toggle}>
