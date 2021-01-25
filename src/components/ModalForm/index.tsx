@@ -38,14 +38,24 @@ const ModalExample = props => {
         <ModalBody>
           <Form>
             <FormGroup>
+              <Label for="exampleName">Name</Label>
+              <Input
+                type="text"
+                name="email"
+                id="exampleName"
+                placeholder="Seu nome"
+              />
+            </FormGroup>
+            <FormGroup>
               <Label for="exampleEmail">Email</Label>
               <Input
                 type="email"
                 name="email"
                 id="exampleEmail"
-                placeholder="with a placeholder"
+                placeholder="Seu e-mail"
               />
             </FormGroup>
+
             <Button>Enviar</Button>
           </Form>
         </ModalBody>
