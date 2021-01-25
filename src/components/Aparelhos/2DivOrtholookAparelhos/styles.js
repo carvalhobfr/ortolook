@@ -8,6 +8,7 @@ export const Contentor = styled.div`
     padding: 32px;
     min-width: 100%;
     margin-right: 0px !important;
+    min-height: 100vh;
     h1 {
       /* font-family: Bemio Italic; */
       font-style: normal;
@@ -153,11 +154,12 @@ export const Contentor = styled.div`
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
+      height: 100%;
     }
     .pacientes {
-      padding: 16px;
+      padding: 8px;
       /* width: 200px; */
-      min-width: 30%;
+      min-width: 35%;
       max-width: 157px;
       min-height: unset;
 

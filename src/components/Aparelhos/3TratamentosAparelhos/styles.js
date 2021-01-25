@@ -171,7 +171,7 @@ export const Contentor = styled.div`
     }
   }
   .colTratamentos img {
-    padding: 10px 0;
+    padding: 24px 0;
   }
   .openMobile.imgColunaTratamento.col img {
     padding: 10px;
