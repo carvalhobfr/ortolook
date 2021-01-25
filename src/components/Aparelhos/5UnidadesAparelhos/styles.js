@@ -124,7 +124,7 @@ export const Contentor = styled.div`
     h4 {
       font-size: 24px;
       line-height: 32px;
-      padding: 32px;
+      padding: 8px;
     }
     .coluna3 button p {
       color: #fff;
@@ -192,7 +192,7 @@ export const Contentor = styled.div`
   }
 
   .ortolookContainer2 h1 {
-    margin: 64px 0 16px;
+    margin: 64px 0 0;
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
@@ -226,7 +226,7 @@ export const Contentor = styled.div`
     line-height: 16px;
     color: #802b67;
     font-weight: 500;
-    margin-bottom: 32px;
+    margin-bottom: 12px;
   }
 
   @media (min-width: 900px) {
