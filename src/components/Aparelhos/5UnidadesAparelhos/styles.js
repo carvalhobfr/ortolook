@@ -28,8 +28,8 @@ export const Contentor = styled.div`
       padding: 0 1em;
       font-style: normal;
       font-weight: 500;
-      font-size: 16px;
-      line-height: 16px;
+      font-size: 12px;
+      line-height: 14px;
       color: #802b67;
     }
   }
@@ -68,7 +68,7 @@ export const Contentor = styled.div`
 
   .imagemEstetica {
     min-width: 350px;
-    max-width: 700px;
+    max-width: 600px;
     justify-self: center;
   }
   .redesSociais {
@@ -119,7 +119,7 @@ export const Contentor = styled.div`
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
-      min-height: 700px;
+      min-height: 550px;
     }
     h4 {
       font-size: 24px;

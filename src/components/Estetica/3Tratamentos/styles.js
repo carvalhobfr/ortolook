@@ -49,7 +49,7 @@ export const Contentor = styled.div`
     max-height: 600px;
   }
   .rowBtnTratamentos > .col {
-    text-align: start;
+    text-align: center;
     max-width: 250px;
   }
 
