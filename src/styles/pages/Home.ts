@@ -29,10 +29,10 @@ font-family: 'Gotham', sans-serif !important;
 max-width:2000px;
 
 .bemioItalic{
-  font-family: "Bemio Italic" !important;
+  font-family: "Bemio Italic", sans-serif !important;
 }
 .gothamBook{
-  font-family: "GothamBook" !important;
+  font-family: "GothamBook", sans-serif !important;
 }
 
   button {
