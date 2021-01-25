@@ -11,7 +11,7 @@ import DivOrtholookAparelhos from '../components/Aparelhos/2DivOrtholookAparelho
 import Tratamentos from '../components/Aparelhos/3TratamentosAparelhos'
 import Depoimentos from '../components/Aparelhos/4DepoimentosAparelhos'
 import UnidadesAparelhos from '../components/Aparelhos/5UnidadesAparelhos'
-import LoadingScreen from '../components/LoadingScreen'
+import LoadingScreen from '../components/Aparelhos/LoadingScreenAparelho'
 import FooterAparelhos from '../components/Aparelhos/FooterAparelhos'
 
 const Aparelhos: React.FC = () => {

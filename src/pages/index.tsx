@@ -6,7 +6,7 @@ import { Container } from '../styles/pages/Home'
 import { GetServerSideProps } from 'next'
 
 import Homeorto from '../components/HomeOrto'
-import LoadingScreen from '../components/LoadingScreen'
+import LoadingScreen from '../components/Aparelhos/LoadingScreenAparelho'
 
 const Index: React.FC = () => {
   const [loading, setLoading] = useState(true)
