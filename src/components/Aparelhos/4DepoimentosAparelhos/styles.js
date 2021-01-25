@@ -110,4 +110,8 @@ export const Contentor = styled.div`
       color: #802b67;
     }
   }
+
+  img{
+    max-height: 500px;
+  }
 `

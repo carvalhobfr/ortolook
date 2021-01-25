@@ -18,7 +18,7 @@ export const Contentor = styled.div`
   .rowMain {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     align-items: flex-end;
   }
 
@@ -68,7 +68,7 @@ export const Contentor = styled.div`
 
   .imagemEstetica {
     min-width: 350px;
-    max-width: 600px;
+    max-width: 550px;
     justify-self: center;
   }
   .redesSociais {
@@ -131,6 +131,9 @@ export const Contentor = styled.div`
     }
     .linhaSinuosaTratamentos {
       margin-bottom: 30px;
+    }
+    .coluna1{
+      padding-top: 0;
     }
   }
 
@@ -233,7 +236,7 @@ export const Contentor = styled.div`
     .coluna1 h4 {
       font-size: 24px;
       line-height: 32px;
-      padding: 32px;
+      padding: 16px;
     }
   }
   @media (max-width: 900px) {
@@ -261,6 +264,7 @@ export const Contentor = styled.div`
       align-items: flex-end;
       justify-content: center;
       padding-right: 0px;
+      
       h4 {
         align-self: baseline;
       }
@@ -273,5 +277,9 @@ export const Contentor = styled.div`
   }
   button p {
     text-transform: uppercase;
+  }
+
+  .coluna1{
+    max-width: 1100px !important;
   }
 `
