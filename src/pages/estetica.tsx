@@ -10,7 +10,7 @@ import DivOrtholook from '../components/Estetica/2DivOrtholook'
 import Tratamentos from '../components/Estetica/3Tratamentos'
 import Depoimentos from '../components/Estetica/4DepoimentosEstetica'
 import UnidadesEstetica from '../components/Estetica/5UnidadesEstetica'
-import LoadingScreen from '../components/estetica/LoadingScreenEstetica'
+import LoadingScreen from '../components/Estetica/9LoadingScreenEstetica'
 import FooterEstetica from '../components/Estetica/6FooterEstetica'
 
 const Estetica: React.FC = () => {
