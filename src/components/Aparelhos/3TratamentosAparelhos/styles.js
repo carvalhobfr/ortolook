@@ -200,4 +200,4 @@ transform: rotate(180deg) ;
 .colCarrossel{
   max-width: 600px;
 }
-`
+}`
