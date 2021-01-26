@@ -53,7 +53,6 @@ export const Contentor = styled.div`
     text-align: center;
   }
 
- 
   @media (max-width: 900px) {
     .ortolookContainer {
       margin-top: 0px !important;
@@ -171,34 +170,35 @@ export const Contentor = styled.div`
     margin: 20px 0;
   }
 
-  .carousel-item > img{
-      max-width: 320px;
-    }
-    .colTratamentos {
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      justify-content: space-evenly;
-      max-width: 300px;
-    }
-.rowTratamentos {
-  align-content: center;
+  .carousel-item > img {
+    max-width: 320px;
+  }
+  .colTratamentos {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly !important;
+    max-width: 300px;
+  }
+  .rowTratamentos {
+    align-content: center;
     justify-content: space-between;
     max-width: 1400px;
+    width: 100%;
     margin: auto;
-}
-.carousel-control-next-icon {
+  }
+  .carousel-control-next-icon {
     background-image: url(images/setaAparelho.png);
-}
-.carousel-control-next-icon , .carousel-control-prev-icon {
+  }
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
     background-image: url(images/setaAparelho.png);
-}
-}
+  }
 
-.carousel-control-prev-icon{
-transform: rotate(180deg) ;
-}
-.colCarrossel{
-  max-width: 600px;
-}
+  .carousel-control-prev-icon {
+    transform: rotate(180deg);
+  }
+  .colCarrossel {
+    max-width: 600px;
+  }
 `
