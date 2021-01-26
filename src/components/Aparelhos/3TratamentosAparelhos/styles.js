@@ -193,6 +193,7 @@ export const Contentor = styled.div`
 .carousel-control-next-icon , .carousel-control-prev-icon {
     background-image: url(images/setaAparelho.png);
 }
+}
 
 .carousel-control-prev-icon{
 transform: rotate(180deg) ;
@@ -200,4 +201,4 @@ transform: rotate(180deg) ;
 .colCarrossel{
   max-width: 600px;
 }
-}`
+`
