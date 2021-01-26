@@ -8,9 +8,9 @@ const agendeLateralEsq = () => {
     <Col className="agendeAqui someMobile">
       <Link href="https://wa.me/5521972878038">
         <img
-          className="agendeAqui semMarginDir"
+          className="agendeAqui "
           loading="lazy"
-          src="/images/agendeAqui.png"
+          src="/images/agendeAqui2.png"
           alt="Agende aqui"
         />
       </Link>

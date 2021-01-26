@@ -176,6 +176,20 @@ export const Container = styled.div`
       color: #802b67;
     }
   }
+
+  .agendeAquiDireita {
+    max-width: 320px;
+    .agendeAqui {
+      margin-bottom: 4px !important;
+      max-width: 155px !important;
+      padding: 0 !important;
+    }
+    .saibaPrecos {
+      padding: 0 !important;
+      max-width: 205px !important;
+      margin-bottom: 4px !important;
+    }
+  }
   .agendeAqui {
     margin-bottom: 4px !important;
     max-width: 255px !important;
@@ -184,12 +198,6 @@ export const Container = styled.div`
   .saibaPrecos {
     padding: 0 !important;
     max-width: 155px !important;
-  }
-
-  .agendeAquiDireita {
-    max-width: 320px;
-    img {
-      max-width: 100% !important;
-    }
+    margin-bottom: 4px !important;
   }
 `

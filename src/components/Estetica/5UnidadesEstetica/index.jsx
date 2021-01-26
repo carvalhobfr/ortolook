@@ -247,8 +247,8 @@ const UnidadesEstetica = () => {
               <img
                 loading="lazy"
                 src="images/nossasUnidadesButton.png"
-                alt="LALALALALAL"
-                className="openMobile buttonNossasUnidades"
+                alt="Botão de Unidades"
+                className="openMobile buttonNossasUnidades semMarginDir "
               />
             </button>
 

@@ -269,11 +269,7 @@ export const Contentor = styled.div`
       min-width: 100%;
       max-width: 100%;
     }
-    .rowMain {
-      width: 100%;
-      min-width: 100%;
-      max-width: 100%;
-    }
+
     .imagemEstetica {
       min-width: 350px;
       max-width: 300px;

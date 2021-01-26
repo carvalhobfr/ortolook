@@ -5,10 +5,10 @@ import { Col } from 'reactstrap'
 
 const agendeLateralEsq = () => {
   return (
-    <Col className="agendeAqui someMobile agendeAquiDireita semMarginDir">
+    <Col className="agendeAqui agendeAquiDireita semMarginDir">
       <Link href="https://wa.me/5521972878038">
         <img
-          className="agendeAqui semMarginEsq"
+          className=" saibaPrecos semMarginEsq"
           loading="lazy"
           src="/images/saibaPrecosDir.png"
           alt="Agende aqui"
@@ -16,7 +16,7 @@ const agendeLateralEsq = () => {
       </Link>
       <Link href="https://wa.me/5521972878038">
         <img
-          className="saibaPrecos saibaPrecosDir"
+          className="agendeAqui saibaPrecosDir"
           loading="lazy"
           src="/images/agendeAquiDir.png"
           alt="Agende aqui"

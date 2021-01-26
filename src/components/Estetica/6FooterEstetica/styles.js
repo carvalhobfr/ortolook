@@ -78,9 +78,9 @@ export const Contentor = styled.div`
       padding: 0 16px;
     }
     a img {
-      padding-top: 3px !important;
-      min-width: 30px;
-      min-height: 30px;
+      padding: 5px 2px !important;
+      min-width: 25px;
+      min-height: 25px;
     }
   }
   .croIMG {
