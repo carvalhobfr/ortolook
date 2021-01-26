@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import styled from 'styled-components'
 
 export const Container = styled.div`
@@ -112,15 +111,85 @@ export const Container = styled.div`
     width: 250px;
   }
 
-  @media (max-width: 900px) {
-    .agendeAqui img,
-    .saibaNossosPrecos img {
-      width: 200px !important;
-      cursor: pointer;
+  .carousel {
+    margin-bottom: 32px;
+    img {
+      max-height: 70vh;
     }
   }
+
   .semMarginEsq {
     margin-left: 0 !important;
     padding-left: 0 !important;
+    text-align: start;
+    align-self: flex-start;
+    margin-right: auto;
+  }
+  .semMarginDir {
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    text-align: end;
+    align-self: flex-end;
+    margin-left: auto;
+  }
+
+  .linhaSinuosa {
+    max-width: 1106px !important;
+    max-height: 76px !important;
+    width: 100% !important;
+  }
+
+  .linhaSinuosaDireita {
+    align-self: flex-end !important;
+  }
+  .linhaSinuosaEsq {
+    align-self: flex-start !important;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .Contentor {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    max-width: 100vw !important;
+  }
+
+  @media (max-width: 900px) {
+    .agendeAqui img,
+    .saibaNossosPrecos img {
+      width: 200px;
+      cursor: pointer;
+    }
+    .linhaSinuosa {
+      min-width: 269px !important;
+      min-height: 23px !important;
+      width: 100% !important;
+    }
+    p,
+    h4 {
+      font-family: 'GothamBook';
+      font-weight: 400 !important;
+      font-size: 14px;
+      line-height: 16px;
+      color: #802b67;
+    }
+  }
+  .agendeAqui {
+    margin-bottom: 4px !important;
+    max-width: 255px !important;
+    padding: 0 !important;
+  }
+  .saibaPrecos {
+    padding: 0 !important;
+    max-width: 155px !important;
+  }
+
+  .agendeAquiDireita {
+    max-width: 320px;
+    img {
+      max-width: 100% !important;
+    }
   }
 `

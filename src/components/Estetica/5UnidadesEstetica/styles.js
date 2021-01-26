@@ -98,7 +98,7 @@ export const Contentor = styled.div`
 
   .imagemEstetica {
     min-width: 350px;
-    max-width: 800px;
+    max-width: 600px;
     width: 100%;
   }
   .redesSociais {
@@ -193,6 +193,7 @@ export const Contentor = styled.div`
     }
     .rowMain {
       width: 100%;
+      max-width: 1300px;
     }
     .coluna3 {
       padding-top: 120px;
@@ -294,12 +295,15 @@ export const Contentor = styled.div`
   }
 
   .container:not(:root:root) {
-    min-height: 800px;
     .coluna4 {
       justify-content: space-between;
     }
   }
   .coluna4 {
     justify-content: space-between !important;
+  }
+
+  .coluna1 img {
+    margin: auto;
   }
 `

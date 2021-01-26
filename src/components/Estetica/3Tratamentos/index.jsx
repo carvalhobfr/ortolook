@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import { Contentor } from './styles'
 
-import AgendeLateral from '../AgendaLateral'
+import AgendaLateralDir from '../AgendaLateralDir'
 
 const Tratamentos = () => {
   const [imgUrl, setImgUrl] = useState('/images/harmonizacaoFacial.png')
@@ -13,7 +13,7 @@ const Tratamentos = () => {
   return (
     <Contentor>
       <Container className="ortolookContainer">
-        <Row className="linhaSinuosaTratamentos">
+        <Row className="linhaSinuosaTratamentos linhaSinuosa linhaSinuosaEsq ">
           <br></br>
         </Row>
         <div id="skinbooster"></div>
@@ -96,7 +96,7 @@ const Tratamentos = () => {
             alt="Tratamento SkinBooster"
           />
         </Row>
-        <AgendeLateral />
+        <AgendaLateralDir />
       </Container>
     </Contentor>
   )

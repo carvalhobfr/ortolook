@@ -4,13 +4,13 @@ import Link from 'next/link'
 import { Container, Row, Col } from 'reactstrap'
 import { Contentor } from './styles'
 
-import AgendeLateral from '../AgendaLateral'
+import AgendaLateralDir from '../AgendaLateralDir'
 
 const DivOrtholook = () => {
   return (
     <Contentor>
       <Container className="ortolookContainer gothamBook">
-        <Row className="linhaSinuosa">
+        <Row className="linhaSinuosa linhaSinuosaDireita ">
           <br></br>
         </Row>
         <Row>
@@ -23,7 +23,7 @@ const DivOrtholook = () => {
               orofaciais e ortodônticos.
             </p>
           </Col>
-          <AgendeLateral className="someMobile" />
+          <AgendaLateralDir className="someMobile" />
         </Row>
         <Row className="rowPacientes gothamBook">
           <Col className="pacientes">

@@ -2,7 +2,7 @@ import React, { useState, Component } from 'react'
 
 import { Container, Row, Col } from 'reactstrap'
 import { Contentor } from './styles'
-import AgendeLateral from '../AgendaLateral'
+// import AgendaLateralEsq from '../AgendaLateralEsq'
 
 const UnidadesEstetica = () => {
   const [imgUrl, setImgUrl] = useState('images/unidadeESR(2).png')
@@ -112,10 +112,11 @@ const UnidadesEstetica = () => {
   return (
     <Contentor>
       <Container>
+        <Row className="linhaSinuosaTratamentos linhaSinuosa linhaSinuosaEsquerda ">
+          <br></br>
+        </Row>
         <Row className="rowMain gothamBook">
-          <Row className="linhaSinuosaTratamentos">
-            <br></br>
-          </Row>
+          <br />
           <Col className="coluna1 someMobile">
             <h4>
               As clínicas Ortolook Estética estão localizadas no estado do Rio

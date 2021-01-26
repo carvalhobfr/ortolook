@@ -8,7 +8,7 @@ import {
   Container,
   Row
 } from 'reactstrap'
-import AgendeLateral from '../AgendaLateral'
+import AgendaLateralDir from '../AgendaLateralDir'
 
 import { Contentor } from './styles'
 
@@ -129,7 +129,7 @@ const Depoimentos = props => {
   return (
     <Contentor>
       <Container className="ortolookContainer">
-        <Row className="linhaSinuosaDepoimento">
+        <Row className="linhaSinuosaDepoimento  linhaSinuosa  linhaSinuosaDireita">
           <br></br>
         </Row>
       </Container>
@@ -202,7 +202,7 @@ const Depoimentos = props => {
           onClickHandler={nextMobile}
         />
       </Carousel> */}
-      <AgendeLateral />
+      <AgendaLateralDir />
     </Contentor>
   )
 }

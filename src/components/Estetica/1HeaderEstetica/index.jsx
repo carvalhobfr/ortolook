@@ -4,7 +4,9 @@ import Link from 'next/link'
 import { Container, Row, Col } from 'reactstrap'
 import { Contentor } from './styles'
 
-import ModalExample from '../../ModalForm'
+import AgendaLateralEsq from '../AgendaLateralEsq'
+
+// import ModalExample from '../../ModalForm'
 
 const HeaderEstetica = () => {
   const [imgUrl, setImgUrl] = useState('/images/faltaBrilho.png')
@@ -14,19 +16,7 @@ const HeaderEstetica = () => {
       <Container>
         <Row className="rowMain">
           <Col className="coluna1">
-            <Col className="agendeAqui someMobile">
-              <Link href="https://wa.me/5521972878038">
-                <img
-                  loading="lazy"
-                  src="/images/agendeAqui2.png"
-                  alt="Agende aqui"
-                />
-              </Link>
-              <ModalExample
-                srcImg="/images/agendeAqui2.png"
-                className="agendeAqui"
-              />
-            </Col>
+            <AgendaLateralEsq />
             <button onClick={() => setImgUrl('images/faltaBrilho.png')}>
               <p>FALTA DE BRILHO</p>
             </button>
