@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 export const Contentor = styled.div`
   /* margin-top: 30px; */
-  border-top: 1px solid lightgray;
   padding: 16px 0 8px;
+  min-height: 10vh;
   max-width: 95vw;
   margin: auto;
   .rowFooter {

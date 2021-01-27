@@ -6,14 +6,12 @@ import { Contentor } from './styles'
 
 import AgendaLateralEsq from '../AgendaLateralEsq'
 
-// import ModalExample from '../../ModalForm'
-
 const HeaderEstetica = () => {
   const [imgUrl, setImgUrl] = useState('/images/faltaBrilho.png')
 
   return (
     <Contentor>
-      <Container>
+      <Container className="someMobile">
         <Row className="rowMain">
           <Col className="coluna1">
             <AgendaLateralEsq />
@@ -89,15 +87,53 @@ const HeaderEstetica = () => {
           </Col>
         </Row>
       </Container>
-      <Col className="agendeAqui openMobile">
-        <br />
-        <Link href="https://wa.me/5521972878038">
-          <img loading="lazy" src="/images/agendeAqui.png" alt="Agende aqui" />
-        </Link>
-        {/* <Link href="/">
-                 <img loading="lazy" src="/images/saibaPrecos.png" alt="Saiba Precos" />
-              </Link> */}
-      </Col>
+
+      <Container className="openMobile pageMobile">
+        <Row className="rowUpgrade">
+          <img src="/images/upgradeMobile.png" alt="upgrade" />
+        </Row>
+        <Row>
+          <Col>
+            <img src="/images/headHeader.png" alt="upgrade" />
+          </Col>
+          <Col className="colTratamentos">
+            <p>RUGAS</p>
+            <p>OLHEIRAS</p>
+            <p>MANDÍBULA</p>
+            <p>LÁBIOS FINOS</p>
+            <p>BIGODE CHINÊS</p>
+            <p>FALTA DE BRILHO</p>
+          </Col>
+          <Row>
+            <Col className="linkTratamentos">
+              <a href="#tratamentos">
+                <img src="/images/tratamentos237.png" alt="upgrade" />
+                <img src="/images/tratamentos135.png" alt="upgrade" />
+                <img src="/images/tratamentos134.png" alt="upgrade" />
+              </a>
+            </Col>
+            <Col className="linkTratamentos2">
+              <a href="https://www.instagram.com/ortolook/">
+                <img
+                  className="sociais"
+                  src="/images/facebook.png"
+                  alt="upgrade"
+                />
+              </a>
+              <a href="https://www.instagram.com/ortolook/">
+                <img
+                  className="sociais"
+                  src="/images/instagram.png"
+                  alt="upgrade"
+                />
+              </a>
+              <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+                <img src="/images/agende238.png" alt="upgrade" />
+              </a>
+            </Col>
+          </Row>
+        </Row>
+      </Container>
     </Contentor>
   )
 }

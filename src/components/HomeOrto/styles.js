@@ -6,7 +6,7 @@ export const Contentor = styled.div`
   }
 
   .container {
-    height: 95vh;
+    height: 90vh;
     margin: 0;
     padding: 0;
     left: 0;
@@ -17,7 +17,6 @@ export const Contentor = styled.div`
     justify-items: center;
     justify-content: center;
     align-content: center;
-    border-bottom: 1px solid lightgray;
   }
   .contentor {
     width: 99vw;
