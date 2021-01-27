@@ -200,4 +200,8 @@ export const Container = styled.div`
     max-width: 155px !important;
     margin-bottom: 4px !important;
   }
+  .rowFooter {
+    width: 95vw;
+    max-width: 1900px;
+  }
 `
