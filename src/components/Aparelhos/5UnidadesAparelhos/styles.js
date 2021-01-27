@@ -324,6 +324,11 @@ export const Contentor = styled.div`
   }
 
   @media (max-width: 900px) {
+    min-height: 100vh;
+    .container,
+    .rowMain {
+      min-height: 100vh;
+    }
     strong {
       font-size: 32px !important;
       line-height: 36px !important;
@@ -333,5 +338,9 @@ export const Contentor = styled.div`
       line-height: 36px !important;
       text-align: start !important;
     }
+  }
+  min-height: 100vh;
+  .container {
+    min-height: 100vh;
   }
 `

@@ -56,6 +56,7 @@ export const Contentor = styled.div`
   @media (max-width: 900px) {
     .ortolookContainer {
       margin-top: 0px !important;
+      min-height: 4100px;
     }
     .rowTratamentos {
       display: flex;
