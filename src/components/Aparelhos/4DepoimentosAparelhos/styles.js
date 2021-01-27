@@ -96,4 +96,15 @@ export const Contentor = styled.div`
 
     color: #802b67;
   }
+  @media (max-width: 900px) {
+    strong {
+      font-size: 32px !important;
+      line-height: 36px !important;
+    }
+    h1 {
+      font-size: 32px !important;
+      line-height: 36px !important;
+      text-align: end;
+    }
+  }
 `
