@@ -379,6 +379,6 @@ export const Contentor = styled.div`
     display: flex;
     align-items: flex-start;
     width: 90vw;
-    padding-left: 6px;
+    padding-left: 32px;
   }
 `

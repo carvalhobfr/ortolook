@@ -6,45 +6,44 @@ export const Contentor = styled.div`
   }
   .ortolookContainer {
     margin-top: 50px;
-    padding: 32px;
-    min-width: 100%;
+    padding: 0;
+    min-width: 90%;
     margin-right: 0px !important;
-  }
-  .ortolookContainer2 {
-    /* max-width: 300px; */
-    margin-top: 50px;
-    padding: 32px;
-    margin-right: 0px !important;
-    /* width: 50%; */
-    text-align: start;
-    padding-left: 0;
-    min-height: 100px;
   }
   .saibaNossosPrecos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin-top: 50px;
     padding: 0;
   }
   .linhaSinuosaDepoimento {
+    min-width: 100%;
+    min-height: 80px;
     margin: 0;
     padding: 0;
+    background: url('/images/depoimentosBG.png') no-repeat;
     background-size: contain;
-    text-align: end;
-    max-width: 100%;
+    background-position-x: right;
   }
   .carousel-item {
     text-align: center;
     margin-top: 32px;
   }
   .carousel-control-next-icon {
-    background-image: url(images/setaAparelho.png);
+    background-image: url(images/setaDir.png);
     height: 32px;
     width: 32px;
   }
   .carousel-control-prev-icon {
-    background-image: url(images/setaAparelho.png);
+    background-image: url(images/setaDir.png);
     height: 32px;
     width: 32px;
     -webkit-transform: rotate(180deg);
@@ -52,11 +51,37 @@ export const Contentor = styled.div`
     transform: rotate(180deg);
   }
 
-  .openMobile img {
-    max-width: 80%;
-    max-height: 350px;
+  .carrosselPC img {
+    max-width: 65%;
   }
 
+  @media (max-width: 900px) {
+    .someMobile {
+      display: none;
+    }
+    .openMobile {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex !important;
+    }
+    .ortolookContainer {
+      padding: 16px !important;
+    }
+    .linhaSinuosaDepoimento {
+      min-height: 50px;
+      margin-right: -16px;
+    }
+  }
+
+  .ortolookContainer {
+    padding: 32px 0px 32px 32px !important;
+  }
+
+  @media (max-width: 900px) {
+    .ortolookContainer {
+      padding: 16px !important;
+    }
+  }
   h1 {
     font-style: normal;
     font-weight: 900;
@@ -70,49 +95,5 @@ export const Contentor = styled.div`
     text-transform: uppercase;
 
     color: #802b67;
-  }
-
-  @media (max-width: 900px) {
-    strong {
-      font-size: 32px !important;
-      line-height: 36px !important;
-    }
-    h1 {
-      font-size: 32px !important;
-      line-height: 36px !important;
-      text-align: end;
-    }
-    .someMobile {
-      display: none;
-    }
-    .openMobile {
-      display: flex;
-    }
-    .ortolookContainer {
-      padding: 16px !important;
-    }
-    .linhaSinuosaTratamentos {
-      min-height: 50px;
-    }
-    .rowPacientes {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-    }
-    .pacientes {
-      padding: 16px 0;
-    }
-    p {
-      font-family: 'Gotham';
-      text-align: start;
-      font-weight: 800;
-      font-size: 14px;
-      line-height: 16px;
-      color: #802b67;
-    }
-  }
-
-  img {
-    max-height: 500px;
   }
 `
