@@ -29,14 +29,14 @@ const NavOrtho = props => {
             <img
               loading="lazy"
               src="/images/iconOrtholook2.svg"
-              alt="Ortholook"
+              alt="Ortolook"
             />
           </NavbarBrand>
           <NavbarBrand href="/aparelhos">
             <img
               loading="lazy"
               src="/images/iconOrtholook.svg"
-              alt="Ortholook"
+              alt="Ortolook"
             />
           </NavbarBrand>
         </div>
@@ -51,7 +51,7 @@ const NavOrtho = props => {
               <NavLink href="/aparelhos">aparelhos</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#ortholook">a ortolook</NavLink>
+              <NavLink href="#ortolook">a ortolook</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#tratamentos">tratamentos</NavLink>

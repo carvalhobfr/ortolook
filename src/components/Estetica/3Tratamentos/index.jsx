@@ -11,7 +11,7 @@ const Tratamentos = () => {
     '/images/harmonizacaoFacialMobile.png'
   )
   return (
-    <Contentor>
+    <Contentor id="tratamentos">
       <Container className="ortolookContainer">
         <Row className="linhaSinuosaTratamentos linhaSinuosa linhaSinuosaEsq ">
           <br></br>

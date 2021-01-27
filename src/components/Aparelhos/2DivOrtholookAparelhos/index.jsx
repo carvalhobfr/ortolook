@@ -6,7 +6,7 @@ import { Contentor } from './styles'
 
 const DivOrtholook = () => {
   return (
-    <Contentor>
+    <Contentor id="ortolook">
       <Container className="ortolookContainer gothamBook">
         <Row>
           <h1 className="bemioItalic">A ORTOLOOK</h1>

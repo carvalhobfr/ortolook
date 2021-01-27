@@ -114,7 +114,7 @@ export const Container = styled.div`
   .carousel {
     margin-bottom: 32px;
     img {
-      max-height: 70vh;
+      max-height: 60vh;
     }
   }
 

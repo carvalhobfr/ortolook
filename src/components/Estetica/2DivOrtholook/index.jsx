@@ -8,7 +8,7 @@ import AgendaLateralDir from '../AgendaLateralDir'
 
 const DivOrtholook = () => {
   return (
-    <Contentor>
+    <Contentor id="ortolook">
       <Container className="ortolookContainer gothamBook">
         <Row className="linhaSinuosa linhaSinuosaDireita ">
           <br></br>

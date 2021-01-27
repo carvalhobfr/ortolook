@@ -29,7 +29,7 @@ const NavOrtho = props => {
             <img
               loading="lazy"
               src="/images/iconOrtholook3.png"
-              alt="Ortholook"
+              alt="Ortolook"
             />
           </NavbarBrand>
           <NavbarBrand href="/estetica">
@@ -51,7 +51,7 @@ const NavOrtho = props => {
               <NavLink href="/estetica">estética</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#ortholook">a ortolook</NavLink>
+              <NavLink href="#ortolook">a ortolook</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="#tratamentos">tratamentos</NavLink>
@@ -74,9 +74,7 @@ const NavOrtho = props => {
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink disabled href="#unidades">
-                unidades
-              </NavLink>
+              <NavLink href="#unidades">unidades</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

@@ -150,7 +150,7 @@ const Tratamentos = () => {
   })
 
   return (
-    <Contentor>
+    <Contentor id="tratamentos">
       <Container className="ortolookContainer">
         <Row>
           <h1 className="bemioItalic">TRATAMENTOS</h1>
