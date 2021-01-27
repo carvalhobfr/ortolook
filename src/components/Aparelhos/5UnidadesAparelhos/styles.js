@@ -37,7 +37,7 @@ export const Contentor = styled.div`
       font-weight: 600;
       font-size: 12px;
       line-height: 12px;
-      color: #802b67;
+      color: #fff;
       text-transform: uppercase;
     }
   }
@@ -90,7 +90,7 @@ export const Contentor = styled.div`
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    background: #e9cebf;
+    background: #802b67;
     border-radius: 120.5px 120.5px 0px 0px;
     button p {
       text-transform: uppercase;
