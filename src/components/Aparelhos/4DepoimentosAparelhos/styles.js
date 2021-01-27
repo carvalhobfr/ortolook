@@ -18,7 +18,7 @@ export const Contentor = styled.div`
     /* width: 50%; */
     text-align: start;
     padding-left: 0;
-    min-height: 80vh;
+    min-height: 100px;
   }
   .saibaNossosPrecos {
     display: flex;
