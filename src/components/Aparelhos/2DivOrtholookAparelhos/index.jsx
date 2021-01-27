@@ -11,14 +11,12 @@ const DivOrtholook = () => {
         <Row>
           <h1 className="bemioItalic">A ORTOLOOK</h1>
         </Row>
-        <Row>
+        <Row className="textoBio">
           <Col>
             <p>
-              Nós somos uma rede de clínicas
-              <br /> localizadas no estado do Rio de Janeiro <br /> com
-              expertise em procedimentos
-              <br />
-              orofaciais e ortodônticos.
+              Nós somos uma rede de clínicas localizadas no estado do Rio de
+              Janeiro <br /> com expertise em procedimentos orofaciais e
+              ortodônticos.
             </p>
           </Col>
         </Row>

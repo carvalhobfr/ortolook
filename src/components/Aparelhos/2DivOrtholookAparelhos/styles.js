@@ -114,6 +114,10 @@ export const Contentor = styled.div`
     }
   }
 
+  .textoBio {
+    margin: 0px;
+  }
+
   @media (max-width: 900px) {
     h5 {
       font-size: 13px !important;
@@ -126,8 +130,6 @@ export const Contentor = styled.div`
       line-height: 16px;
       color: #802b67;
     }
-  }
-  @media (max-width: 900px) {
     .someMobile {
       display: none;
     }
