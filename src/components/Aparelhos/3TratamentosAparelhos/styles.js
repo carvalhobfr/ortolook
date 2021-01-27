@@ -141,6 +141,7 @@ export const Contentor = styled.div`
     }
     .ortolookContainer {
       padding: 16px !important;
+      align-items: center;
     }
     .linhaSinuosaTratamentos {
       min-height: 50px;
@@ -170,7 +171,8 @@ export const Contentor = styled.div`
     margin: 20px 0;
   }
 
-  .carousel-item > img {
+  .carousel-item > img,
+  .imgColunaTratamento > img {
     max-width: 320px;
   }
   .colTratamentos {
@@ -200,5 +202,8 @@ export const Contentor = styled.div`
   }
   .colCarrossel {
     max-width: 600px;
+  }
+  .ortolookContainer > .row {
+    width: 100%;
   }
 `

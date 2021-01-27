@@ -117,7 +117,7 @@ const UnidadesEstetica = () => {
         </Row>
         <Row className="rowMain gothamBook">
           <br />
-          <Col className="coluna1 someMobile">
+          <Col className="coluna1 gothamBook someMobile">
             <h4>
               As clínicas Ortolook Estética estão localizadas no estado do Rio
               de Janeiro!
@@ -259,7 +259,7 @@ const UnidadesEstetica = () => {
               className="imagemEstetica"
             /> */}
           </Col>
-          <Col className="coluna3 someMobile">
+          <Col className="coluna3 gothamBook someMobile">
             <button onClick={() => setImgUrl('images/unidadeESR(2).png')}>
               <p>Botafogo</p>
             </button>

@@ -297,6 +297,7 @@ export const Contentor = styled.div`
   }
   .coluna4 {
     justify-content: space-between !important;
+    min-height: 402px;
   }
 
   .coluna1 img {

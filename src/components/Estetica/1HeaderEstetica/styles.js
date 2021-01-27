@@ -153,19 +153,9 @@ export const Contentor = styled.div`
     .ortolookContainer {
       padding: 16px !important;
     }
-    .rowMain,
-    .coluna1 {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-      flex-direction: column-reverse;
-      align-items: center;
-    }
     .rowMain {
       min-height: 550px;
+      flex-wrap: wrap-reverse;
     }
     .coluna1 button {
       text-align: center;
@@ -288,6 +278,17 @@ export const Contentor = styled.div`
     .rowMain {
       min-height: 500px;
       max-height: 500px;
+    }
+    .rowMain,
+    .coluna1 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+      align-items: center;
     }
   }
 `
