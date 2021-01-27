@@ -62,8 +62,8 @@ export const Contentor = styled.div`
       font-size: 14px !important;
     }
     .imgTratamento {
-    height: 422px;
-    width: 350px;
+      height: 422px;
+      width: 350px;
     }
   }
 
@@ -107,8 +107,10 @@ export const Contentor = styled.div`
     .openMobile {
       display: none !important;
     }
-    button, button>img{
+    button,
+    button > img {
       height: 42px;
+      padding: 8px;
     }
   }
 
@@ -127,10 +129,9 @@ export const Contentor = styled.div`
       min-width: 100%;
       padding: 0;
     }
-    .rowBtnTratamentos> .col> button > img{
-    height: 23px;
-    padding: 2px;
+    .rowBtnTratamentos > .col > button > img {
+      height: 23px;
+      padding: 2px;
+    }
   }
-  }
-
 `
