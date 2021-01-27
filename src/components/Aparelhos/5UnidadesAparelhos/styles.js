@@ -307,7 +307,7 @@ export const Contentor = styled.div`
   .coluna1 img {
     margin: auto;
   }
-  .ortolookContainer2 h1 {
+  h1 {
     margin: 64px 0 0;
     font-style: normal;
     font-weight: 900;
