@@ -18,7 +18,7 @@ export const Contentor = styled.div`
 
   .rowFooter .col:first-child img {
     max-height: 14px;
-    min-height: 14px;
+    min-height: 12px;
     padding: 2px 8px;
   }
   .col2Footer .row {
@@ -78,14 +78,13 @@ export const Contentor = styled.div`
       padding: 0 16px;
     }
     a img {
-      padding-top: 3px !important;
-      min-width: 30px;
-      min-height: 30px;
+      padding: 5px 2px !important;
+      min-width: 25px;
+      min-height: 25px;
     }
   }
   .croIMG {
     min-height: 13px !important;
     max-height: 14px !important;
-    max-width: 350px;
   }
 `

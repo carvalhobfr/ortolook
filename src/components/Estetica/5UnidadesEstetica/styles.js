@@ -303,4 +303,12 @@ export const Contentor = styled.div`
   .coluna1 img {
     margin: auto;
   }
+
+  @media (max-width: 900px) {
+    min-height: 100vh;
+    .container,
+    .rowMain {
+      min-height: 100vh;
+    }
+  }
 `
