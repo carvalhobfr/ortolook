@@ -102,9 +102,9 @@ const Depoimentos = props => {
 
   return (
     <Contentor>
-      <Container className="ortolookContainer2">
-        <h1 className="bemioItalic">Sorrisos que Falam</h1>
-      </Container>
+      <Row className=" ortolookContainer2">
+        <h1 className="bemioItalic ">Sorrisos que Falam</h1>
+      </Row>
       <Carousel
         className="someMobile"
         activeIndex={activeIndex}

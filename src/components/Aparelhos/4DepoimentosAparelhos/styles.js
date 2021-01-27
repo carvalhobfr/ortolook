@@ -18,6 +18,7 @@ export const Contentor = styled.div`
     /* width: 50%; */
     text-align: start;
     padding-left: 0;
+    min-height: 80vh;
   }
   .saibaNossosPrecos {
     display: flex;
@@ -56,7 +57,7 @@ export const Contentor = styled.div`
     max-height: 350px;
   }
 
-  .ortolookContainer2 h1 {
+  h1 {
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
@@ -111,7 +112,7 @@ export const Contentor = styled.div`
     }
   }
 
-  img{
+  img {
     max-height: 500px;
   }
 `
