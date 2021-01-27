@@ -298,7 +298,7 @@ export const Contentor = styled.div`
   }
   .coluna4 {
     justify-content: space-between !important;
-    max-height: 300px;
+    min-height: 401.53px;
     flex-wrap: wrap;
     align-items: center;
     align-content: flex-end;
