@@ -208,10 +208,8 @@ export const Contentor = styled.div`
     width: 100%;
   }
 
-  .selector:not(*:root) {
-    .ortolookContainer {
-      margin-top: 0px !important;
-      min-height: 4300px;
-    }
+  .ortolookContainer {
+    margin-top: 0px !important;
+    min-height: 4300px;
   }
 `

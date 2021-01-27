@@ -355,28 +355,22 @@ export const Contentor = styled.div`
     }
   }
 
-  _::-webkit-full-page-media,
-  _:future,
-  :root .coluna4 {
+  .coluna4 {
+    justify-content: space-between;
+  }
+
+  .coluna4 {
     justify-content: space-between;
   }
 
   @media (max-width: 900px) {
-    _::-webkit-full-page-media,
-    _:future,
-    :root .contentor {
+    .contentor {
       min-height: 100vh;
     }
-    _::-webkit-full-page-media,
-    _:future,
-    :root .container,
-    _::-webkit-full-page-media,
-    _:future,
-    :root .rowMain,
-    :root .container,
-    _::-webkit-full-page-media,
-    _:future,
-    :root .coluna1 {
+    .container,
+    .rowMain,
+    .container,
+    .coluna1 {
       min-height: 100vh !important;
     }
   }
