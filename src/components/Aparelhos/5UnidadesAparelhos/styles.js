@@ -341,7 +341,7 @@ export const Contentor = styled.div`
   }
 
   @media not all and (min-resolution: 0.001dpcm) {
-    @media {
+    @supports (-webkit-appearance: none) {
       .coluna4 {
         justify-content: space-between;
       }
@@ -352,6 +352,27 @@ export const Contentor = styled.div`
           min-height: 100vh !important;
         }
       }
+    }
+  }
+
+  _::-webkit-full-page-media,
+  _:future,
+  :root .coluna4 {
+    justify-content: space-between;
+  }
+  @media (max-width: 900px) {
+    _::-webkit-full-page-media,
+    _:future,
+    :root .contentor {
+      min-height: 100vh;
+    }
+    _::-webkit-full-page-media,
+    _:future,
+    :root .container,
+    _::-webkit-full-page-media,
+    _:future,
+    :root .rowMain {
+      min-height: 100vh !important;
     }
   }
 `
