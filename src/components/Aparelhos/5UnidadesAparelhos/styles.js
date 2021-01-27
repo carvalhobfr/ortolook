@@ -99,7 +99,7 @@ export const Contentor = styled.div`
 
   .imagemEstetica {
     min-width: 350px;
-    max-width: 600px;
+    max-width: 500px;
     width: 100%;
   }
   .redesSociais {
@@ -153,9 +153,9 @@ export const Contentor = styled.div`
       display: grid;
     }
     .coluna1 h4 {
-      font-size: 24px;
-      line-height: 32px;
-      padding: 32px;
+      font-size: 22px;
+      line-height: 24px;
+      padding: 8px;
     }
   }
 

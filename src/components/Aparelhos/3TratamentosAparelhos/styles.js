@@ -208,6 +208,7 @@ export const Contentor = styled.div`
     width: 100%;
   }
   @media (max-width: 900px) {
+    /* min-height: 4800px; */
     .ortolookContainer {
       margin-top: 0px !important;
       min-height: 4800px;
