@@ -208,12 +208,10 @@ export const Contentor = styled.div`
     width: 100%;
   }
 
-  @media not all and (min-resolution: 0.001dpcm) {
-    @media {
-      .ortolookContainer {
-        margin-top: 0px !important;
-        min-height: 4300px;
-      }
-    }
+  _::-webkit-full-page-media,
+  _:future,
+  :root .ortolookContainer {
+    margin-top: 0px !important;
+    min-height: 4300px;
   }
 `

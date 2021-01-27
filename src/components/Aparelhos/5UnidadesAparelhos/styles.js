@@ -360,6 +360,7 @@ export const Contentor = styled.div`
   :root .coluna4 {
     justify-content: space-between;
   }
+
   @media (max-width: 900px) {
     _::-webkit-full-page-media,
     _:future,
@@ -371,7 +372,11 @@ export const Contentor = styled.div`
     :root .container,
     _::-webkit-full-page-media,
     _:future,
-    :root .rowMain {
+    :root .rowMain,
+    :root .container,
+    _::-webkit-full-page-media,
+    _:future,
+    :root .coluna1 {
       min-height: 100vh !important;
     }
   }
