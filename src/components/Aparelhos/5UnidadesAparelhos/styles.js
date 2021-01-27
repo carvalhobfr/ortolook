@@ -374,4 +374,11 @@ export const Contentor = styled.div`
       min-height: 100vh !important;
     }
   }
+
+  .rowUnidades {
+    display: flex;
+    align-items: flex-start;
+    width: 90vw;
+    padding-left: 6px;
+  }
 `

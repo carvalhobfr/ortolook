@@ -211,8 +211,9 @@ const UnidadesAparelho = () => {
     <Contentor>
       <Container>
         <Row className="rowMain ">
-          <h1 className="bemioItalic">UNIDADES</h1>
-
+          <Row className="rowUnidades">
+            <h1 className="bemioItalic">UNIDADES</h1>
+          </Row>
           <Col className="coluna1 gothamBook someMobile">
             <h4>
               As clínicas Ortolook Estética estão localizadas no estado do Rio
