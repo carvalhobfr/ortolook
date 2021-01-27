@@ -207,9 +207,10 @@ export const Contentor = styled.div`
   .ortolookContainer > .row {
     width: 100%;
   }
-
-  .ortolookContainer {
-    margin-top: 0px !important;
-    min-height: 4300px;
+  @media (max-width: 900px) {
+    .ortolookContainer {
+      margin-top: 0px !important;
+      min-height: 4300px;
+    }
   }
 `
