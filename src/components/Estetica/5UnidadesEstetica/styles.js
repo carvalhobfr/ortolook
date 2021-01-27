@@ -308,7 +308,7 @@ export const Contentor = styled.div`
     min-height: 100vh;
     .container,
     .rowMain {
-      min-height: 100vh;
+      min-height: 100vh !important;
     }
   }
 `
