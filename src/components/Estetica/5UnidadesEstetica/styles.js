@@ -294,6 +294,13 @@ export const Contentor = styled.div`
     .coluna4 {
       justify-content: space-between;
     }
+    @media (max-width: 900px) {
+      min-height: 100vh;
+      .container,
+      .rowMain {
+        min-height: 100vh !important;
+      }
+    }
   }
   .coluna4 {
     justify-content: space-between !important;
@@ -302,13 +309,5 @@ export const Contentor = styled.div`
 
   .coluna1 img {
     margin: auto;
-  }
-
-  @media (max-width: 900px) {
-    min-height: 100vh;
-    .container,
-    .rowMain {
-      min-height: 100vh !important;
-    }
   }
 `
