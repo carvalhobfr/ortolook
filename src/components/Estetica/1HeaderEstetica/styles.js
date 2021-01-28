@@ -297,9 +297,17 @@ export const Contentor = styled.div`
     .openMobile {
       .rowUpgrade {
         margin: 0 auto;
-        min-height: 10vh;
+        min-height: 5vh;
+        max-height: 10vh;
         padding: 8px 32px;
         max-width: 50%;
+        img {
+          width: 50%;
+          max-width: 300px;
+
+          min-width: 150px;
+          margin: auto;
+        }
       }
       .col,
       .col img {
