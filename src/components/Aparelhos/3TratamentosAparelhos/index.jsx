@@ -32,7 +32,7 @@ const items = [
     altText: 'Slide 4'
   },
   {
-    src: '/images/tratamentos42AP.png',
+    src: '/images/tratamentos42AP1.png',
     id: 5,
     altText: 'Slide 4'
   },
@@ -69,7 +69,7 @@ const itemsMobile = [
     altText: 'Slide 4'
   },
   {
-    src: '/images/tratamentos42AP.png',
+    src: '/images/tratamentos42AP1.png',
     id: 12,
     altText: 'Slide 41'
   },
