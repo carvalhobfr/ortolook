@@ -64,6 +64,7 @@ export const Contentor = styled.div`
     .imgTratamento {
       height: 422px;
       width: 350px;
+      max-height: 600px;
     }
   }
 
