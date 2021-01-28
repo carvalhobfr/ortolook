@@ -315,7 +315,7 @@ export const Contentor = styled.div`
     }
 
     .pageMobile {
-      height: 100vh;
+      height: 95vh;
       max-height: 1520px;
       max-width: 100vw;
       justify-content: end;
