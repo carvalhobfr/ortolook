@@ -304,7 +304,6 @@ export const Contentor = styled.div`
         img {
           width: 50%;
           max-width: 300px;
-
           min-width: 150px;
           margin: auto;
         }

@@ -46,7 +46,7 @@ export const Contentor = styled.div`
   .imgTratamento {
     width: 70%;
     margin-left: -16px;
-    max-height: 600px;
+    max-height: 300px;
   }
   .rowBtnTratamentos > .col {
     text-align: center;
