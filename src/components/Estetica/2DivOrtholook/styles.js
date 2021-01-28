@@ -146,4 +146,25 @@ export const Contentor = styled.div`
   .rowPacientes {
     width: 100%;
   }
+
+  h5 {
+    margin-top: 16px;
+  }
+
+  @media (min-width: 900px) {
+    .pacientes1 {
+      align-items: flex-start;
+      div {
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+    .pacientes3 {
+      align-items: flex-end;
+      div {
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
 `

@@ -211,7 +211,7 @@ export const Contentor = styled.div`
     margin-left: 2em;
     flex-direction: column;
     img {
-      max-width: 25%;
+      max-width: 35px;
       width: 35px;
       padding: 5px 4px;
     }

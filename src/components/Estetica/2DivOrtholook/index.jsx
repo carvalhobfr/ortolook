@@ -26,23 +26,40 @@ const DivOrtholook = () => {
           <AgendaLateralDir className="someMobile" />
         </Row>
         <Row className="rowPacientes gothamBook">
-          <Col className="pacientes">
-            <img loading="lazy" src="/images/paciente1.png" alt="Paciente 1" />
-            <br />
-            <h5>Cabe no bolso</h5>
-          </Col>
-          <Col className="pacientes">
-            <img loading="lazy" src="/images/paciente2.png" alt="Paciente 2" />
-            <h5>
+          <Col className="pacientes paciente1">
+            <div>
+              <img
+                loading="lazy"
+                src="/images/paciente1.png"
+                alt="Paciente 1"
+              />
               <br />
-              Dentistas especializados em <br />
-              harmonização orofacial
-            </h5>
+              <h5>Cabe no bolso</h5>
+            </div>
           </Col>
           <Col className="pacientes">
-            <img loading="lazy" src="/images/paciente3.png" alt="Paciente 3" />
-            <br />
-            <h5>Faça no mesmo dia</h5>
+            <div>
+              <img
+                loading="lazy"
+                src="/images/paciente2.png"
+                alt="Paciente 2"
+              />
+              <h5>
+                Dentistas especializados em <br />
+                harmonização orofacial
+              </h5>
+            </div>
+          </Col>
+          <Col className="pacientes paciente3">
+            <div>
+              <img
+                loading="lazy"
+                src="/images/paciente3.png"
+                alt="Paciente 3"
+              />
+              <br />
+              <h5>Faça no mesmo dia</h5>
+            </div>
           </Col>
         </Row>
       </Container>

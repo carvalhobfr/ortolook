@@ -44,17 +44,12 @@ export const Contentor = styled.div`
   }
 
   .imgTratamento {
-    width: 70%;
     margin-left: -16px;
     max-height: 300px;
   }
   .rowBtnTratamentos > .col {
     text-align: center;
     max-width: 250px;
-  }
-
-  .img {
-    max-width: 70%;
   }
 
   @media (max-width: 900px) {

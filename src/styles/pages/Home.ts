@@ -204,4 +204,9 @@ export const Container = styled.div`
     width: 95vw;
     max-width: 1900px;
   }
+
+  .linhaSinuosaTratamentos,
+  .linhaSinuosa {
+    max-width: 780px !important;
+  }
 `
