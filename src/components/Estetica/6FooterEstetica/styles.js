@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 export const Contentor = styled.div`
   /* margin-top: 30px; */
-
   padding: 16px 0 8px;
+  min-height: 10vh;
   max-width: 95vw;
   margin: auto;
   .rowFooter {
@@ -17,7 +17,7 @@ export const Contentor = styled.div`
   }
 
   .rowFooter .col:first-child img {
-    max-height: 14px;
+    max-height: 18px;
     min-height: 12px;
     padding: 2px 8px;
   }
@@ -77,14 +77,27 @@ export const Contentor = styled.div`
       justify-content: center;
       padding: 0 16px;
     }
-    a img {
-      padding: 5px 2px !important;
-      min-width: 25px;
-      min-height: 25px;
-    }
+  }
+
+  a img {
+    padding-top: 3px !important;
+    width: 30px;
+    height: 30px;
   }
   .croIMG {
     min-height: 13px !important;
     max-height: 14px !important;
+  }
+  .footer11px {
+    height: 11px !important;
+    max-height: 11px !important;
+    width: 122px;
+    margin: auto;
+  }
+  .footer11px2 {
+    height: 11px !important;
+    max-height: 11px !important;
+    width: 152px;
+    margin: auto;
   }
 `

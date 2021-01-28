@@ -17,10 +17,12 @@ const FooterAparelho = () => {
             <img
               loading="lazy"
               src="images/ortoFooter2.png"
+              className="footer11px"
               alt="Logo Ortolook"
             />
             <img
               loading="lazy"
+              className="footer11px2"
               src="images/ortoFooter3.png"
               alt="Logo Ortolook"
             />

@@ -16,11 +16,13 @@ const Footer = () => {
             />
             <img
               loading="lazy"
+              className="footer11px"
               src="images/ortoFooter2.png"
               alt="Logo Ortolook"
             />
             <img
               loading="lazy"
+              className="footer11px2"
               src="images/ortoFooter3.png"
               alt="Logo Ortolook"
             />

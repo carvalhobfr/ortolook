@@ -17,7 +17,7 @@ export const Contentor = styled.div`
   }
 
   .rowFooter .col:first-child img {
-    max-height: 14px;
+    max-height: 18px;
     min-height: 12px;
     padding: 2px 8px;
   }
@@ -77,14 +77,27 @@ export const Contentor = styled.div`
       justify-content: center;
       padding: 0 16px;
     }
-    a img {
-      padding-top: 3px !important;
-      min-width: 30px;
-      min-height: 30px;
-    }
+  }
+
+  a img {
+    padding-top: 3px !important;
+    width: 30px;
+    height: 30px;
   }
   .croIMG {
     min-height: 13px !important;
     max-height: 14px !important;
+  }
+  .footer11px {
+    height: 11px !important;
+    max-height: 11px !important;
+    width: 122px;
+    margin: auto;
+  }
+  .footer11px2 {
+    height: 11px !important;
+    max-height: 11px !important;
+    width: 152px;
+    margin: auto;
   }
 `
