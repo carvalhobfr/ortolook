@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Link from 'next/link'
 
 import { Container, Row, Col } from 'reactstrap'
 import { Contentor } from './styles'
