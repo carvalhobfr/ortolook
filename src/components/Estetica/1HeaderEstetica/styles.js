@@ -12,6 +12,7 @@ export const Contentor = styled.div`
     max-height: 900px;
     width: 100%;
     margin: 0;
+    margin-top: 16px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -184,7 +185,7 @@ export const Contentor = styled.div`
       display: flex !important;
     }
     .coluna3 img {
-      padding: 64px 32px 0 0;
+      padding: 16px 32px 0 0;
       text-align: center;
     }
     .redesSociais {

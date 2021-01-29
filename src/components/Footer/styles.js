@@ -77,6 +77,9 @@ export const Contentor = styled.div`
       justify-content: center;
       padding: 0 16px;
     }
+    .colFooter {
+      height: 5vh;
+    }
   }
 
   a img {
@@ -92,7 +95,6 @@ export const Contentor = styled.div`
     height: 11px !important;
     max-height: 11px !important;
     width: 122px;
-    margin: auto;
   }
   .footer11px2 {
     height: 11px !important;

@@ -203,10 +203,41 @@ export const Container = styled.div`
   .rowFooter {
     width: 95vw;
     max-width: 1900px;
+    margin: 0;
+    padding: 0;
   }
 
   .linhaSinuosaTratamentos,
   .linhaSinuosa {
     max-width: 780px !important;
+    min-height: 60px !important;
+  }
+
+  @media (min-width: 900px) {
+    .paciente1 {
+      align-items: baseline;
+    }
+    .paciente3 {
+      align-items: flex-end !important;
+    }
+  }
+
+  .rowFooter .col:first-child img {
+    max-height: 14px;
+    min-height: 12px;
+    margin: 2px 10px !important;
+  }
+
+  @media (max-width: 868px) {
+    .rowFooter {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .col2Footer,
+    .colFooter .row {
+      padding: 10px;
+      justify-content: center;
+      align-items: center !important;
+    }
   }
 `

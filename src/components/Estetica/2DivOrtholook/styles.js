@@ -2,10 +2,10 @@ import styled from 'styled-components'
 
 export const Contentor = styled.div`
   .row {
-    margin: 64px 0;
+    margin: 16px 0;
   }
   .ortolookContainer {
-    margin-top: 30px;
+    margin-top: 0px;
     padding: 0;
     min-width: 100%;
     margin-right: 0px !important;
@@ -149,6 +149,15 @@ export const Contentor = styled.div`
 
   h5 {
     margin-top: 16px;
+  }
+
+  .pacientes {
+    padding: 16px 16px;
+    margin: 16px 16px;
+    /* width: 200px; */
+    min-width: 155px;
+    max-width: 157px;
+    min-height: unset;
   }
 
   @media (min-width: 900px) {

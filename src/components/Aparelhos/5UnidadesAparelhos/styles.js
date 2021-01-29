@@ -322,6 +322,13 @@ export const Contentor = styled.div`
     color: #802b67;
   }
 
+  @media (min-width: 900px) {
+    .coluna3 {
+      background-color: transparent;
+      background-image: url('/images/bgUnidadesES.png') !important;
+    }
+  }
+
   @media (max-width: 900px) {
     /* min-height: 100vh;
     .container,
