@@ -131,6 +131,9 @@ export const Contentor = styled.div`
     .openMobile {
       display: none;
     }
+    .row {
+      align-items: center;
+    }
   }
   .logoCol {
     max-width: 60%;
@@ -138,7 +141,7 @@ export const Contentor = styled.div`
 
   @media (max-width: 868px) {
     .container {
-      max-height: 90vh;
+      max-height: 82vh;
     }
   }
   @media (max-width: 500px) {
