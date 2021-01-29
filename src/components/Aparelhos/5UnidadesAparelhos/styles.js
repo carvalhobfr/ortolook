@@ -326,6 +326,9 @@ export const Contentor = styled.div`
     .coluna3 {
       background-color: transparent;
       background-image: url('/images/bgUnidadesES.png') !important;
+      background-size: 60% 100%;
+      background-position: bottom;
+      background-repeat: no-repeat;
     }
   }
 
@@ -379,12 +382,14 @@ export const Contentor = styled.div`
     .coluna1 {
       min-height: 100vh !important;
     }
+    .rowUnidades {
+      padding-left: 32px;
+    }
   }
 
   .rowUnidades {
     display: flex;
     align-items: flex-start;
     width: 90vw;
-    padding-left: 32px;
   }
 `
