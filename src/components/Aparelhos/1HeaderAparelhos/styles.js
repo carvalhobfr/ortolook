@@ -299,4 +299,9 @@ export const Contentor = styled.div`
       max-height: 70vh;
     }
   }
+  @media (max-width: 500px) {
+    height: 90vh;
+    min-height: 400px;
+    max-height: 650px;
+  }
 `
