@@ -162,7 +162,6 @@ export const Contentor = styled.div`
       padding: 8px;
       /* width: 200px; */
       min-width: 35%;
-      max-width: 157px;
       min-height: unset;
 
       img {

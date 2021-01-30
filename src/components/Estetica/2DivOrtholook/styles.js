@@ -132,8 +132,6 @@ export const Contentor = styled.div`
     .pacientes {
       padding: 16px;
       /* width: 200px; */
-      min-width: 155px;
-      max-width: 157px;
       min-height: unset;
     }
     .row {
@@ -155,8 +153,6 @@ export const Contentor = styled.div`
     padding: 16px 16px;
     margin: 16px 16px;
     /* width: 200px; */
-    min-width: 155px;
-    max-width: 157px;
     min-height: unset;
   }
 
