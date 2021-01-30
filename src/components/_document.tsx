@@ -46,10 +46,10 @@ export default class MyDocument extends Document {
       document.body.appendChild(script)
     })
     return (
-      <Html lang="pt">
+      <Html lang="pt-br">
         <Head>
           <meta charSet="utf-8" />
-          <link rel="icon" href="images/iconOrtholook.svg" />
+          <link rel="icon" href="images/iconOrtholook2.svg" />
         </Head>
         <body>
           <Main />
