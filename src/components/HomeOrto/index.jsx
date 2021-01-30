@@ -13,7 +13,7 @@ const Homeorto = () => {
             <img
               loading="lazy"
               src="images/logoOrtolookHome.png"
-              className="someMobile"
+              className="someMobile ortoHomeImg"
               alt="OrtoLogo"
             />
           </Col>

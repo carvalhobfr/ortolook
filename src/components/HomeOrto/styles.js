@@ -149,4 +149,9 @@ export const Contentor = styled.div`
       height: 90vh !important;
     }
   }
+
+  .ortoHomeImg {
+    max-height: 700px;
+    max-width: 250px;
+  }
 `
