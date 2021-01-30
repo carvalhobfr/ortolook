@@ -52,6 +52,11 @@ export default function SEO({
       <meta name="twitter:image:alt" content="Thumbnail" />
       <meta name="twitter:image:width" content="1200" />
       <meta name="twitter:image:height" content="620" />
+      <link
+        href="//db.onlinewebfonts.com/c/edc378fa3251080c5b508b220462efca?family=Gotham"
+        rel="preload"
+        as="font"
+      />
     </Head>
   )
 }
