@@ -67,6 +67,7 @@ export const Contentor = styled.div`
     .colFooter .row {
       padding: 10px;
       justify-content: center;
+      align-items: center;
     }
   }
   @media (max-width: 500px) {
