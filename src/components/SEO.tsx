@@ -57,6 +57,11 @@ export default function SEO({
         rel="preload"
         as="font"
       />
+      <link
+        href="//db.onlinewebfonts.com/c/ed524d3938b150b70d120697d516e805?family=Bemio+Italic"
+        rel="preload"
+        as="font"
+      />
     </Head>
   )
 }
