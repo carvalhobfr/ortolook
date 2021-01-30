@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Contentor = styled.div`
   body {
     margin: auto;
-    background-color: 253, 253, 253;
+    background-color: 252, 252, 255 !important;
   }
   height: 100vh;
   display: flex;
