@@ -39,8 +39,8 @@ export const Contentor = styled.div`
   }
   .carousel-control-next-icon {
     background-image: url(images/setaDir.png);
-    height: 32px;
-    width: 32px;
+    height: 16px;
+    width: 16px;
   }
   .carousel-control-prev-icon {
     background-image: url(images/setaDir.png);

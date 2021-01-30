@@ -240,4 +240,7 @@ export const Container = styled.div`
       align-items: center !important;
     }
   }
+  .carousel-indicators {
+    display: none;
+  }
 `
