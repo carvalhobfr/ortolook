@@ -4,7 +4,7 @@ export const Contentor = styled.div`
   max-width: 1920px;
   width: 100%;
   padding: 0px;
-  min-height: 95vh;
+  min-height: 90vh;
 
   .container {
     min-width: 100%;
@@ -31,7 +31,7 @@ export const Contentor = styled.div`
   .col {
     padding: 0;
     p {
-      font-family: 'gothambook';
+      font-family: 'Gotham Pro', sans-serif;
       padding: 0 1em;
       font-style: normal;
       font-weight: 300;
@@ -59,10 +59,11 @@ export const Contentor = styled.div`
   .coluna3 {
     text-align: end;
     h2 {
+      font-family: 'Gotham Pro', sans-serif;
       font-style: normal;
-      font-weight: 500;
+      font-weight: 800;
       font-size: 48px;
-      line-height: 54px;
+      line-height: 48px;
       text-align: right;
       letter-spacing: -0.05em;
       text-transform: uppercase;

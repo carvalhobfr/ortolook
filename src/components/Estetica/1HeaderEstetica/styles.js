@@ -37,7 +37,7 @@ export const Contentor = styled.div`
   .col {
     padding: 0;
     p {
-      font-family: 'GothamBook';
+      font-family: 'Gotham Pro', sans-serif;
       padding: 0 1em;
       font-style: normal;
       font-weight: 300;

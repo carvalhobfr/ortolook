@@ -77,6 +77,9 @@ export const Contentor = styled.div`
       justify-content: center;
       padding: 0 16px;
     }
+    .rowFooter {
+      min-height: 20vh;
+    }
   }
 
   a img {

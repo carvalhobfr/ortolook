@@ -5,7 +5,8 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+     box-sizing: border-box;
+    font-family: 'Gotham Pro',  sans-serif !important;
   }
 
 html{
