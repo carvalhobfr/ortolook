@@ -8,6 +8,7 @@ export const Contentor = styled.div`
   .container {
     min-width: 100%;
     width: 100%;
+    min-height: 90vh;
     margin: 0;
     display: flex;
   }
@@ -309,5 +310,22 @@ export const Contentor = styled.div`
 
   .coluna1 img {
     margin: auto;
+  }
+
+  @media (min-width: 900px) {
+    #unidades {
+      display: flex;
+      justify-content: space-between;
+    }
+    .rowMain {
+      min-width: 90vw;
+      min-height: 70vh;
+    }
+    .imagemEstetica {
+      min-width: 350px;
+      max-width: 700px;
+      max-height: 100%;
+      width: 90%;
+    }
   }
 `

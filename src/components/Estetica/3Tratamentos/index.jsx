@@ -82,7 +82,7 @@ const Tratamentos = () => {
             </button>
           </Col>
         </Row>
-        <Row>
+        <Row className="mainRow">
           <img
             loading="lazy"
             src={imgUrl}

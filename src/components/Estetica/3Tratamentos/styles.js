@@ -130,4 +130,13 @@ export const Contentor = styled.div`
       padding: 2px;
     }
   }
+  @media (min-width: 900px) {
+    .mainRow {
+      min-height: 50vh;
+      .imgTratamento {
+        margin-left: -16px;
+        max-height: 50vh;
+      }
+    }
+  }
 `
