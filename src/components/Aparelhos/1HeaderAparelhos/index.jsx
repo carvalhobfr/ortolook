@@ -61,9 +61,9 @@ const HeaderAparelhos = props => {
               </Col>
             </Row>
           </Col>
-          <Col className="coluna3 coluna32">
+          <Col className="coluna3 coluna32 ">
             <h2>
-              <strong className="gothamBook">
+              <strong>
                 é fácil <br />
                 é prático
                 <br /> é transformador

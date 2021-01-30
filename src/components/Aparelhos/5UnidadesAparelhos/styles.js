@@ -392,4 +392,21 @@ export const Contentor = styled.div`
     align-items: flex-start;
     width: 90vw;
   }
+
+  @media (min-width: 900px) {
+    #unidades {
+      display: flex;
+      justify-content: space-between;
+    }
+    .rowMain {
+      min-width: 90vw;
+      min-height: 60vh;
+    }
+    .imagemEstetica {
+      min-width: 350px;
+      max-width: 600px;
+      max-height: 100%;
+      width: 90%;
+    }
+  }
 `

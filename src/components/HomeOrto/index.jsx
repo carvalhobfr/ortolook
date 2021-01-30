@@ -3,7 +3,6 @@ import Link from 'next/link'
 // import { useRouter } from 'next/router'
 import { Container, Row, Col } from 'reactstrap'
 import { Contentor } from './styles'
-import Footer from '../Footer'
 
 const Homeorto = () => {
   return (
@@ -28,7 +27,6 @@ const Homeorto = () => {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </Contentor>
   )
 }

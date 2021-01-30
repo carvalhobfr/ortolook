@@ -60,7 +60,7 @@ export const Contentor = styled.div`
     text-align: end;
     h2 {
       font-style: normal;
-      font-weight: bold;
+      font-weight: 500;
       font-size: 48px;
       line-height: 54px;
       text-align: right;
@@ -277,6 +277,25 @@ export const Contentor = styled.div`
       .rowMain {
         min-height: 50vh;
       }
+    }
+  }
+
+  @media (min-width: 900px) {
+    .rowMain {
+      min-height: 90vh;
+    }
+    .coluna3.col {
+      align-content: space-between;
+      justify-content: space-between;
+      max-height: 80vh;
+    }
+    .gkbuWj .coluna3 img {
+      max-width: 400px;
+    }
+    .fotoHeader {
+      max-width: 30vw !important;
+      width: 100%;
+      max-height: 70vh;
     }
   }
 `
