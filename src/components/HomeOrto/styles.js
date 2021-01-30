@@ -6,7 +6,7 @@ export const Contentor = styled.div`
   }
 
   .container {
-    height: 90vh;
+    height: 100vh;
     margin: 0;
     padding: 0;
     left: 0;
