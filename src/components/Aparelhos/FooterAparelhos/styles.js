@@ -64,7 +64,7 @@ export const Contentor = styled.div`
     }
     .col2Footer,
     .colFooter .row {
-      padding: 10px;
+      padding: 2px;
       justify-content: center;
     }
   }
@@ -77,7 +77,7 @@ export const Contentor = styled.div`
       padding: 0 16px;
     }
     .rowFooter {
-      min-height: 20vh;
+      min-height: 10vh;
     }
     a img {
       padding: 2px !important;
