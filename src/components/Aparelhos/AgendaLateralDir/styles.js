@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Contentor = styled.div`
+  margin-right: -32px !important;
   max-height: 100px !important;
   .row {
     margin: 32px 0;

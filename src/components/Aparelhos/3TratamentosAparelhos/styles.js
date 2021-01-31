@@ -214,18 +214,15 @@ export const Contentor = styled.div`
     .carousel-control-prev {
       margin: 0 -10px;
     }
+    .ortolookContainer {
+      margin-top: 0px !important;
+      min-height: 4800px;
+    }
   }
   @media (min-width: 900px) {
     .colTratamentos {
       max-height: 70vh;
       max-width: 20vw;
-    }
-  }
-
-  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-    .ortolookContainer {
-      margin-top: 0px !important;
-      min-height: 4700px;
     }
   }
 `
