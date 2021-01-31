@@ -65,27 +65,27 @@ const items = [
 const itemsMobile = [
   {
     src: '/images/tratamentos41AP.png',
-    id: 11,
+    id: 1,
     altText: 'Slide 40'
   },
   {
     src: '/images/tratamentos42AP1.png',
-    id: 12,
+    id: 2,
     altText: 'Slide 41'
   },
   {
     src: '/images/tratamentos43AP.png',
-    id: 13,
+    id: 3,
     altText: 'Slide 42'
   },
   {
     src: '/images/tratamentos45AP.png',
-    id: 14,
+    id: 4,
     altText: 'Slide 43'
   },
   {
     src: '/images/tratamentos44AP.png',
-    id: 15,
+    id: 5,
     altText: 'Slide 44'
   }
 ]
