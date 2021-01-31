@@ -223,9 +223,9 @@ export const Container = styled.div`
   }
 
   .rowFooter .col:first-child img {
-    max-height: 14px;
-    min-height: 12px;
-    margin: 2px 10px !important;
+    height: 14px;
+    /*  min-height: 12px; */
+    margin: 6px 10px !important;
   }
 
   @media (max-width: 868px) {
