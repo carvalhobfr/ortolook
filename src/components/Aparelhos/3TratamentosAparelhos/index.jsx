@@ -29,27 +29,27 @@ const items = [
   {
     src: '/images/tratamentos41AP.png',
     id: 4,
-    altText: 'Slide 4'
+    altText: 'Slide 4.1'
   },
   {
     src: '/images/tratamentos42AP1.png',
     id: 5,
-    altText: 'Slide 4'
+    altText: 'Slide 4.2'
   },
   {
     src: '/images/tratamentos43AP.png',
     id: 6,
-    altText: 'Slide 4'
+    altText: 'Slide 4.3'
   },
   {
     src: '/images/tratamentos45AP.png',
     id: 7,
-    altText: 'Slide 4'
+    altText: 'Slide 4.4'
   },
   {
     src: '/images/tratamentos44AP.png',
     id: 8,
-    altText: 'Slide 4'
+    altText: 'Slide 4.5'
   },
   {
     src: '/images/tratamentos51AP.png',
