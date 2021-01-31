@@ -129,13 +129,13 @@ export const Contentor = styled.div`
     justify-content: center;
     justify-items: center;
     align-items: center;
-    font-family: 'Gotham' !important;
+    font-family: 'Gotham', sans-serif !important;
     img {
       width: 100px;
       height: 100px;
     }
     h3 {
-      font-family: 'Gotham';
+      font-family: 'Gotham', sans-serif !important;
       font-style: normal;
       font-weight: bold;
       font-size: 24px;
@@ -145,7 +145,7 @@ export const Contentor = styled.div`
       color: #802b67;
     }
     h5 {
-      font-family: 'Gotham';
+      font-family: 'Gotham', sans-serif !important;
       font-style: normal;
       font-weight: normal;
       font-size: 10px;
@@ -156,7 +156,7 @@ export const Contentor = styled.div`
       color: #3a3a3a;
     }
     p {
-      font-family: 'Gotham';
+      font-family: 'Gotham', sans-serif !important;
       margin-top: 14px;
       font-weight: normal;
       font-weight: 200 !important;
