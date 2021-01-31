@@ -16,7 +16,7 @@ export const Contentor = styled.div`
   }
 
   .rowFooter .col:first-child img {
-    height: 16px;
+    height: 14px;
     /* min-height: 12px; */
     padding: 0px 8px;
   }
