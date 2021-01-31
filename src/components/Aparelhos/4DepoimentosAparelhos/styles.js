@@ -141,7 +141,7 @@ export const Contentor = styled.div`
       line-height: 27px;
       letter-spacing: -0.05em;
 
-      color: #802b67;
+      color: #2e2e2e;
     }
     h5 {
       font-family: Gotham;
@@ -152,18 +152,17 @@ export const Contentor = styled.div`
 
       letter-spacing: -0.05em;
 
-      color: #802b67;
+      color: #2e2e2e;
     }
     p {
       margin-top: 16px;
       font-family: Gotham;
-      font-style: italic;
       font-weight: normal;
       font-size: 24px;
       line-height: 23px;
       letter-spacing: -0.05em;
 
-      color: #802b67;
+      color: #2e2e2e;
     }
   }
 `
