@@ -249,12 +249,13 @@ export const Contentor = styled.div`
       margin-right: -16px;
     }
 
-    .ortolookContainer {
+    .ortolookContainer2 {
       padding: 16px !important;
     }
     .rowMain {
       display: flex;
       flex-direction: column;
+      padding: 0 32px;
     }
     .container {
       justify-content: flex-end;
@@ -398,9 +399,13 @@ export const Contentor = styled.div`
       display: flex;
       justify-content: space-between;
     }
+    .rowUnidades {
+      margin: 0px;
+    }
     .rowMain {
       min-width: 90vw;
       min-height: 60vh;
+      padding: 0 32px;
     }
     .imagemEstetica {
       min-width: 350px;

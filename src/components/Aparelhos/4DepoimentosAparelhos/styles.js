@@ -10,6 +10,9 @@ export const Contentor = styled.div`
     min-width: 90%;
     margin-right: 0px !important;
   }
+  .ortolookContainer2.row {
+    padding: 0 32px;
+  }
   .saibaNossosPrecos {
     display: -webkit-box;
     display: -ms-flexbox;
