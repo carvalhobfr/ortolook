@@ -66,7 +66,7 @@ export const Contentor = styled.div`
       display: -ms-flexbox;
       display: flex !important;
     }
-    .ortolookContainer {
+    .ortolookContainer2 {
       padding: 16px !important;
     }
     .linhaSinuosaDepoimento {

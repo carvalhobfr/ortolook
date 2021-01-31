@@ -168,7 +168,7 @@ export const Contentor = styled.div`
       display: -ms-flexbox;
       display: flex;
     }
-    .ortolookContainer {
+    .ortolookContainer2 {
       padding: 16px !important;
     }
     .coluna3 {
