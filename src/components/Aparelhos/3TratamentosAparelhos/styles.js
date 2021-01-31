@@ -213,5 +213,9 @@ export const Contentor = styled.div`
       margin-top: 0px !important;
       min-height: 4600px;
     }
+    .carousel-control-next,
+    .carousel-control-prev {
+      margin: 0 -10px;
+    }
   }
 `
