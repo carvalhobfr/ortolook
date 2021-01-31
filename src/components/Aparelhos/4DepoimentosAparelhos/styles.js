@@ -148,20 +148,20 @@ export const Contentor = styled.div`
       font-family: 'Gotham', sans-serif !important;
       font-style: normal;
       font-weight: normal;
-      font-size: 14px;
-      line-height: 16px;
+      font-size: 12px;
+      line-height: 12px;
 
       letter-spacing: -0.05em;
 
       color: #3a3a3a;
     }
     p {
-      font-family: 'Gotham', sans-serif !important;
-      margin-top: 12px;
+      font-family: 'Gotham', sans-serif;
+      margin-top: 14px;
       font-weight: normal;
       font-weight: 200 !important;
-      font-size: 24px;
-      line-height: 23px;
+      font-size: 16px;
+      line-height: 18px;
       letter-spacing: -0.05em;
 
       color: #3a3a3a;
