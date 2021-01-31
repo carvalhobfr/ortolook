@@ -129,6 +129,7 @@ export const Contentor = styled.div`
     justify-content: center;
     justify-items: center;
     align-items: center;
+    font-family: 'Gotham' !important;
     img {
       width: 100px;
       height: 100px;
