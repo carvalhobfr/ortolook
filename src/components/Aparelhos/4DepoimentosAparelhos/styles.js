@@ -145,6 +145,7 @@ export const Contentor = styled.div`
     }
     h5 {
       font-family: Gotham;
+      font-family: 'Gotham';
       font-style: normal;
       font-weight: normal;
       font-size: 10px;
@@ -155,6 +156,7 @@ export const Contentor = styled.div`
       color: #3a3a3a;
     }
     p {
+      font-family: 'Gotham';
       margin-top: 14px;
       font-family: Gotham;
       font-weight: normal;
