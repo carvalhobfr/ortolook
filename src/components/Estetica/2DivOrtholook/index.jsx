@@ -42,6 +42,7 @@ const DivOrtholook = () => {
                 src="/images/paciente2.png"
                 alt="Paciente 2"
               />
+              <br />
               <h5>Dentistas especializados em harmonização facial</h5>
             </div>
           </Col>

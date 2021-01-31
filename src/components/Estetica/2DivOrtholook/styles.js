@@ -54,6 +54,7 @@ export const Contentor = styled.div`
     font-size: 26px;
     line-height: 28px;
     color: #802b67;
+    font-family: 'Gotham';
   }
   .pacientes {
     display: -webkit-box;
@@ -191,5 +192,11 @@ export const Contentor = styled.div`
     .pacientes {
       padding: 8px 16px;
     }
+  }
+
+  .pacientes > div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 `
