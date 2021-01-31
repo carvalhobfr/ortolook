@@ -37,15 +37,13 @@ export const Contentor = styled.div`
     text-align: center;
     margin-top: 32px;
   }
-  .carousel-control-next-icon {
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
     background-image: url(images/setaDir.png);
     height: 16px;
     width: 16px;
   }
   .carousel-control-prev-icon {
-    background-image: url(images/setaDir.png);
-    height: 32px;
-    width: 32px;
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
