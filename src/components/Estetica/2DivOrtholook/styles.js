@@ -172,4 +172,24 @@ export const Contentor = styled.div`
       }
     }
   }
+  @media (max-width: 900px) {
+    .pacientes.col {
+      min-width: 35%;
+      max-width: 35%;
+      margin: 3px;
+      img {
+        max-width: 100%;
+      }
+    }
+    h5 {
+      font-size: 10px !important;
+      line-height: 12px;
+    }
+    .agendeAqui {
+      align-self: baseline;
+    }
+    .pacientes {
+      padding: 8px 16px;
+    }
+  }
 `

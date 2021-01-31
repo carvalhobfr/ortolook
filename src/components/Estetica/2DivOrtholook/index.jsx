@@ -16,11 +16,9 @@ const DivOrtholook = () => {
         <Row>
           <Col>
             <p>
-              Nós somos uma rede de clínicas
-              <br /> localizadas no estado do Rio de Janeiro <br /> com
-              expertise em procedimentos
-              <br />
-              orofaciais e ortodônticos.
+              Nós somos uma rede de clínicas localizadas no estado do Rio de
+              Janeiro <br /> com expertise em procedimentos orofaciais e
+              ortodônticos.
             </p>
           </Col>
           <AgendaLateralDir className="someMobile" />
@@ -44,10 +42,7 @@ const DivOrtholook = () => {
                 src="/images/paciente2.png"
                 alt="Paciente 2"
               />
-              <h5>
-                Dentistas especializados em <br />
-                harmonização orofacial
-              </h5>
+              <h5>Dentistas especializados em harmonização facial</h5>
             </div>
           </Col>
           <Col className="pacientes paciente3">
