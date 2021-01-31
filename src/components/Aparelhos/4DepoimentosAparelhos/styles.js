@@ -155,9 +155,10 @@ export const Contentor = styled.div`
       color: #2e2e2e;
     }
     p {
-      margin-top: 16px;
+      margin-top: 14px;
       font-family: Gotham;
       font-weight: normal;
+      font-weight: 200 !important;
       font-size: 24px;
       line-height: 23px;
       letter-spacing: -0.05em;

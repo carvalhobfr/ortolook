@@ -337,7 +337,7 @@ const Tratamentos = () => {
             />
           </a>
         </Col>
-        <AgendeAquiDir />
+        {/*  <AgendeAquiDir /> */}
       </Container>
     </Contentor>
   )
