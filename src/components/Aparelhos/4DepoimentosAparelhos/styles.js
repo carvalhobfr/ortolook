@@ -43,6 +43,10 @@ export const Contentor = styled.div`
     height: 16px;
     width: 16px;
   }
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 10%;
+  }
   .carousel-control-prev-icon {
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
