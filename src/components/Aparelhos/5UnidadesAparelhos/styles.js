@@ -255,7 +255,6 @@ export const Contentor = styled.div`
     .rowMain {
       display: flex;
       flex-direction: column;
-      padding: 0 32px;
     }
     .container {
       justify-content: flex-end;
@@ -268,6 +267,7 @@ export const Contentor = styled.div`
       min-width: 350px;
       max-width: 300px;
       width: 100%;
+      margin-left: -15px !important;
     }
     .coluna1 {
       justify-content: flex-end;

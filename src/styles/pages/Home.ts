@@ -239,6 +239,13 @@ export const Container = styled.div`
       justify-content: center;
       align-items: center !important;
     }
+    .rowFooter .col:first-child img {
+      height: 14px;
+      margin: 6px 1px !important;
+    }
+    .colFooter .row {
+      flex-wrap: nowrap;
+    }
   }
   .carousel-indicators {
     display: none;

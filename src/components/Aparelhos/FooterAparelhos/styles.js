@@ -80,7 +80,7 @@ export const Contentor = styled.div`
       min-height: 20vh;
     }
     a img {
-      padding: 5px 2px !important;
+      padding: 2px !important;
       min-width: 25px;
       min-height: 25px;
     }

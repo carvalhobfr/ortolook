@@ -23,9 +23,26 @@ const FooterAparelho = () => {
             <img
               loading="lazy"
               src="images/ortoFooter3.png"
-              className="footer11px2"
+              className="footer11px2 someMobile"
               alt="Logo Ortolook"
             />
+            <a
+              className="openMobile"
+              href="https://www.instagram.com/ortolook/"
+            >
+              <img
+                loading="lazy"
+                src="images/ortoFooter5.png"
+                alt="Logo Ortolook"
+              />
+            </a>
+            <a className="openMobile" href="https://www.facebook.com/Ortolook/">
+              <img
+                loading="lazy"
+                src="images/ortoFooter6.png"
+                alt="Logo Ortolook"
+              />
+            </a>
           </Row>
         </Col>
         <Col className="col2Footer">
@@ -36,14 +53,17 @@ const FooterAparelho = () => {
               src="images/ortoFooter4.png"
               alt="Logo Ortolook"
             />
-            <a href="https://www.instagram.com/ortolook/">
+            <a
+              className="someMobile"
+              href="https://www.instagram.com/ortolook/"
+            >
               <img
                 loading="lazy"
                 src="images/ortoFooter5.png"
                 alt="Logo Ortolook"
               />
             </a>
-            <a href="https://www.facebook.com/Ortolook/">
+            <a className="someMobile" href="https://www.facebook.com/Ortolook/">
               <img
                 loading="lazy"
                 src="images/ortoFooter6.png"
