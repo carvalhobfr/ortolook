@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const Contentor = styled.div`
   /* margin-top: 30px; */
+  border-top: 1px solid lightgray;
   padding: 16px 0 8px;
-  min-height: 10vh;
-  max-width: 95vw;
+  max-width: 99vw;
   margin: auto;
   .rowFooter {
     display: flex;
@@ -17,9 +17,9 @@ export const Contentor = styled.div`
   }
 
   .rowFooter .col:first-child img {
-    max-height: 18px;
-    min-height: 12px;
-    padding: 2px 8px;
+    height: 14px;
+    /* min-height: 12px; */
+    padding: 0px 8px;
   }
   .col2Footer .row {
     align-items: center;
@@ -65,9 +65,8 @@ export const Contentor = styled.div`
     }
     .col2Footer,
     .colFooter .row {
-      padding: 10px;
+      padding: 2px;
       justify-content: center;
-      align-items: center;
     }
   }
   @media (max-width: 500px) {
@@ -79,29 +78,16 @@ export const Contentor = styled.div`
       padding: 0 16px;
     }
     .rowFooter {
-      min-height: 20vh;
+      min-height: 10vh;
     }
-  }
-
-  a img {
-    padding-top: 3px !important;
-    width: 30px;
-    height: 30px;
+    a img {
+      padding: 2px !important;
+      min-width: 25px;
+      min-height: 25px;
+    }
   }
   .croIMG {
     min-height: 13px !important;
     max-height: 14px !important;
-  }
-  .footer11px {
-    height: 11px !important;
-    max-height: 11px !important;
-    width: 122px;
-    margin: auto;
-  }
-  .footer11px2 {
-    height: 11px !important;
-    max-height: 11px !important;
-    width: 152px;
-    margin: auto;
   }
 `

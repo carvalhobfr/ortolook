@@ -2,8 +2,9 @@ import styled from 'styled-components'
 
 export const Contentor = styled.div`
   /* margin-top: 30px; */
+  border-top: 1px solid lightgray;
   padding: 16px 0 8px;
-  max-width: 95vw;
+  max-width: 99vw;
   margin: auto;
   .rowFooter {
     display: flex;
