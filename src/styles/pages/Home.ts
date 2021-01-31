@@ -5,7 +5,7 @@ export const Container = styled.div`
   margin: auto;
   padding: 0;
   @font-face {
-    font-family: 'Gotham';
+    font-family: 'GothamBook';
     src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot');
     src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot?#iefix')
         format('embedded-opentype'),
@@ -48,7 +48,7 @@ export const Container = styled.div`
         format('svg');
   }
 
-  font-family: 'Gotham', sans-serif !important;
+  font-family: 'GothamBook', sans-serif !important;
 
   max-width: 2000px;
 
@@ -169,11 +169,17 @@ export const Container = styled.div`
     }
     p,
     h4 {
-      font-family: 'Gotham';
+      font-family: 'GothamBook';
       font-weight: 500 !important;
       font-size: 14px;
       line-height: 16px;
       color: #802b67;
+    }
+    .carousel {
+      margin-bottom: 32px;
+      img {
+        max-height: 50vh;
+      }
     }
   }
 

@@ -18,7 +18,7 @@ html{
 
   body {
     max-width: 2000px;
-    font-family: 'Gotham';
+    font-family: 'GothamBook';
     font-weight: normal;
   }
 

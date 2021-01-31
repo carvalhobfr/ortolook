@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 import { Container, Row, Col } from 'reactstrap'
 import { Contentor } from './styles'
+import agendeAquiDir from '../AgendaLateralDir'
 
 const DivOrtholook = () => {
   return (
@@ -11,6 +12,7 @@ const DivOrtholook = () => {
         <Row>
           <h1 className="bemioItalic">A ORTOLOOK</h1>
         </Row>
+        <agendeAquiDir />
         <Row className="textoBio">
           <Col>
             <p>

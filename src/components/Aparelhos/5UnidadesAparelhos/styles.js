@@ -143,7 +143,7 @@ export const Contentor = styled.div`
     font-size: 13px;
     line-height: 16px;
     color: #802b67;
-    font-weight: 600;
+    font-weight: 900;
     margin-bottom: 32px;
   }
 
@@ -381,7 +381,8 @@ export const Contentor = styled.div`
     .rowMain,
     .container,
     .coluna1 {
-      min-height: 80vh !important;
+      min-height: 600px !important;
+      justify-content: end;
     }
     .rowUnidades {
       padding-left: 32px;

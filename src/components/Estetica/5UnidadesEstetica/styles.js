@@ -143,9 +143,9 @@ export const Contentor = styled.div`
     font-size: 13px;
     line-height: 16px;
     color: #802b67;
-    font-weight: 500;
+    font-weight: 900;
     margin-bottom: 32px;
-    font-family: 'Gotham';
+    font-family: 'GothamBook';
   }
 
   @media (min-width: 900px) {

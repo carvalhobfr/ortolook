@@ -156,7 +156,7 @@ export const Contentor = styled.div`
       padding: 16px 0;
     }
     p {
-      font-family: 'Gotham';
+      font-family: 'GothamBook';
       text-align: start;
       font-weight: 800;
       font-size: 14px;
