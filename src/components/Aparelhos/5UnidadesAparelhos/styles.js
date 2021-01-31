@@ -381,7 +381,7 @@ export const Contentor = styled.div`
     .rowMain,
     .container,
     .coluna1 {
-      min-height: 100vh !important;
+      min-height: 80vh !important;
     }
     .rowUnidades {
       padding-left: 32px;
@@ -412,6 +412,33 @@ export const Contentor = styled.div`
       max-width: 600px;
       max-height: 100%;
       width: 90%;
+    }
+  }
+  .coluna4 {
+    max-width: 50%;
+  }
+  .linhaCarrossel {
+    max-width: 100vw;
+    padding: 0 !important;
+    margin: 0 !important;
+    .col {
+      max-width: 30%;
+    }
+    .col p {
+      font-size: 12px;
+      line-height: 12px;
+      margin-bottom: 0 !important;
+    }
+    .imagemEstetica {
+      max-width: 100%;
+      min-width: 100%;
+    }
+    .imagemUnidadeMob {
+      max-width: 70% !important;
+      min-width: 70% !important;
+    }
+    .linhaSinuosaTratamentos.linhaSinuosa.linhaSinuosaEsquerda.row {
+      margin-bottom: 0px;
     }
   }
 `
