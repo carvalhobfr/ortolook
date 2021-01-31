@@ -6,7 +6,7 @@ import { Col } from 'reactstrap'
 const agendeLateralEsq = () => {
   return (
     <Col className="agendeAqui agendeAquiDireita semMarginDir">
-      <Link href="https://wa.me/5521972878038">
+      <Link href="http://grupodentotal-rdsm-site.rds.land/estetica-saiba-nossos-precos">
         <img
           className=" saibaPrecos semMarginEsq"
           loading="lazy"
