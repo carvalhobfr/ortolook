@@ -74,7 +74,7 @@ const itemsMobile = [
     altText: 'Slide 41'
   },
   {
-    src: '/images/tratamentos43AP.png',
+    src: '/images/tratamentos43ap.png',
     id: 3,
     altText: 'Slide 42'
   },
