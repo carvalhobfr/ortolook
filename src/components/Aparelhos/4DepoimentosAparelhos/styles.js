@@ -141,7 +141,7 @@ export const Contentor = styled.div`
       line-height: 27px;
       letter-spacing: -0.05em;
 
-      color: #3a3a3a;
+      color: #802b67;
     }
     h5 {
       font-family: Gotham;
