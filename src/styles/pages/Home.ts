@@ -243,4 +243,7 @@ export const Container = styled.div`
   .carousel-indicators {
     display: none;
   }
+  .col2Footer:nth-child(2) {
+    margin-bottom: 20px;
+  }
 `
