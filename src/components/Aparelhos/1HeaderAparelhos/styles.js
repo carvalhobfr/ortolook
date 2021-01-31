@@ -106,7 +106,7 @@ export const Contentor = styled.div`
   .fotoHeader {
     margin-top: -60px;
     /* max-height: 710px; */
-    max-width: 400px;
+    max-width: 3500px;
     margin-left: 10%;
   }
   .fotoHeader2 {
@@ -295,7 +295,7 @@ export const Contentor = styled.div`
       max-width: 400px;
     }
     .fotoHeader {
-      max-width: 30vw !important;
+      max-width: 360px !important;
       width: 100%;
       max-height: 70vh;
     }
