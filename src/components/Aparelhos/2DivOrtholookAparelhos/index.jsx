@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-
+import AgendeAquiDir from '../AgendaLateralDir'
 import { Container, Row, Col } from 'reactstrap'
 import { Contentor } from './styles'
 
@@ -78,6 +78,7 @@ const DivOrtholook = () => {
           </Col>
         </Row>
       </Container>
+      <AgendeAquiDir />
     </Contentor>
   )
 }

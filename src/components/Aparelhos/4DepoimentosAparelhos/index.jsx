@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import AgendeAquiDir from '../AgendaLateralDir'
 import {
   Carousel,
   CarouselItem,
@@ -184,6 +185,7 @@ const Depoimentos = props => {
           onClickHandler={next}
         />
       </Carousel> */}
+      <AgendeAquiDir />
     </Contentor>
   )
 }
