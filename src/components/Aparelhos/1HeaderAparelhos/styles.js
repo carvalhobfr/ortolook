@@ -5,7 +5,7 @@ export const Contentor = styled.div`
   width: 100%;
   padding: 0px;
   min-height: 90vh;
-
+  font-family: 'Gotham';
   .container {
     min-width: 100%;
     width: 100%;

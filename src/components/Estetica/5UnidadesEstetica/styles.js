@@ -335,6 +335,7 @@ export const Contentor = styled.div`
     max-width: 100vw;
     padding: 0 !important;
     margin: 0 !important;
+    align-self: flex-start;
     .col {
       max-width: 30%;
     }

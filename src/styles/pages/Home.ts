@@ -114,7 +114,7 @@ export const Container = styled.div`
   .carousel {
     margin-bottom: 32px;
     img {
-      max-height: 55vh;
+      max-height: 65vh;
     }
   }
 
@@ -169,8 +169,8 @@ export const Container = styled.div`
     }
     p,
     h4 {
-      font-family: 'GothamBook';
-      font-weight: 400 !important;
+      font-family: 'Gotham';
+      font-weight: 500 !important;
       font-size: 14px;
       line-height: 16px;
       color: #802b67;
@@ -220,6 +220,9 @@ export const Container = styled.div`
     .paciente3 {
       align-items: flex-end !important;
     }
+    .col2Footer:nth-child(2) {
+      margin-bottom: 0px !important;
+    }
   }
 
   .rowFooter .col:first-child img {
@@ -252,5 +255,8 @@ export const Container = styled.div`
   }
   .col2Footer:nth-child(2) {
     margin-bottom: 20px;
+  }
+  .footer11px2 {
+    display: none !important;
   }
 `

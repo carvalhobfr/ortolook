@@ -218,4 +218,10 @@ export const Contentor = styled.div`
       margin: 0 -10px;
     }
   }
+  @media (min-width: 900px) {
+    .colTratamentos {
+      max-height: 70vh;
+      max-width: 20vw;
+    }
+  }
 `

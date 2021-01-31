@@ -174,8 +174,8 @@ export const Contentor = styled.div`
   }
   @media (max-width: 900px) {
     .pacientes.col {
-      min-width: 35%;
-      max-width: 35%;
+      min-width: 30%;
+      max-width: 30%;
       margin: 3px;
       img {
         max-width: 100%;
