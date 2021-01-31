@@ -283,24 +283,6 @@ const Tratamentos = () => {
             src="/images/tratamentos21AP.png"
             alt="slide2"
           />
-          <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
-            <img
-              loading="lazy"
-              src="/images/agendeAquiMobTratamento2.png"
-              alt="Agende Aqui"
-              className="openMobile"
-            />
-          </a>
-          <img loading="lazy" src="/images/tratamentos31AP.png" alt="slide3" />
-          <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
-            <img
-              loading="lazy"
-              src="/images/agendeAquiMobTratamento3.png"
-              alt="Agende Aqui"
-              className="openMobile"
-              id="estetico"
-            />
-          </a>
           <Carousel
             activeIndex={activeIndexMobile}
             next={nextMobile}
