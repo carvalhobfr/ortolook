@@ -221,7 +221,8 @@ export const Contentor = styled.div`
       max-width: 20vw;
     }
   }
-  @media screen and (max-device-width: 480px) {
+
+  @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
     .ortolookContainer {
       margin-top: 0px !important;
       min-height: 4700px;

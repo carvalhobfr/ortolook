@@ -112,4 +112,57 @@ export const Contentor = styled.div`
       text-align: end;
     }
   }
+
+  .linhaDepo {
+    margin-top: 0;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .colunaDepo {
+    max-width: 300px;
+    padding: 16px;
+    margin: 0 5vh;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    img {
+      width: 36px;
+      height: 36px;
+    }
+    h3 {
+      font-family: 'Gotham';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 27px;
+      letter-spacing: -0.05em;
+
+      color: #802b67;
+    }
+    h5 {
+      font-family: Gotham;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 10px;
+
+      letter-spacing: -0.05em;
+
+      color: #802b67;
+    }
+    p {
+      font-family: Gotham;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 23px;
+      letter-spacing: -0.05em;
+
+      color: #802b67;
+    }
+  }
 `

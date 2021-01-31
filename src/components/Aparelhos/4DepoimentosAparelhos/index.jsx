@@ -105,7 +105,40 @@ const Depoimentos = props => {
       <Row className=" ortolookContainer2">
         <h1 className="bemioItalic ">Sorrisos que Falam</h1>
       </Row>
-      <Carousel
+
+      <Row className="linhaDepo">
+        <Col className="colunaDepo">
+          <img src="images/foto1AP.png" alt="Depoimento1" />
+          <h3>Nathalia Normandes</h3>
+          <h5>Paciente - São Gonçalo</h5>
+          <p>
+            “Gosto muito do atendimento das recepcionistas, muito atenciosas.
+            Gosto muito também das pessoas em geral, muito educadas e pacientes,
+            sempre dispotas a ajudar.“
+          </p>
+        </Col>
+        <Col className="colunaDepo">
+          <img src="images/foto2AP.png" alt="Depoimento1" />
+          <h3>Rafaela Assis</h3>
+          <h5>Paciente - São Gonçalo</h5>
+          <p>
+            “Gosto da Ortolook pois o atendimento é maravilhoso, faz com que eu
+            me sinta em casa, o ambiente também é super agradável e sempre que
+            eu preciso estão dispostos a me ajudar.“
+          </p>
+        </Col>
+        <Col className="colunaDepo">
+          <img src="images/foto3AP.png" alt="Depoimento1" />
+          <h3>Joyce Martins</h3>
+          <h5>Colaboradora - São Gonçalo</h5>
+          <p>
+            “O nosso sucesso só pode ser explicado pela qualidade da nossa
+            equipe. Seria impossível chegar aonde chegamos hoje sem trabalho,
+            comprometimento e o esforço de cada um, somos uma família.“
+          </p>
+        </Col>
+      </Row>
+      {/* <Carousel
         className="someMobile"
         activeIndex={activeIndex}
         next={next}
@@ -150,7 +183,7 @@ const Depoimentos = props => {
           directionText="Next"
           onClickHandler={next}
         />
-      </Carousel>
+      </Carousel> */}
     </Contentor>
   )
 }
