@@ -209,10 +209,7 @@ export const Contentor = styled.div`
   }
   @media (max-width: 900px) {
     /* min-height: 4800px; */
-    .ortolookContainer {
-      margin-top: 0px !important;
-      min-height: 4800px;
-    }
+
     .carousel-control-next,
     .carousel-control-prev {
       margin: 0 -10px;
@@ -222,6 +219,12 @@ export const Contentor = styled.div`
     .colTratamentos {
       max-height: 70vh;
       max-width: 20vw;
+    }
+  }
+  @media screen and (max-device-width: 480px) {
+    .ortolookContainer {
+      margin-top: 0px !important;
+      min-height: 4700px;
     }
   }
 `

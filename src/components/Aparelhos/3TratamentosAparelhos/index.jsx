@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import AgendeAquiDir from '../AgendaLateralDir'
 import {
   Container,
   Row,
@@ -154,15 +154,6 @@ const Tratamentos = () => {
       <Container className="ortolookContainer">
         <Row>
           <h1 className="bemioItalic">TRATAMENTOS</h1>
-          <Col className="saibaNossosPrecos someMobile">
-            <a href="https://wa.me/5521972878038" className="agendeAqui">
-              <img
-                loading="lazy"
-                src="/images/agendeAquiAparelho.png"
-                alt="Agende Aqui"
-              />
-            </a>
-          </Col>
         </Row>
         <Row className="rowTratamentos someMobile">
           <Col className="colTratamentos">
@@ -364,6 +355,7 @@ const Tratamentos = () => {
             />
           </a>
         </Col>
+        <AgendeAquiDir />
       </Container>
     </Contentor>
   )
