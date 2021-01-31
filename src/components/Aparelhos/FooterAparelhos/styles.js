@@ -18,7 +18,7 @@ export const Contentor = styled.div`
   .rowFooter .col:first-child img {
     height: 14px;
     /* min-height: 12px; */
-    margin: 6px 8px;
+    padding: 2px 8px;
   }
   .col2Footer .row {
     align-items: center;
