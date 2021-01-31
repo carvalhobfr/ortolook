@@ -155,6 +155,7 @@ export const Contentor = styled.div`
       color: #802b67;
     }
     p {
+      margin-top: 16px;
       font-family: Gotham;
       font-style: italic;
       font-weight: normal;
