@@ -213,7 +213,7 @@ export const Contentor = styled.div`
     background-size: contain;
     background-position-x: left;
     margin-left: -32px;
-    margin-bottom: 32px;
+    margin-bottom: 8px;
     margin-top: 108px;
   }
 
@@ -296,16 +296,16 @@ export const Contentor = styled.div`
       justify-content: space-between;
     }
     @media (max-width: 900px) {
-      min-height: 100vh;
+      min-height: 70vh;
       .container,
       .rowMain {
-        min-height: 100vh !important;
+        min-height: 70vh !important;
       }
     }
   }
   .coluna4 {
     justify-content: space-between !important;
-    min-height: 402px;
+    min-height: 50vh;
   }
 
   .coluna1 img {
@@ -326,6 +326,33 @@ export const Contentor = styled.div`
       max-width: 700px;
       max-height: 100%;
       width: 90%;
+    }
+  }
+  .coluna4 {
+    max-width: 50% !important;
+  }
+  .linhaCarrossel {
+    max-width: 100vw;
+    padding: 0 !important;
+    margin: 0 !important;
+    .col {
+      max-width: 30%;
+    }
+    .col p {
+      font-size: 12px;
+      line-height: 12px;
+      margin-bottom: 0 !important;
+    }
+    .imagemEstetica {
+      max-width: 100%;
+      min-width: 100%;
+    }
+    .imagemUnidadeMob {
+      max-width: 70% !important;
+      min-width: 70% !important;
+    }
+    .linhaSinuosaTratamentos.linhaSinuosa.linhaSinuosaEsquerda.row {
+      margin-bottom: 0px;
     }
   }
 `
