@@ -64,9 +64,6 @@ export const Contentor = styled.div`
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
     min-height: 315px;
   }
 
