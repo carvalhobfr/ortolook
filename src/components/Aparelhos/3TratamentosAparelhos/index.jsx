@@ -283,6 +283,14 @@ const Tratamentos = () => {
             src="/images/tratamentos21AP.png"
             alt="slide2"
           />
+          <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+            <img
+              loading="lazy"
+              src="/images/agendeAquiMobTratamento4.png"
+              alt="Agende Aqui"
+              className="openMobile"
+            />
+          </a>
           <Carousel
             activeIndex={activeIndexMobile}
             next={nextMobile}
