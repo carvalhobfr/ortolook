@@ -255,6 +255,9 @@ export const Container = styled.div`
     .colFooter .row {
       flex-wrap: nowrap;
     }
+    .agendeAquiDireita {
+      margin-right: -16px !important;
+    }
   }
   .carousel-indicators {
     display: none;
