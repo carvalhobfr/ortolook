@@ -230,4 +230,8 @@ export const Contentor = styled.div`
       max-width: 320px;
     }
   }
+  .carousel,
+  .carousel-item > img {
+    margin-bottom: 0 !important;
+  }
 `
