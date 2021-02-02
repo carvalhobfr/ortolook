@@ -214,6 +214,7 @@ export const Contentor = styled.div`
     img {
       max-width: 35px;
       width: 35px;
+      max-height: 35px;
       padding: 5px 4px;
     }
     display: flex !important;
