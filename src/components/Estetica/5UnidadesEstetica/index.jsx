@@ -9,7 +9,7 @@ const UnidadesEstetica = () => {
   const [imgUrlMob, setImgUrlMob] = useState(
     <img
       loading="lazy"
-      src="images/unidadeESRMob(4).png"
+      src="images/unidadesESPL1.png"
       alt="Tratamento Específico"
       className="imagemEstetica"
     />
@@ -44,106 +44,118 @@ const UnidadesEstetica = () => {
               <br /> Escolha a mais próxima de você!
             </h4>
             <Row className="linhaCarrossel">
-              <Col className="coluna4 openMobile">
-                <button
-                  onClick={() =>
-                    setImgUrlMob(
-                      <img
-                        loading="lazy"
-                        src="images/unidadeESRMob(4).png"
-                        alt="Tratamento Específico"
-                        className="imagemEstetica"
-                      />
-                    )
-                  }
-                >
-                  <p>Botafogo</p>
-                </button>
-                <button
-                  onClick={() =>
-                    setImgUrlMob(
-                      <img
-                        loading="lazy"
-                        src="images/unidadeESRMob(5).png"
-                        alt="Tratamento Específico"
-                        className="imagemEstetica"
-                      />
-                    )
-                  }
-                >
-                  <p>Caxias II</p>
-                </button>
-                <button
-                  onClick={() =>
-                    setImgUrlMob(
-                      <img
-                        loading="lazy"
-                        src="images/unidadeESRMob(2).png"
-                        alt="Tratamento Específico"
-                        className="imagemEstetica"
-                      />
-                    )
-                  }
-                >
-                  <p>Leblon</p>
-                </button>
-                <button
-                  onClick={() =>
-                    setImgUrlMob(
-                      <img
-                        loading="lazy"
-                        src="images/unidadeESRMob(8).png"
-                        alt="Tratamento Específico"
-                        className="imagemEstetica"
-                      />
-                    )
-                  }
-                >
-                  <p>Madureira</p>
-                </button>
-                <button
-                  onClick={() =>
-                    setImgUrlMob(
-                      <img
-                        loading="lazy"
-                        src="images/unidadeESRMob(3).png"
-                        alt="Tratamento Específico"
-                        className="imagemEstetica"
-                      />
-                    )
-                  }
-                >
-                  <p>Niterói</p>
-                </button>
-                <button
-                  onClick={() =>
-                    setImgUrlMob(
-                      <img
-                        loading="lazy"
-                        src="images/unidadeESRMob(6).png"
-                        alt="Tratamento Específico"
-                        className="imagemEstetica"
-                      />
-                    )
-                  }
-                >
-                  <p>Nova Iguaçu</p>
-                </button>
-                <button
-                  onClick={() =>
-                    setImgUrlMob(
-                      <img
-                        loading="lazy"
-                        src="images/unidadeESRMob(7).png"
-                        alt="Tratamento Específico"
-                        className="imagemEstetica"
-                      />
-                    )
-                  }
-                >
-                  <p>São Gonçalo</p>
-                </button>
-              </Col>
+              <button
+                className="botaoNossasUnidades"
+                onClick={() =>
+                  setImgUrlMob(
+                    <Col className="coluna4 openMobile semMarginDir">
+                      <button
+                        onClick={() =>
+                          setImgUrlMob(
+                            <img
+                              loading="lazy"
+                              src="images/unidadeESRMob(4).png"
+                              alt="Tratamento Específico"
+                              className="imagemEstetica"
+                            />
+                          )
+                        }
+                      >
+                        <p>Botafogo</p>
+                      </button>
+                      <button
+                        onClick={() =>
+                          setImgUrlMob(
+                            <img
+                              loading="lazy"
+                              src="images/unidadeESRMob(5).png"
+                              alt="Tratamento Específico"
+                              className="imagemEstetica"
+                            />
+                          )
+                        }
+                      >
+                        <p>Caxias II</p>
+                      </button>
+                      <button
+                        onClick={() =>
+                          setImgUrlMob(
+                            <img
+                              loading="lazy"
+                              src="images/unidadeESRMob(2).png"
+                              alt="Tratamento Específico"
+                              className="imagemEstetica"
+                            />
+                          )
+                        }
+                      >
+                        <p>Leblon</p>
+                      </button>
+                      <button
+                        onClick={() =>
+                          setImgUrlMob(
+                            <img
+                              loading="lazy"
+                              src="images/unidadeESRMob(8).png"
+                              alt="Tratamento Específico"
+                              className="imagemEstetica"
+                            />
+                          )
+                        }
+                      >
+                        <p>Madureira</p>
+                      </button>
+                      <button
+                        onClick={() =>
+                          setImgUrlMob(
+                            <img
+                              loading="lazy"
+                              src="images/unidadeESRMob(3).png"
+                              alt="Tratamento Específico"
+                              className="imagemEstetica"
+                            />
+                          )
+                        }
+                      >
+                        <p>Niterói</p>
+                      </button>
+                      <button
+                        onClick={() =>
+                          setImgUrlMob(
+                            <img
+                              loading="lazy"
+                              src="images/unidadeESRMob(6).png"
+                              alt="Tratamento Específico"
+                              className="imagemEstetica"
+                            />
+                          )
+                        }
+                      >
+                        <p>Nova Iguaçu</p>
+                      </button>
+                      <button
+                        onClick={() =>
+                          setImgUrlMob(
+                            <img
+                              loading="lazy"
+                              src="images/unidadeESRMob(7).png"
+                              alt="Tratamento Específico"
+                              className="imagemEstetica"
+                            />
+                          )
+                        }
+                      >
+                        <p>São Gonçalo</p>
+                      </button>
+                    </Col>
+                  )
+                }
+              >
+                <br />
+                <br />
+                <br />
+              </button>
+
               <Col className="imagemUnidadeMob">{imgUrlMob}</Col>
             </Row>
           </Col>

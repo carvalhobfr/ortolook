@@ -296,12 +296,16 @@ export const Contentor = styled.div`
     .coluna4 {
       justify-content: space-between;
     }
-    @media (max-width: 900px) {
-      min-height: 70vh;
-      .container,
-      .rowMain {
-        min-height: 70vh !important;
-      }
+
+    min-height: 70vh;
+    .container,
+    .rowMain {
+      min-height: 70vh !important;
+    }
+    .linhaCarrossel {
+      align-content: center;
+      justify-content: flex-end;
+      width: 100%;
     }
   }
   .coluna4 {
@@ -350,11 +354,23 @@ export const Contentor = styled.div`
       min-width: 100%;
     }
     .imagemUnidadeMob {
-      max-width: 70% !important;
+      max-width: 90% !important;
       min-width: 70% !important;
+      min-height: 400px;
     }
     .linhaSinuosaTratamentos.linhaSinuosa.linhaSinuosaEsquerda.row {
       margin-bottom: 0px;
     }
+  }
+  .botaoNossasUnidades {
+    background-image: url(images/nossasUnidadesButton.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    max-width: 250px;
+    max-height: 50px;
+    width: 80%;
+    background-position: right !important;
+    margin-bottom: 5vh;
+    align-self: start;
   }
 `
