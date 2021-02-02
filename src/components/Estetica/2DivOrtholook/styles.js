@@ -53,6 +53,7 @@ export const Contentor = styled.div`
     font-weight: 600;
     font-size: 26px;
     line-height: 28px;
+    max-width: 50vw;
     color: #802b67;
     font-family: 'GothamBook';
   }

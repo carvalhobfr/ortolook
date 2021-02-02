@@ -17,8 +17,7 @@ const DivOrtholook = () => {
           <Col>
             <p>
               Nós somos uma rede de clínicas localizadas no estado do Rio de
-              Janeiro <br /> com expertise em procedimentos orofaciais e
-              ortodônticos.
+              Janeiro com expertise em procedimentos orofaciais e ortodônticos.
             </p>
           </Col>
           <AgendaLateralDir className="someMobile" />
