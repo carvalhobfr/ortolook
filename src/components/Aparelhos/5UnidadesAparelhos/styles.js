@@ -157,6 +157,9 @@ export const Contentor = styled.div`
       line-height: 24px;
       padding: 8px;
     }
+    .coluna1 img {
+      max-width: 500px;
+    }
   }
 
   @media (max-width: 900px) {
@@ -267,7 +270,6 @@ export const Contentor = styled.div`
       min-width: 350px;
       max-width: 300px;
       width: 100%;
-      margin-left: -15px !important;
     }
     .coluna1 {
       justify-content: flex-end;
@@ -327,7 +329,7 @@ export const Contentor = styled.div`
     .coluna3 {
       background-color: transparent;
       background-image: url('/images/bgUnidadesES.png') !important;
-      background-size: 60% 100%;
+      background-size: 70% 100%;
       background-position: bottom;
       background-repeat: no-repeat;
     }
@@ -387,6 +389,25 @@ export const Contentor = styled.div`
     .rowUnidades {
       padding-left: 32px;
     }
+    .linhaCarrossel .col,
+    .coluna4 {
+      max-width: 100vw;
+
+      width: 100%;
+      min-width: 100%;
+      margin-left: 0;
+      p {
+        min-width: 150px;
+      }
+    }
+    .coluna1 {
+      padding: 16px 0 !important;
+      h4 {
+        max-width: 70%;
+        right: 0;
+        align-self: flex-end;
+      }
+    }
   }
 
   .rowUnidades {
@@ -414,12 +435,16 @@ export const Contentor = styled.div`
       max-height: 100%;
       width: 90%;
     }
+    .agendeAqui {
+      display: none !important;
+    }
   }
   .coluna4 {
     max-width: 50%;
   }
   .linhaCarrossel {
     max-width: 100vw;
+    min-width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
     .col {
@@ -441,5 +466,20 @@ export const Contentor = styled.div`
     .linhaSinuosaTratamentos.linhaSinuosa.linhaSinuosaEsquerda.row {
       margin-bottom: 0px;
     }
+  }
+
+  .botaoNossasUnidades {
+    background-image: url(images/botaoNossasUnidadesAP.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: contain;
+    max-width: 300px;
+    max-height: 50px;
+    width: 80%;
+    background-position: left !important;
+    margin-bottom: 5vh;
+    align-self: end;
+  }
+  .agendeAquiDireita {
+    margin-right: -16px !important;
   }
 `

@@ -227,7 +227,7 @@ export const Contentor = styled.div`
     }
     .colTratamentos img {
       padding: 8px 0;
-      max-width: 300px;
+      max-width: 320px;
     }
   }
 `

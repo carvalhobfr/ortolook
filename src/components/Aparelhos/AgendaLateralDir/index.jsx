@@ -8,7 +8,7 @@ const agendeLateralDir = () => {
     <Col className="agendeAqui agendeAquiDireita semMarginDir">
       <Link href="https://wa.me/5521972878038">
         <img
-          className="agendeAqui saibaPrecosDir"
+          className="agendeAqui saibaPrecosDir semMarginDir"
           loading="lazy"
           src="/images/agendeAquiDirAP.png"
           alt="Agende aqui"
@@ -16,7 +16,7 @@ const agendeLateralDir = () => {
       </Link>
       <Link href="http://grupodentotal-rdsm-site.rds.land/aparelho-saiba-nossos-precos">
         <img
-          className="agendeAqui saibaPrecos semMarginEsq"
+          className="agendeAqui saibaPrecos semMarginDir"
           loading="lazy"
           src="/images/saibaPrecosDirAP.png"
           alt="Agende aqui"
