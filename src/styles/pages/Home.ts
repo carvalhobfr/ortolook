@@ -234,6 +234,16 @@ export const Container = styled.div`
     margin: 6px 10px !important;
   }
 
+  button,
+  a,
+  .button,
+  .a,
+  .link,
+  .agendeAqui,
+  .redesSociais {
+    cursor: pointer !important;
+  }
+
   @media (max-width: 868px) {
     .rowFooter {
       flex-direction: column;
