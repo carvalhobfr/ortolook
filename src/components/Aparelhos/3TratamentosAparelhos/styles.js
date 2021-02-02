@@ -12,7 +12,7 @@ export const Contentor = styled.div`
   }
   .ortolookContainer {
     margin-top: 50px;
-    padding: 32px;
+    padding: 32px 0;
     min-width: 100%;
     margin-left: 0px !important;
     h1 {
@@ -224,6 +224,7 @@ export const Contentor = styled.div`
     .carousel-item > img,
     .imgColunaTratamento > img {
       max-width: 320px;
+      max-height: 464px;
     }
     .colTratamentos img {
       padding: 8px 0;
@@ -233,5 +234,11 @@ export const Contentor = styled.div`
   .carousel,
   .carousel-item > img {
     margin-bottom: 0 !important;
+  }
+
+  .colunaAgende {
+    max-width: 250px;
+    margin: 0;
+    padding: 0;
   }
 `

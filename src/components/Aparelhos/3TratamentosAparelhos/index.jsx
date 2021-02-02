@@ -215,6 +215,9 @@ const Tratamentos = () => {
               />
             </Carousel>
           </Col>
+          <Col className="someMobile">
+            <AgendeAquiDir />
+          </Col>
         </Row>
         {/* mobile */}
         <Col className="colTratamentos openMobile">
