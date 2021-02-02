@@ -5,7 +5,7 @@ import { Contentor } from './styles'
 // import AgendaLateralEsq from '../AgendaLateralEsq'
 
 const UnidadesEstetica = () => {
-  const [imgUrl, setImgUrl] = useState('images/unidadeESR(2).png')
+  const [imgUrl, setImgUrl] = useState('images/UNDS4.png')
   const [imgUrlMob, setImgUrlMob] = useState(
     <img
       loading="lazy"
