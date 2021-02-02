@@ -229,6 +229,20 @@ const UnidadesAparelho = () => {
                     >
                       <p>Petrópolis</p>
                     </button>
+                    <button
+                      onClick={() =>
+                        setImgUrlMob(
+                          <img
+                            loading="lazy"
+                            src="images/unidadesMobileAP20.png"
+                            alt="Tratamento Específico"
+                            className="imagemEstetica semMarginEsq"
+                          />
+                        )
+                      }
+                    >
+                      <p>São João de Meriti</p>
+                    </button>
                   </Col>
                 )
               }
