@@ -270,10 +270,10 @@ const UnidadesAparelho = () => {
             <button onClick={() => setImgUrl('images/unidadesAP4.png')}>
               <p>São Gonçalo</p>
             </button>
-            <button onClick={() => setImgUrl('images/unidadesAP(8).png')}>
+            <button onClick={() => setImgUrl('images/unidadesAP12.png')}>
               <p>Petrópolis</p>
             </button>
-            <button onClick={() => setImgUrl('images/unidadesAP(8).png')}>
+            <button onClick={() => setImgUrl('images/unidadesAP13.png')}>
               <p>São João de Merití</p>
             </button>
           </Col>
