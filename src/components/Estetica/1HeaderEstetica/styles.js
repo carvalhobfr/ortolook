@@ -355,7 +355,7 @@ export const Contentor = styled.div`
       img {
         max-width: 100%;
         max-width: 150px;
-        padding: 4px 0;
+        padding: 4px;
       }
       .sociais {
         width: 30px;

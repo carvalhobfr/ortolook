@@ -172,10 +172,6 @@ export const Contentor = styled.div`
     margin: 20px 0;
   }
 
-  /*   .carousel-item > img,
-  .imgColunaTratamento > img {
-    max-width: 320px;
-  } */
   .colTratamentos {
     display: flex;
     flex-direction: column;
@@ -224,6 +220,14 @@ export const Contentor = styled.div`
     .carousel-control-next-icon,
     .carousel-control-prev-icon {
       background-image: url(images/setaAparelho.png);
+    }
+    .carousel-item > img,
+    .imgColunaTratamento > img {
+      max-width: 320px;
+    }
+    .colTratamentos img {
+      padding: 8px 0;
+      max-width: 300px;
     }
   }
 `

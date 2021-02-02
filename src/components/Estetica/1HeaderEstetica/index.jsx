@@ -127,7 +127,11 @@ const HeaderEstetica = () => {
                 />
               </a>
               <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
-                <img src="/images/agende238.png" alt="upgrade" />
+                <img
+                  className="semMarginDir"
+                  src="/images/agende238.png"
+                  alt="upgrade"
+                />
               </a>
             </Col>
           </Row>
