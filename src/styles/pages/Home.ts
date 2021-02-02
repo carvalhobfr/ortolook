@@ -113,9 +113,9 @@ export const Container = styled.div`
 
   .carousel {
     margin-bottom: 32px;
-    img {
+    /*     img {
       max-height: 65vh;
-    }
+    } */
   }
 
   .semMarginEsq {
@@ -251,9 +251,6 @@ export const Container = styled.div`
     }
     .colFooter .row {
       flex-wrap: nowrap;
-    }
-    .agendeAquiDireita {
-      margin-right: -16px !important;
     }
   }
   .carousel-indicators {
