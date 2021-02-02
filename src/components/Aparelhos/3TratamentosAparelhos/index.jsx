@@ -215,7 +215,7 @@ const Tratamentos = () => {
               />
             </Carousel>
           </Col>
-          <Col className="someMobile">
+          <Col className="someMobile colunaAgende">
             <AgendeAquiDir />
           </Col>
         </Row>
