@@ -145,7 +145,7 @@ export const Contentor = styled.div`
     }
     .fotoHeader {
       max-height: 500px;
-      min-height: 400px;
+      min-height: 300px;
       min-width: 95%;
     }
 
