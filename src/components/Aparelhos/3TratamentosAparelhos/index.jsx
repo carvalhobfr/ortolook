@@ -221,42 +221,42 @@ const Tratamentos = () => {
           <a href="#tratamento1">
             <img
               loading="lazy"
-              src="/images/tratamento1AP.png"
+              src="/images/tratamentoAPM2.png"
               alt="Tratamento 1"
             />
           </a>
           <a href="#tratamento2">
             <img
               loading="lazy"
-              src="/images/tratamento2AP.png"
+              src="/images/tratamentoAPM1.png"
               alt="Tratamento 2"
             />
           </a>
           <a href="#autoligado">
             <img
               loading="lazy"
-              src="/images/tratamento3AP.png"
+              src="/images/tratamentoAPM3.png"
               alt="Tratamento 3"
             />
           </a>
           <a href="#estetico">
             <img
               loading="lazy"
-              src="/images/tratamento4AP.png"
+              src="/images/tratamentoAPM4.png"
               alt="Tratamento 4"
             />
           </a>
           <a href="#tratamento5">
             <img
               loading="lazy"
-              src="/images/tratamento5AP.png"
+              src="/images/tratamentoAPM5.png"
               alt="Tratamento 5"
             />
           </a>
           <a href="#clareamento">
             <img
               loading="lazy"
-              src="/images/tratamento6AP.png"
+              src="/images/tratamentoAPM6.png"
               alt="Tratamento 6"
             />
           </a>
