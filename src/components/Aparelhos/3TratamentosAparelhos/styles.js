@@ -190,13 +190,6 @@ export const Contentor = styled.div`
     width: 100%;
     margin: auto;
   }
-  .carousel-control-next-icon {
-    background-image: url(images/setaAparelho.png);
-  }
-  .carousel-control-next-icon,
-  .carousel-control-prev-icon {
-    background-image: url(images/setaAparelho.png);
-  }
 
   .carousel-control-prev-icon {
     transform: rotate(180deg);
@@ -214,6 +207,10 @@ export const Contentor = styled.div`
     .carousel-control-prev {
       margin: 0 -10px;
     }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      display: none;
+    }
     .ortolookContainer {
       margin-top: 0px !important;
       min-height: 3950px;
@@ -223,6 +220,10 @@ export const Contentor = styled.div`
     .colTratamentos {
       max-height: 70vh;
       max-width: 20vw;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      background-image: url(images/setaAparelho.png);
     }
   }
 `
