@@ -25,7 +25,7 @@ const HeaderAparelhos = props => {
               alt="Aparelhos Agende"
             />
             <Row className="redesSociais openMobile ">
-              <a href="https://www.instagram.com/ortolook/">
+              <a href="https://www.instagram.com/ortolook.aparelho/">
                 <img
                   loading="lazy"
                   src="/images/instagram.png"
@@ -43,7 +43,7 @@ const HeaderAparelhos = props => {
             </Row>
             <Row className="rowRedeSociais someMobile">
               <Col xs="2" className="redesSociais">
-                <a href="https://www.instagram.com/ortolook/">
+                <a href="https://www.instagram.com/ortolook.aparelho/">
                   <img
                     loading="lazy"
                     className="instagram"
