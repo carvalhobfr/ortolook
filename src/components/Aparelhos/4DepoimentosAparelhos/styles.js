@@ -12,6 +12,7 @@ export const Contentor = styled.div`
   }
   .ortolookContainer2.row {
     padding: 0 32px;
+    margin-top: 15vh;
   }
   .saibaNossosPrecos {
     display: -webkit-box;
