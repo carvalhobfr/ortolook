@@ -457,7 +457,6 @@ export const Contentor = styled.div`
     }
     .imagemEstetica {
       max-width: 100%;
-      min-width: 100%;
     }
     .imagemUnidadeMob {
       max-width: 70% !important;
