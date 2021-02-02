@@ -67,6 +67,15 @@ export default class MyDocument extends Document {
               height="0" width="0" style="display:none;visibility:hidden"></iframe>`
             }}
           />
+          <noscript>
+            <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-MVZBRZP"
+              height="0"
+              width="0"
+              style={{ display: 'none', visibility: 'hidden' }}
+            ></iframe>
+          </noscript>
+          `
           <Main />
           <NextScript />
           <script
