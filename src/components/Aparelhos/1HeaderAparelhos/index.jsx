@@ -20,8 +20,14 @@ const HeaderAparelhos = props => {
             </button>
             <img
               loading="lazy"
-              className="fotoHeader"
+              className="fotoHeader someMobile"
               src="/images/fotoAparelhoHeader.png"
+              alt="Aparelhos Agende"
+            />
+            <img
+              loading="lazy"
+              className="fotoHeader openMobile"
+              src="/images/fotoAparelhoHeader2.png"
               alt="Aparelhos Agende"
             />
             <Row className="redesSociais openMobile ">

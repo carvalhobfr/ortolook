@@ -145,6 +145,8 @@ export const Contentor = styled.div`
     }
     .fotoHeader {
       max-height: 500px;
+      min-height: 400px;
+      min-width: 95%;
     }
 
     .redesSociais {
