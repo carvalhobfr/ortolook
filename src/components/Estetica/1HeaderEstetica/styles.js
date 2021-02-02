@@ -341,7 +341,7 @@ export const Contentor = styled.div`
       img {
         width: 100%;
         max-width: 250px;
-        padding: 4px;
+        padding: 4px 0;
       }
     }
     .linkTratamentos2 {
@@ -355,7 +355,7 @@ export const Contentor = styled.div`
       img {
         max-width: 100%;
         max-width: 150px;
-        padding: 4px;
+        padding: 4px 0;
       }
       .sociais {
         width: 30px;
