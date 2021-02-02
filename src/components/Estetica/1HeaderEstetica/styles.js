@@ -363,4 +363,13 @@ export const Contentor = styled.div`
       }
     }
   }
+  .coluna1,
+  .coluna3 {
+    button {
+      img {
+        max-width: 150px !important;
+        padding: 0 16px;
+      }
+    }
+  }
 `
