@@ -64,27 +64,27 @@ const items = [
 ]
 const itemsMobile = [
   {
-    src: '/images/tratamentos41AP.png',
+    src: '/images/tratamentoAP4M1.png',
     id: 1,
     altText: 'Slide 40'
   },
   {
-    src: '/images/tratamentos42AP1.png',
+    src: '/images/tratamentoAP4M5.png',
     id: 2,
     altText: 'Slide 41'
   },
   {
-    src: '/images/tratamentos43ap.png',
+    src: '/images/tratamentoAP4M4.png',
     id: 3,
     altText: 'Slide 42'
   },
   {
-    src: '/images/tratamentos45AP.png',
+    src: '/images/tratamentoAP4M2.png',
     id: 4,
     altText: 'Slide 43'
   },
   {
-    src: '/images/tratamentos44AP.png',
+    src: '/images/tratamentoAP4M3.png',
     id: 5,
     altText: 'Slide 44'
   }

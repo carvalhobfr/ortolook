@@ -177,9 +177,6 @@ export const Container = styled.div`
     }
     .carousel {
       margin-bottom: 32px;
-      img {
-        max-height: 50vh;
-      }
     }
   }
 

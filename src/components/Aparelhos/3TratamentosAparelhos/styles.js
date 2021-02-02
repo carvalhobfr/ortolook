@@ -46,9 +46,9 @@ export const Contentor = styled.div`
     min-width: 100%;
   }
 
-  .carousel-item img {
+  /*   .carousel-item img {
     max-width: 100%;
-  }
+  } */
   .carousel-item {
     text-align: center;
   }
@@ -172,10 +172,10 @@ export const Contentor = styled.div`
     margin: 20px 0;
   }
 
-  .carousel-item > img,
+  /*   .carousel-item > img,
   .imgColunaTratamento > img {
     max-width: 320px;
-  }
+  } */
   .colTratamentos {
     display: flex;
     flex-direction: column;
