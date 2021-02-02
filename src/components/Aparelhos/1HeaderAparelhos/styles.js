@@ -308,4 +308,7 @@ export const Contentor = styled.div`
     min-height: 400px;
     max-height: 650px;
   }
+  strong {
+    font-family: 'GothamBook', sans-serif;
+  }
 `
