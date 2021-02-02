@@ -471,8 +471,8 @@ export const Contentor = styled.div`
   .botaoNossasUnidades {
     background-image: url(images/botaoNossasUnidadesAP.png) !important;
     background-repeat: no-repeat !important;
-    background-size: contain;
-    max-width: 300px;
+    background-size: contain !important;
+    max-width: 250px;
     max-height: 50px;
     width: 80%;
     background-position: left !important;
