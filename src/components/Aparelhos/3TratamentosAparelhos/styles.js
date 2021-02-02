@@ -182,7 +182,7 @@ export const Contentor = styled.div`
   .rowTratamentos {
     align-content: center;
     justify-content: space-between;
-    max-width: 1400px;
+    padding-left: 32px;
     width: 100%;
     margin: auto;
   }
