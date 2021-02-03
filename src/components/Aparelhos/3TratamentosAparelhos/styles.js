@@ -209,7 +209,13 @@ export const Contentor = styled.div`
     }
     .ortolookContainer {
       margin-top: 0px !important;
-      min-height: 3950px;
+    }
+    @media not all and (min-resolution: 0.001dpcm) {
+      @supports (-webkit-appearance: none) {
+        .ortolookContainer {
+          min-height: 3650px;
+        }
+      }
     }
   }
   @media (min-width: 900px) {
