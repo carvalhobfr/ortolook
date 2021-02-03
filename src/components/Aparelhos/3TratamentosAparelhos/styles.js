@@ -67,7 +67,7 @@ export const Contentor = styled.div`
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      max-height: 700px;
+      max-height: 400px;
     }
     .saibaNossosPrecos {
       margin-top: 50px;
