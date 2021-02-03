@@ -304,7 +304,7 @@ export const Contentor = styled.div`
     min-height: 70vh;
     .container,
     .rowMain {
-      min-height: 70vh !important;
+      min-height: 60vh !important;
     }
     .linhaCarrossel {
       align-content: center;
@@ -358,7 +358,7 @@ export const Contentor = styled.div`
       min-width: 100%;
     }
     .imagemUnidadeMob {
-      max-width: 80% !important;
+      max-width: 70% !important;
       min-width: 70% !important;
       min-height: 400px;
     }
@@ -376,5 +376,14 @@ export const Contentor = styled.div`
     background-position: right !important;
     margin-bottom: 5vh;
     align-self: start;
+  }
+
+  @media (min-width: 1600px) {
+    .imagemEstetica {
+      min-width: 350px;
+      max-width: 900px;
+      max-height: 100%;
+      width: 100%;
+    }
   }
 `
