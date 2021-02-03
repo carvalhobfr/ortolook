@@ -62,7 +62,7 @@ const NavOrtho = props => {
               </DropdownToggle>
               <DropdownMenu center>
                 <DropdownItem>
-                  <NavLink href="https://wa.me/5521972878038">
+                  <NavLink href="mailto:contato@grupodentotal.com.br">
                     fale conosco
                   </NavLink>
                 </DropdownItem>

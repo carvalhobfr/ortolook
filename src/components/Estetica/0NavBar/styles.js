@@ -7,13 +7,6 @@ export const Contentor = styled.div`
   position: sticky;
   z-index: 100;
 
-  .show {
-    background-image: url(/images/fundoNavES.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 64px 16px;
-  }
   .navbar-collapse {
     /* display: flex; */
     /* justify-content: space-between; */
@@ -41,7 +34,7 @@ export const Contentor = styled.div`
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    color: #fff !important;
+    color: #802b67 !important;
   }
   .dropdown-toggle::after {
     display: none;
@@ -59,6 +52,21 @@ export const Contentor = styled.div`
   @media (max-width: 900px) {
     .navbar {
       padding: 0.5rem;
+    }
+    .navbar-collapse > .show {
+      background-image: url(/images/fundoNavES.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding: 64px 16px;
+    }
+    .dropdown-menu {
+      background-color: transparent !important;
+      width: 100%;
+    }
+    .nav-link,
+    .dropdown-item {
+      color: #fff !important;
     }
   }
 `
