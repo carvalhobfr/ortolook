@@ -53,7 +53,7 @@ export const Contentor = styled.div`
     .navbar {
       padding: 0.5rem;
     }
-    .navbar-collapse > .show {
+    .navbar-collapse {
       background-image: url(/images/fundoNavES.png);
       background-position: center;
       background-repeat: no-repeat;
@@ -63,6 +63,8 @@ export const Contentor = styled.div`
     .dropdown-menu {
       background-color: transparent !important;
       width: 100%;
+      margin: auto;
+      filter: drop-shadow(2px 4px 6px black);
     }
     .nav-link,
     .dropdown-item {
