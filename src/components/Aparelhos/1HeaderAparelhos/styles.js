@@ -312,4 +312,9 @@ export const Contentor = styled.div`
   strong {
     font-family: 'GothamBook', sans-serif;
   }
+  .headerFacil {
+    align-self: flex-end;
+    padding-right: 16px;
+    padding-top: 0 !important;
+  }
 `

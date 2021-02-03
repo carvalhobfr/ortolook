@@ -68,14 +68,11 @@ const HeaderAparelhos = props => {
             </Row>
           </Col>
           <Col className="coluna3 coluna32">
-            <h2>
-              <strong className="gothambook">
-                é fácil <br />
-                é prático
-                <br /> é transformador
-                <br />
-              </strong>
-            </h2>
+            <img
+              src="/images/facilHeaderAP.png"
+              alt="header facil"
+              className="headerFacil"
+            />
             <img
               loading="lazy"
               className="fotoHeader2 someMobile"
