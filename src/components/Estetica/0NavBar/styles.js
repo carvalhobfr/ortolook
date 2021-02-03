@@ -55,10 +55,19 @@ export const Contentor = styled.div`
     }
     .navbar-collapse {
       background-image: url(/images/fundoNavES.png);
-      background-position: center;
+      background-position: right;
       background-repeat: no-repeat;
       background-size: contain;
       padding: 64px 16px;
+      margin-top: -40px;
+      .nav-item a {
+        padding-right: 64px;
+        margin-left: 50%;
+      }
+    }
+
+    .navbar-toggler {
+      z-index: 3px;
     }
     .dropdown-menu {
       background-color: transparent !important;
@@ -69,6 +78,12 @@ export const Contentor = styled.div`
     .nav-link,
     .dropdown-item {
       color: #fff !important;
+      text-align: center;
+    }
+    .dropdown-item {
+      max-width: 50%;
+      margin-left: auto;
+      margin-right: 64px;
     }
   }
 `
