@@ -233,9 +233,7 @@ export const Contentor = styled.div`
     .linhaSinuosaTratamentos {
       min-height: 50px;
     }
-  }
 
-  @media (max-width: 900px) {
     .someMobile {
       display: none;
     }
@@ -250,6 +248,10 @@ export const Contentor = styled.div`
     .linhaSinuosaDepoimento {
       min-height: 50px;
       margin-right: -16px;
+    }
+    .coluna1 {
+      padding-top: 0 !important;
+      margin-top: 0 !important;
     }
   }
 
@@ -354,7 +356,7 @@ export const Contentor = styled.div`
       min-width: 100%;
     }
     .imagemUnidadeMob {
-      max-width: 90% !important;
+      max-width: 80% !important;
       min-width: 70% !important;
       min-height: 400px;
     }
@@ -366,7 +368,7 @@ export const Contentor = styled.div`
     background-image: url(images/nossasUnidadesButton.png) !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
-    max-width: 250px;
+    max-width: 200px;
     max-height: 50px;
     width: 80%;
     background-position: right !important;

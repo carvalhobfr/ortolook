@@ -17,7 +17,7 @@ const Estetica: React.FC = () => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 2000)
+    setTimeout(() => setLoading(false), 3000)
   }, [])
 
   return (

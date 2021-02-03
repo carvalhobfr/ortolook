@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
 export const Contentor = styled.div`
+  background-color: rgb(252, 252, 255) !important;
   body {
     margin: auto;
-    background-color: 252, 252, 255 !important;
+    background-color: rgb(252, 252, 255) !important;
   }
   height: 100vh;
   display: flex;
