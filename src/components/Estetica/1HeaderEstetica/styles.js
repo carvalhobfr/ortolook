@@ -8,7 +8,7 @@ export const Contentor = styled.div`
 
   .container {
     min-width: 100%;
-    min-height: 90vh;
+    min-height: 85vh;
     max-height: 900px;
     width: 100%;
     margin: 0;
