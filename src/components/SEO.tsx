@@ -55,12 +55,12 @@ export default function SEO({
       <link
         href="//db.onlinewebfonts.com/c/edc378fa3251080c5b508b220462efca?family=Gotham"
         rel="preload"
-        as="font"
+        type="text/css"
       />
       <link
         href="//db.onlinewebfonts.com/c/ed524d3938b150b70d120697d516e805?family=Bemio+Italic"
         rel="preload"
-        as="font"
+        type="text/css"
       />
       <script
         dangerouslySetInnerHTML={{
