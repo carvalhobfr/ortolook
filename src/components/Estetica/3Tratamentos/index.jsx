@@ -95,8 +95,9 @@ const Tratamentos = () => {
             className="imgTratamento openMobile"
             alt="Tratamento SkinBooster"
           />
+          <AgendaLateralDir />
         </Row>
-        <AgendaLateralDir />
+        {/*         <AgendaLateralDir /> */}
       </Container>
     </Contentor>
   )
