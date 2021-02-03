@@ -254,7 +254,7 @@ export const Contentor = styled.div`
       }
     }
     .coluna3 img {
-      max-width: 270px;
+      max-width: 230px;
     }
   }
   @media (max-width: 1200px) {
