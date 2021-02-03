@@ -4,8 +4,16 @@ export const Contentor = styled.div`
   width: 100%;
   background-color: #fff;
   top: 0;
-    position: sticky;
-    z-index: 100;
+  position: sticky;
+  z-index: 100;
+
+  .show {
+    background-image: url(/images/fundoNavES.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 64px 16px;
+  }
   .navbar-collapse {
     /* display: flex; */
     /* justify-content: space-between; */
@@ -33,7 +41,7 @@ export const Contentor = styled.div`
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    color: #802b67 !important;
+    color: #fff !important;
   }
   .dropdown-toggle::after {
     display: none;
