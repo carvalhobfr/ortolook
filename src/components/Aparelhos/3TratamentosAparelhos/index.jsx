@@ -37,7 +37,7 @@ const items = [
     altText: 'Slide 4.2'
   },
   {
-    src: '/images/tratamentos43AP.png',
+    src: '/images/tratamentos43AP1.png',
     id: 6,
     altText: 'Slide 4.3'
   },

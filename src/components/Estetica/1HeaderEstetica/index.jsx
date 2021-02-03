@@ -15,19 +15,19 @@ const HeaderEstetica = () => {
           <Col className="coluna1">
             <AgendaLateralEsq />
             <button onClick={() => setImgUrl('images/faltaBrilho.png')}>
-              <img src="/images/faltaBrilhoLink.png" alt="imageTratamento" />
+              <p>FALTA DE BRILHO</p>
             </button>
             <button onClick={() => setImgUrl('images/peDeGalinha.png')}>
-              <img src="/images/peDeGalinhaLink.png" alt="imageTratamento" />
+              <p>PÉ DE GALINHA</p>
             </button>
             <button onClick={() => setImgUrl('images/malar.png')}>
-              <img src="/images/malarLink.png" alt="imageTratamento" />
+              <p>MALAR</p>
             </button>
             <button onClick={() => setImgUrl('images/bigodeChines.png')}>
-              <img src="/images/bigodeLink.png" alt="imageTratamento" />
+              <p>BIGODE CHINÊS</p>
             </button>
             <button onClick={() => setImgUrl('images/labiosFinos.png')}>
-              <img src="/images/labiosLink.png" alt="imageTratamento" />
+              <p>LÁBIOS FINOS </p>
             </button>
           </Col>
           <Col className="imgCentral">
@@ -46,22 +46,22 @@ const HeaderEstetica = () => {
             />
             <div className="someMobile">
               <button onClick={() => setImgUrl('images/rugas1.png')}>
-                <img src="/images/rugasLink.png" alt="imageTratamento" />
+                <p>RUGAS</p>
               </button>
               <button onClick={() => setImgUrl('images/olheira1.png')}>
-                <img src="/images/olheiraLink.png" alt="imageTratamento" />
+                <p>OLHEIRA</p>
               </button>
               <button onClick={() => setImgUrl('images/pontoDoNariz.png')}>
-                <img src="/images/pontaLink.png" alt="imageTratamento" />
+                <p>PONTA DO NARIZ</p>
               </button>
               <button onClick={() => setImgUrl('images/sorrisoGengival.png')}>
-                <img src="/images/sorrisoLink.png" alt="imageTratamento" />
+                <p>SORRISO GENGIVAL</p>
               </button>
               <button onClick={() => setImgUrl('images/marionete.png')}>
-                <img src="/images/marioneteLink.png" alt="imageTratamento" />
+                <p>MARIONETE</p>
               </button>
               <button onClick={() => setImgUrl('images/bruxismo.png')}>
-                <img src="/images/bruxismoLink.png" alt="imageTratamento" />
+                <p>BRUXISMO</p>
               </button>
             </div>
           </Col>

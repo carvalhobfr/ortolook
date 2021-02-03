@@ -40,7 +40,7 @@ export const Contentor = styled.div`
       font-family: 'Gotham Pro', sans-serif;
       padding: 0 1em;
       font-style: normal;
-      font-weight: 300;
+      font-weight: 500;
       font-size: 12px;
       line-height: 14px;
       color: #802b67;
