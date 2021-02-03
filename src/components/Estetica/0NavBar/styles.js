@@ -61,7 +61,7 @@ export const Contentor = styled.div`
       padding: 64px 16px;
       margin-top: -40px;
       .nav-item a {
-        padding-right: 64px;
+        margin-right: 20%;
         margin-left: 50%;
       }
     }
@@ -83,7 +83,7 @@ export const Contentor = styled.div`
     .dropdown-item {
       max-width: 50%;
       margin-left: auto;
-      margin-right: 64px;
+      margin-right: 20%;
     }
   }
 `
