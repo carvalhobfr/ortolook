@@ -199,6 +199,8 @@ export const Contentor = styled.div`
     }
     .coluna3 {
       padding-top: 120px;
+      align-self: flex-end;
+      min-height: 80vh !important;
     }
     .openMobile {
       display: none !important;

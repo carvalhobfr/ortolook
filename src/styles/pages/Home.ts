@@ -213,10 +213,16 @@ export const Container = styled.div`
   .linhaSinuosaTratamentos,
   .linhaSinuosa {
     max-width: 780px !important;
-    min-height: 60px !important;
+    min-height: 30px !important;
   }
 
   @media (min-width: 900px) {
+    .linhaSinuosaTratamentos,
+    .linhaSinuosa {
+      max-width: 780px !important;
+      min-height: 60px !important;
+      margin-bottom: 32px;
+    }
     .paciente1 {
       align-items: baseline;
     }
