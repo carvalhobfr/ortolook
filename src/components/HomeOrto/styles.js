@@ -141,12 +141,13 @@ export const Contentor = styled.div`
 
   @media (max-width: 868px) {
     .container {
-      max-height: 82vh;
+      max-height: 100vh;
     }
   }
   @media (max-width: 500px) {
     .container {
-      height: 90vh !important;
+      height: 100vh !important;
+      padding-left: 32px;
     }
   }
 
