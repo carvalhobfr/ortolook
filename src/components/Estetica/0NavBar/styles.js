@@ -67,7 +67,7 @@ export const Contentor = styled.div`
     }
 
     .navbar-toggler {
-      z-index: 3;
+      z-index: 3 !important;
     }
     .dropdown-menu {
       background-color: transparent !important;
