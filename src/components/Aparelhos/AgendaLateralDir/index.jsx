@@ -14,14 +14,14 @@ const agendeLateralDir = () => {
           alt="Agende aqui"
         />
       </Link>
-      <Link href="http://grupodentotal-rdsm-site.rds.land/aparelho-saiba-nossos-precos">
+      {/*  <Link href="http://grupodentotal-rdsm-site.rds.land/aparelho-saiba-nossos-precos">
         <img
           className="agendeAqui saibaPrecos semMarginDir"
           loading="lazy"
           src="/images/saibaPrecosDirAP.png"
           alt="Agende aqui"
         />
-      </Link>
+      </Link> */}
 
       {/* <ModalExample
                 srcImg="/images/agendeAqui2.png"

@@ -14,14 +14,14 @@ const agendeLateralEsq = () => {
           alt="Agende aqui"
         />
       </Link>
-      <Link href="https://wa.me/5521972878038">
+      {/*  <Link href="https://wa.me/5521972878038">
         <img
           className="saibaPrecos saibaPrecosEsq"
           loading="lazy"
           src="/images/saibaPrecos.png"
           alt="Agende aqui"
         />
-      </Link>
+      </Link> */}
       {/* <ModalExample
                 srcImg="/images/agendeAqui2.png"
                 className="agendeAqui"
