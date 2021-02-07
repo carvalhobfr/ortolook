@@ -272,13 +272,15 @@ const Tratamentos = () => {
             alt="slide1"
           />
           <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
-            <img
-              loading="lazy"
-              id="tratamento2"
-              src="/images/agendeAquiMobTratamento.png"
-              alt="Agende Aqui"
-              className="openMobile"
-            />
+            <button>
+              <img
+                loading="lazy"
+                id="tratamento2"
+                src="/images/agendeAquiMobTratamento.png"
+                alt="Agende Aqui"
+                className="openMobile"
+              />
+            </button>
           </a>
           <img
             loading="lazy"
@@ -287,12 +289,14 @@ const Tratamentos = () => {
             alt="slide2"
           />
           <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
-            <img
-              loading="lazy"
-              src="/images/agendeAquiMobTratamento4.png"
-              alt="Agende Aqui"
-              className="openMobile"
-            />
+            <button>
+              <img
+                loading="lazy"
+                src="/images/agendeAquiMobTratamento4.png"
+                alt="Agende Aqui"
+                className="openMobile"
+              />
+            </button>
           </a>
           <Carousel
             activeIndex={activeIndexMobile}
@@ -312,12 +316,14 @@ const Tratamentos = () => {
             />
           </Carousel>
           <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
-            <img
-              loading="lazy"
-              src="/images/agendeAquiMobTratamento4.png"
-              alt="Agende Aqui"
-              className="openMobile"
-            />
+            <button>
+              <img
+                loading="lazy"
+                src="/images/agendeAquiMobTratamento4.png"
+                alt="Agende Aqui"
+                className="openMobile"
+              />
+            </button>
           </a>
           <img
             loading="lazy"
@@ -326,12 +332,14 @@ const Tratamentos = () => {
             alt="slide9"
           />
           <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
-            <img
-              loading="lazy"
-              src="/images/agendeAquiMobTratamento5.png"
-              alt="Agende Aqui"
-              className="openMobile"
-            />
+            <button>
+              <img
+                loading="lazy"
+                src="/images/agendeAquiMobTratamento5.png"
+                alt="Agende Aqui"
+                className="openMobile"
+              />
+            </button>
           </a>
           <img
             loading="lazy"
@@ -340,12 +348,14 @@ const Tratamentos = () => {
             alt="slide10"
           />
           <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
-            <img
-              loading="lazy"
-              src="/images/agendeAquiMobTratamento6.png"
-              alt="Agende Aqui"
-              className="openMobile"
-            />
+            <button>
+              <img
+                loading="lazy"
+                src="/images/agendeAquiMobTratamento6.png"
+                alt="Agende Aqui"
+                className="openMobile"
+              />
+            </button>
           </a>
         </Col>
         {/*  <AgendeAquiDir /> */}

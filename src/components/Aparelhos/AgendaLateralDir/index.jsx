@@ -7,12 +7,14 @@ const agendeLateralDir = () => {
   return (
     <Col className="agendeAqui agendeAquiDireita semMarginDir">
       <Link href="https://wa.me/5521972878038">
-        <img
-          className="agendeAqui saibaPrecosDir semMarginDir"
-          loading="lazy"
-          src="/images/agendeAquiDirAP.png"
-          alt="Agende aqui"
-        />
+        <button>
+          <img
+            className="agendeAqui saibaPrecosDir semMarginDir"
+            loading="lazy"
+            src="/images/agendeAquiDirAP.png"
+            alt="Agende aqui"
+          />
+        </button>
       </Link>
       {/*  <Link href="http://grupodentotal-rdsm-site.rds.land/aparelho-saiba-nossos-precos">
         <img
