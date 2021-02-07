@@ -271,7 +271,7 @@ const Tratamentos = () => {
             src="/images/tratamentos11AP.png"
             alt="slide1"
           />
-          <button>
+          <button className="agendeAqui">
             <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
               <img
                 loading="lazy"
@@ -288,7 +288,7 @@ const Tratamentos = () => {
             src="/images/tratamentos21AP.png"
             alt="slide2"
           />
-          <button>
+          <button className="agendeAqui">
             <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
               <img
                 loading="lazy"
@@ -315,7 +315,7 @@ const Tratamentos = () => {
               onClickHandler={nextMobile}
             />
           </Carousel>
-          <button>
+          <button className="agendeAqui">
             <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
               <img
                 loading="lazy"
@@ -331,7 +331,7 @@ const Tratamentos = () => {
             src="/images/tratamentos51AP.png"
             alt="slide9"
           />
-          <button>
+          <button className="agendeAqui">
             <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
               <img
                 loading="lazy"
@@ -347,7 +347,7 @@ const Tratamentos = () => {
             src="/images/tratamentos61AP.png"
             alt="slide10"
           />
-          <button>
+          <button className="agendeAqui">
             <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
               <img
                 loading="lazy"

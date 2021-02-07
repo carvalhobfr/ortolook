@@ -14,7 +14,7 @@ const agendeLateralEsq = () => {
           alt="Agende aqui"
         />
       </Link> */}
-      <button>
+      <button className="agendeAqui">
         <Link href="https://wa.me/5521972878038">
           <img
             className="agendeAqui saibaPrecosDir semMarginDir"

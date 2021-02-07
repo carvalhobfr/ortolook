@@ -6,7 +6,7 @@ import { Col } from 'reactstrap'
 const agendeLateralEsq = () => {
   return (
     <Col className="agendeAqui someMobile">
-      <button>
+      <button className="agendeAqui">
         <Link href="https://wa.me/5521972878038">
           <img
             className="agendeAqui "
