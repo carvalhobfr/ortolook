@@ -186,7 +186,6 @@ export const Container = styled.div`
       margin-bottom: 4px !important;
       max-width: 155px !important;
       padding: 0 !important;
-      max-height: 29px;
     }
     .saibaPrecos {
       padding: 0 !important;
