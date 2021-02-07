@@ -214,7 +214,7 @@ export const Contentor = styled.div`
     @media not all and (min-resolution: 0.001dpcm) {
       @supports (-webkit-appearance: none) {
         .ortolookContainer {
-          min-height: 3800px;
+          min-height: 3900px;
         }
       }
     }
