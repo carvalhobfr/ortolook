@@ -7,12 +7,14 @@ const agendeLateralEsq = () => {
   return (
     <Col className="agendeAqui someMobile">
       <Link href="https://wa.me/5521972878038">
-        <img
-          className="agendeAqui "
-          loading="lazy"
-          src="/images/agendeAqui2.png"
-          alt="Agende aqui"
-        />
+        <button>
+          <img
+            className="agendeAqui "
+            loading="lazy"
+            src="/images/agendeAqui2.png"
+            alt="Agende aqui"
+          />
+        </button>
       </Link>
       {/*  <Link href="https://wa.me/5521972878038">
         <img

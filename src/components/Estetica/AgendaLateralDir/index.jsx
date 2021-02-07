@@ -15,12 +15,14 @@ const agendeLateralEsq = () => {
         />
       </Link> */}
       <Link href="https://wa.me/5521972878038">
-        <img
-          className="agendeAqui saibaPrecosDir semMarginDir"
-          loading="lazy"
-          src="/images/agendeAquiDir.png"
-          alt="Agende aqui"
-        />
+        <button>
+          <img
+            className="agendeAqui saibaPrecosDir semMarginDir"
+            loading="lazy"
+            src="/images/agendeAquiDir.png"
+            alt="Agende aqui"
+          />
+        </button>
       </Link>
       {/* <ModalExample
                 srcImg="/images/agendeAqui2.png"

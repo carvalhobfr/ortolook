@@ -7,7 +7,7 @@ const agendeLateralDir = () => {
   return (
     <Col className="agendeAqui agendeAquiDireita semMarginDir">
       <Link href="https://wa.me/5521972878038">
-        <button>
+        <button className="agendeAqui saibaPrecosDir semMarginDir">
           <img
             className="agendeAqui saibaPrecosDir semMarginDir"
             loading="lazy"
