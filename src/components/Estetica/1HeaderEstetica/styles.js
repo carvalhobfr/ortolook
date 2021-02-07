@@ -367,7 +367,7 @@ export const Contentor = styled.div`
   .coluna3 {
     button {
       img {
-        max-width: 150px !important;
+        max-width: 250px !important;
         padding: 0 16px;
       }
     }
