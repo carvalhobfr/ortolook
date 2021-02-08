@@ -298,6 +298,7 @@ export const Contentor = styled.div`
       max-width: 400px;
     }
     .fotoHeader {
+      width: 50% !important;
       max-width: 352px !important;
       max-height: 497px;
       width: 100%;
