@@ -46,8 +46,7 @@ button {
     outline: 0 !important;
     cursor: pointer !important;
     overflow: visible !important;
-    color: inherit !important;
-    background: transparent !important;
+    background: transparent ;
   }
 
   button:focus {
