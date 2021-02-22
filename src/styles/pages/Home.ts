@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+  @import url(//db.onlinewebfonts.com/c/ed524d3938b150b70d120697d516e805?family=Bemio+Italic);
   max-width: 1900px !important;
   margin: auto;
   padding: 0;
