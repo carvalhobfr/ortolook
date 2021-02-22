@@ -63,11 +63,17 @@ export default function SEO({
         rel="preload"
         type="text/css"
       /> */}
-      <link
+      {/*       <link
         rel="preload"
         as="font"
         href="//db.onlinewebfonts.com/c/ed524d3938b150b70d120697d516e805?family=Bemio+Italic"
         type="font/woff2"
+        crossOrigin=""
+      /> */}
+      <link
+        href="//db.onlinewebfonts.com/c/ed524d3938b150b70d120697d516e805?family=Bemio+Italic"
+        rel="preload"
+        type="text/css"
         crossOrigin=""
       />
 
