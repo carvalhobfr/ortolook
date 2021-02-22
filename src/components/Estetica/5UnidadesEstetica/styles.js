@@ -198,7 +198,7 @@ export const Contentor = styled.div`
       max-width: 1300px;
     }
     .coluna3 {
-      padding-top: 120px;
+      padding-top: 60px;
       align-self: flex-end;
       min-height: 80vh !important;
     }

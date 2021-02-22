@@ -14,6 +14,7 @@ export const Container = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  text-align: center;
 
   h1 {
     font-family: Gotham;
@@ -50,6 +51,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     width: 50%;
+    min-width: 300px;
   }
 
   button {

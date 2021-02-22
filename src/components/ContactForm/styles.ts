@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-direction: column;
   width: 100%;
   max-width: 789px;
-  padding: 64px 32px;
+  padding: 128px 32px 64px;
   align-items: center;
   justify-items: center;
   justify-content: center;
@@ -14,6 +14,7 @@ export const Container = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  text-align: center;
 
   h1 {
     font-family: Gotham;
@@ -22,6 +23,19 @@ export const Container = styled.div`
     font-size: 50px;
     line-height: 48px;
     color: #fff;
+  }
+
+  p {
+    font-family: Gotham;
+    font-style: normal;
+    font-weight: normal !important;
+    font-size: 14px;
+    line-height: 19px;
+    width: 70%;
+    max-width: 400px;
+    min-width: 250px;
+
+    color: #ffffff;
   }
 
   input,
@@ -37,6 +51,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     width: 50%;
+    min-width: 300px;
   }
 
   button {
