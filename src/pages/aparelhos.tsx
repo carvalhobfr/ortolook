@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import SEO from '@/components/SEO'
 import { withRouter } from 'next/router'
-import dynamic from 'next/dynamic'
 
 import { Container } from '../styles/pages/Home'
 import { GetServerSideProps } from 'next'
@@ -14,11 +13,30 @@ import UnidadesAparelhos from '../components/Aparelhos/5UnidadesAparelhos'
 import LoadingScreen from '../components/Aparelhos/LoadingScreenAparelho'
 import FooterAparelhos from '../components/Aparelhos/FooterAparelhos'
 
+function FadeInSection(props) {
+  const [isVisible, setVisible] = React.useState(false)
+  const domRef = React.useRef()
+  React.useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting))
+    })
+    observer.observe(domRef.current)
+  }, [])
+  return (
+    <div
+      className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
+      ref={domRef}
+    >
+      {props.children}
+    </div>
+  )
+}
+
 const Aparelhos: React.FC = () => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 3000)
+    setTimeout(() => setLoading(false), 10)
   }, [])
   return (
     <>
@@ -31,12 +49,22 @@ const Aparelhos: React.FC = () => {
             description="Ortolook"
           ></SEO>
           <NavOrtho />
-          <HeaderAparelhos />
-          <DivOrtholookAparelhos />
-          <Tratamentos />
-          <Depoimentos />
-          <UnidadesAparelhos />
-          <FooterAparelhos />
+          <FadeInSection>
+            <HeaderAparelhos />
+          </FadeInSection>
+          <FadeInSection>
+            <DivOrtholookAparelhos />
+          </FadeInSection>
+          <FadeInSection>
+            <Tratamentos />
+          </FadeInSection>
+          <FadeInSection>
+            <Depoimentos />
+          </FadeInSection>
+          <FadeInSection>
+            <UnidadesAparelhos />
+            <FooterAparelhos />
+          </FadeInSection>
         </Container>
       ) : (
         <LoadingScreen />

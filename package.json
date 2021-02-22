@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@layerframers/scaffolding-nextjs": "^1.1.6",
+    "aos": "^3.0.0-beta.6",
     "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
     "materialize-css": "^1.0.0-rc.2",
@@ -19,8 +20,10 @@
     "nprogress": "^0.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-lazyload": "^3.2.0",
     "react-multi-carousel": "^2.6.1",
     "react-router-dom": "^5.2.0",
+    "react-transition-group": "1.x",
     "reactstrap": "^8.7.1",
     "styled-components": "^5.1.1"
   },

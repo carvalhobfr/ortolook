@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import SEO from '@/components/SEO'
 import { withRouter } from 'next/router'
 
@@ -12,6 +12,25 @@ import Depoimentos from '../components/Estetica/4DepoimentosEstetica'
 import UnidadesEstetica from '../components/Estetica/5UnidadesEstetica'
 import LoadingScreen from '../components/Estetica/9LoadingScreenEstetica'
 import FooterEstetica from '../components/Estetica/6FooterEstetica'
+
+function FadeInSection(props) {
+  const [isVisible, setVisible] = React.useState(false)
+  const domRef = React.useRef()
+  React.useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting))
+    })
+    observer.observe(domRef.current)
+  }, [])
+  return (
+    <div
+      className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
+      ref={domRef}
+    >
+      {props.children}
+    </div>
+  )
+}
 
 const Estetica: React.FC = () => {
   const [loading, setLoading] = useState(true)
@@ -31,12 +50,22 @@ const Estetica: React.FC = () => {
             description="Ortolook"
           ></SEO>
           <NavOrtho />
-          <HeaderEstetica />
-          <DivOrtholook />
-          <Tratamentos />
-          <Depoimentos />
-          <UnidadesEstetica />
-          <FooterEstetica />
+          <FadeInSection>
+            <HeaderEstetica />
+          </FadeInSection>
+          <FadeInSection>
+            <DivOrtholook />
+          </FadeInSection>
+          <FadeInSection>
+            <Tratamentos />
+          </FadeInSection>
+          <FadeInSection>
+            <Depoimentos />
+          </FadeInSection>
+          <FadeInSection>
+            <UnidadesEstetica />
+            <FooterEstetica />
+          </FadeInSection>
         </Container>
       ) : (
         <LoadingScreen />

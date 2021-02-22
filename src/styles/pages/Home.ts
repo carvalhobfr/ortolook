@@ -278,4 +278,24 @@ export const Container = styled.div`
   .footer11px2 {
     display: none !important;
   }
+
+  .modalTeste {
+    background-color: black !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out,
+      visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
 `

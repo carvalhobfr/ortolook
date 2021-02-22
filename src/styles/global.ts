@@ -17,7 +17,7 @@ html{
 }
 
   body {
-    max-width: 2000px;
+    max-width: 2000px !important;
     font-family: 'GothamBook';
     font-weight: normal;
   }
@@ -51,5 +51,16 @@ button {
 
   button:focus {
   outline: 0 !important;
+  }
+
+  @media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 100% !important;
+      margin: 1.75rem auto;
+    }
+  }
+
+  .modal-open {
+    background-color: black;
   }
 `

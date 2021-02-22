@@ -9,12 +9,11 @@ export const Container = styled.div`
   align-items: center;
   justify-items: center;
   justify-content: center;
-  justify-content: center;
-  background-image: url(images/bgContato.png);
+  /*   background-image: url(images/bgContato.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  text-align: center;
+  text-align: center; */
 
   h1 {
     font-family: Gotham;
@@ -22,7 +21,7 @@ export const Container = styled.div`
     font-weight: normal;
     font-size: 50px;
     line-height: 48px;
-    color: #fff;
+    /*     color: #fff; */
   }
 
   p {
@@ -67,5 +66,14 @@ export const Container = styled.div`
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: top !important;
+    border: none !important;
+    background-color: transparent;
+  }
+`
+export const Contentor = styled.div`
+  .modal-body {
+    background-color: black !important;
+    max-width: 100% !important;
+    margin: 0 !important;
   }
 `
