@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import './todos.scss'
 
 export default createGlobalStyle`
   * {
@@ -53,14 +54,18 @@ button {
   outline: 0 !important;
   }
 
-  @media (min-width: 576px) {
-    .modal-dialog {
-      max-width: 100% !important;
-      margin: 1.75rem auto;
+  .modalForm {
+    width: 100vw;
+    margin: 0 !important;
+    max-width: 1000px;
+    .modal-content {
+      width: 1000px;
+      border: none !important;
+      background: transparent;
     }
   }
-
-  .modal-open {
-    background-color: black;
+  .modal-content {
+    background-color: transparent !important;
+    border: none !important;
   }
 `

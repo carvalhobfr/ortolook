@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
+/* import 'bootstrap/dist/css/bootstrap.min.css' */
 import 'bootstrap/dist/css/bootstrap.min.css'
+/*  import '/public/todos.scss' */
 
 interface SEOProps {
   title: string
@@ -20,7 +22,6 @@ export default function SEO({
   const pageImage = image
     ? `${process.env.NEXT_PUBLIC_SITE_URL}/${image}`
     : null
-
   return (
     <Head>
       <title>{pageTitle}</title>
@@ -58,25 +59,12 @@ export default function SEO({
         type="text/css"
         crossOrigin=""
       />
-      {/*       <link
-        href="//db.onlinewebfonts.com/c/ed524d3938b150b70d120697d516e805?family=Bemio+Italic"
-        rel="preload"
-        type="text/css"
-      /> */}
-      {/*       <link
-        rel="preload"
-        as="font"
-        href="//db.onlinewebfonts.com/c/ed524d3938b150b70d120697d516e805?family=Bemio+Italic"
-        type="font/woff2"
-        crossOrigin=""
-      /> */}
       <link
         href="//db.onlinewebfonts.com/c/ed524d3938b150b70d120697d516e805?family=Bemio+Italic"
         rel="preload"
         type="text/css"
         crossOrigin=""
       />
-
       <script
         dangerouslySetInnerHTML={{
           __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

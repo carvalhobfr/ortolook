@@ -1,9 +1,13 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 
+import { Button } from 'react-bootstrap'
 import { Container } from './styles'
+import Modal from 'react-bootstrap/Modal'
+/* import ModalDialog from 'react-bootstrap/ModalDialog' */
 
 export default () => {
+  const [show, setShow] = useState(false)
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -32,6 +36,7 @@ export default () => {
       })
     }
   }
+
   const handleOnChange = e => {
     e.persist()
     setInputs(prev => ({
@@ -60,51 +65,66 @@ export default () => {
       })
   }
   return (
-    <Container>
-      <h1>saiba nossos preços</h1>
-      <p>
-        preencha o formulário abaixo e receba uma média de preço dos nossos
-        tratamentos.
-      </p>
-      <form onSubmit={handleOnSubmit}>
-        <input
-          id="name"
-          name="name"
-          placeholder="Nome"
-          onChange={handleOnChange}
-          required
-          value={inputs.name}
-        />
-        <input
-          id="tel"
-          type="tel"
-          name="tel"
-          placeholder="Telefone"
-          onChange={handleOnChange}
-          required
-          value={inputs.tel}
-        />
-        <input
-          id="email"
-          type="email"
-          name="_replyto"
-          placeholder="Email"
-          onChange={handleOnChange}
-          required
-          value={inputs.email}
-        />
-        <button type="submit" disabled={status.submitting}>
-          {!status.submitting
-            ? !status.submitted
-              ? 'Enviar'
-              : 'Enviado'
-            : 'Enviando'}
-        </button>
-      </form>
-      {status.info.error && (
-        <div className="error">Error: {status.info.msg}</div>
-      )}
-      {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
-    </Container>
+    <>
+      <Button variant="primary" onClick={() => setShow(true)}>
+        Custom Width Modal
+      </Button>
+      <Modal
+        backdrop={true}
+        bsPrefix="meuModal"
+        size="lg"
+        show={show}
+        onHide={() => setShow(false)}
+        dialogClassName="modalTestDialog modal-100w"
+        contentClassName="border-0"
+        aria-labelledby="example-custom-modal-styling-title"
+      >
+        {/*     <Modal.Header closeButton></Modal.Header> */}
+        <Modal.Body bsPrefix="modalBody">
+          <Container>
+            <h1>saiba nossos preços</h1>
+            <form onSubmit={handleOnSubmit}>
+              <input
+                id="name"
+                name="name"
+                placeholder="Nome"
+                onChange={handleOnChange}
+                required
+                value={inputs.name}
+              />
+              <input
+                id="tel"
+                type="tel"
+                name="tel"
+                placeholder="Telefone"
+                onChange={handleOnChange}
+                required
+                value={inputs.tel}
+              />
+              <input
+                id="email"
+                type="email"
+                name="_replyto"
+                placeholder="Email"
+                onChange={handleOnChange}
+                required
+                value={inputs.email}
+              />
+              <button type="submit" disabled={status.submitting}>
+                {!status.submitting
+                  ? !status.submitted
+                    ? 'Enviar'
+                    : 'Enviado'
+                  : 'Enviando'}
+              </button>
+            </form>
+            {status.info.error && (
+              <div className="error">Error: {status.info.msg}</div>
+            )}
+            {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
+          </Container>
+        </Modal.Body>
+      </Modal>
+    </>
   )
 }

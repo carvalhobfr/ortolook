@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import { Modal, ModalBody } from 'reactstrap'
 
-import { Contentor, Container } from './styles'
-
+import { Container } from './styles'
+/* import  from '../../styles/global' */
 export default props => {
   const [status, setStatus] = useState({
     submitted: false,
@@ -72,7 +72,7 @@ export default props => {
 
   return (
     <>
-      <Contentor>
+      <>
         <button onClick={toggle}>Entre em Contato</button>
         <Modal
           style={{
@@ -151,7 +151,7 @@ export default props => {
             </Container>
           </ModalBody>
         </Modal>
-      </Contentor>
+      </>
     </>
   )
 }

@@ -70,10 +70,3 @@ export const Container = styled.div`
     background-color: transparent;
   }
 `
-export const Contentor = styled.div`
-  .modal-body {
-    background-color: black !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-  }
-`

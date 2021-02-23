@@ -279,12 +279,6 @@ export const Container = styled.div`
     display: none !important;
   }
 
-  .modalTeste {
-    background-color: black !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-  }
-
   .fade-in-section {
     opacity: 0;
     transform: translateY(20vh);
@@ -297,5 +291,10 @@ export const Container = styled.div`
     opacity: 1;
     transform: none;
     visibility: visible;
+  }
+
+  .modal-content {
+    background-color: transparent !important;
+    border: none !important;
   }
 `

@@ -8,6 +8,8 @@ import Document, {
   NextScript
 } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
+import GlobalStyle from '../styles/global'
+import '../styles/todos.scss'
 
 export default class MyDocument extends Document {
   static async getInitialProps(
@@ -52,8 +54,11 @@ export default class MyDocument extends Document {
               })(window,document,'script','dataLayer','GTM-MVZBRZP');`
             }}
           />
+          <link rel="stylesheet" type="text/css" href="/todos.scss" />
         </Head>
+        <GlobalStyle />
         <body>
+          <link rel="stylesheet" type="text/css" href="/todos.scss" />
           <noscript>
             <iframe
               src="https://www.googletagmanager.com/ns.html?id=GTM-MVZBRZP"

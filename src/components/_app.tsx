@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components'
 
 import GlobalStyle from '../styles/global'
 import theme from '../styles/theme'
+import '../styles/todos.scss'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   useEffect(() => {
@@ -15,11 +16,12 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   })
   return (
     <>
-      <Component {...pageProps} />
-      <ThemeProvider theme={theme}>
+      <GlobalStyle>
         <Component {...pageProps} />
-        <GlobalStyle />
-      </ThemeProvider>
+        <ThemeProvider theme={theme}>
+          <Component {...pageProps} />
+        </ThemeProvider>
+      </GlobalStyle>
     </>
   )
 }
