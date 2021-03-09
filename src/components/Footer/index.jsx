@@ -36,14 +36,14 @@ const Footer = () => {
               src="images/ortoFooter4.png"
               alt="Logo Ortolook"
             />
-            <a href="https://www.instagram.com/ortolook.aparelho/">
+            <a href="https://www.facebook.com/Ortolook/">
               <img
                 loading="lazy"
                 src="images/ortoFooter5.png"
                 alt="Logo Ortolook"
               />
             </a>
-            <a href="https://www.facebook.com/Ortolook/">
+            <a href="https://www.instagram.com/ortolook.aparelho/">
               <img
                 loading="lazy"
                 src="images/ortoFooter6.png"
@@ -54,14 +54,14 @@ const Footer = () => {
         </Col>
         <Col className="col3Footer">
           <Row>
-            <a href="https://www.instagram.com/ortolook.aparelho/">
+            <a href="https://www.facebook.com/Ortolook/">
               <img
                 loading="lazy"
                 src="images/ortoFooter5.png"
                 alt="Logo Ortolook"
               />
             </a>
-            <a href="https://www.facebook.com/Ortolook/">
+            <a href="https://www.instagram.com/ortolook.aparelho/">
               <img
                 loading="lazy"
                 src="images/ortoFooter6.png"
