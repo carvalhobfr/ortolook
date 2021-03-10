@@ -235,14 +235,14 @@ const Tratamentos = () => {
               alt="Tratamento 2"
             />
           </a>
-          <a href="#autoligado">
+          <a href="#estetico">
             <img
               loading="lazy"
               src="/images/tratamentoAPM3.png"
               alt="Tratamento 3"
             />
           </a>
-          <a href="#estetico">
+          <a href="#invisivel">
             <img
               loading="lazy"
               src="/images/tratamentoAPM4.png"
@@ -295,6 +295,23 @@ const Tratamentos = () => {
                 src="/images/agendeAquiMobTratamento4.png"
                 alt="Agende Aqui"
                 className="openMobile"
+              />
+            </a>
+          </button>
+          <img
+            loading="lazy"
+            id="estetico"
+            src="/images/tratamentos31AP.png"
+            alt="slide2"
+          />
+          <button className="agendeAqui">
+            <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+              <img
+                loading="lazy"
+                src="/images/agendeAquiMobTratamento3.png"
+                alt="Agende Aqui"
+                className="openMobile"
+                id="invisivel"
               />
             </a>
           </button>

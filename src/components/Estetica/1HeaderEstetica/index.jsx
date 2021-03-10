@@ -31,12 +31,14 @@ const HeaderEstetica = () => {
             </button>
           </Col>
           <Col className="imgCentral">
-            <img
-              loading="lazy"
-              src={imgUrl}
-              alt="Tratamento Específico"
-              className="imagemEstetica"
-            />
+            <a href="#tratamentos">
+              <img
+                loading="lazy"
+                src={imgUrl}
+                alt="Tratamento Específico"
+                className="imagemEstetica"
+              />
+            </a>
           </Col>
           <Col className="coluna3">
             <img
