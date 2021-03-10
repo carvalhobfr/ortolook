@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Container, Row, Col } from 'reactstrap'
+import { Row, Col } from 'reactstrap'
 import { Contentor } from './styles'
 
 const Footer = () => {
