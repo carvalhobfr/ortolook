@@ -338,7 +338,7 @@ const UnidadesAparelho = () => {
             <button
               onClick={() =>
                 setImgUrl('images/unidadesAP13.png') &
-                setWppUrl('https://wa.me/998804004')
+                setWppUrl('https://wa.me/5521998804004')
               }
             >
               <p>São João de Merití</p>

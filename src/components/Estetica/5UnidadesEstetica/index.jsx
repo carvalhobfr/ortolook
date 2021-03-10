@@ -6,6 +6,7 @@ import { Contentor } from './styles'
 
 const UnidadesEstetica = () => {
   const [imgUrl, setImgUrl] = useState('images/UNDS4.png')
+  const [wppUrl, setWppUrl] = useState('https://wa.me/5521972878038')
   const [imgUrlMob, setImgUrlMob] = useState(
     <img
       loading="lazy"
@@ -58,7 +59,7 @@ const UnidadesEstetica = () => {
                               alt="Tratamento Específico"
                               className="imagemEstetica"
                             />
-                          )
+                          ) & setWppUrl('https://wa.me/55219994124202')
                         }
                       >
                         <p>Botafogo</p>
@@ -72,7 +73,7 @@ const UnidadesEstetica = () => {
                               alt="Tratamento Específico"
                               className="imagemEstetica"
                             />
-                          )
+                          ) & setWppUrl('https://wa.me/5521981383586')
                         }
                       >
                         <p>Caxias II</p>
@@ -86,7 +87,7 @@ const UnidadesEstetica = () => {
                               alt="Tratamento Específico"
                               className="imagemEstetica"
                             />
-                          )
+                          ) & setWppUrl('https://wa.me/5521992128819')
                         }
                       >
                         <p>Leblon</p>
@@ -100,7 +101,7 @@ const UnidadesEstetica = () => {
                               alt="Tratamento Específico"
                               className="imagemEstetica"
                             />
-                          )
+                          ) & setWppUrl('https://wa.me/5521965679778')
                         }
                       >
                         <p>Madureira</p>
@@ -114,7 +115,7 @@ const UnidadesEstetica = () => {
                               alt="Tratamento Específico"
                               className="imagemEstetica"
                             />
-                          )
+                          ) & setWppUrl('https://wa.me/5521967414822')
                         }
                       >
                         <p>Niterói</p>
@@ -128,7 +129,7 @@ const UnidadesEstetica = () => {
                               alt="Tratamento Específico"
                               className="imagemEstetica"
                             />
-                          )
+                          ) & setWppUrl('https://wa.me/5521997815927')
                         }
                       >
                         <p>Nova Iguaçu</p>
@@ -142,7 +143,7 @@ const UnidadesEstetica = () => {
                               alt="Tratamento Específico"
                               className="imagemEstetica"
                             />
-                          )
+                          ) & setWppUrl('https://wa.me/5521983333181')
                         }
                       >
                         <p>São Gonçalo</p>
@@ -160,25 +161,60 @@ const UnidadesEstetica = () => {
             </Row>
           </Col>
           <Col className="coluna3 gothamBook someMobile">
-            <button onClick={() => setImgUrl('images/unidadeESR(2).png')}>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadeESR(2).png') &
+                setWppUrl('https://wa.me/55219994124202')
+              }
+            >
               <p>Botafogo</p>
             </button>
-            <button onClick={() => setImgUrl('images/unidadeESR(6).png')}>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadeESR(6).png') &
+                setWppUrl('https://wa.me/5521981383586')
+              }
+            >
               <p>Caxias II</p>
             </button>
-            <button onClick={() => setImgUrl('images/unidadeESR(5).png')}>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadeESR(5).png') &
+                setWppUrl('https://wa.me/5521992128819')
+              }
+            >
               <p>Leblon</p>
             </button>
-            <button onClick={() => setImgUrl('images/unidadeESR(7).png')}>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadeESR(7).png') &
+                setWppUrl('https://wa.me/5521965679778')
+              }
+            >
               <p>Madureira</p>
             </button>
-            <button onClick={() => setImgUrl('images/unidadeESR(4).png')}>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadeESR(4).png') &
+                setWppUrl('https://wa.me/5521967414822')
+              }
+            >
               <p>Niterói</p>
             </button>
-            <button onClick={() => setImgUrl('images/unidadeESR(8).png')}>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadeESR(8).png') &
+                setWppUrl('https://wa.me/5521997815927')
+              }
+            >
               <p>Nova Iguaçu</p>
             </button>
-            <button onClick={() => setImgUrl('images/unidadeESR(3).png')}>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadeESR(3).png') &
+                setWppUrl('https://wa.me/5521983333181')
+              }
+            >
               <p>São Gonçalo</p>
             </button>
           </Col>
