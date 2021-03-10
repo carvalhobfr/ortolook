@@ -30,12 +30,14 @@ const UnidadesEstetica = () => {
               de Janeiro!
               <br /> Escolha a mais próxima de você!
             </h4>
-            <img
-              loading="lazy"
-              src={imgUrl}
-              alt="Tratamento Específico"
-              className="imagemEstetica"
-            />
+            <a href={wppUrl}>
+              <img
+                loading="lazy"
+                src={imgUrl}
+                alt="Tratamento Específico"
+                className="imagemEstetica"
+              />
+            </a>
           </Col>
 
           <Col className="coluna1 openMobile">
@@ -157,7 +159,9 @@ const UnidadesEstetica = () => {
                 <br />
               </button>
 
-              <Col className="imagemUnidadeMob">{imgUrlMob}</Col>
+              <Col className="imagemUnidadeMob">
+                <a href={wppUrl}>{imgUrlMob}</a>
+              </Col>
             </Row>
           </Col>
           <Col className="coluna3 gothamBook someMobile">
