@@ -50,7 +50,7 @@ const itemsMobile = [
   }
 ]
 
-const Depoimentos = props => {
+const Depoimentos = () => {
   const [activeIndex, setActiveIndex] = useState(0)
   const [activeIndexMobile, setActiveIndexMobile] = useState(5)
   const [animating, setAnimating] = useState(false)
@@ -101,10 +101,7 @@ const Depoimentos = props => {
         key={item.altText}
       >
         <img loading="lazy" src={item.src} alt={item.altText} />
-        <CarouselCaption
-          captionText={item.caption}
-          captionHeader={item.caption}
-        />
+        <CarouselCaption captionText="caption" captionHeader={item.caption} />
       </CarouselItem>
     )
   })
@@ -119,7 +116,7 @@ const Depoimentos = props => {
       >
         <img loading="lazy" src={item2.src} alt={item2.altText} />
         <CarouselCaption
-          captionText={item2.caption}
+          captionText="{item2.caption}"
           captionHeader={item2.caption}
         />
       </CarouselItem>

@@ -16,7 +16,7 @@ import {
 
 import { Contentor } from './styles'
 
-const NavOrtho = props => {
+const NavOrtho = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggle = () => setIsOpen(!isOpen)
@@ -60,7 +60,7 @@ const NavOrtho = props => {
               <DropdownToggle nav caret>
                 contato
               </DropdownToggle>
-              <DropdownMenu center>
+              <DropdownMenu>
                 <DropdownItem>
                   <NavLink href="mailto:contato@grupodentotal.com.br">
                     fale conosco

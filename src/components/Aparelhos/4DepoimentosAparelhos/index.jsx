@@ -78,10 +78,7 @@ const Depoimentos = props => {
         key={item.altText}
       >
         <img loading="lazy" src={item.src} alt={item.altText} />
-        <CarouselCaption
-          captionText={item.caption}
-          captionHeader={item.caption}
-        />
+        <CarouselCaption captionText="caption" captionHeader={item.caption} />
       </CarouselItem>
     )
   })
@@ -93,10 +90,7 @@ const Depoimentos = props => {
         key={item.altText}
       >
         <img loading="lazy" src={item.src} alt={item.altText} />
-        <CarouselCaption
-          captionText={item.caption}
-          captionHeader={item.caption}
-        />
+        <CarouselCaption captionText="caption" captionHeader={item.caption} />
       </CarouselItem>
     )
   })
