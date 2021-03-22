@@ -6,7 +6,6 @@ import { Container } from '../styles/pages/Home'
 import { GetServerSideProps } from 'next'
 
 import Homeorto from '../components/HomeOrto'
-import ReactPixel from 'react-facebook-pixel'
 
 const Index: React.FC = () => {
   useEffect(() => {
@@ -14,9 +13,15 @@ const Index: React.FC = () => {
       autoConfig: true,
       debug: false
     }
-    ReactPixel.init('276341384153524', null, options)
-    ReactPixel.pageView()
   })
+  useEffect(() => {
+    import('react-facebook-pixel')
+      .then(module => module.default)
+      .then(ReactPixel => {
+        ReactPixel.init('276341384153524')
+        ReactPixel.pageView()
+      })
+  }, [])
   return (
     <>
       <Container>

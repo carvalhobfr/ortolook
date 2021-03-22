@@ -12,7 +12,6 @@ import Depoimentos from '../components/Aparelhos/4DepoimentosAparelhos'
 import UnidadesAparelhos from '../components/Aparelhos/5UnidadesAparelhos'
 import LoadingScreen from '../components/Aparelhos/LoadingScreenAparelho'
 import FooterAparelhos from '../components/Aparelhos/FooterAparelhos'
-import ReactPixel from 'react-facebook-pixel'
 
 function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(false)
@@ -27,9 +26,16 @@ function FadeInSection(props) {
       autoConfig: true,
       debug: false
     }
-    ReactPixel.init('276341384153524', null, options)
-    ReactPixel.pageView()
   }, [])
+  useEffect(() => {
+    import('react-facebook-pixel')
+      .then(module => module.default)
+      .then(ReactPixel => {
+        ReactPixel.init('276341384153524')
+        ReactPixel.pageView()
+      })
+  }, [])
+
   return (
     <div
       className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
