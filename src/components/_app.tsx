@@ -23,6 +23,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         .then(ReactPixel => {
           ReactPixel.init('276341384153524')
           ReactPixel.pageView()
+          console.log('pixel ON')
 
           Router.events.on('routeChangeComplete', () => {
             ReactPixel.pageView()
@@ -31,21 +32,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
     })
     return null
   }
-  /*   function FacebookPixel() {
-    React.useEffect(() => {
-      import('react-facebook-pixel')
-        .then(x => x.default)
-        .then(ReactPixel => {
-          ReactPixel.init('276341384153524')
-          ReactPixel.pageView()
 
-          Router.events.on('routeChangeComplete', () => {
-            ReactPixel.pageView()
-          })
-        })
-    })
-    return null
-  } */
   return (
     <>
       <GlobalStyle>
