@@ -16,7 +16,6 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
     script.async = true
     document.body.appendChild(script)
   })
-
   function FacebookPixel() {
     React.useEffect(() => {
       import('react-facebook-pixel')
@@ -32,11 +31,26 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
     })
     return null
   }
+  /*   function FacebookPixel() {
+    React.useEffect(() => {
+      import('react-facebook-pixel')
+        .then(x => x.default)
+        .then(ReactPixel => {
+          ReactPixel.init('276341384153524')
+          ReactPixel.pageView()
+
+          Router.events.on('routeChangeComplete', () => {
+            ReactPixel.pageView()
+          })
+        })
+    })
+    return null
+  } */
   return (
     <>
       <GlobalStyle>
-        <FacebookPixel />
         <Component {...pageProps} />
+        <FacebookPixel />
         <ThemeProvider theme={theme}>
           <Component {...pageProps} />
         </ThemeProvider>
