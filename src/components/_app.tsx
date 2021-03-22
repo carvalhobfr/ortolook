@@ -16,6 +16,8 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
       'https://d335luupugsy2.cloudfront.net/js/loader-scripts/45f2dd6c-bfa7-4b84-b302-e65c08c3049c-loader.js'
     script.async = true
     document.body.appendChild(script)
+    ReactPixel.init('276341384153524')
+    ReactPixel.pageView()
   })
   function FacebookPixel() {
     React.useEffect(() => {
