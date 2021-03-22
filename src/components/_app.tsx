@@ -1,12 +1,14 @@
 import React, { useEffect } from 'react'
 import { AppProps } from 'next/app'
 import { ThemeProvider } from 'styled-components'
+import { useRouter } from 'next/router'
 
 import GlobalStyle from '../styles/global'
 import theme from '../styles/theme'
 import '../styles/todos.scss'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
+  const Router = useRouter()
   useEffect(() => {
     const script = document.createElement('script')
     script.src =
@@ -14,9 +16,26 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
     script.async = true
     document.body.appendChild(script)
   })
+
+  function FacebookPixel() {
+    React.useEffect(() => {
+      import('react-facebook-pixel')
+        .then(x => x.default)
+        .then(ReactPixel => {
+          ReactPixel.init('276341384153524')
+          ReactPixel.pageView()
+
+          Router.events.on('routeChangeComplete', () => {
+            ReactPixel.pageView()
+          })
+        })
+    })
+    return null
+  }
   return (
     <>
       <GlobalStyle>
+        <FacebookPixel />
         <Component {...pageProps} />
         <ThemeProvider theme={theme}>
           <Component {...pageProps} />
