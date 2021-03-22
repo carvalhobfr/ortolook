@@ -10,7 +10,11 @@ import ReactPixel from 'react-facebook-pixel'
 
 const Index: React.FC = () => {
   useEffect(() => {
-    ReactPixel.init('276341384153524')
+    const options = {
+      autoConfig: true,
+      debug: false
+    }
+    ReactPixel.init('276341384153524', null, options)
     ReactPixel.pageView()
   })
   return (

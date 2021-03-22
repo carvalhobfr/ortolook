@@ -23,7 +23,11 @@ function FadeInSection(props) {
       entries.forEach(entry => setVisible(entry.isIntersecting))
     })
     observer.observe(domRef.current)
-    ReactPixel.init('276341384153524')
+    const options = {
+      autoConfig: true,
+      debug: false
+    }
+    ReactPixel.init('276341384153524', null, options)
     ReactPixel.pageView()
   }, [])
   return (
