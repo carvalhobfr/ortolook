@@ -22,9 +22,16 @@ function FadeInSection(props) {
       entries.forEach(entry => setVisible(entry.isIntersecting))
     })
     observer.observe(domRef.current)
-    ReactPixel.init('276341384153524')
+
+    const advancedMatching = { em: 'some@email.com' } // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
+    const options = {
+      autoConfig: true, // set pixel's autoConfig. More info: https://developers.facebook.com/docs/facebook-pixel/advanced/
+      debug: false // enable logs
+    }
+    ReactPixel.init('276341384153524', advancedMatching, options)
     ReactPixel.pageView()
   }, [])
+
   return (
     <div
       className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
