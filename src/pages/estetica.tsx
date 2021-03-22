@@ -12,6 +12,7 @@ import Depoimentos from '../components/Estetica/4DepoimentosEstetica'
 import UnidadesEstetica from '../components/Estetica/5UnidadesEstetica'
 import LoadingScreen from '../components/Estetica/9LoadingScreenEstetica'
 import FooterEstetica from '../components/Estetica/6FooterEstetica'
+import ReactPixel from 'react-facebook-pixel'
 
 function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(false)
@@ -21,6 +22,8 @@ function FadeInSection(props) {
       entries.forEach(entry => setVisible(entry.isIntersecting))
     })
     observer.observe(domRef.current)
+    ReactPixel.init('276341384153524')
+    ReactPixel.pageView()
   }, [])
   return (
     <div

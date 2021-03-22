@@ -6,6 +6,7 @@ import { useRouter } from 'next/router'
 import GlobalStyle from '../styles/global'
 import theme from '../styles/theme'
 import '../styles/todos.scss'
+import ReactPixel from 'react-facebook-pixel'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   const Router = useRouter()
@@ -32,6 +33,7 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
     })
     return null
   }
+  console.log('useEffect test')
 
   return (
     <>

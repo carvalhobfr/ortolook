@@ -12,15 +12,19 @@ import Depoimentos from '../components/Aparelhos/4DepoimentosAparelhos'
 import UnidadesAparelhos from '../components/Aparelhos/5UnidadesAparelhos'
 import LoadingScreen from '../components/Aparelhos/LoadingScreenAparelho'
 import FooterAparelhos from '../components/Aparelhos/FooterAparelhos'
+import ReactPixel from 'react-facebook-pixel'
 
 function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(false)
   const domRef = React.useRef()
+
   React.useEffect(() => {
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => setVisible(entry.isIntersecting))
     })
     observer.observe(domRef.current)
+    ReactPixel.init('276341384153524')
+    ReactPixel.pageView()
   }, [])
   return (
     <div
