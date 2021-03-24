@@ -23,8 +23,11 @@ const agendeLateralDir = () => {
 
   return (
     <Col className="agendeAqui agendeAquiDireita semMarginDir">
-      <button className="agendeAqui saibaPrecosDir semMarginDir">
-        <Link href="https://wa.me/5521972878038" onClick={pixelEvent}>
+      <button
+        className="agendeAqui saibaPrecosDir semMarginDir"
+        onClick={pixelEvent}
+      >
+        <Link href="https://wa.me/5521972878038">
           <img
             className="agendeAqui saibaPrecosDir semMarginDir"
             loading="lazy"

@@ -22,8 +22,8 @@ const agendeLateralEsq = () => {
   }
   return (
     <Col className="agendeAqui someMobile">
-      <button className="agendeAqui">
-        <Link href="https://wa.me/5521972878038" onClick={pixelEvent}>
+      <button className="agendeAqui" onClick={pixelEvent}>
+        <Link href="https://wa.me/5521972878038">
           <img
             className="agendeAqui "
             loading="lazy"
