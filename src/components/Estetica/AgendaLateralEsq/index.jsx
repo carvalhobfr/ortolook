@@ -4,9 +4,16 @@ import Link from 'next/link'
 import { Col } from 'reactstrap'
 
 const agendeLateralEsq = () => {
+  const pixelEvent = () => {
+    import('react-facebook-pixel')
+      .then(module => module.default)
+      .then(ReactPixel => {
+        ReactPixel.trackCustom('Agende_Apa')
+      })
+  }
   return (
     <Col className="agendeAqui someMobile">
-      <button className="agendeAqui">
+      <button className="agendeAqui" onClick={pixelEvent}>
         <Link href="https://wa.me/5521972878038">
           <img
             className="agendeAqui "
