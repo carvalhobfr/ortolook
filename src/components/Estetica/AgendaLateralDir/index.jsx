@@ -8,7 +8,7 @@ const agendeLateralEsq = () => {
     import('react-facebook-pixel')
       .then(module => module.default)
       .then(ReactPixel => {
-        ReactPixel.trackCustom('Agende_Apa')
+        ReactPixel.trackCustom('Agende_Est')
       })
   }
   return (
