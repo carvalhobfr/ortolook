@@ -11,11 +11,11 @@ const agendeLateralEsq = () => {
       .then(ReactPixel => {
         ReactPixel.init('276341384153524')
       })
+    const pixelEvent = () => {
+      ReactPixel.trackCustom('Agende_Apa')
+    }
   }, [])
 
-  const pixelEvent = () => {
-    ReactPixel.trackCustom('Agende_Apa')
-  }
   return (
     <Col className="agendeAqui someMobile">
       <button className="agendeAqui">
