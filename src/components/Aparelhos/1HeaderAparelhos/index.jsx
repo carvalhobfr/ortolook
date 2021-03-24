@@ -4,12 +4,20 @@ import { Container, Row, Col } from 'reactstrap'
 import { Contentor } from './styles'
 
 const HeaderAparelhos = props => {
+  const pixelEvent = () => {
+    import('react-facebook-pixel')
+      .then(module => module.default)
+      .then(ReactPixel => {
+        ReactPixel.trackCustom('Agende_Apa')
+      })
+  }
+
   return (
     <Contentor>
       <Container>
         <Row className="rowMain">
           <Col className="coluna3">
-            <button className="agendeAqui">
+            <button className="agendeAqui" onClick={pixelEvent}>
               <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
                 <img
                   loading="lazy"

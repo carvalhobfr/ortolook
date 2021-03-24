@@ -5,14 +5,6 @@ import { Col } from 'reactstrap'
 /* import ReactPixel from 'react-facebook-pixel'
  */
 const agendeLateralDir = () => {
-  useEffect(() => {
-    import('react-facebook-pixel')
-      .then(module => module.default)
-      .then(ReactPixel => {
-        ReactPixel.init('276341384153524')
-      })
-  }, [])
-
   const pixelEvent = () => {
     import('react-facebook-pixel')
       .then(module => module.default)
