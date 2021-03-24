@@ -2,8 +2,8 @@ import React, { useEffect } from 'react'
 import Link from 'next/link'
 
 import { Col } from 'reactstrap'
-import ReactPixel from 'react-facebook-pixel'
-
+/* import ReactPixel from 'react-facebook-pixel'
+ */
 const agendeLateralDir = () => {
   useEffect(() => {
     import('react-facebook-pixel')
@@ -11,10 +11,15 @@ const agendeLateralDir = () => {
       .then(ReactPixel => {
         ReactPixel.init('276341384153524')
       })
-    const pixelEvent = () => {
-      ReactPixel.trackCustom('Agende_Apa')
-    }
   }, [])
+
+  const pixelEvent = () => {
+    import('react-facebook-pixel')
+      .then(module => module.default)
+      .then(ReactPixel => {
+        ReactPixel.trackCustom('Agende_Apa')
+      })
+  }
 
   return (
     <Col className="agendeAqui agendeAquiDireita semMarginDir">
