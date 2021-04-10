@@ -18,12 +18,24 @@ import { Contentor } from './styles'
 
 const NavOrtho = () => {
   const [isOpen, setIsOpen] = useState(false)
+  const [changeColor, setChangeColor] = useState(' ')
 
-  const toggle = () => setIsOpen(!isOpen)
+  const checkColor = () => {
+    if (changeColor === ' ') {
+      setChangeColor('navClick')
+    } else {
+      setChangeColor(' ')
+    }
+  }
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+    checkColor()
+  }
 
   return (
     <Contentor>
-      <Navbar color="white" light expand="md" className="gothamBook">
+      <Navbar color="white" light expand="md" className=" gothamBook ">
         <div>
           <NavbarBrand href="/estetica">
             <img
@@ -40,7 +52,7 @@ const NavOrtho = () => {
             />
           </NavbarBrand>
         </div>
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler onClick={toggle} className={changeColor} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem></NavItem>
