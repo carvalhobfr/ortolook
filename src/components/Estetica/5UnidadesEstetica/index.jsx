@@ -7,7 +7,7 @@ import { Contentor } from './styles'
 const UnidadesEstetica = () => {
   const [imgUrl, setImgUrl] = useState('images/UNDS4.png')
   const [wppUrl, setWppUrl] = useState('https://wa.me/5521972878038')
-  const [telUrl, setTelUrl] = useState('tel:+552132682309')
+  const [telUrl, setTelUrl] = useState('+552132682309')
   const [imgUrlMob, setImgUrlMob] = useState(
     <img
       loading="lazy"
@@ -64,11 +64,12 @@ const UnidadesEstetica = () => {
                             />
                           ) &
                           setWppUrl('https://wa.me/55219994124202') &
-                          setTelUrl('tel:+552126528577')
+                          setTelUrl('tel:+552132682309')
                         }
                       >
                         <p>Botafogo</p>
                       </button>
+
                       <button
                         onClick={() =>
                           setImgUrlMob(
@@ -95,8 +96,8 @@ const UnidadesEstetica = () => {
                               className="imagemEstetica"
                             />
                           ) &
-                          setWppUrl('https://wa.me/5521992128819') &
-                          setTelUrl('tel:+552120817091')
+                          setTelUrl('tel:+552120817091') &
+                          setWppUrl('https://wa.me/5521992128819')
                         }
                       >
                         <p>Leblon</p>
@@ -175,7 +176,9 @@ const UnidadesEstetica = () => {
               </button>
 
               <Col className="imagemUnidadeMob">
-                <a href={wppUrl}>{imgUrlMob}</a>
+                <a href={telUrl} className="telURL"></a>
+                <a href={wppUrl} className="wppURL"></a>
+                {imgUrlMob}
               </Col>
             </Row>
           </Col>
@@ -183,7 +186,8 @@ const UnidadesEstetica = () => {
             <button
               onClick={() =>
                 setImgUrl('images/unidadeESR(2).png') &
-                setWppUrl('https://wa.me/55219994124202')
+                setWppUrl('https://wa.me/55219994124202') &
+                setTelUrl('tel:+552132682309')
               }
             >
               <p>Botafogo</p>
@@ -191,7 +195,8 @@ const UnidadesEstetica = () => {
             <button
               onClick={() =>
                 setImgUrl('images/unidadeESR(6).png') &
-                setWppUrl('https://wa.me/5521981383586')
+                setWppUrl('https://wa.me/5521981383586') &
+                setTelUrl('tel:+552126528577')
               }
             >
               <p>Caxias II</p>
@@ -199,7 +204,8 @@ const UnidadesEstetica = () => {
             <button
               onClick={() =>
                 setImgUrl('images/unidadeESR(5).png') &
-                setWppUrl('https://wa.me/5521992128819')
+                setWppUrl('https://wa.me/5521992128819') &
+                setTelUrl('tel:+552120817091')
               }
             >
               <p>Leblon</p>
@@ -207,7 +213,8 @@ const UnidadesEstetica = () => {
             <button
               onClick={() =>
                 setImgUrl('images/unidadeESR(7).png') &
-                setWppUrl('https://wa.me/5521965679778')
+                setWppUrl('https://wa.me/5521965679778') &
+                setTelUrl('tel:+552120290769')
               }
             >
               <p>Madureira</p>
@@ -215,7 +222,8 @@ const UnidadesEstetica = () => {
             <button
               onClick={() =>
                 setImgUrl('images/unidadeESR(4).png') &
-                setWppUrl('https://wa.me/5521967414822')
+                setWppUrl('https://wa.me/5521967414822') &
+                setTelUrl('tel:+552136204041')
               }
             >
               <p>Niterói</p>
@@ -223,7 +231,8 @@ const UnidadesEstetica = () => {
             <button
               onClick={() =>
                 setImgUrl('images/unidadeESR(8).png') &
-                setWppUrl('https://wa.me/5521997815927')
+                setWppUrl('https://wa.me/5521997815927') &
+                setTelUrl('tel:+552127671719')
               }
             >
               <p>Nova Iguaçu</p>
@@ -231,7 +240,8 @@ const UnidadesEstetica = () => {
             <button
               onClick={() =>
                 setImgUrl('images/unidadeESR(3).png') &
-                setWppUrl('https://wa.me/5521983333181')
+                setWppUrl('https://wa.me/5521983333181') &
+                setTelUrl('tel:+552138523143')
               }
             >
               <p>São Gonçalo</p>

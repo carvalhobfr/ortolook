@@ -21,10 +21,10 @@ const agendeLateralEsq = () => {
           alt="Agende aqui"
         />
       </Link> */}
-      <button className="agendeAqui" onClick={pixelEvent}>
+      <button className="agendeAqui " onClick={pixelEvent}>
         <Link href="https://wa.me/5521972878038">
           <img
-            className="agendeAqui saibaPrecosDir semMarginDir"
+            className="agendeAqui saibaPrecosDir semMarginDir agendeAquiEs"
             loading="lazy"
             src="/images/agendeAquiDir.png"
             alt="Agende aqui"

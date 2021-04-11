@@ -186,7 +186,6 @@ export const Container = styled.div`
       margin-bottom: 4px !important;
       max-width: 155px !important;
       padding: 0 !important;
-      max-height: 28px;
     }
     .saibaPrecos {
       padding: 0 !important;
@@ -297,5 +296,9 @@ export const Container = styled.div`
   .modal-content {
     background-color: transparent !important;
     border: none !important;
+  }
+
+  .agendeAquiEs {
+    max-height: 28px;
   }
 `

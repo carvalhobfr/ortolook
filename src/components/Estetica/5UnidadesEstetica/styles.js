@@ -400,4 +400,19 @@ export const Contentor = styled.div`
     height: 100px;
     width: 150px;
   }
+  @media only screen and (max-width: 600px) {
+    .telURL {
+      bottom: 100px;
+      left: 40%;
+      height: 50px;
+      width: 70px;
+    }
+    .wppURL {
+      position: absolute;
+      bottom: 100px;
+      left: 65%;
+      height: 50px;
+      width: 80px;
+    }
+  }
 `

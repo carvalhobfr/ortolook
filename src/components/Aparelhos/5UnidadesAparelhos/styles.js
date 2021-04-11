@@ -481,4 +481,33 @@ export const Contentor = styled.div`
   .agendeAquiDireita {
     margin-right: -16px !important;
   }
+  .telURL {
+    position: absolute;
+    bottom: 50px;
+    left: 35%;
+    height: 50px;
+    width: 120px;
+  }
+  .wppURL {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    height: 50px;
+    width: 100px;
+  }
+  @media only screen and (max-width: 600px) {
+    .telURL {
+      bottom: 100px;
+      left: 40%;
+      height: 50px;
+      width: 70px;
+    }
+    .wppURL {
+      position: absolute;
+      bottom: 100px;
+      left: 65%;
+      height: 50px;
+      width: 80px;
+    }
+  }
 `

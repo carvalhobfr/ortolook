@@ -18,4 +18,7 @@ export const Contentor = styled.div`
     margin-top: 50px;
     padding: 0;
   }
+  .agendeAqui {
+    max-height: 28px;
+  }
 `
