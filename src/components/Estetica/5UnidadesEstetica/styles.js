@@ -386,4 +386,18 @@ export const Contentor = styled.div`
       width: 100%;
     }
   }
+  .telURL {
+    position: absolute;
+    bottom: 50px;
+    left: 45%;
+    height: 100px;
+    width: 100px;
+  }
+  .wppURL {
+    position: absolute;
+    bottom: 50px;
+    left: 55%;
+    height: 100px;
+    width: 150px;
+  }
 `
