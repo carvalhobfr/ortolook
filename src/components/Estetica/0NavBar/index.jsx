@@ -49,11 +49,13 @@ const NavOrtho = () => {
             X
           </a>
         </NavItem>
+        <NavItem>⠀⠀⠀⠀⠀⠀⠀</NavItem>
         <NavItem>
-          {/*  <a onClick={toggle}> */}
-          <ContactForm className="modalContato navSec" />
-          {/*    </a> */}
+          <a className="navSec">
+            <ContactForm className="modalContato" />
+          </a>
         </NavItem>
+        <NavItem>⠀⠀⠀⠀⠀⠀⠀</NavItem>
         <NavItem>
           <a
             href="https://ortolook.solides.jobs"
@@ -64,7 +66,6 @@ const NavOrtho = () => {
             trabalhe conosco
           </a>
         </NavItem>
-        <NavItem>⠀⠀⠀⠀⠀⠀⠀</NavItem>
         <NavItem>⠀⠀⠀⠀⠀⠀⠀</NavItem>
         <NavItem>⠀⠀⠀⠀⠀⠀⠀</NavItem>
       </Nav>
