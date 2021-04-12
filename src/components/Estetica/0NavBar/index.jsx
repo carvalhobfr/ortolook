@@ -44,13 +44,14 @@ const NavOrtho = () => {
             onClick={() => {
               navListPrimeiro()
             }}
+            className="navSec"
           >
             X
           </a>
         </NavItem>
         <NavItem>
           {/*  <a onClick={toggle}> */}
-          <ContactForm className="modalContato" />
+          <ContactForm className="modalContato navSec" />
           {/*    </a> */}
         </NavItem>
         <NavItem>
@@ -58,6 +59,7 @@ const NavOrtho = () => {
             href="https://ortolook.solides.jobs"
             target="_blank"
             rel="noreferrer"
+            className="navSec"
           >
             trabalhe conosco
           </a>

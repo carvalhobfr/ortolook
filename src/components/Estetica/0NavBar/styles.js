@@ -107,7 +107,7 @@ export const Contentor = styled.div`
       margin-right: 20%;
       margin-left: 40%;
     }
-    .nav-item a {
+    .navSec {
       margin: 0;
       margin-right: -90px;
     }
