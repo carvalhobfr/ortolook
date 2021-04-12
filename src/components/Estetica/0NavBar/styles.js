@@ -62,7 +62,7 @@ export const Contentor = styled.div`
       background-repeat: no-repeat;
       background-size: contain;
       padding: 64px 16px;
-      margin-top: -40px;
+      margin-top: -60px;
       /*       .nav-item a {
         margin-right: 20%;
         margin-left: 50%;
@@ -104,18 +104,19 @@ export const Contentor = styled.div`
       text-align: center;
     }
     li.nav-item {
-      margin-right: 10%;
-      margin-left: 50%;
+      margin-right: 20%;
+      margin-left: 40%;
     }
     .nav-item a {
       margin: 0;
+      margin-right: -90px;
     }
   }
   a {
     text-decoration: none;
   }
   button {
-    margin-top: 28px;
+    /*     margin-top: 28px; */
     margin-bottom: 16px;
     font-size: 22px;
   }
