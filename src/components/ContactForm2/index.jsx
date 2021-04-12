@@ -6,7 +6,7 @@ import { Container } from './styles'
 import Modal from 'react-bootstrap/Modal'
 /* import ModalDialog from 'react-bootstrap/ModalDialog' */
 
-export default () => {
+const ContatoForm2 = () => {
   const [show, setShow] = useState(false)
   const [status, setStatus] = useState({
     submitted: false,
@@ -16,7 +16,9 @@ export default () => {
   const [inputs, setInputs] = useState({
     name: '',
     tel: '',
-    email: ''
+    email: '',
+    unidade: '',
+    duvida: ''
   })
   const handleServerResponse = (ok, msg) => {
     if (ok) {
@@ -28,7 +30,9 @@ export default () => {
       setInputs({
         name: '',
         tel: '',
-        email: ''
+        email: '',
+        unidade: '',
+        duvida: ''
       })
     } else {
       setStatus({
@@ -54,7 +58,7 @@ export default () => {
     setStatus(prevStatus => ({ ...prevStatus, submitting: true }))
     axios({
       method: 'POST',
-      url: 'https://formspree.io/f/xaylzkdr',
+      url: 'https://formspree.io/f/xyylyanb',
       data: inputs
     })
       .then(response => {
@@ -66,9 +70,9 @@ export default () => {
   }
   return (
     <>
-      <Button variant="primary" onClick={() => setShow(true)}>
-        Custom Width Modal
-      </Button>
+      <a variant="primary" onClick={() => setShow(true)}>
+        fale conosco
+      </a>
       <Modal
         backdrop={true}
         bsPrefix="meuModal"
@@ -79,15 +83,15 @@ export default () => {
         contentClassName="border-0"
         aria-labelledby="example-custom-modal-styling-title"
       >
-        {/*     <Modal.Header closeButton></Modal.Header> */}
-        <Modal.Body bsPrefix="modalBody">
+        <Modal.Header closeButton></Modal.Header>
+        <Modal.Body bsPrefix="modalBody" closeButton>
           <Container>
-            <h1>saiba nossos preços</h1>
+            <h1>contato</h1>
             <form onSubmit={handleOnSubmit}>
               <input
                 id="name"
                 name="name"
-                placeholder="Nome"
+                placeholder="nome"
                 onChange={handleOnChange}
                 required
                 value={inputs.name}
@@ -96,7 +100,7 @@ export default () => {
                 id="tel"
                 type="tel"
                 name="tel"
-                placeholder="Telefone"
+                placeholder="telefone"
                 onChange={handleOnChange}
                 required
                 value={inputs.tel}
@@ -105,11 +109,26 @@ export default () => {
                 id="email"
                 type="email"
                 name="_replyto"
-                placeholder="Email"
+                placeholder="email"
                 onChange={handleOnChange}
                 required
                 value={inputs.email}
               />
+              <input
+                id="unidade"
+                type="text"
+                name="unidade"
+                placeholder="unidade"
+                onChange={handleOnChange}
+                value={inputs.unidade}
+              />
+              <textarea
+                name="duvida"
+                id="duvida"
+                cols="10"
+                rows="2"
+                placeholder="dúvida..."
+              ></textarea>
               <button type="submit" disabled={status.submitting}>
                 {!status.submitting
                   ? !status.submitted
@@ -128,3 +147,4 @@ export default () => {
     </>
   )
 }
+export default ContatoForm2

@@ -28,7 +28,8 @@ export const Contentor = styled.div`
     max-height: 32px;
   }
   .nav-link,
-  .dropdown-item {
+  .dropdown-item,
+  .modalContato {
     font-family: inherit;
     font-style: normal;
     font-weight: 300;
@@ -60,10 +61,10 @@ export const Contentor = styled.div`
       background-size: contain;
       padding: 64px 16px;
       margin-top: -40px;
-      .nav-item a {
+      /*       .nav-item a {
         margin-right: 20%;
         margin-left: 50%;
-      }
+      } */
     }
 
     .navbar-toggler {
@@ -88,5 +89,24 @@ export const Contentor = styled.div`
   }
   .navClick span {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1.0%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  .dropdown-menu a a {
+    margin: 0px !important;
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    .nav-item a,
+    .nav-item {
+      color: #fff !important;
+      text-align: center;
+    }
+    li.nav-item {
+      margin-right: 10%;
+      margin-left: 50%;
+    }
+    .nav-item a {
+      margin: 0;
+    }
   }
 `
