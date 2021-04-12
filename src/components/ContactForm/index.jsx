@@ -127,6 +127,7 @@ const ContatoForm = () => {
                 id="duvida"
                 cols="10"
                 rows="2"
+                value={inputs.duvida}
                 placeholder="dúvida..."
               ></textarea>
               <button type="submit" disabled={status.submitting}>
