@@ -127,6 +127,7 @@ const ContatoForm = () => {
                 id="duvida"
                 cols="10"
                 rows="2"
+                onChange={handleOnChange}
                 value={inputs.duvida}
                 placeholder="dúvida..."
               ></textarea>
