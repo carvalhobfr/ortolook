@@ -114,4 +114,9 @@ export const Contentor = styled.div`
   a {
     text-decoration: none;
   }
+  button {
+    margin-top: 28px;
+    margin-bottom: 16px;
+    font-size: 22px;
+  }
 `
