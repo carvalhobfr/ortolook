@@ -39,7 +39,15 @@ const NavOrtho = () => {
     setNavList(
       <Nav className="ml-auto" navbar>
         <NavItem>⠀⠀⠀⠀⠀⠀⠀</NavItem>
-        <NavItem>⠀⠀⠀⠀⠀⠀⠀</NavItem>
+        <NavItem>
+          <a
+            onClick={() => {
+              navListPrimeiro()
+            }}
+          >
+            X
+          </a>
+        </NavItem>
         <NavItem>
           {/*  <a onClick={toggle}> */}
           <ContactForm className="modalContato" />

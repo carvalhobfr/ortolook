@@ -29,7 +29,9 @@ export const Contentor = styled.div`
   }
   .nav-link,
   .dropdown-item,
-  .modalContato {
+  .modalContato,
+  .nav-item,
+  .nav-item a {
     font-family: inherit;
     font-style: normal;
     font-weight: 300;
@@ -108,5 +110,8 @@ export const Contentor = styled.div`
     .nav-item a {
       margin: 0;
     }
+  }
+  a {
+    text-decoration: none;
   }
 `
