@@ -402,16 +402,18 @@ export const Contentor = styled.div`
   }
   @media only screen and (max-width: 600px) {
     .telURL {
-      bottom: 50px;
-      left: 10%;
-      height: 50px;
+      position: absolute;
+      bottom: 25%;
+      left: 35%;
+      height: 80px;
       width: 80px;
     }
+
     .wppURL {
       position: absolute;
-      bottom: 50px;
-      left: 35%;
-      height: 50px;
+      bottom: 25%;
+      left: 60%;
+      height: 80px;
       width: 100px;
     }
   }
