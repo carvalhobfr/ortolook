@@ -361,6 +361,11 @@ export const Contentor = styled.div`
       max-width: 70% !important;
       min-width: 70% !important;
       min-height: 400px;
+      z-index: 1001;
+    }
+    .telURL,
+    .wppURL {
+      z-index: 1000;
     }
     .linhaSinuosaTratamentos.linhaSinuosa.linhaSinuosaEsquerda.row {
       margin-bottom: 0px;

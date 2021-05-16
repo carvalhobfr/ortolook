@@ -308,6 +308,7 @@ export const Contentor = styled.div`
 
   .coluna1 img {
     margin: auto;
+    margin-left: -15px !important;
   }
   h1 {
     margin: 64px 0 0;
@@ -462,6 +463,10 @@ export const Contentor = styled.div`
       max-width: 70% !important;
       min-width: 70% !important;
     }
+    .telURL,
+    .wppURL {
+      z-index: 1000;
+    }
     .linhaSinuosaTratamentos.linhaSinuosa.linhaSinuosaEsquerda.row {
       margin-bottom: 0px;
     }
@@ -497,16 +502,17 @@ export const Contentor = styled.div`
   }
   @media only screen and (max-width: 600px) {
     .telURL {
-      bottom: 100px;
-      left: 40%;
-      height: 50px;
-      width: 70px;
+      position: absolute;
+      bottom: 10%;
+      left: 15%;
+      height: 80px;
+      width: 80px;
     }
     .wppURL {
       position: absolute;
-      bottom: 100px;
-      left: 65%;
-      height: 50px;
+      bottom: 10%;
+      left: 45%;
+      height: 80px;
       width: 80px;
     }
   }
