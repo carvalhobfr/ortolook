@@ -35,7 +35,7 @@ const FooterAparelho = () => {
             </a>
             <a
               className="openMobile"
-              href="https://www.instagram.com/ortolook.aparelho/"
+              href="https://www.instagram.com/ortolook.estetica/"
             >
               <img
                 loading="lazy"
@@ -62,7 +62,7 @@ const FooterAparelho = () => {
             </a>
             <a
               className="someMobile"
-              href="https://www.instagram.com/ortolook.aparelho/"
+              href="https://www.instagram.com/ortolook.estetica/"
             >
               <img
                 loading="lazy"
@@ -74,7 +74,7 @@ const FooterAparelho = () => {
         </Col>
         {/* <Col className="col3Footer">
           <Row>
-            <a href="https://www.instagram.com/ortolook.aparelho/">
+            <a href="https://www.instagram.com/ortolook.estetica/">
                <img loading="lazy" src="images/ortoFooter5.png" alt="Logo Ortolook" />
             </a>
             <a href="https://www.facebook.com/Ortolook/">
