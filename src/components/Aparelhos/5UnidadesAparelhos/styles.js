@@ -397,6 +397,7 @@ export const Contentor = styled.div`
       width: 100%;
       min-width: 100%;
       margin-left: 0;
+      z-index: 1002;
       p {
         min-width: 150px;
       }
@@ -512,9 +513,9 @@ export const Contentor = styled.div`
     .wppURL {
       position: absolute;
       bottom: 10%;
-      left: 45%;
+      left: 40%;
       height: 80px;
-      width: 80px;
+      width: 100px;
     }
   }
 `

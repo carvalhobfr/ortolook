@@ -315,6 +315,7 @@ export const Contentor = styled.div`
   .coluna4 {
     justify-content: space-between !important;
     min-height: 50vh;
+    z-index: 1002;
   }
 
   .coluna1 img {
