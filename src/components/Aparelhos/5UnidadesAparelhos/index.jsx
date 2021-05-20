@@ -30,16 +30,8 @@ const UnidadesAparelho = () => {
               de Janeiro!
               <br /> Escolha a mais próxima de você!
             </h4>
-            <a
-              href={telUrl}
-              className="telURL"
- 
-            ></a>
-            <a
-              href={wppUrl}
-              className="wppURL"
- 
-            ></a>
+            <a href={telUrl} className="telURL"></a>
+            <a href={wppUrl} className="wppURL"></a>
             <img
               loading="lazy"
               src={imgUrl}
@@ -72,7 +64,7 @@ const UnidadesAparelho = () => {
                         setTelUrl('+552126025098')
                       }
                     >
-                      <p>Alcântara</p>
+                      <p>Alcantara</p>
                     </button>
                     {/* <button
           onClick={() =>
@@ -88,7 +80,7 @@ const UnidadesAparelho = () => {
         >
           <p>Bangu</p>
         </button> */}
-  {/*                   <button
+                    {/*                   <button
                       onClick={() =>
                         setImgUrlMob(
                           <img
@@ -304,7 +296,7 @@ const UnidadesAparelho = () => {
             >
               <p>Alcântara</p>
             </button>
-{/*             <button
+            {/*             <button
               onClick={() =>
                 setImgUrl('images/unidadesAP1.png') &
                 setWppUrl('https://wa.me/5521994129202') &

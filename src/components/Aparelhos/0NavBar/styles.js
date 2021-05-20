@@ -4,8 +4,8 @@ export const Contentor = styled.div`
   width: 100%;
   background-color: #fff;
   top: 0;
-    position: sticky;
-    z-index: 100;
+  position: sticky;
+  z-index: 100;
   .navbar-collapse {
     /* display: flex; */
     /* justify-content: space-between; */
@@ -21,7 +21,7 @@ export const Contentor = styled.div`
     padding: 0;
     top: 0;
     text-align: center;
-    border: 1px solid #802b67;
+    /*     border: 1px solid #802b67; */
     text-align: end;
     padding: 8px 32px;
   }

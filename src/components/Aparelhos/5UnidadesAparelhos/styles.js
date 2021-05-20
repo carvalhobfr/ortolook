@@ -443,6 +443,7 @@ export const Contentor = styled.div`
   }
   .coluna4 {
     max-width: 50%;
+    z-index: 1002;
   }
   .linhaCarrossel {
     max-width: 100vw;

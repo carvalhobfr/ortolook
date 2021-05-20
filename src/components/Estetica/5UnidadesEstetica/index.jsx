@@ -53,7 +53,7 @@ const UnidadesEstetica = () => {
                 onClick={() =>
                   setImgUrlMob(
                     <Col className="coluna4 openMobile semMarginDir">
- {/*                      <button
+                      {/*                      <button
                         onClick={() =>
                           setImgUrlMob(
                             <img
@@ -176,20 +176,14 @@ const UnidadesEstetica = () => {
               </button>
 
               <Col className="imagemUnidadeMob">
-                <a
-                  href={telUrl}
-                  className="telURL"
-                ></a>
-                <a
-                  href={wppUrl}
-                  className="wppURL"
-                ></a>
+                <a href={telUrl} className="telURL"></a>
+                <a href={wppUrl} className="wppURL"></a>
                 {imgUrlMob}
               </Col>
             </Row>
           </Col>
           <Col className="coluna3 gothamBook someMobile">
- {/*            <button
+            {/*            <button
               onClick={() =>
                 setImgUrl('images/unidadeESR(2).png') &
                 setWppUrl('https://wa.me/55219994124202') &
