@@ -397,7 +397,9 @@ export const Contentor = styled.div`
       width: 100%;
       min-width: 100%;
       margin-left: 0;
-      z-index: 1002;
+      button {
+        z-index: 1002;
+      }
       p {
         min-width: 150px;
       }
@@ -443,7 +445,9 @@ export const Contentor = styled.div`
   }
   .coluna4 {
     max-width: 50%;
-    z-index: 1002;
+    button {
+      z-index: 1002;
+    }
   }
   .linhaCarrossel {
     max-width: 100vw;
