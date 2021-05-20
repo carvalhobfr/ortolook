@@ -21,6 +21,9 @@ export const Contentor = styled.div`
     padding: 0;
     top: 0;
     text-align: center;
+    border: 1px solid #802b67;
+    text-align: end;
+    padding: 8px 32px;
   }
 
   img {
