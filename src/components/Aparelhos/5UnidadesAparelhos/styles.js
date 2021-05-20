@@ -468,11 +468,10 @@ export const Contentor = styled.div`
     .imagemUnidadeMob {
       max-width: 70% !important;
       min-width: 70% !important;
-      z-index: 1001;
     }
     .telURL,
     .wppURL {
-      z-index: 1000;
+      z-index: 1003;
     }
     .linhaSinuosaTratamentos.linhaSinuosa.linhaSinuosaEsquerda.row {
       margin-bottom: 0px;
