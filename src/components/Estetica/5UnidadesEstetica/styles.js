@@ -364,7 +364,6 @@ export const Contentor = styled.div`
       max-width: 70% !important;
       min-width: 70% !important;
       min-height: 400px;
-      z-index: 1001;
     }
     .telURL,
     .wppURL {
