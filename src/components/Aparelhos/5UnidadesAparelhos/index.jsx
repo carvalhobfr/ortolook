@@ -72,7 +72,7 @@ const UnidadesAparelho = () => {
                         setTelUrl('+552126025098')
                       }
                     >
-                      <p>Alcantara</p>
+                      <p>Alcântara</p>
                     </button>
                     {/* <button
           onClick={() =>
@@ -302,7 +302,7 @@ const UnidadesAparelho = () => {
                 setTelUrl('+552126025098')
               }
             >
-              <p>Alcantâra</p>
+              <p>Alcântara</p>
             </button>
 {/*             <button
               onClick={() =>
