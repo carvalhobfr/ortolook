@@ -367,7 +367,7 @@ export const Contentor = styled.div`
     }
     .telURL,
     .wppURL {
-      z-index: 1000;
+      z-index: 1003;
     }
     .linhaSinuosaTratamentos.linhaSinuosa.linhaSinuosaEsquerda.row {
       margin-bottom: 0px;
