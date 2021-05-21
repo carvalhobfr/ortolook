@@ -53,7 +53,7 @@ const UnidadesEstetica = () => {
                 onClick={() =>
                   setImgUrlMob(
                     <Col className="coluna4 openMobile semMarginDir">
-                      {/*                      <button
+                      <button
                         onClick={() =>
                           setImgUrlMob(
                             <img
@@ -68,7 +68,7 @@ const UnidadesEstetica = () => {
                         }
                       >
                         <p>Botafogo</p>
-                      </button> */}
+                      </button>
 
                       <button
                         onClick={() =>
@@ -183,7 +183,7 @@ const UnidadesEstetica = () => {
             </Row>
           </Col>
           <Col className="coluna3 gothamBook someMobile">
-            {/*            <button
+            <button
               onClick={() =>
                 setImgUrl('images/unidadeESR(2).png') &
                 setWppUrl('https://wa.me/55219994124202') &
@@ -191,7 +191,7 @@ const UnidadesEstetica = () => {
               }
             >
               <p>Botafogo</p>
-            </button> */}
+            </button>
             <button
               onClick={() =>
                 setImgUrl('images/unidadeESR(6).png') &

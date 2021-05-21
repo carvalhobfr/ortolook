@@ -80,7 +80,7 @@ const UnidadesAparelho = () => {
         >
           <p>Bangu</p>
         </button> */}
-                    {/*                   <button
+                    <button
                       onClick={() =>
                         setImgUrlMob(
                           <img
@@ -95,7 +95,7 @@ const UnidadesAparelho = () => {
                       }
                     >
                       <p>Botafogo</p>
-                    </button> */}
+                    </button>
                     <button
                       onClick={() =>
                         setImgUrlMob(
@@ -296,7 +296,7 @@ const UnidadesAparelho = () => {
             >
               <p>Alcântara</p>
             </button>
-            {/*             <button
+            <button
               onClick={() =>
                 setImgUrl('images/unidadesAP1.png') &
                 setWppUrl('https://wa.me/5521994129202') &
@@ -304,7 +304,7 @@ const UnidadesAparelho = () => {
               }
             >
               <p>Botafogo</p>
-            </button> */}
+            </button>
             <button
               onClick={() =>
                 setImgUrl('images/unidadesAP2.png') &
