@@ -7,7 +7,7 @@ import AgendaLateralDir from './../AgendaLateralDir'
 const UnidadesAparelho = () => {
   const [imgUrl, setImgUrl] = useState('/images/unidadesAP(9).png')
   const [wppUrl, setWppUrl] = useState('https://wa.me/5521972878038')
-  const [telUrl, setTelUrl] = useState('tel:+552132682309')
+  const [telUrl, setTelUrl] = useState('tel:+552126025098')
   const [imgUrlMob, setImgUrlMob] = useState(
     <img
       loading="lazy"
@@ -201,7 +201,9 @@ const UnidadesAparelho = () => {
                             alt="Tratamento Específico"
                             className="imagemEstetica semMarginEsq"
                           />
-                        ) & setWppUrl('https://wa.me/5521997815927')
+                        ) &
+                        setWppUrl('https://wa.me/5521997815927') &
+                        setTelUrl('+552136204041')
                       }
                     >
                       <p>Nova Iguaçu</p>

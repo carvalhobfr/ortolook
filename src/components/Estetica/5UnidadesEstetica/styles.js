@@ -316,7 +316,7 @@ export const Contentor = styled.div`
     justify-content: space-between !important;
     min-height: 50vh;
     button {
-      z-index: 1002;
+      z-index: 1004;
     }
   }
 

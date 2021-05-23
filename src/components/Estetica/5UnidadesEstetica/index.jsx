@@ -7,7 +7,7 @@ import { Contentor } from './styles'
 const UnidadesEstetica = () => {
   const [imgUrl, setImgUrl] = useState('images/UNDS4.png')
   const [wppUrl, setWppUrl] = useState('https://wa.me/5521972878038')
-  const [telUrl, setTelUrl] = useState('+552132682309')
+  const [telUrl, setTelUrl] = useState('+552126025098')
   const [imgUrlMob, setImgUrlMob] = useState(
     <img
       loading="lazy"
