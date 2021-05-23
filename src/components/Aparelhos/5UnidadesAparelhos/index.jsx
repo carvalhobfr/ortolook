@@ -203,7 +203,7 @@ const UnidadesAparelho = () => {
                           />
                         ) &
                         setWppUrl('https://wa.me/5521997815927') &
-                        setTelUrl('+552136204041')
+                        setTelUrl('+552127671719')
                       }
                     >
                       <p>Nova Iguaçu</p>
