@@ -325,6 +325,9 @@ export const Contentor = styled.div`
   }
 
   @media (min-width: 900px) {
+    .telURL {
+      display: none;
+    }
     #unidades {
       display: flex;
       justify-content: space-between;
