@@ -534,7 +534,7 @@ export const Contentor = styled.div`
     }
   }
 
-  @media (min-width: 900px) {
+  @media (min-width: 1500px) {
     .wppURL {
       left: 15%;
     }
