@@ -533,4 +533,10 @@ export const Contentor = styled.div`
       width: 100px;
     }
   }
+
+  @media (min-width: 900px) {
+    .wppURL {
+      left: 15%;
+    }
+  }
 `
