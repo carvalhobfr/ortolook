@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import { Container, Row, Col } from 'reactstrap'
 import { Contentor } from './styles'
 import AgendaLateralDir from './../AgendaLateralDir'
-import Link from 'next/link'
 
 const UnidadesAparelho = () => {
   const [imgUrl, setImgUrl] = useState('/images/unidadesAP(9).png')
@@ -31,8 +30,8 @@ const UnidadesAparelho = () => {
               de Janeiro!
               <br /> Escolha a mais próxima de você!
             </h4>
-            <Link href={telUrl} className="telURL" rel="nofollow"></Link>
-            <Link href={wppUrl} className="wppURL"></Link>
+            <a href={telUrl} className="telURL" rel="nofollow"></a>
+            <a href={wppUrl} className="wppURL"></a>
             <img
               loading="lazy"
               src={imgUrl}
@@ -284,8 +283,8 @@ const UnidadesAparelho = () => {
             </button>
 
             <Row className="linhaCarrossel">
-              <Link href={telUrl} className="telURL"></Link>
-              <Link href={wppUrl} className="wppURL"></Link>
+              <a href={telUrl} className="telURL"></a>
+              <a href={wppUrl} className="wppURL"></a>
               <Col className="imagemUnidadeMob">{imgUrlMob}</Col>
             </Row>
           </Col>
