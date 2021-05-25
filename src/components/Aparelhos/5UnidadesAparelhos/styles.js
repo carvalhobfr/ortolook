@@ -513,7 +513,7 @@ export const Contentor = styled.div`
   .wppURL {
     position: absolute;
     bottom: 50px;
-    left: 50%;
+    left: 25%;
     height: 50px;
     width: 100px;
   }
