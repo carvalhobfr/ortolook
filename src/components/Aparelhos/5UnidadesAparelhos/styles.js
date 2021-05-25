@@ -424,6 +424,10 @@ export const Contentor = styled.div`
     .telURL {
       display: none !important;
     }
+    .wppURL {
+      left: 25%;
+      width: 30%;
+    }
     #unidades {
       display: flex;
       justify-content: space-between;
