@@ -39,7 +39,7 @@ const NavOrtho = () => {
     setNavList(
       <Nav className="ml-auto" navbar>
         <NavItem></NavItem>
-        <NavItem>
+        <NavItem className="navItemSec">
           <a
             onClick={() => {
               navListPrimeiro()
@@ -50,13 +50,13 @@ const NavOrtho = () => {
           </a>
         </NavItem>
         <NavItem></NavItem>
-        <NavItem>
+        <NavItem className="navItemSec">
           <a className="navSec">
             <ContactForm className="modalContato" />
           </a>
         </NavItem>
         <NavItem></NavItem>
-        <NavItem>
+        <NavItem className="navItemSec">
           <a
             href="https://ortolook.solides.jobs"
             target="_blank"

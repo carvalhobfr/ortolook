@@ -116,6 +116,9 @@ export const Contentor = styled.div`
       margin: 0;
       /* margin-right: -90px; */
     }
+    .navItemSec {
+      margin: 8px 0;
+    }
   }
   a {
     text-decoration: none;
