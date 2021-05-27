@@ -64,11 +64,13 @@ export const Contentor = styled.div`
       padding: 64px 16px;
       margin-top: -20px;
       min-height: 327px;
-      display: flex;
       /*       .nav-item a {
         margin-right: 20%;
         margin-left: 50%;
       } */
+    }
+    .collapse.show.navbar-collapse {
+      display: flex;
     }
 
     .navbar-toggler {
