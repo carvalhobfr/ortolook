@@ -483,10 +483,6 @@ export const Contentor = styled.div`
     .linhaSinuosaTratamentos.linhaSinuosa.linhaSinuosaEsquerda.row {
       margin-bottom: 0px;
     }
-
-    .telURL {
-      display: none;
-    }
   }
 
   .botaoNossasUnidades {
