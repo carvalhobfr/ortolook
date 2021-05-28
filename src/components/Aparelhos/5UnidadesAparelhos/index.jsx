@@ -11,7 +11,7 @@ const UnidadesAparelho = () => {
   const [imgUrlMob, setImgUrlMob] = useState(
     <img
       loading="lazy"
-      src="images/unidadeAPRMob1.png"
+      src="images/unidadeAPRMob0.png"
       alt="Tratamento Específico"
       className="imagemEstetica semMarginEsq"
     />
