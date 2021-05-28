@@ -397,7 +397,8 @@ export const Contentor = styled.div`
       width: 100%;
       min-width: 100%;
       margin-left: 0;
-      button {
+      button,
+      .coluna4 {
         z-index: 1004;
       }
       p {
@@ -452,6 +453,7 @@ export const Contentor = styled.div`
   }
   .coluna4 {
     max-width: 50%;
+    z-index: 1004;
     button {
       z-index: 1004;
     }
