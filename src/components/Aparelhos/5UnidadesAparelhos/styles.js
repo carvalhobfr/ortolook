@@ -519,6 +519,7 @@ export const Contentor = styled.div`
   }
   @media only screen and (max-width: 600px) {
     .telURL {
+      display: flex;
       position: absolute;
       bottom: 10%;
       left: 15%;
