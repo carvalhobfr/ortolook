@@ -397,6 +397,10 @@ export const Contentor = styled.div`
       width: 100%;
       min-width: 100%;
       margin-left: 0;
+      button,
+      .coluna4 {
+        z-index: 1004;
+      }
       p {
         min-width: 150px;
       }
@@ -418,6 +422,13 @@ export const Contentor = styled.div`
   }
 
   @media (min-width: 900px) {
+    .telURL {
+      display: none !important;
+    }
+    .wppURL {
+      left: 25%;
+      width: 30%;
+    }
     #unidades {
       display: flex;
       justify-content: space-between;
@@ -442,6 +453,10 @@ export const Contentor = styled.div`
   }
   .coluna4 {
     max-width: 50%;
+    z-index: 1004;
+    button {
+      z-index: 1004;
+    }
   }
   .linhaCarrossel {
     max-width: 100vw;
@@ -466,7 +481,7 @@ export const Contentor = styled.div`
     }
     .telURL,
     .wppURL {
-      z-index: 1000;
+      z-index: 1003;
     }
     .linhaSinuosaTratamentos.linhaSinuosa.linhaSinuosaEsquerda.row {
       margin-bottom: 0px;
@@ -497,12 +512,13 @@ export const Contentor = styled.div`
   .wppURL {
     position: absolute;
     bottom: 50px;
-    left: 50%;
+    left: 25%;
     height: 50px;
     width: 100px;
   }
   @media only screen and (max-width: 600px) {
     .telURL {
+      display: flex;
       position: absolute;
       bottom: 10%;
       left: 15%;
@@ -512,9 +528,16 @@ export const Contentor = styled.div`
     .wppURL {
       position: absolute;
       bottom: 10%;
-      left: 45%;
+      left: 40%;
       height: 80px;
-      width: 80px;
+      width: 100px;
+    }
+  }
+
+  @media (min-width: 1500px) {
+    .wppURL {
+      left: 18%;
+      width: 200px;
     }
   }
 `

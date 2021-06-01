@@ -114,14 +114,14 @@ const HeaderEstetica = () => {
               </a>
             </Col>
             <Col className="linkTratamentos2">
-              <a href="https://www.facebook.com/Ortolook/">
+              <a href="https://www.facebook.com/ortolook.estetica">
                 <img
                   className="sociais"
                   src="/images/facebook.png"
                   alt="upgrade"
                 />
               </a>
-              <a href="https://www.instagram.com/ortolook.aparelho/">
+              <a href="https://www.instagram.com/ortolook.estetica/">
                 <img
                   className="sociais"
                   src="/images/instagram.png"

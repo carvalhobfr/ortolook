@@ -7,11 +7,11 @@ import AgendaLateralDir from './../AgendaLateralDir'
 const UnidadesAparelho = () => {
   const [imgUrl, setImgUrl] = useState('/images/unidadesAP(9).png')
   const [wppUrl, setWppUrl] = useState('https://wa.me/5521972878038')
-  const [telUrl, setTelUrl] = useState('tel:+552132682309')
+  const [telUrl, setTelUrl] = useState('tel:+552126025098')
   const [imgUrlMob, setImgUrlMob] = useState(
     <img
       loading="lazy"
-      src="images/unidadeAPRMob1.png"
+      src="images/unidadeAPRMob0.png"
       alt="Tratamento Específico"
       className="imagemEstetica semMarginEsq"
     />
@@ -30,18 +30,8 @@ const UnidadesAparelho = () => {
               de Janeiro!
               <br /> Escolha a mais próxima de você!
             </h4>
-            <a
-              href={telUrl}
-              className="telURL"
-              target="_blank"
-              rel="noreferrer"
-            ></a>
-            <a
-              href={wppUrl}
-              className="wppURL"
-              target="_blank"
-              rel="noreferrer"
-            ></a>
+            <a href={telUrl} className="telURL" rel="nofollow"></a>
+            <a href={wppUrl} className="wppURL"></a>
             <img
               loading="lazy"
               src={imgUrl}
@@ -71,7 +61,7 @@ const UnidadesAparelho = () => {
                           />
                         ) &
                         setWppUrl('https://wa.me/5521987793370') &
-                        setTelUrl('+552126025098')
+                        setTelUrl('tel:+552126025098')
                       }
                     >
                       <p>Alcantara</p>
@@ -101,7 +91,7 @@ const UnidadesAparelho = () => {
                           />
                         ) &
                         setWppUrl('https://wa.me/5521994129202') &
-                        setTelUrl('+552132682309')
+                        setTelUrl('tel:+552132682309')
                       }
                     >
                       <p>Botafogo</p>
@@ -117,7 +107,7 @@ const UnidadesAparelho = () => {
                           />
                         ) &
                         setWppUrl('https://wa.me/5521969528335') &
-                        setTelUrl('+552138454041')
+                        setTelUrl('tel:+552138454041')
                       }
                     >
                       <p>Caxias I</p>
@@ -133,7 +123,7 @@ const UnidadesAparelho = () => {
                           />
                         ) &
                         setWppUrl('https://wa.me/5521981383586') &
-                        setTelUrl('+552126528577')
+                        setTelUrl('tel:+552126528577')
                       }
                     >
                       <p>Caxias II</p>
@@ -149,7 +139,7 @@ const UnidadesAparelho = () => {
                           />
                         ) &
                         setWppUrl('https://wa.me/5521992128819') &
-                        setTelUrl('+552120817091')
+                        setTelUrl('tel:+552120817091')
                       }
                     >
                       <p>Copacabana</p>
@@ -165,7 +155,7 @@ const UnidadesAparelho = () => {
                           />
                         ) &
                         setWppUrl('https://wa.me/5521992128819') &
-                        setTelUrl('+552120817091')
+                        setTelUrl('tel:+552120817091')
                       }
                     >
                       <p>Leblon</p>
@@ -181,7 +171,7 @@ const UnidadesAparelho = () => {
                           />
                         ) &
                         setWppUrl('https://wa.me/5521965679778') &
-                        setTelUrl('+552120290769')
+                        setTelUrl('tel:+552120290769')
                       }
                     >
                       <p>Madureira</p>
@@ -211,7 +201,9 @@ const UnidadesAparelho = () => {
                             alt="Tratamento Específico"
                             className="imagemEstetica semMarginEsq"
                           />
-                        ) & setWppUrl('https://wa.me/5521997815927')
+                        ) &
+                        setWppUrl('https://wa.me/5521997815927') &
+                        setTelUrl('tel:+552127671719')
                       }
                     >
                       <p>Nova Iguaçu</p>
@@ -227,7 +219,7 @@ const UnidadesAparelho = () => {
                           />
                         ) &
                         setWppUrl('https://wa.me/5521983333181') &
-                        setTelUrl('+552138523143')
+                        setTelUrl('tel:+552138523143')
                       }
                     >
                       <p>São Gonçalo</p>
@@ -244,7 +236,7 @@ const UnidadesAparelho = () => {
                             />
                           )&
                         setWppUrl('https://wa.me/5521998804004')&
-                        setTelUrl('+552141029923'))
+                        setTelUrl('tel:+552141029923'))
                       }
                     >
                       <p>São João</p>
@@ -260,7 +252,7 @@ const UnidadesAparelho = () => {
                           />
                         ) &
                         setWppUrl('https://wa.me/5524999890263') &
-                        setTelUrl('+552422426301')
+                        setTelUrl('tel:+552422426301')
                       }
                     >
                       <p>Petrópolis</p>
@@ -276,7 +268,7 @@ const UnidadesAparelho = () => {
                           />
                         ) &
                         setWppUrl('https://wa.me/5524999890263') &
-                        setTelUrl('+552141029923')
+                        setTelUrl('tel:+552141029923')
                       }
                     >
                       <p>São João de Meriti</p>
@@ -301,16 +293,16 @@ const UnidadesAparelho = () => {
               onClick={() =>
                 setImgUrl('images/unidadesAP5.png') &
                 setWppUrl('https://wa.me/5521987793370') &
-                setTelUrl('+552126025098')
+                setTelUrl('tel:+552126025098')
               }
             >
-              <p>Alcantâra</p>
+              <p>Alcântara</p>
             </button>
             <button
               onClick={() =>
                 setImgUrl('images/unidadesAP1.png') &
                 setWppUrl('https://wa.me/5521994129202') &
-                setTelUrl('+552132682309')
+                setTelUrl('tel:+552132682309')
               }
             >
               <p>Botafogo</p>
@@ -319,7 +311,7 @@ const UnidadesAparelho = () => {
               onClick={() =>
                 setImgUrl('images/unidadesAP2.png') &
                 setWppUrl('https://wa.me/5521969528335') &
-                setTelUrl('+552138454041')
+                setTelUrl('tel:+552138454041')
               }
             >
               <p>Caxias I</p>
@@ -328,7 +320,7 @@ const UnidadesAparelho = () => {
               onClick={() =>
                 setImgUrl('images/unidadesAP3.png') &
                 setWppUrl('https://wa.me/5521981383586') &
-                setTelUrl('+552126528577')
+                setTelUrl('tel:+552126528577')
               }
             >
               <p>Caxias II</p>
@@ -337,7 +329,7 @@ const UnidadesAparelho = () => {
               onClick={() =>
                 setImgUrl('images/unidadesAP6.png') &
                 setWppUrl('https://wa.me/5521992128819') &
-                setTelUrl('+552120817091')
+                setTelUrl('tel:+552120817091')
               }
             >
               <p>Leblon</p>
@@ -346,7 +338,7 @@ const UnidadesAparelho = () => {
               onClick={() =>
                 setImgUrl('images/unidadesAP7.png') &
                 setWppUrl('https://wa.me/5521965679778') &
-                setTelUrl('+552120290769')
+                setTelUrl('tel:+552120290769')
               }
             >
               <p>Madureira</p>
@@ -364,7 +356,7 @@ const UnidadesAparelho = () => {
               onClick={() =>
                 setImgUrl('images/unidadesAP9.png') &
                 setWppUrl('https://wa.me/5521997815927') &
-                setTelUrl('+552127671719')
+                setTelUrl('tel:+552127671719')
               }
             >
               <p>Nova Iguaçu</p>
@@ -373,7 +365,7 @@ const UnidadesAparelho = () => {
               onClick={() =>
                 setImgUrl('images/unidadesAP4.png') &
                 setWppUrl('https://wa.me/5521983333181') &
-                setTelUrl('+552138523143')
+                setTelUrl('tel:+552138523143')
               }
             >
               <p>São Gonçalo</p>
@@ -382,7 +374,7 @@ const UnidadesAparelho = () => {
               onClick={() =>
                 setImgUrl('images/unidadesAP12.png') &
                 setWppUrl('https://wa.me/5524999890263') &
-                setTelUrl('+552422426301')
+                setTelUrl('tel:+552422426301')
               }
             >
               <p>Petrópolis</p>
@@ -391,7 +383,7 @@ const UnidadesAparelho = () => {
               onClick={() =>
                 setImgUrl('images/unidadesAP13.png') &
                 setWppUrl('https://wa.me/55215524999890263') &
-                setTelUrl('+552141029923')
+                setTelUrl('tel:+552141029923')
               }
             >
               <p>São João de Merití</p>

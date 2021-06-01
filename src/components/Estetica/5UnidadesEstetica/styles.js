@@ -315,6 +315,10 @@ export const Contentor = styled.div`
   .coluna4 {
     justify-content: space-between !important;
     min-height: 50vh;
+    z-index: 1004;
+    button {
+      z-index: 1004;
+    }
   }
 
   .coluna1 img {
@@ -322,6 +326,9 @@ export const Contentor = styled.div`
   }
 
   @media (min-width: 900px) {
+    .telURL {
+      display: none !important;
+    }
     #unidades {
       display: flex;
       justify-content: space-between;
@@ -361,11 +368,10 @@ export const Contentor = styled.div`
       max-width: 70% !important;
       min-width: 70% !important;
       min-height: 400px;
-      z-index: 1001;
     }
     .telURL,
     .wppURL {
-      z-index: 1000;
+      z-index: 1003;
     }
     .linhaSinuosaTratamentos.linhaSinuosa.linhaSinuosaEsquerda.row {
       margin-bottom: 0px;

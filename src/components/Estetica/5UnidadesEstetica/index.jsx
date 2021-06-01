@@ -176,18 +176,8 @@ const UnidadesEstetica = () => {
               </button>
 
               <Col className="imagemUnidadeMob">
-                <a
-                  href={telUrl}
-                  className="telURL"
-                  target="_blank"
-                  rel="noreferrer"
-                ></a>
-                <a
-                  href={wppUrl}
-                  className="wppURL"
-                  target="_blank"
-                  rel="noreferrer"
-                ></a>
+                <a href={telUrl} className="telURL"></a>
+                <a href={wppUrl} className="wppURL"></a>
                 {imgUrlMob}
               </Col>
             </Row>

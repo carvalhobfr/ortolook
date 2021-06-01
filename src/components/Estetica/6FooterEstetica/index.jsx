@@ -26,7 +26,10 @@ const FooterAparelho = () => {
               src="images/ortoFooter3.png"
               alt="Logo Ortolook"
             />
-            <a className="openMobile" href="https://www.facebook.com/Ortolook/">
+            <a
+              className="openMobile"
+              href="https://www.facebook.com/ortolook.estetica"
+            >
               <img
                 loading="lazy"
                 src="images/ortoFooter5.png"
@@ -53,7 +56,10 @@ const FooterAparelho = () => {
               src="images/ortoFooterES4.png"
               alt="Logo Ortolook"
             />
-            <a className="someMobile" href="https://www.facebook.com/Ortolook/">
+            <a
+              className="someMobile"
+              href="https://www.facebook.com/ortolook.estetica"
+            >
               <img
                 loading="lazy"
                 src="images/ortoFooterES16.png"
