@@ -31,15 +31,15 @@ const NavOrtho = () => {
   }
 
   const toggle = () => {
-    setIsOpen(!isOpen)
     checkColor()
+    setIsOpen(!isOpen)
     navListPrimeiro()
   }
   const navListSegundo = () => {
     setNavList(
       <Nav className="ml-auto" navbar>
-        <NavItem></NavItem>
-        <NavItem className="navItemSec">
+        <NavItem>⠀⠀⠀⠀⠀⠀⠀</NavItem>
+        <NavItem>
           <a
             onClick={() => {
               navListPrimeiro()
@@ -49,14 +49,14 @@ const NavOrtho = () => {
             X
           </a>
         </NavItem>
-        <NavItem></NavItem>
-        <NavItem className="navItemSec">
+        <NavItem>⠀⠀⠀⠀⠀⠀⠀</NavItem>
+        <NavItem>
           <a className="navSec">
             <ContactForm className="modalContato" />
           </a>
         </NavItem>
-        <NavItem></NavItem>
-        <NavItem className="navItemSec">
+        <NavItem>⠀⠀⠀⠀⠀⠀⠀</NavItem>
+        <NavItem>
           <a
             href="https://ortolook.solides.jobs"
             target="_blank"
@@ -66,8 +66,8 @@ const NavOrtho = () => {
             trabalhe conosco
           </a>
         </NavItem>
-        <NavItem></NavItem>
-        <NavItem></NavItem>
+        <NavItem>⠀⠀⠀⠀⠀⠀⠀</NavItem>
+        <NavItem>⠀⠀⠀⠀⠀⠀⠀</NavItem>
       </Nav>
     )
   }
@@ -114,17 +114,17 @@ const NavOrtho = () => {
     <Contentor>
       <Navbar color="white" light expand="md" className=" gothamBook ">
         <div>
-          <NavbarBrand href="/aparelhos">
-            <img
-              loading="lazy"
-              src="/images/iconOrtholook3.png"
-              alt="Ortolook"
-            />
-          </NavbarBrand>
           <NavbarBrand href="/estetica">
             <img
               loading="lazy"
-              src="/images/iconOrtholook4.png"
+              src="/images/iconOrtholook2.svg"
+              alt="Ortolook"
+            />
+          </NavbarBrand>
+          <NavbarBrand href="/aparelhos">
+            <img
+              loading="lazy"
+              src="/images/iconOrtholook.svg"
               alt="Ortolook"
             />
           </NavbarBrand>

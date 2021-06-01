@@ -10,6 +10,9 @@ export const Contentor = styled.div`
   .collapsed {
     display: flex;
   }
+  .collapsing {
+    display: none;
+  }
   .navbar-nav {
     width: 100%;
     display: -webkit-box;
