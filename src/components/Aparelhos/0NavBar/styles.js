@@ -7,9 +7,8 @@ export const Contentor = styled.div`
   position: sticky;
   z-index: 100;
 
-  .navbar-collapse {
-    /* display: flex; */
-    /* justify-content: space-between; */
+  .collapsed {
+    display: flex;
   }
   .navbar-nav {
     width: 100%;
