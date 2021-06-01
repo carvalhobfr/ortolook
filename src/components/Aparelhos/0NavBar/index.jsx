@@ -32,7 +32,7 @@ const NavOrtho = () => {
 
   const toggle = () => {
     setIsOpen(!isOpen)
-    /*     checkColor() */
+    checkColor()
     navListPrimeiro()
   }
   const navListSegundo = () => {

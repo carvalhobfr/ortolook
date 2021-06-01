@@ -61,9 +61,9 @@ export const Contentor = styled.div`
       background-position: right;
       background-repeat: no-repeat;
       background-size: contain;
-      padding: 64px 16px;
-      margin-top: -20px;
-      min-height: 327px;
+      padding: 0;
+      margin-top: -50px;
+      min-height: 250px;
       /*       .nav-item a {
         margin-right: 20%;
         margin-left: 50%;
@@ -76,6 +76,7 @@ export const Contentor = styled.div`
     .navbar-toggler {
       z-index: 3 !important;
       margin: 0%;
+      padding-right: 5%;
     }
     .dropdown-menu {
       background-color: transparent !important;
@@ -109,7 +110,7 @@ export const Contentor = styled.div`
       text-align: center;
     }
     li.nav-item {
-      margin-right: 20%;
+      margin-right: 0%;
       margin-left: 40%;
     }
     .navSec {
