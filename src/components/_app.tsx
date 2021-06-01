@@ -26,7 +26,6 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
         .then(ReactPixel => {
           ReactPixel.init('276341384153524')
           ReactPixel.pageView()
-          console.log('pixel ON')
 
           Router.events.on('routeChangeComplete', () => {
             ReactPixel.pageView()

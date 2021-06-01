@@ -462,6 +462,7 @@ export const Contentor = styled.div`
     .imagemUnidadeMob {
       max-width: 70% !important;
       min-width: 70% !important;
+      z-index: 1001;
     }
     .telURL,
     .wppURL {

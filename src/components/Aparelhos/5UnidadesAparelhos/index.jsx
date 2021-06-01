@@ -197,7 +197,7 @@ const UnidadesAparelho = () => {
                           />
                         ) &
                         setWppUrl('https://wa.me/5521967414822') &
-                        setTelUrl('+552120290769')
+                        setTelUrl('+552136204041')
                       }
                     >
                       <p>Niterói</p>
@@ -355,7 +355,7 @@ const UnidadesAparelho = () => {
               onClick={() =>
                 setImgUrl('images/unidadesAP8.png') &
                 setWppUrl('https://wa.me/5521967414822') &
-                setTelUrl('+552120290769')
+                setTelUrl('+552136204041')
               }
             >
               <p>Niterói</p>
