@@ -520,7 +520,7 @@ export const Contentor = styled.div`
     .telURL {
       display: flex;
       position: absolute;
-      bottom: 10%;
+      bottom: 5%;
       left: 15%;
       height: 80px;
       width: 80px;
