@@ -54,14 +54,14 @@ export default function SEO({
       <meta name="twitter:image:width" content="1200" />
       <meta name="twitter:image:height" content="620" />
       <link
-        href="//db.onlinewebfonts.com/c/edc378fa3251080c5b508b220462efca?family=Gotham"
+        href="https://db.onlinewebfonts.com/c/edc378fa3251080c5b508b220462efca?family=Gotham"
         rel="preload"
         type="text/css"
         crossOrigin="anonymous"
         as="style"
       />
       <link
-        href="//db.onlinewebfonts.com/c/ed524d3938b150b70d120697d516e805?family=Bemio+Italic"
+        href="https://db.onlinewebfonts.com/c/ed524d3938b150b70d120697d516e805?family=Bemio+Italic"
         rel="preload"
         type="text/css"
         crossOrigin="anonymous"
