@@ -131,4 +131,8 @@ export const Contentor = styled.div`
     margin-bottom: 16px;
     font-size: 22px;
   }
+
+  .modal-header {
+    border: none !important;
+  }
 `
