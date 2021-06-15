@@ -15,7 +15,7 @@ import {
 } from 'reactstrap'
 
 import { Contentor } from './styles'
-import ContactForm from '../../ContactForm2'
+import ContactForm2 from '../../ContactForm2'
 
 const NavOrtho = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -54,7 +54,7 @@ const NavOrtho = () => {
         </NavItem>
         <a className="navSec">
           <NavItem>
-            <ContactForm className="modalContato" />
+            <ContactForm2 className="modalContato" />
           </NavItem>
         </a>
         <NavItem>
