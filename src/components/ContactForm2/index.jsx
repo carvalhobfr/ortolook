@@ -79,7 +79,7 @@ const ContatoForm2 = () => {
         size="lg"
         show={show}
         onHide={() => setShow(false)}
-        dialogClassName="modalTestDialog modal-100w"
+        dialogClassName="modalTestDialog modal-100w modal-100h"
         contentClassName="border-0"
         aria-labelledby="example-custom-modal-styling-title"
       >
