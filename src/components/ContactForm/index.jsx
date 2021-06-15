@@ -135,11 +135,13 @@ const ContatoForm = () => {
                 placeholder="dúvida..."
               ></textarea>
               <button type="submit" disabled={status.submitting}>
-                {!status.submitting
-                  ? !status.submitted
-                    ? 'enviar'
-                    : 'enviado'
-                  : 'enviando'}
+                <p>
+                  {!status.submitting
+                    ? !status.submitted
+                      ? 'enviar'
+                      : 'enviado'
+                    : 'enviando'}
+                </p>
               </button>
             </form>
             {status.info.error && (

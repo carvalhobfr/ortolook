@@ -32,7 +32,7 @@ export const Container = styled.div`
   }
   button {
     margin-top: 32px;
-    padding-top: 10px;
+    padding: 10px 0 0 0;
     font-family: Gotham !important;
     font-style: normal;
     font-weight: normal;
@@ -41,7 +41,7 @@ export const Container = styled.div`
     background-image: url(images/bgEnviarForm2.png) !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
-    background-position: top !important;
+    background-position: center !important;
     border: none;
     background-color: transparent;
   }
@@ -61,9 +61,9 @@ export const Container = styled.div`
     font-weight: normal !important;
     font-size: 14px;
     line-height: 19px;
-    width: 70%;
     max-width: 400px;
     min-width: 250px;
+    margin: 0;
 
     color: #ffffff;
   }
