@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 
-import { Button } from 'react-bootstrap'
 import { Container } from './styles'
 import Modal from 'react-bootstrap/Modal'
 /* import ModalDialog from 'react-bootstrap/ModalDialog' */
