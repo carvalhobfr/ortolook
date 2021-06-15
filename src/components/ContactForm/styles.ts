@@ -26,14 +26,17 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+  @media (max-width: 600px) {
+    background-size: 100%;
+    background-image: url(images/bgContatoMob.png);
+  }
   button {
     margin-top: 32px;
     padding-top: 10px;
     font-family: Gotham !important;
     font-style: normal;
     font-weight: normal;
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 18px;
     color: #fff !important;
     background-image: url(images/bgEnviarForm.png) !important;
     background-size: contain !important;
@@ -68,17 +71,18 @@ export const Container = styled.div`
   input,
   textarea {
     background: #ffffff;
-    border-radius: 18px;
+    border-radius: 10px;
     margin: 8px;
     padding: 8px;
     max-width: 90%;
+    border: 1px solid transparent;
   }
 
   form {
     display: flex;
     flex-direction: column;
     width: 50%;
-    min-width: 300px;
+    min-width: 250px;
   }
 
   .modalForm {

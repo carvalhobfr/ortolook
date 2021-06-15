@@ -83,7 +83,11 @@ const ContatoForm = () => {
         contentClassName="border-0"
         aria-labelledby="example-custom-modal-styling-title"
       >
-        <Modal.Header closeButton></Modal.Header>
+        ;
+        <Modal.Header
+          closeButton
+          style={{ borderBottom: 'none' }}
+        ></Modal.Header>
         <Modal.Body bsPrefix="modalBody" closeButton>
           <Container>
             <h1>contato</h1>

@@ -15,7 +15,7 @@ import {
 } from 'reactstrap'
 
 import { Contentor } from './styles'
-import ContactForm from '../../ContactForm'
+import ContactForm from '../../ContactForm2'
 
 const NavOrtho = () => {
   const [isOpen, setIsOpen] = useState(false)

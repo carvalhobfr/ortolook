@@ -63,6 +63,7 @@ export const Contentor = styled.div`
       background-size: contain;
       padding: 64px 16px;
       margin-top: -60px;
+      min-height: 250px;
       /*       .nav-item a {
         margin-right: 20%;
         margin-left: 50%;
