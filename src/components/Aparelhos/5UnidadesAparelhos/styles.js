@@ -540,4 +540,8 @@ export const Contentor = styled.div`
       width: 200px;
     }
   }
+
+  .hideMob {
+    display: none !important;
+  }
 `
