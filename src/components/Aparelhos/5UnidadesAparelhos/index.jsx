@@ -64,7 +64,7 @@ const UnidadesAparelho = () => {
                         setTelUrl('tel:+552126025098')
                       }
                     >
-                      <p>Alcantara</p>
+                      <p>Alcântara</p>
                     </button>
                     {/* <button
           onClick={() =>
