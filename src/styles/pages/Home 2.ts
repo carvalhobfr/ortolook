@@ -1,51 +1,51 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  @import url(//db.onlinewebfonts.com/c/ed524d3938b150b70d120697d516e805?family=Bemio+Italic);
+  @import url(https://db.onlinewebfonts.com/c/ed524d3938b150b70d120697d516e805?family=Bemio+Italic);
   max-width: 1900px !important;
   margin: auto;
   padding: 0;
   @font-face {
     font-family: 'GothamBook';
-    src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot');
-    src: url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot?#iefix')
+    src: url('https://db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot');
+    src: url('https://db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.eot?#iefix')
         format('embedded-opentype'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff2')
+      url('https://db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff2')
         format('woff2'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff')
+      url('https://db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.woff')
         format('woff'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.ttf')
+      url('https://db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.ttf')
         format('truetype'),
-      url('//db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.svg#Gotham')
+      url('https://db.onlinewebfonts.com/t/edc378fa3251080c5b508b220462efca.svg#Gotham')
         format('svg');
   }
   @font-face {
     font-family: 'GothamBook';
-    src: url('//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.eot');
-    src: url('//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.eot?#iefix')
+    src: url('https://db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.eot');
+    src: url('https://db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.eot?#iefix')
         format('embedded-opentype'),
-      url('//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.woff2')
+      url('https://db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.woff2')
         format('woff2'),
-      url('//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.woff')
+      url('https://db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.woff')
         format('woff'),
-      url('//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.ttf')
+      url('https://db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.ttf')
         format('truetype'),
-      url('//db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.svg#GothamBook')
+      url('https://db.onlinewebfonts.com/t/a9db6cd9116ff56da3875b35444f0c45.svg#GothamBook')
         format('svg');
   }
 
   @font-face {
     font-family: 'Bemio Italic';
-    src: url('//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.eot');
-    src: url('//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.eot?#iefix')
+    src: url('https://db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.eot');
+    src: url('https://db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.eot?#iefix')
         format('embedded-opentype'),
-      url('//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.woff2')
+      url('https://db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.woff2')
         format('woff2'),
-      url('//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.woff')
+      url('https://db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.woff')
         format('woff'),
-      url('//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.ttf')
+      url('https://db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.ttf')
         format('truetype'),
-      url('//db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.svg#Bemio Italic')
+      url('https://db.onlinewebfonts.com/t/ed524d3938b150b70d120697d516e805.svg#Bemio Italic')
         format('svg');
   }
 
