@@ -14,7 +14,7 @@ const agendeLateralEsq = () => {
   return (
     <Col className="agendeAqui someMobile">
       <button className="agendeAqui" onClick={pixelEvent}>
-        <Link href="https://wa.me/5521972878038">
+        <Link href="https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR">
           <img
             className="agendeAqui "
             loading="lazy"
