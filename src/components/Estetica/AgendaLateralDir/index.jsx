@@ -22,14 +22,14 @@ const agendeLateralEsq = () => {
         />
       </Link> */}
       <button className="agendeAqui " onClick={pixelEvent}>
-        <Link href="https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR">
+        <a href="https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR">
           <img
             className="agendeAqui saibaPrecosDir semMarginDir agendeAquiEs"
             loading="lazy"
             src="/images/agendeAquiDir.png"
             alt="Agende aqui"
           />
-        </Link>
+        </a>
       </button>
       {/* <ModalExample
                 srcImg="/images/agendeAqui2.png"

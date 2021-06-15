@@ -13,16 +13,16 @@ const agendeLateralEsq = () => {
   }
   return (
     <Col className="agendeAqui someMobile">
-      <button className="agendeAqui" onClick={pixelEvent}>
-        <Link href="https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR">
+      <a href="https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR">
+        <button className="agendeAqui" onClick={pixelEvent}>
           <img
             className="agendeAqui "
             loading="lazy"
             src="/images/agendeAqui2.png"
             alt="Agende aqui"
           />
-        </Link>
-      </button>
+        </button>
+      </a>
       {/*  <Link href="https://wa.me/5521972878038">
         <img
           className="saibaPrecos saibaPrecosEsq"

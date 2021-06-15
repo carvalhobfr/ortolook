@@ -267,7 +267,7 @@ const UnidadesAparelho = () => {
                             className="imagemEstetica semMarginEsq"
                           />
                         ) &
-                        setWppUrl('https://wa.me/5524999890263') &
+                        setWppUrl('https://wa.me/5521998804004') &
                         setTelUrl('tel:+552141029923')
                       }
                     >
@@ -382,7 +382,7 @@ const UnidadesAparelho = () => {
             <button
               onClick={() =>
                 setImgUrl('images/unidadesAP13.png') &
-                setWppUrl('https://wa.me/55215524999890263') &
+                setWppUrl('https://wa.me/5521998804004') &
                 setTelUrl('tel:+552141029923')
               }
             >

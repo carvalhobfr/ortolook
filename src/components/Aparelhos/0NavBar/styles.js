@@ -105,6 +105,12 @@ export const Contentor = styled.div`
     text-align: center;
   }
 
+  @media (max-width: 400px) {
+    li.nav-item {
+      margin-left: 40% !important;
+    }
+  }
+
   @media (max-width: 600px) {
     .nav-item a,
     .nav-item {
@@ -113,7 +119,7 @@ export const Contentor = styled.div`
     }
     li.nav-item {
       margin-right: 0%;
-      margin-left: 40%;
+      margin-left: 45%;
     }
     .navSec {
       margin: 0;
