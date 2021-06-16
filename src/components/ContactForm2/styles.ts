@@ -47,8 +47,8 @@ export const Container = styled.div`
     /*     background-image: url(images/bgEnviarForm2.png) !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
-    background-position: center !important;
-    border: none; */
+    background-position: center !important;*/
+    border: none;
     background-color: transparent;
   }
 
@@ -69,6 +69,7 @@ export const Container = styled.div`
     line-height: 19px;
     max-width: 400px;
     min-width: 250px;
+    padding: 10px;
     margin: 0;
     background-image: url(images/bgEnviarForm2.png) !important;
     background-size: contain !important;
