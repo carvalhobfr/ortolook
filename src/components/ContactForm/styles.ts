@@ -112,4 +112,7 @@ export const Container = styled.div`
     background: transparent;
     margin: 0;
   }
+  .close {
+    color: #fff;
+  }
 `
