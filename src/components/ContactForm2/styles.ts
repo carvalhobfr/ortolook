@@ -44,11 +44,11 @@ export const Container = styled.div`
     font-weight: normal;
     font-size: 18px;
     color: #fff !important;
-    background-image: url(images/bgEnviarForm2.png) !important;
+    /*     background-image: url(images/bgEnviarForm2.png) !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
-    border: none;
+    border: none; */
     background-color: transparent;
   }
 
@@ -70,6 +70,12 @@ export const Container = styled.div`
     max-width: 400px;
     min-width: 250px;
     margin: 0;
+    background-image: url(images/bgEnviarForm2.png) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    border: none;
+    background-color: transparent;
 
     color: #ffffff;
   }
