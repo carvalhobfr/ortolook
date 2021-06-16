@@ -56,7 +56,9 @@ const NavOrtho = () => {
           <br />
         </NavItem>
         <NavItem>
-          <ContactForm className="modalContato navSec" />
+          <a className="navSec">
+            <ContactForm className="modalContato " />
+          </a>
         </NavItem>
         <NavItem>
           {' '}
