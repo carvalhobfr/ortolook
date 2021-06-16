@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 
+import { Button } from 'react-bootstrap'
 import { Container } from './styles'
 import Modal from 'react-bootstrap/Modal'
 /* import ModalDialog from 'react-bootstrap/ModalDialog' */
 
-const ContatoForm2 = () => {
+const ContatoForm = () => {
   const [show, setShow] = useState(false)
   const [status, setStatus] = useState({
     submitted: false,
@@ -78,7 +79,7 @@ const ContatoForm2 = () => {
         size="lg"
         show={show}
         onHide={() => setShow(false)}
-        dialogClassName="modalTestDialog modal-100w modal-100h"
+        dialogClassName="modalTestDialog modal-100w"
         contentClassName="border-0"
         aria-labelledby="example-custom-modal-styling-title"
       >
@@ -129,14 +130,18 @@ const ContatoForm2 = () => {
                 id="duvida"
                 cols="10"
                 rows="2"
+                onChange={handleOnChange}
+                value={inputs.duvida}
                 placeholder="dúvida..."
               ></textarea>
               <button type="submit" disabled={status.submitting}>
-                {!status.submitting
-                  ? !status.submitted
-                    ? 'enviar'
-                    : 'enviado'
-                  : 'enviando'}
+                <p>
+                  {!status.submitting
+                    ? !status.submitted
+                      ? 'enviar'
+                      : 'enviado'
+                    : 'enviando'}
+                </p>
               </button>
             </form>
             {status.info.error && (
@@ -149,4 +154,4 @@ const ContatoForm2 = () => {
     </>
   )
 }
-export default ContatoForm2
+export default ContatoForm
