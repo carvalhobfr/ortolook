@@ -11,6 +11,8 @@ export const Container = styled.div`
       background: transparent;
     }
   }
+  font-family: 'GothamBook';
+  font-weight: normal;
 
   a {
     z-index: 1400;
