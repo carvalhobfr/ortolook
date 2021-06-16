@@ -11,6 +11,12 @@ export const Container = styled.div`
       background: transparent;
     }
   }
+  font-family: 'Gotham Pro', sans-serif;
+  font-weight: normal;
+
+  a {
+    z-index: 1400;
+  }
 
   display: flex;
   flex-direction: column;
@@ -21,7 +27,7 @@ export const Container = styled.div`
   justify-items: center;
   justify-content: center;
   justify-content: center;
-  background-image: url(images/bgContato.png);
+  background-image: url(images/bgContato2.png);
   background-size: 700px;
   background-repeat: no-repeat;
   background-position: center;
@@ -38,16 +44,16 @@ export const Container = styled.div`
     font-weight: normal;
     font-size: 18px;
     color: #fff !important;
-    background-image: url(images/bgEnviarForm.png) !important;
+    /*     background-image: url(images/bgEnviarForm2.png) !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
-    background-position: center !important;
+    background-position: center !important;*/
     border: none;
     background-color: transparent;
   }
 
   h1 {
-    font-family: Gotham;
+    font-family: 'Gotham Pro', Gotham, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
@@ -56,14 +62,21 @@ export const Container = styled.div`
   }
 
   p {
-    font-family: Gotham;
+    font-family: 'Gotham Pro', Gotham, sans-serif;
     font-style: normal;
     font-weight: normal !important;
     font-size: 14px;
     line-height: 19px;
     max-width: 400px;
     min-width: 250px;
+    padding: 10px;
     margin: 0;
+    background-image: url(images/bgEnviarForm.png) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    border: none;
+    background-color: transparent;
 
     color: #ffffff;
   }

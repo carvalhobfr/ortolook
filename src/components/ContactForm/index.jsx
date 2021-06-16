@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 
-import { Button } from 'react-bootstrap'
+/* import { Button } from 'react-bootstrap' */
 import { Container } from './styles'
 import Modal from 'react-bootstrap/Modal'
 /* import ModalDialog from 'react-bootstrap/ModalDialog' */
@@ -41,6 +41,9 @@ const ContatoForm = () => {
     }
   }
 
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
+
   const handleOnChange = e => {
     e.persist()
     setInputs(prev => ({
@@ -69,8 +72,8 @@ const ContatoForm = () => {
       })
   }
   return (
-    <>
-      <a variant="primary" onClick={() => setShow(true)}>
+    /*     <>
+      <a variant="primary" onClick={handleShow}>
         fale conosco
       </a>
       <Modal
@@ -78,7 +81,7 @@ const ContatoForm = () => {
         bsPrefix="meuModal"
         size="lg"
         show={show}
-        onHide={() => setShow(false)}
+        onHide={handleClose}
         dialogClassName="modalTestDialog modal-100w"
         contentClassName="border-0"
         aria-labelledby="example-custom-modal-styling-title"
@@ -88,6 +91,89 @@ const ContatoForm = () => {
           style={{ borderBottom: 'none' }}
         ></Modal.Header>
         <Modal.Body bsPrefix="modalBody" closeButton>
+          <Container>
+            <h1>contato</h1>
+            <form onSubmit={handleOnSubmit}>
+              <input
+                id="name"
+                name="name"
+                placeholder="nome"
+                onChange={handleOnChange}
+                required
+                value={inputs.name}
+              />
+              <input
+                id="tel"
+                type="tel"
+                name="tel"
+                placeholder="telefone"
+                onChange={handleOnChange}
+                required
+                value={inputs.tel}
+              />
+              <input
+                id="email"
+                type="email"
+                name="_replyto"
+                placeholder="email"
+                onChange={handleOnChange}
+                required
+                value={inputs.email}
+              />
+              <input
+                id="unidade"
+                type="text"
+                name="unidade"
+                placeholder="unidade"
+                onChange={handleOnChange}
+                value={inputs.unidade}
+              />
+              <textarea
+                name="duvida"
+                id="duvida"
+                cols="10"
+                rows="2"
+                onChange={handleOnChange}
+                value={inputs.duvida}
+                placeholder="dúvida..."
+              ></textarea>
+              <button type="submit" disabled={status.submitting}>
+                <p>
+                  {!status.submitting
+                    ? !status.submitted
+                      ? 'enviar'
+                      : 'enviado'
+                    : 'enviando'}
+                </p>
+              </button>
+            </form>
+            {status.info.error && (
+              <div className="error">Error: {status.info.msg}</div>
+            )}
+            {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
+          </Container>
+        </Modal.Body>
+      </Modal>
+    </>
+ */
+    <>
+      <a variant="primary" onClick={handleShow}>
+        fale conosco
+      </a>
+
+      <Modal
+        show={show}
+        onHide={handleClose}
+        /*       bsPrefix="meuModal" */
+        size="lg"
+        dialogClassName="modalTestDialog modal-100w"
+        contentClassName="border-0"
+      >
+        <Modal.Header
+          style={{ borderBottom: 'none' }}
+          closeButton
+        ></Modal.Header>
+        <Modal.Body>
           <Container>
             <h1>contato</h1>
             <form onSubmit={handleOnSubmit}>
