@@ -157,9 +157,9 @@ const ContatoForm = () => {
     </>
  */
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <a variant="primary" onClick={handleShow}>
         fale conosco
-      </Button>
+      </a>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header
@@ -167,7 +167,6 @@ const ContatoForm = () => {
           closeButton
         ></Modal.Header>
         <Modal.Body>
-          ;
           <Container>
             <h1>contato</h1>
             <form onSubmit={handleOnSubmit}>
