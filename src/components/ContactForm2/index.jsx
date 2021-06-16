@@ -164,7 +164,7 @@ const ContatoForm = () => {
       <Modal
         show={show}
         onHide={handleClose}
-        bsPrefix="meuModal"
+        /*       bsPrefix="meuModal" */
         size="lg"
         dialogClassName="modalTestDialog modal-100w"
         contentClassName="border-0"
