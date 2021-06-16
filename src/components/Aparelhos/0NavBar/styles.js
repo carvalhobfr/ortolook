@@ -59,7 +59,7 @@ export const Contentor = styled.div`
       padding: 0.5rem;
     }
     .navbar-collapse {
-      background-image: url(/images/fundoNavES.png);
+      background-image: url(/images/fundoNavAP.png);
       background-position: right;
       background-repeat: no-repeat;
       background-size: contain;
