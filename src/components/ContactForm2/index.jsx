@@ -72,8 +72,8 @@ const ContatoForm = () => {
       })
   }
   return (
-    /*  <>
-      <a variant="primary" onClick={() => setShow(true)}>
+    <>
+      <a variant="primary" onClick={handleShow}>
         fale conosco
       </a>
       <Modal
@@ -81,7 +81,7 @@ const ContatoForm = () => {
         bsPrefix="meuModal"
         size="lg"
         show={show}
-        onHide={() => setShow(false)}
+        onHide={handleClose}
         dialogClassName="modalTestDialog modal-100w"
         contentClassName="border-0"
         aria-labelledby="example-custom-modal-styling-title"
@@ -154,9 +154,9 @@ const ContatoForm = () => {
           </Container>
         </Modal.Body>
       </Modal>
-    </> */
+    </>
 
-    <>
+    /*     <>
       <Button variant="primary" onClick={handleShow}>
         Launch demo modal
       </Button>
@@ -175,7 +175,7 @@ const ContatoForm = () => {
           </Button>
         </Modal.Footer>
       </Modal>
-    </>
+    </> */
   )
 }
 export default ContatoForm
