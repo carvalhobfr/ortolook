@@ -70,9 +70,9 @@ const ContatoForm = () => {
   }
   return (
     <>
-      <button variant="primary" onClick={() => setShow(true)}>
+      <a variant="primary" onClick={() => setShow(true)}>
         fale conosco
-      </button>
+      </a>
       <Modal
         backdrop={true}
         bsPrefix="meuModal"

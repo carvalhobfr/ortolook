@@ -12,6 +12,10 @@ export const Container = styled.div`
     }
   }
 
+  a {
+    z-index: 1400;
+  }
+
   display: flex;
   flex-direction: column;
   width: 100%;
