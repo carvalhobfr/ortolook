@@ -7,9 +7,11 @@ export const Contentor = styled.div`
   position: sticky;
   z-index: 100;
 
-  .navbar-collapse {
-    /* display: flex; */
-    /* justify-content: space-between; */
+  .collapsed {
+    display: flex;
+  }
+  .collapsing {
+    display: none;
   }
   .navbar-nav {
     width: 100%;
@@ -52,7 +54,7 @@ export const Contentor = styled.div`
     padding: 0.5rem 2rem;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 772px) {
     .navbar {
       padding: 0.5rem;
     }
@@ -61,17 +63,22 @@ export const Contentor = styled.div`
       background-position: right;
       background-repeat: no-repeat;
       background-size: contain;
-      padding: 64px 16px;
-      margin-top: -60px;
+      padding: 0;
+      margin-top: -50px;
       min-height: 250px;
       /*       .nav-item a {
         margin-right: 20%;
         margin-left: 50%;
       } */
     }
+    .collapse.show.navbar-collapse {
+      display: flex;
+    }
 
     .navbar-toggler {
       z-index: 3 !important;
+      margin: 0%;
+      padding-right: 5%;
     }
     .dropdown-menu {
       background-color: transparent !important;
@@ -98,21 +105,37 @@ export const Contentor = styled.div`
     text-align: center;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
+    li.nav-item {
+      margin-left: 40% !important;
+    }
+  }
+
+  @media (max-width: 772px) {
     .nav-item a,
     .nav-item {
       color: #fff !important;
       text-align: center;
     }
     li.nav-item {
-      margin-right: 20%;
-      margin-left: 40%;
+      margin-right: 0%;
+      margin-left: 45%;
     }
     .navSec {
       margin: 0;
-      margin-right: -90px;
+      /* margin-right: -90px; */
+    }
+    .navItemSec {
+      margin: 8px 0;
     }
   }
+
+  @media (max-width: 772px) {
+    li.nav-item {
+      margin-left: 65%;
+    }
+  }
+
   a {
     text-decoration: none;
   }
@@ -120,5 +143,9 @@ export const Contentor = styled.div`
     /*     margin-top: 28px; */
     margin-bottom: 16px;
     font-size: 22px;
+  }
+
+  .modal-header {
+    border: none !important;
   }
 `

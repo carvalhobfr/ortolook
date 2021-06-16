@@ -111,7 +111,7 @@ export const Contentor = styled.div`
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 772px) {
     .nav-item a,
     .nav-item {
       color: #fff !important;
@@ -129,6 +129,13 @@ export const Contentor = styled.div`
       margin: 8px 0;
     }
   }
+
+  @media (max-width: 772px) {
+    li.nav-item {
+      margin-left: 65%;
+    }
+  }
+
   a {
     text-decoration: none;
   }
