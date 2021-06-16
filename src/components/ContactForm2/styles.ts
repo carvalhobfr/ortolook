@@ -11,7 +11,7 @@ export const Container = styled.div`
       background: transparent;
     }
   }
-  font-family: 'GothamBook';
+  font-family: 'Gotham Pro', sans-serif;
   font-weight: normal;
 
   a {

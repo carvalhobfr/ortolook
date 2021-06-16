@@ -161,7 +161,14 @@ const ContatoForm = () => {
         fale conosco
       </a>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal
+        show={show}
+        onHide={handleClose}
+        bsPrefix="meuModal"
+        size="lg"
+        dialogClassName="modalTestDialog modal-100w"
+        contentClassName="border-0"
+      >
         <Modal.Header
           style={{ borderBottom: 'none' }}
           closeButton
