@@ -110,5 +110,6 @@ export const Container = styled.div`
   .modalTestDialog {
     border: none !important;
     background: transparent;
+    margin: 0;
   }
 `

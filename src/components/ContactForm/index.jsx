@@ -167,7 +167,7 @@ const ContatoForm = () => {
         /*       bsPrefix="meuModal" */
         size="lg"
         dialogClassName="modalTestDialog modal-100w"
-        contentClassName="border-0"
+        contentClassName="border-0 bg-transparent"
       >
         <Modal.Header
           style={{ borderBottom: 'none' }}
