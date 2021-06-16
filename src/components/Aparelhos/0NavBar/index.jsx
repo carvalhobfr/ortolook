@@ -52,11 +52,12 @@ const NavOrtho = () => {
         <NavItem>
           <br />
         </NavItem>
-        <a className="navSec">
-          <NavItem>
-            <ContactForm2 className="modalContato" />
-          </NavItem>
-        </a>
+        <NavItem>
+          <ContactForm2
+            className="modalContato navSec
+"
+          />
+        </NavItem>
         <NavItem>
           <br />
         </NavItem>
