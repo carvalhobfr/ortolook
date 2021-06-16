@@ -72,7 +72,7 @@ const ContatoForm = () => {
       })
   }
   return (
-    <>
+    /*     <>
       <a variant="primary" onClick={handleShow}>
         fale conosco
       </a>
@@ -155,27 +155,83 @@ const ContatoForm = () => {
         </Modal.Body>
       </Modal>
     </>
-
-    /*     <>
+ */
+    <>
       <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
+        fale conosco
       </Button>
 
       <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
+        <Modal.Header
+          style={{ borderBottom: 'none' }}
+          closeButton
+        ></Modal.Header>
+        <Modal.Body>
+          ;
+          <Container>
+            <h1>contato</h1>
+            <form onSubmit={handleOnSubmit}>
+              <input
+                id="name"
+                name="name"
+                placeholder="nome"
+                onChange={handleOnChange}
+                required
+                value={inputs.name}
+              />
+              <input
+                id="tel"
+                type="tel"
+                name="tel"
+                placeholder="telefone"
+                onChange={handleOnChange}
+                required
+                value={inputs.tel}
+              />
+              <input
+                id="email"
+                type="email"
+                name="_replyto"
+                placeholder="email"
+                onChange={handleOnChange}
+                required
+                value={inputs.email}
+              />
+              <input
+                id="unidade"
+                type="text"
+                name="unidade"
+                placeholder="unidade"
+                onChange={handleOnChange}
+                value={inputs.unidade}
+              />
+              <textarea
+                name="duvida"
+                id="duvida"
+                cols="10"
+                rows="2"
+                onChange={handleOnChange}
+                value={inputs.duvida}
+                placeholder="dúvida..."
+              ></textarea>
+              <button type="submit" disabled={status.submitting}>
+                <p>
+                  {!status.submitting
+                    ? !status.submitted
+                      ? 'enviar'
+                      : 'enviado'
+                    : 'enviando'}
+                </p>
+              </button>
+            </form>
+            {status.info.error && (
+              <div className="error">Error: {status.info.msg}</div>
+            )}
+            {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
+          </Container>
+        </Modal.Body>
       </Modal>
-    </> */
+    </>
   )
 }
 export default ContatoForm
