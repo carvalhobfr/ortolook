@@ -53,7 +53,7 @@ export const Container = styled.div`
   }
 
   h1 {
-    font-family: Gotham;
+    font-family: 'Gotham Pro', Gotham, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
@@ -62,7 +62,7 @@ export const Container = styled.div`
   }
 
   p {
-    font-family: Gotham;
+    font-family: 'Gotham Pro', Gotham, sans-serif;
     font-style: normal;
     font-weight: normal !important;
     font-size: 14px;
