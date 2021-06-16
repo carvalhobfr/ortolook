@@ -54,7 +54,7 @@ export const Contentor = styled.div`
     padding: 0.5rem 2rem;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 772px) {
     .navbar {
       padding: 0.5rem;
     }
