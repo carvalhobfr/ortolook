@@ -130,7 +130,7 @@ export const Contentor = styled.div`
     }
   }
 
-  @media (max-width: 772px) {
+  @media (min-width: 600px) and (max-width: 772px) {
     li.nav-item {
       margin-left: 65%;
     }
