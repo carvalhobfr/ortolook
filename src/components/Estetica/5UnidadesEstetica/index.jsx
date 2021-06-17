@@ -6,7 +6,9 @@ import { Contentor } from './styles'
 
 const UnidadesEstetica = () => {
   const [imgUrl, setImgUrl] = useState('images/UNDS4.png')
-  const [wppUrl, setWppUrl] = useState('https://wa.me/5521972878038')
+  const [wppUrl, setWppUrl] = useState(
+    'https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR'
+  )
   const [telUrl, setTelUrl] = useState('+552132682309')
   const [imgUrlMob, setImgUrlMob] = useState(
     <img
