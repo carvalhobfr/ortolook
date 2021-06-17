@@ -272,7 +272,7 @@ const Tratamentos = () => {
             alt="slide1"
           />
           <button className="agendeAqui">
-            <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+            <a href="https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR">
               <img
                 loading="lazy"
                 id="tratamento2"
@@ -289,7 +289,7 @@ const Tratamentos = () => {
             alt="slide2"
           />
           <button className="agendeAqui">
-            <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+            <a href="https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR">
               <img
                 loading="lazy"
                 src="/images/agendeAquiMobTratamento4.png"
@@ -305,7 +305,7 @@ const Tratamentos = () => {
             alt="slide2"
           />
           <button className="agendeAqui">
-            <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+            <a href="https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR">
               <img
                 loading="lazy"
                 src="/images/agendeAquiMobTratamento3.png"
@@ -333,7 +333,7 @@ const Tratamentos = () => {
             />
           </Carousel>
           <button className="agendeAqui">
-            <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+            <a href="https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR">
               <img
                 loading="lazy"
                 src="/images/agendeAquiMobTratamento4.png"
@@ -349,7 +349,7 @@ const Tratamentos = () => {
             alt="slide9"
           />
           <button className="agendeAqui">
-            <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+            <a href="https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR">
               <img
                 loading="lazy"
                 src="/images/agendeAquiMobTratamento5.png"
@@ -365,7 +365,7 @@ const Tratamentos = () => {
             alt="slide10"
           />
           <button className="agendeAqui">
-            <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+            <a href="https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR">
               <img
                 loading="lazy"
                 src="/images/agendeAquiMobTratamento6.png"

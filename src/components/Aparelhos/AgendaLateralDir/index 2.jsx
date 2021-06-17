@@ -19,14 +19,14 @@ const agendeLateralDir = () => {
         className="agendeAqui saibaPrecosDir semMarginDir"
         onClick={pixelEvent}
       >
-        <Link href="https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR">
+        <a href="https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR">
           <img
             className="agendeAqui saibaPrecosDir semMarginDir"
             loading="lazy"
             src="/images/agendeAquiDirAP.png"
             alt="Agende aqui"
           />
-        </Link>
+        </a>
       </button>
       {/*  <Link href="http://grupodentotal-rdsm-site.rds.land/aparelho-saiba-nossos-precos">
         <img

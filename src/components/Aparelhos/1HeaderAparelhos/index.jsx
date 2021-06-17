@@ -18,7 +18,7 @@ const HeaderAparelhos = props => {
         <Row className="rowMain">
           <Col className="coluna3">
             <button className="agendeAqui" onClick={pixelEvent}>
-              <a href="https://api.whatsapp.com/send/?phone=5521972878038&text&app_absent=0">
+              <a href="https://signupforservices.com/whatsapp/optin/?bId=445c2d7e-600d-4dfe-a133-a0955a37714b&bName=ortolook&s=URL&lang=pt_BR">
                 <img
                   loading="lazy"
                   src="/images/agendeAparelhos.png"
