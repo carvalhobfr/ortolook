@@ -27,8 +27,8 @@ const UnidadesAparelho = () => {
           </Row>
           <Col className="coluna1 gothamBook someMobile">
             <h4>
-              As clínicas Ortolook Estética estão localizadas no estado do Rio
-              de Janeiro!
+              As clínicas Ortolook estão localizadas no estado do Rio de
+              Janeiro!
               <br /> Escolha a mais próxima de você!
             </h4>
             <a href={telUrl} className="telURL " rel="nofollow"></a>
@@ -42,8 +42,8 @@ const UnidadesAparelho = () => {
           </Col>
           <Col className="coluna1 openMobile">
             <h4>
-              As clínicas Ortolook Estética estão localizadas no estado do Rio
-              de Janeiro!
+              As clínicas Ortolook estão localizadas no estado do Rio de
+              Janeiro!
               <br /> Escolha a mais próxima de você!
             </h4>
             <button
