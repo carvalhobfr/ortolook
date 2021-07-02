@@ -287,6 +287,74 @@ const UnidadesAparelho = () => {
                     >
                       <p>São João de Meriti</p>
                     </button>
+                    <button
+                      onClick={() =>
+                        setImgUrlMob(
+                          <img
+                            loading="lazy"
+                            src="images/unidadesAPmob15.png"
+                            alt="Tratamento Específico"
+                            className="imagemEstetica semMarginEsq"
+                          />
+                        ) &
+                        setWppUrl('https://wa.me/5521966655368') &
+                        setDisplayWpp(' ') &
+                        setTelUrl('tel:+552141144167')
+                      }
+                    >
+                      <p>Itaboraí</p>
+                    </button>
+                    <button
+                      onClick={() =>
+                        setImgUrlMob(
+                          <img
+                            loading="lazy"
+                            src="images/unidadesAPmob16.png"
+                            alt="Tratamento Específico"
+                            className="imagemEstetica semMarginEsq"
+                          />
+                        ) &
+                        setWppUrl('https://wa.me/5521985074741') &
+                        setDisplayWpp(' ') &
+                        setTelUrl('tel:+552141144180')
+                      }
+                    >
+                      <p>Bangu</p>
+                    </button>
+                    <button
+                      onClick={() =>
+                        setImgUrlMob(
+                          <img
+                            loading="lazy"
+                            src="images/unidadesAPmob18.png"
+                            alt="Tratamento Específico"
+                            className="imagemEstetica semMarginEsq"
+                          />
+                        ) &
+                        setWppUrl('https://wa.me/5521985473649') &
+                        setDisplayWpp(' ') &
+                        setTelUrl('tel:+552131295054')
+                      }
+                    >
+                      <p>Ipanema</p>
+                    </button>
+                    <button
+                      onClick={() =>
+                        setImgUrlMob(
+                          <img
+                            loading="lazy"
+                            src="images/unidadesAPmob17.png"
+                            alt="Tratamento Específico"
+                            className="imagemEstetica semMarginEsq"
+                          />
+                        ) &
+                        setWppUrl('https://wa.me/5521985150355') &
+                        setDisplayWpp(' ') &
+                        setTelUrl('tel:+552121487672')
+                      }
+                    >
+                      <p>Copacabana</p>
+                    </button>
                   </Col>
                 ) & setDisplayWpp('hideMob')
               }
@@ -412,6 +480,46 @@ const UnidadesAparelho = () => {
               }
             >
               <p>São João de Merití</p>
+            </button>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadesAP15.png') &
+                setWppUrl('https://wa.me/5521966655368') &
+                setDisplayWpp(' ') &
+                setTelUrl('tel:+552141144167')
+              }
+            >
+              <p>Itaboraí</p>
+            </button>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadesAP16.png') &
+                setWppUrl('https://wa.me/5521985074741') &
+                setDisplayWpp(' ') &
+                setTelUrl('tel:+552141144180')
+              }
+            >
+              <p>Bangu</p>
+            </button>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadesAP17.png') &
+                setWppUrl('https://wa.me/5521985473649') &
+                setDisplayWpp(' ') &
+                setTelUrl('tel:+552131295054')
+              }
+            >
+              <p>Ipanema</p>
+            </button>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadesAP18.png') &
+                setWppUrl('https://wa.me/5521985150355') &
+                setDisplayWpp(' ') &
+                setTelUrl('tel:+552121487672')
+              }
+            >
+              <p>Copacabana</p>
             </button>
           </Col>
         </Row>
