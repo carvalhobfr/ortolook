@@ -35,6 +35,13 @@ const NavOrtho = () => {
     setIsOpen(!isOpen)
     navListPrimeiro()
   }
+
+  const toggleOff = () => {
+    setIsOpen(false)
+    navListPrimeiro()
+    setChangeColor(' ')
+  }
+
   const navListSegundo = () => {
     setNavList(
       <Nav className="ml-auto" navbar>
@@ -78,20 +85,23 @@ const NavOrtho = () => {
       <Nav className="ml-auto" navbar>
         <NavItem></NavItem>
         <NavItem>
-          <NavLink href="/">inicio</NavLink>
+          <NavLink href="/" onClick={toggleOff}>
+            inicio
+          </NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="/estetica">estética</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#ortolook">a ortolook</NavLink>
+          <NavLink href="#ortolook" onClick={toggleOff}>
+            a ortolook
+          </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#tratamentos">tratamentos</NavLink>
+          <NavLink href="#tratamentos" onClick={toggleOff}>
+            tratamentos
+          </NavLink>
         </NavItem>
-        {/*         <UncontrolledDropdown nav inNavbar>
-          <DropdownToggle nav>contato</DropdownToggle>
-        </UncontrolledDropdown> */}
         <NavItem>
           <NavLink
             onClick={() => {
@@ -102,7 +112,9 @@ const NavOrtho = () => {
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="#unidades">unidades</NavLink>
+          <NavLink href="#unidades" onClick={toggleOff}>
+            unidades
+          </NavLink>
         </NavItem>
       </Nav>
     )
