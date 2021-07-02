@@ -68,20 +68,23 @@ const UnidadesAparelho = () => {
                     >
                       <p>Alcântara</p>
                     </button>
-                    {/* <button
-          onClick={() =>
-            setImgUrlMob(
-              <img
-                loading="lazy"
-                src="images/unidadeAPRMob2.png"
-                alt="Tratamento Específico"
-                className="imagemEstetica semMarginEsq"
-              />
-            )
-          }
-        >
-          <p>Bangu</p>
-        </button> */}
+                    <button
+                      onClick={() =>
+                        setImgUrlMob(
+                          <img
+                            loading="lazy"
+                            src="images/unidadesAPmob16.png"
+                            alt="Tratamento Específico"
+                            className="imagemEstetica semMarginEsq"
+                          />
+                        ) &
+                        setWppUrl('https://wa.me/5521985074741') &
+                        setDisplayWpp(' ') &
+                        setTelUrl('tel:+552141144180')
+                      }
+                    >
+                      <p>Bangu</p>
+                    </button>
                     <button
                       onClick={() =>
                         setImgUrlMob(
@@ -92,7 +95,7 @@ const UnidadesAparelho = () => {
                             className="imagemEstetica semMarginEsq"
                           />
                         ) &
-                        setWppUrl('https://wa.me/5521994129202') &
+                        setWppUrl('https://wa.me/5521994124202') &
                         setDisplayWpp(' ') &
                         setTelUrl('tel:+552132682309')
                       }
@@ -133,23 +136,57 @@ const UnidadesAparelho = () => {
                     >
                       <p>Caxias II</p>
                     </button>
-                    {/*                     <button
+                    <button
                       onClick={() =>
                         setImgUrlMob(
                           <img
                             loading="lazy"
-                            src="images/unidadeAPRMob6.png"
+                            src="images/unidadesAPmob17.png"
                             alt="Tratamento Específico"
                             className="imagemEstetica semMarginEsq"
                           />
                         ) &
-                        setWppUrl('https://wa.me/5521992128819') &
+                        setWppUrl('https://wa.me/5521987028897') &
                         setDisplayWpp(' ') &
-                        setTelUrl('tel:+552120817091')
+                        setTelUrl('tel:+552121487672')
                       }
                     >
                       <p>Copacabana</p>
-                    </button> */}
+                    </button>
+                    <button
+                      onClick={() =>
+                        setImgUrlMob(
+                          <img
+                            loading="lazy"
+                            src="images/unidadesAPmob15.png"
+                            alt="Tratamento Específico"
+                            className="imagemEstetica semMarginEsq"
+                          />
+                        ) &
+                        setWppUrl('https://wa.me/5521966655368') &
+                        setDisplayWpp(' ') &
+                        setTelUrl('tel:+552141144167')
+                      }
+                    >
+                      <p>Itaboraí</p>
+                    </button>
+                    <button
+                      onClick={() =>
+                        setImgUrlMob(
+                          <img
+                            loading="lazy"
+                            src="images/unidadesAPmob18.png"
+                            alt="Tratamento Específico"
+                            className="imagemEstetica semMarginEsq"
+                          />
+                        ) &
+                        setWppUrl('https://wa.me/5521985473649') &
+                        setDisplayWpp(' ') &
+                        setTelUrl('tel:+552131295054')
+                      }
+                    >
+                      <p>Ipanema</p>
+                    </button>
                     <button
                       onClick={() =>
                         setImgUrlMob(
@@ -235,24 +272,6 @@ const UnidadesAparelho = () => {
                     >
                       <p>São Gonçalo</p>
                     </button>
-                    {/*                     <button
-                      onClick={
-                        (() =>
-                          setImgUrlMob(
-                            <img
-                              loading="lazy"
-                              src="images/unidadesMobileAP7.png"
-                              alt="Tratamento Específico"
-                              className="imagemEstetica semMarginEsq"
-                            />
-                          )&
-                        setWppUrl('https://wa.me/5521998804004')&
-                        setDisplayWpp(' ') &
-                        setTelUrl('tel:+552141029923'))
-                      }
-                    >
-                      <p>São João</p>
-                    </button> */}
                     <button
                       onClick={() =>
                         setImgUrlMob(
@@ -287,74 +306,6 @@ const UnidadesAparelho = () => {
                     >
                       <p>São João de Meriti</p>
                     </button>
-                    <button
-                      onClick={() =>
-                        setImgUrlMob(
-                          <img
-                            loading="lazy"
-                            src="images/unidadesAPmob15.png"
-                            alt="Tratamento Específico"
-                            className="imagemEstetica semMarginEsq"
-                          />
-                        ) &
-                        setWppUrl('https://wa.me/5521966655368') &
-                        setDisplayWpp(' ') &
-                        setTelUrl('tel:+552141144167')
-                      }
-                    >
-                      <p>Itaboraí</p>
-                    </button>
-                    <button
-                      onClick={() =>
-                        setImgUrlMob(
-                          <img
-                            loading="lazy"
-                            src="images/unidadesAPmob16.png"
-                            alt="Tratamento Específico"
-                            className="imagemEstetica semMarginEsq"
-                          />
-                        ) &
-                        setWppUrl('https://wa.me/5521985074741') &
-                        setDisplayWpp(' ') &
-                        setTelUrl('tel:+552141144180')
-                      }
-                    >
-                      <p>Bangu</p>
-                    </button>
-                    <button
-                      onClick={() =>
-                        setImgUrlMob(
-                          <img
-                            loading="lazy"
-                            src="images/unidadesAPmob18.png"
-                            alt="Tratamento Específico"
-                            className="imagemEstetica semMarginEsq"
-                          />
-                        ) &
-                        setWppUrl('https://wa.me/5521985473649') &
-                        setDisplayWpp(' ') &
-                        setTelUrl('tel:+552131295054')
-                      }
-                    >
-                      <p>Ipanema</p>
-                    </button>
-                    <button
-                      onClick={() =>
-                        setImgUrlMob(
-                          <img
-                            loading="lazy"
-                            src="images/unidadesAPmob17.png"
-                            alt="Tratamento Específico"
-                            className="imagemEstetica semMarginEsq"
-                          />
-                        ) &
-                        setWppUrl('https://wa.me/5521985150355') &
-                        setDisplayWpp(' ') &
-                        setTelUrl('tel:+552121487672')
-                      }
-                    >
-                      <p>Copacabana</p>
-                    </button>
                   </Col>
                 ) & setDisplayWpp('hideMob')
               }
@@ -383,8 +334,18 @@ const UnidadesAparelho = () => {
             </button>
             <button
               onClick={() =>
+                setImgUrl('images/unidadesAP16.png') &
+                setWppUrl('https://wa.me/5521985074741') &
+                setDisplayWpp(' ') &
+                setTelUrl('tel:+552141144180')
+              }
+            >
+              <p>Bangu</p>
+            </button>
+            <button
+              onClick={() =>
                 setImgUrl('images/unidadesAP1.png') &
-                setWppUrl('https://wa.me/5521994129202') &
+                setWppUrl('https://wa.me/5521994124202') &
                 setDisplayWpp(' ') &
                 setTelUrl('tel:+552132682309')
               }
@@ -410,6 +371,36 @@ const UnidadesAparelho = () => {
               }
             >
               <p>Caxias II</p>
+            </button>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadesAP18.png') &
+                setWppUrl('https://wa.me/5521987028897') &
+                setDisplayWpp(' ') &
+                setTelUrl('tel:+552121487672')
+              }
+            >
+              <p>Copacabana</p>
+            </button>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadesAP15.png') &
+                setWppUrl('https://wa.me/5521966655368') &
+                setDisplayWpp(' ') &
+                setTelUrl('tel:+552141144167')
+              }
+            >
+              <p>Itaboraí</p>
+            </button>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadesAP17.png') &
+                setWppUrl('https://wa.me/5521985473649') &
+                setDisplayWpp(' ') &
+                setTelUrl('tel:+552131295054')
+              }
+            >
+              <p>Ipanema</p>
             </button>
             <button
               onClick={() =>
@@ -480,46 +471,6 @@ const UnidadesAparelho = () => {
               }
             >
               <p>São João de Merití</p>
-            </button>
-            <button
-              onClick={() =>
-                setImgUrl('images/unidadesAP15.png') &
-                setWppUrl('https://wa.me/5521966655368') &
-                setDisplayWpp(' ') &
-                setTelUrl('tel:+552141144167')
-              }
-            >
-              <p>Itaboraí</p>
-            </button>
-            <button
-              onClick={() =>
-                setImgUrl('images/unidadesAP16.png') &
-                setWppUrl('https://wa.me/5521985074741') &
-                setDisplayWpp(' ') &
-                setTelUrl('tel:+552141144180')
-              }
-            >
-              <p>Bangu</p>
-            </button>
-            <button
-              onClick={() =>
-                setImgUrl('images/unidadesAP17.png') &
-                setWppUrl('https://wa.me/5521985473649') &
-                setDisplayWpp(' ') &
-                setTelUrl('tel:+552131295054')
-              }
-            >
-              <p>Ipanema</p>
-            </button>
-            <button
-              onClick={() =>
-                setImgUrl('images/unidadesAP18.png') &
-                setWppUrl('https://wa.me/5521985150355') &
-                setDisplayWpp(' ') &
-                setTelUrl('tel:+552121487672')
-              }
-            >
-              <p>Copacabana</p>
             </button>
           </Col>
         </Row>
