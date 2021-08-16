@@ -146,7 +146,7 @@ const UnidadesEstetica = () => {
                               className="imagemEstetica"
                             />
                           ) &
-                          setWppUrl('https://wa.me/5521997815927') &
+                          setWppUrl('https://wa.me/5521967757257') &
                           setTelUrl('tel:+552127671719')
                         }
                       >
@@ -233,7 +233,7 @@ const UnidadesEstetica = () => {
             <button
               onClick={() =>
                 setImgUrl('images/unidadeESR(8).png') &
-                setWppUrl('https://wa.me/5521997815927') &
+                setWppUrl('https://wa.me/5521967757257') &
                 setTelUrl('tel:+552127671719')
               }
             >
