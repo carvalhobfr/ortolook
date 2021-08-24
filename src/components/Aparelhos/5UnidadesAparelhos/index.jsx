@@ -277,6 +277,23 @@ const UnidadesAparelho = () => {
                         setImgUrlMob(
                           <img
                             loading="lazy"
+                            src="images/unidadesMobileAPTijuca.png"
+                            alt="Tratamento Específico"
+                            className="imagemEstetica semMarginEsq"
+                          />
+                        ) &
+                        setWppUrl('https://wa.me/5521988683090') &
+                        setDisplayWpp(' ') &
+                        setTelUrl('tel:+552135563804')
+                      }
+                    >
+                      <p>Tijuca</p>
+                    </button>
+                    <button
+                      onClick={() =>
+                        setImgUrlMob(
+                          <img
+                            loading="lazy"
                             src="images/unidadesMobileAP4.png"
                             alt="Tratamento Específico"
                             className="imagemEstetica semMarginEsq"
@@ -452,6 +469,17 @@ const UnidadesAparelho = () => {
             >
               <p>São Gonçalo</p>
             </button>
+            <button
+              onClick={() =>
+                setImgUrl('images/unidadesAPTijuca.png') &
+                setWppUrl('https://wa.me/5521988683090') &
+                setDisplayWpp(' ') &
+                setTelUrl('tel:+552135563804')
+              }
+            >
+              <p>Tijuca</p>
+            </button>
+
             <button
               onClick={() =>
                 setImgUrl('images/unidadesAP12.png') &
