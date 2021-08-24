@@ -277,7 +277,7 @@ const UnidadesAparelho = () => {
                         setImgUrlMob(
                           <img
                             loading="lazy"
-                            src="images/unidadesMobileAPTijuca.png"
+                            src="images/unidadesAPMOBTijuca.png"
                             alt="Tratamento Específico"
                             className="imagemEstetica semMarginEsq"
                           />
